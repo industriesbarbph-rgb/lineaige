@@ -21,30 +21,12 @@
 
       <div class="beam-wrap" id="beamWrap">
         <svg class="circuit-field" id="circuitField" viewBox="0 0 1600 420" preserveAspectRatio="none" aria-hidden="true">
-          <g class="circuit dormant">
-            <path d="M180 210 L260 210 L310 132 L430 132"/>
-            <circle cx="310" cy="132" r="5"/><circle cx="430" cy="132" r="5"/>
-          </g>
-          <g class="circuit dormant">
-            <path d="M420 210 L500 210 L560 298 L690 298"/>
-            <circle cx="560" cy="298" r="5"/><circle cx="690" cy="298" r="5"/>
-          </g>
-          <g class="circuit dormant">
-            <path d="M660 210 L720 210 L785 116 L930 116"/>
-            <circle cx="785" cy="116" r="5"/><circle cx="930" cy="116" r="5"/>
-          </g>
-          <g class="circuit dormant">
-            <path d="M880 210 L955 210 L1020 300 L1120 300"/>
-            <circle cx="1020" cy="300" r="5"/><circle cx="1120" cy="300" r="5"/>
-          </g>
-          <g class="circuit dormant">
-            <path d="M1045 210 L1110 210 L1170 138 L1255 138"/>
-            <circle cx="1170" cy="138" r="5"/><circle cx="1255" cy="138" r="5"/>
-          </g>
-          <g class="circuit dormant future-circuit">
-            <path d="M1210 210 L1325 210 L1385 155 L1510 155"/>
-            <circle cx="1385" cy="155" r="5"/><circle cx="1510" cy="155" r="5"/>
-          </g>
+          <g class="circuit dormant" data-circuit="foundations"><path d="M180 210 L260 210 L310 132 L430 132"/><circle cx="310" cy="132" r="5"/><circle cx="430" cy="132" r="5"/></g>
+          <g class="circuit dormant" data-circuit="learning"><path d="M420 210 L500 210 L560 298 L690 298"/><circle cx="560" cy="298" r="5"/><circle cx="690" cy="298" r="5"/></g>
+          <g class="circuit dormant" data-circuit="deep"><path d="M660 210 L720 210 L785 116 L930 116"/><circle cx="785" cy="116" r="5"/><circle cx="930" cy="116" r="5"/></g>
+          <g class="circuit dormant" data-circuit="transformer"><path d="M880 210 L955 210 L1020 300 L1120 300"/><circle cx="1020" cy="300" r="5"/><circle cx="1120" cy="300" r="5"/></g>
+          <g class="circuit dormant" data-circuit="generative"><path d="M1045 210 L1110 210 L1170 138 L1255 138"/><circle cx="1170" cy="138" r="5"/><circle cx="1255" cy="138" r="5"/></g>
+          <g class="circuit dormant future-circuit" data-circuit="now"><path d="M1210 210 L1325 210 L1385 155 L1510 155"/><circle cx="1385" cy="155" r="5"/><circle cx="1510" cy="155" r="5"/></g>
         </svg>
 
         <div class="beam past-beam"><span class="current current-a"></span><span class="current current-b"></span><span class="current current-c"></span></div>
@@ -55,12 +37,19 @@
         <button class="event e5" data-event="generative" aria-label="Enter Generative AI"><i></i></button>
         <button class="now-core" data-event="now" aria-label="Enter the living present"><b>NOW</b></button>
         <div class="beam future-beam"></div>
+        <span class="future-marker f1" aria-hidden="true"></span><span class="future-marker f2" aria-hidden="true"></span><span class="future-marker f3" aria-hidden="true"></span>
         <div class="future-particles"></div>
+      </div>
+
+      <div class="time-key" aria-label="Time state legend">
+        <span><i class="solid"></i>RECORDED</span>
+        <span><i class="live"></i>FORMING</span>
+        <span><i class="projected"></i>DECLARED / UNRESOLVED</span>
       </div>
       <p class="instruction">Touch the light. Travel the evidence.</p>
     </section>
 
-    <aside class="drawer" id="drawer" aria-live="polite">
+    <aside class="drawer" id="drawer" aria-live="polite" aria-hidden="true">
       <button class="close" id="close" aria-label="Close">×</button>
       <div class="drawer-status" id="status">VERIFIED RECORD</div>
       <div class="drawer-date" id="date">—</div>
@@ -68,6 +57,7 @@
       <p id="summary">Select a point in the light to enter the record.</p>
       <div class="relations" id="relations"></div>
       <div class="evidence"><span>EVIDENCE</span><p id="evidence">Every published relationship in LINEAiGE must be supported by evidence. Chronology is not presented as causality.</p></div>
+      <div class="record-note">This first build contains curated entry points only. Historical claims and direct source links are added to the canonical record only after verification.</div>
     </aside>
 
     <footer><span>PAST IS RECORDED</span><span>PRESENT IS FORMING</span><span>FUTURE IS DECLARED, NOT ASSUMED</span></footer>
