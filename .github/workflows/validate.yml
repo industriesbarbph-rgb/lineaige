@@ -1,0 +1,25 @@
+name: Validate LINEAiGE
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate canonical data and references
+        run: python3 scripts/validate.py
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check lineaige.js
+          node --check media.js
+          node --check courses.js
