@@ -5,175 +5,71 @@
   "description": "Portable canonical record format for LINEAiGE. The record is authoritative; interfaces are representations of it.",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "id",
-    "recordType",
-    "title",
-    "displayDate",
-    "temporalState",
-    "status",
-    "summary",
-    "verification",
-    "sources",
-    "relationships"
-  ],
+  "required": ["id","recordType","title","displayDate","temporalState","status","summary","verification","sources","relationships"],
   "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9][a-z0-9-]*$"
-    },
-    "recordType": {
-      "type": "string",
-      "enum": ["event", "entry_point", "living_edge", "announced_future"]
-    },
-    "title": {
-      "type": "string",
-      "minLength": 1
-    },
-    "displayDate": {
-      "type": "string",
-      "minLength": 1
-    },
-    "eventDate": {
-      "type": ["string", "null"],
-      "format": "date"
-    },
-    "endDate": {
-      "type": ["string", "null"],
-      "format": "date"
-    },
-    "announcementDate": {
-      "type": ["string", "null"],
-      "format": "date"
-    },
-    "targetDate": {
-      "type": ["string", "null"],
-      "format": "date"
-    },
-    "temporalState": {
-      "type": "string",
-      "enum": ["recorded", "forming", "declared-unresolved"]
-    },
-    "status": {
-      "type": "string",
-      "minLength": 1
-    },
-    "summary": {
-      "type": "string",
-      "minLength": 1
-    },
-    "significance": {
-      "type": ["string", "null"]
-    },
-    "people": {
-      "type": "array",
-      "items": {"type": "string"},
-      "uniqueItems": true,
-      "default": []
-    },
-    "organizations": {
-      "type": "array",
-      "items": {"type": "string"},
-      "uniqueItems": true,
-      "default": []
-    },
-    "technologies": {
-      "type": "array",
-      "items": {"type": "string"},
-      "uniqueItems": true,
-      "default": []
-    },
+    "id": {"type":"string","pattern":"^[a-z0-9][a-z0-9-]*$"},
+    "recordType": {"type":"string","enum":["event","entry_point","living_edge","announced_future"]},
+    "title": {"type":"string","minLength":1},
+    "displayDate": {"type":"string","minLength":1},
+    "eventDate": {"type":["string","null"],"format":"date"},
+    "endDate": {"type":["string","null"],"format":"date"},
+    "announcementDate": {"type":["string","null"],"format":"date"},
+    "targetDate": {"type":["string","null"],"format":"date"},
+    "temporalState": {"type":"string","enum":["recorded","forming","declared-unresolved"]},
+    "status": {"type":"string","minLength":1},
+    "summary": {"type":"string","minLength":1},
+    "significance": {"type":["string","null"]},
+    "people": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
+    "organizations": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
+    "technologies": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
     "verification": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["state", "factualClaim"],
+      "type":"object","additionalProperties":false,"required":["state","factualClaim"],
       "properties": {
-        "state": {
-          "type": "string",
-          "enum": ["unreviewed", "developing", "verified", "disputed", "navigation-only"]
-        },
-        "factualClaim": {"type": "boolean"},
-        "confidence": {
-          "type": ["string", "null"],
-          "enum": ["low", "medium", "high", null]
-        },
-        "note": {"type": ["string", "null"]},
-        "lastVerified": {
-          "type": ["string", "null"],
-          "format": "date-time"
-        }
+        "state":{"type":"string","enum":["unreviewed","developing","verified","disputed","navigation-only"]},
+        "factualClaim":{"type":"boolean"},
+        "confidence":{"type":["string","null"],"enum":["low","medium","high",null]},
+        "note":{"type":["string","null"]},
+        "lastVerified":{"type":["string","null"],"format":"date-time"}
       }
     },
     "sources": {
-      "type": "array",
+      "type":"array",
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["title", "url", "sourceType", "primary"],
+        "type":"object","additionalProperties":false,"required":["title","url","sourceType","primary"],
         "properties": {
-          "title": {"type": "string", "minLength": 1},
-          "url": {"type": "string", "format": "uri"},
-          "publisher": {"type": ["string", "null"]},
-          "publishedDate": {"type": ["string", "null"], "format": "date"},
-          "sourceType": {
-            "type": "string",
-            "enum": ["paper", "official-announcement", "archive", "government-record", "book", "interview", "news", "other"]
-          },
-          "primary": {"type": "boolean"},
-          "archivedUrl": {"type": ["string", "null"], "format": "uri"}
+          "title":{"type":"string","minLength":1},
+          "url":{"type":"string","format":"uri"},
+          "embedUrl":{"type":["string","null"],"format":"uri"},
+          "publisher":{"type":["string","null"]},
+          "publishedDate":{"type":["string","null"],"format":"date"},
+          "sourceType":{"type":"string","enum":["paper","official-announcement","archive","government-record","book","interview","video","news","other"]},
+          "primary":{"type":"boolean"},
+          "archivedUrl":{"type":["string","null"],"format":"uri"}
         }
       }
     },
     "relationships": {
-      "type": "array",
+      "type":"array",
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["type", "label", "evidenceState"],
+        "type":"object","additionalProperties":false,"required":["type","label","evidenceState"],
         "properties": {
-          "type": {
-            "type": "string",
-            "enum": ["ancestor", "descendant", "influenced", "enabled", "contextual", "chronological", "related", "source-path", "navigation"]
-          },
-          "targetId": {"type": ["string", "null"]},
-          "label": {"type": "string", "minLength": 1},
-          "evidenceState": {
-            "type": "string",
-            "enum": ["verified", "contextual", "disputed", "navigation-only"]
-          },
-          "evidenceNote": {"type": ["string", "null"]},
-          "sourceUrls": {
-            "type": "array",
-            "items": {"type": "string", "format": "uri"},
-            "uniqueItems": true,
-            "default": []
-          }
+          "type":{"type":"string","enum":["ancestor","descendant","influenced","enabled","contextual","chronological","related","source-path","navigation"]},
+          "targetId":{"type":["string","null"]},
+          "label":{"type":"string","minLength":1},
+          "evidenceState":{"type":"string","enum":["verified","contextual","disputed","navigation-only"]},
+          "evidenceNote":{"type":["string","null"]},
+          "sourceUrls":{"type":"array","items":{"type":"string","format":"uri"},"uniqueItems":true,"default":[]}
         }
       }
     },
     "corrections": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["date", "note"],
-        "properties": {
-          "date": {"type": "string", "format": "date"},
-          "note": {"type": "string", "minLength": 1},
-          "previousValue": {"type": ["string", "null"]},
-          "sourceUrl": {"type": ["string", "null"], "format": "uri"}
-        }
-      },
-      "default": []
+      "type":"array",
+      "items": {"type":"object","additionalProperties":false,"required":["date","note"],"properties":{"date":{"type":"string","format":"date"},"note":{"type":"string","minLength":1},"previousValue":{"type":["string","null"]},"sourceUrl":{"type":["string","null"],"format":"uri"}}},
+      "default":[]
     },
     "contributor": {
-      "type": ["object", "null"],
-      "additionalProperties": false,
-      "properties": {
-        "name": {"type": ["string", "null"]},
-        "creditPreference": {"type": ["string", "null"]},
-        "submittedAt": {"type": ["string", "null"], "format": "date-time"}
-      }
+      "type":["object","null"],"additionalProperties":false,
+      "properties":{"name":{"type":["string","null"]},"creditPreference":{"type":["string","null"]},"submittedAt":{"type":["string","null"],"format":"date-time"}}
     }
   }
 }
