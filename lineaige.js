@@ -48,6 +48,16 @@ function isUsableRecord(record){
   return record&&typeof record.id==='string'&&typeof record.title==='string'&&typeof record.summary==='string';
 }
 
+function safeExternalUrl(value){
+  if(typeof value!=='string')return null;
+  try{
+    const parsed=new URL(value,window.location.href);
+    return parsed.protocol==='https:'||parsed.protocol==='http:'?parsed.href:null;
+  }catch{
+    return null;
+  }
+}
+
 function energize(id){
   const index=eventOrder.indexOf(id);
   circuits.forEach((c,i)=>{
@@ -87,6 +97,19 @@ function openSystemNotice(id){
   openDrawer();
 }
 
+function openTraversalNotice(targetId){
+  statusEl.textContent='RELATIONSHIP UNAVAILABLE';
+  dateEl.textContent='—';
+  titleEl.textContent='This linked record could not be opened';
+  summaryEl.textContent='LINEAiGE found a traversal link, but the target canonical record is not available in the loaded dataset. No relationship claim is inferred from a broken path.';
+  relationsEl.replaceChildren();
+  sourcesEl.replaceChildren();
+  evidenceEl.textContent=targetId
+    ?`Unavailable target ID: ${targetId}. The path is withheld until its canonical record is restored.`
+    :'The relationship has no canonical target. The path is withheld rather than guessed.';
+  openDrawer();
+}
+
 function openRecord(id){
   const record=records[id];
   if(!record){
@@ -117,7 +140,11 @@ function renderEvidence(record){
     evidenceEl.textContent='No publishable source trail is attached to this record yet.';
     return;
   }
-  evidenceEl.textContent=`${sourceCount} source${sourceCount===1?'':'s'} attached to this verified record. Relationship claims remain distinct from chronology and context.`;
+  const geography=record.geography;
+  const geoText=geography&&geography.country
+    ?` Geographic context: ${geography.country}${geography.region?` · ${geography.region}`:''}; this context carries its own source.`
+    :'';
+  evidenceEl.textContent=`${sourceCount} source${sourceCount===1?'':'s'} attached to this verified record. Relationship claims remain distinct from chronology and context.${geoText}`;
 }
 
 function renderSources(record){
@@ -129,15 +156,17 @@ function renderSources(record){
   heading.textContent='SOURCE TRAIL';
   sourcesEl.appendChild(heading);
   sources.forEach(source=>{
-    if(!source||typeof source.url!=='string'||typeof source.title!=='string')return;
+    const href=safeExternalUrl(source?.url);
+    if(!href||typeof source.title!=='string')return;
     const link=document.createElement('a');
     link.className='source-item';
-    link.href=source.url;
+    link.href=href;
     link.target='_blank';
     link.rel='noopener noreferrer';
     const type=document.createElement('div');
     type.className='source-type';
-    type.textContent=`${source.primary?'PRIMARY':'SECONDARY'} · ${(source.sourceType||'source').toUpperCase()}`;
+    const sourceRole=typeof source.sourceRole==='string'?source.sourceRole.replaceAll('-',' ').toUpperCase():null;
+    type.textContent=[source.primary?'PRIMARY':'SECONDARY',(source.sourceType||'source').toUpperCase(),sourceRole].filter(Boolean).join(' · ');
     const title=document.createElement('div');
     title.className='source-title';
     title.textContent=source.title;
@@ -180,6 +209,7 @@ function followRelationship(button,relationship){
     return;
   }
   flashRelation(button);
+  window.setTimeout(()=>openTraversalNotice(targetId),180);
 }
 
 function flashRelation(button){
