@@ -18,7 +18,7 @@ sourceStyle.textContent=`
 .source-list:empty{display:none}
 .source-label{font-size:9px;letter-spacing:.3em;color:#fff;margin-bottom:10px}
 .source-item{display:block;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07);text-decoration:none;color:rgba(255,255,255,.78)}
-.source-item:hover{color:#fff}
+.source-item:hover,.source-item:focus-visible{color:#fff;outline:1px solid rgba(255,255,255,.35);outline-offset:4px}
 .source-type{font-size:8px;letter-spacing:.18em;color:rgba(255,255,255,.38);margin-bottom:5px}
 .source-title{font-size:11px;line-height:1.45}
 .source-publisher{font-size:9px;line-height:1.4;color:rgba(255,255,255,.36);margin-top:4px}
@@ -70,6 +70,7 @@ function openRecord(id){
   renderSources(record);
   drawer.classList.add('open');
   drawer.setAttribute('aria-hidden','false');
+  document.dispatchEvent(new CustomEvent('lineaige:record-opened',{detail:{id,record}}));
 }
 
 function renderEvidence(record){
@@ -95,6 +96,7 @@ function renderSources(record){
   heading.textContent='SOURCE TRAIL';
   sourcesEl.appendChild(heading);
   sources.forEach(source=>{
+    if(!source||typeof source.url!=='string'||typeof source.title!=='string')return;
     const link=document.createElement('a');
     link.className='source-item';
     link.href=source.url;
@@ -164,6 +166,7 @@ function closeDrawer(){
   drawer.setAttribute('aria-hidden','true');
   eventNodes.forEach(node=>node.classList.remove('selected'));
   activeId=null;
+  document.dispatchEvent(new CustomEvent('lineaige:record-closed'));
 }
 
 eventNodes.forEach(node=>{
