@@ -6,10 +6,24 @@ const titleEl=document.getElementById('title');
 const summaryEl=document.getElementById('summary');
 const relationsEl=document.getElementById('relations');
 const evidenceEl=document.getElementById('evidence');
+const sourcesEl=document.getElementById('sources');
 const circuits=[...document.querySelectorAll('.circuit')];
 const eventNodes=[...document.querySelectorAll('[data-event]')];
 const eventOrder=eventNodes.map(node=>node.dataset.event);
 let activeId=null;
+
+const sourceStyle=document.createElement('style');
+sourceStyle.textContent=`
+.source-list{margin-top:22px;border-top:1px solid rgba(255,255,255,.12);padding-top:18px}
+.source-list:empty{display:none}
+.source-label{font-size:9px;letter-spacing:.3em;color:#fff;margin-bottom:10px}
+.source-item{display:block;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07);text-decoration:none;color:rgba(255,255,255,.78)}
+.source-item:hover{color:#fff}
+.source-type{font-size:8px;letter-spacing:.18em;color:rgba(255,255,255,.38);margin-bottom:5px}
+.source-title{font-size:11px;line-height:1.45}
+.source-publisher{font-size:9px;line-height:1.4;color:rgba(255,255,255,.36);margin-top:4px}
+`;
+document.head.appendChild(sourceStyle);
 
 fetch('data/events.json')
   .then(r=>{if(!r.ok)throw new Error('record unavailable');return r.json()})
@@ -53,6 +67,7 @@ function openRecord(id){
   summaryEl.textContent=record.summary;
   renderEvidence(record);
   renderRelationships(record);
+  renderSources(record);
   drawer.classList.add('open');
   drawer.setAttribute('aria-hidden','false');
 }
@@ -61,21 +76,48 @@ function renderEvidence(record){
   const sourceCount=Array.isArray(record.sources)?record.sources.length:0;
   const verification=record.verification?.state;
   if(verification==='navigation-only'){
-    evidenceEl.textContent='Navigation entry point only. It is not presented as a verified historical claim. Verified event records will expose their source trail here.';
+    evidenceEl.textContent='Navigation state only. It is not presented as a verified historical claim.';
     return;
   }
   if(sourceCount===0){
     evidenceEl.textContent='No publishable source trail is attached to this record yet.';
     return;
   }
-  evidenceEl.textContent=`${sourceCount} source${sourceCount===1?'':'s'} attached to this record. Relationship claims remain distinct from chronology and context.`;
+  evidenceEl.textContent=`${sourceCount} source${sourceCount===1?'':'s'} attached to this verified record. Relationship claims remain distinct from chronology and context.`;
+}
+
+function renderSources(record){
+  sourcesEl.replaceChildren();
+  const sources=Array.isArray(record.sources)?record.sources:[];
+  if(!sources.length)return;
+  const heading=document.createElement('div');
+  heading.className='source-label';
+  heading.textContent='SOURCE TRAIL';
+  sourcesEl.appendChild(heading);
+  sources.forEach(source=>{
+    const link=document.createElement('a');
+    link.className='source-item';
+    link.href=source.url;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    const type=document.createElement('div');
+    type.className='source-type';
+    type.textContent=`${source.primary?'PRIMARY':'SECONDARY'} · ${(source.sourceType||'source').toUpperCase()}`;
+    const title=document.createElement('div');
+    title.className='source-title';
+    title.textContent=source.title;
+    const publisher=document.createElement('div');
+    publisher.className='source-publisher';
+    publisher.textContent=[source.publisher,source.publishedDate].filter(Boolean).join(' · ');
+    link.append(type,title,publisher);
+    sourcesEl.appendChild(link);
+  });
 }
 
 function renderRelationships(record){
   relationsEl.replaceChildren();
   const relationships=Array.isArray(record.relationships)?record.relationships:
     Array.isArray(record.relations)?record.relations.map(label=>({label,evidenceState:'navigation-only',targetId:null})):[];
-
   relationships.forEach((relationship,index)=>{
     const button=document.createElement('button');
     button.className='relation';
