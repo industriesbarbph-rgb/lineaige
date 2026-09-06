@@ -5,7 +5,7 @@
   "items": [
     {
       "id": "youtube-transformers-google-cloud-2021",
-      "eventId": "transformer",
+      "eventId": "transformer-2017",
       "platform": "youtube",
       "role": "context",
       "title": "Transformers, explained: Understand the model behind GPT, BERT, and T5",
@@ -13,7 +13,7 @@
       "publishedDate": "2021-08-18",
       "watchUrl": "https://www.youtube.com/watch?v=SZorAJ4I-sA",
       "embedUrl": "https://www.youtube-nocookie.com/embed/SZorAJ4I-sA",
-      "note": "Contextual explainer attached to the Transformer entry point. It is not the primary historical evidence for the 2017 Transformer paper."
+      "note": "Contextual explainer attached to the verified 2017 Transformer record. It is not the primary historical evidence for the original paper."
     }
   ]
 }
