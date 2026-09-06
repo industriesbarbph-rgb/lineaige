@@ -1,4 +1,5 @@
 let records={};
+let recordState='loading';
 const drawer=document.getElementById('drawer');
 const statusEl=document.getElementById('status');
 const dateEl=document.getElementById('date');
@@ -7,10 +8,14 @@ const summaryEl=document.getElementById('summary');
 const relationsEl=document.getElementById('relations');
 const evidenceEl=document.getElementById('evidence');
 const sourcesEl=document.getElementById('sources');
+const closeEl=document.getElementById('close');
 const circuits=[...document.querySelectorAll('.circuit')];
 const eventNodes=[...document.querySelectorAll('[data-event]')];
 const eventOrder=eventNodes.map(node=>node.dataset.event);
 let activeId=null;
+let lastTrigger=null;
+
+titleEl.tabIndex=-1;
 
 const sourceStyle=document.createElement('style');
 sourceStyle.textContent=`
@@ -26,14 +31,18 @@ sourceStyle.textContent=`
 document.head.appendChild(sourceStyle);
 
 fetch('data/events.json')
-  .then(r=>{if(!r.ok)throw new Error('record unavailable');return r.json()})
+  .then(r=>{if(!r.ok)throw new Error(`record unavailable (${r.status})`);return r.json()})
   .then(data=>{
     if(!data||!Array.isArray(data.events))throw new Error('invalid record');
     records=Object.fromEntries(data.events.filter(isUsableRecord).map(e=>[e.id,e]));
     if(!Object.keys(records).length)throw new Error('empty record');
+    recordState='ready';
     document.documentElement.classList.add('record-ready');
   })
-  .catch(()=>document.documentElement.classList.add('record-error'));
+  .catch(()=>{
+    recordState='error';
+    document.documentElement.classList.add('record-error');
+  });
 
 function isUsableRecord(record){
   return record&&typeof record.id==='string'&&typeof record.title==='string'&&typeof record.summary==='string';
@@ -56,9 +65,34 @@ function selectNode(id){
   eventNodes.forEach(node=>node.classList.toggle('selected',node.dataset.event===id));
 }
 
+function openDrawer(){
+  const wasOpen=drawer.classList.contains('open');
+  drawer.classList.add('open');
+  drawer.setAttribute('aria-hidden','false');
+  if(!wasOpen)requestAnimationFrame(()=>titleEl.focus({preventScroll:true}));
+}
+
+function openSystemNotice(id){
+  selectNode(id);
+  energize(id);
+  statusEl.textContent=recordState==='loading'?'RECORD LOADING':'RECORD UNAVAILABLE';
+  dateEl.textContent='—';
+  titleEl.textContent=recordState==='loading'?'LINEAiGE is loading the record':'LINEAiGE could not load the record';
+  summaryEl.textContent=recordState==='loading'
+    ?'The canonical record is still loading. Try this point again in a moment.'
+    :'The interface is available, but its canonical historical record could not be read. No historical claim is shown when the record layer is unavailable.';
+  relationsEl.replaceChildren();
+  sourcesEl.replaceChildren();
+  evidenceEl.textContent='Historical evidence is withheld until the canonical record is available.';
+  openDrawer();
+}
+
 function openRecord(id){
   const record=records[id];
-  if(!record)return;
+  if(!record){
+    openSystemNotice(id);
+    return;
+  }
   selectNode(id);
   energize(id);
   statusEl.textContent=record.status||'RECORD';
@@ -68,8 +102,7 @@ function openRecord(id){
   renderEvidence(record);
   renderRelationships(record);
   renderSources(record);
-  drawer.classList.add('open');
-  drawer.setAttribute('aria-hidden','false');
+  openDrawer();
   document.dispatchEvent(new CustomEvent('lineaige:record-opened',{detail:{id,record}}));
 }
 
@@ -126,6 +159,7 @@ function renderRelationships(record){
     button.style.setProperty('--delay',`${index*70}ms`);
     button.type='button';
     if(relationship.targetId)button.dataset.target=relationship.targetId;
+    if(relationship.evidenceState)button.setAttribute('aria-label',`${relationship.label||'Related record'}; evidence state: ${relationship.evidenceState}`);
     const dot=document.createElement('span');
     dot.setAttribute('aria-hidden','true');
     const label=document.createTextNode(relationship.label||'Related record');
@@ -167,17 +201,25 @@ function closeDrawer(){
   eventNodes.forEach(node=>node.classList.remove('selected'));
   activeId=null;
   document.dispatchEvent(new CustomEvent('lineaige:record-closed'));
+  if(lastTrigger&&document.contains(lastTrigger))requestAnimationFrame(()=>lastTrigger.focus({preventScroll:true}));
 }
 
 eventNodes.forEach(node=>{
   node.addEventListener('pointerenter',()=>energize(node.dataset.event));
   node.addEventListener('focus',()=>energize(node.dataset.event));
-  node.addEventListener('click',()=>openRecord(node.dataset.event));
+  node.addEventListener('click',()=>{
+    lastTrigger=node;
+    openRecord(node.dataset.event);
+  });
 });
 
-document.getElementById('close').addEventListener('click',closeDrawer);
+closeEl.addEventListener('click',closeDrawer);
 document.addEventListener('keydown',event=>{
-  if(event.key==='Escape')closeDrawer();
+  if(event.key==='Escape'&&drawer.classList.contains('open')){
+    event.preventDefault();
+    closeDrawer();
+    return;
+  }
   const current=document.activeElement?.dataset?.event;
   const idx=eventOrder.indexOf(current);
   if((event.key==='ArrowRight'||event.key==='ArrowLeft')&&idx>=0){
