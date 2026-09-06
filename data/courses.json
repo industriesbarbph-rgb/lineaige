@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0.0",
+  "product": "LINEAiGE",
+  "purpose": "Verified AI learning resources from universities, schools, platforms and providers. Courses are a learning layer, not historical evidence.",
+  "items": [
+    {
+      "id": "mit-6034-ai-2010",
+      "eventIds": ["turing-1950", "dartmouth-1955", "rosenblatt-1958", "transformer-2017", "now"],
+      "title": "6.034 Artificial Intelligence",
+      "provider": "MIT OpenCourseWare",
+      "institution": "Massachusetts Institute of Technology",
+      "providerType": "university",
+      "level": "Undergraduate",
+      "access": "free-open-courseware",
+      "courseUrl": "https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "knowledge representation", "problem solving", "learning"],
+      "verifiedAt": "2026-09-06T20:38:00+08:00"
+    },
+    {
+      "id": "mit-ai-101-2021",
+      "eventIds": ["now"],
+      "title": "AI 101",
+      "provider": "MIT OpenCourseWare",
+      "institution": "Massachusetts Institute of Technology",
+      "providerType": "university",
+      "level": "Beginner",
+      "access": "free-open-courseware",
+      "courseUrl": "https://ocw.mit.edu/courses/res-6-013-ai-101-fall-2021/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "machine vision", "data wrangling", "reinforcement learning"],
+      "verifiedAt": "2026-09-06T20:38:00+08:00"
+    },
+    {
+      "id": "harvard-cs50-ai",
+      "eventIds": ["rosenblatt-1958", "transformer-2017", "now"],
+      "title": "CS50's Introduction to Artificial Intelligence with Python",
+      "provider": "CS50 OpenCourseWare",
+      "institution": "Harvard University",
+      "providerType": "university",
+      "level": "Introductory",
+      "access": "free-open-courseware",
+      "courseUrl": "https://cs50.harvard.edu/ai/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "Python", "machine learning", "search", "neural networks"],
+      "verifiedAt": "2026-09-06T20:38:00+08:00"
+    },
+    {
+      "id": "microsoft-ai-fluency",
+      "eventIds": ["now"],
+      "title": "AI Fluency",
+      "provider": "Microsoft Learn",
+      "institution": "Microsoft",
+      "providerType": "technology-provider",
+      "level": "Beginner",
+      "access": "free-learning-path",
+      "courseUrl": "https://learn.microsoft.com/en-us/training/paths/ai-fluency/",
+      "embedUrl": null,
+      "topics": ["AI foundations", "AI literacy", "applied AI"],
+      "verifiedAt": "2026-09-06T20:38:00+08:00"
+    },
+    {
+      "id": "aws-learn-ai",
+      "eventIds": ["now"],
+      "title": "Learn AI",
+      "provider": "AWS Training and Certification",
+      "institution": "Amazon Web Services",
+      "providerType": "technology-provider",
+      "level": "All levels",
+      "access": "mixed",
+      "courseUrl": "https://aws.amazon.com/ai/learn/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "generative AI", "machine learning", "AI engineering"],
+      "verifiedAt": "2026-09-06T20:38:00+08:00"
+    }
+  ]
+}
