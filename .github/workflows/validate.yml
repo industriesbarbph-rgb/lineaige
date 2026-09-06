@@ -18,6 +18,9 @@ jobs:
       - name: Validate canonical data and references
         run: python3 scripts/validate.py
 
+      - name: Audit frontend accessibility and deployment readiness
+        run: python3 scripts/audit_frontend.py
+
       - name: Check JavaScript syntax
         run: |
           node --check lineaige.js
