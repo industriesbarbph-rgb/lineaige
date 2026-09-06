@@ -1,4 +1,5 @@
 let mediaByEvent={};
+let currentMediaEventId=null;
 
 const mediaPanel=document.createElement('section');
 mediaPanel.className='media-panel';
@@ -24,7 +25,7 @@ mediaStyle.textContent=`
 .media-frame-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border:1px solid rgba(255,255,255,.12);overflow:hidden;box-shadow:0 0 28px rgba(255,255,255,.06)}
 .media-frame-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .media-title{display:block;margin-top:14px;color:#fff;text-decoration:none;font-size:12px;line-height:1.45}
-.media-title:hover{text-decoration:underline}
+.media-title:hover,.media-title:focus-visible{text-decoration:underline;outline:1px solid rgba(255,255,255,.35);outline-offset:4px}
 .media-meta{margin-top:7px;font-size:9px;letter-spacing:.12em;color:rgba(255,255,255,.4)}
 .media-note{margin:10px 0 0!important;font-size:10px!important;line-height:1.55!important;color:rgba(255,255,255,.42)!important}
 `;
@@ -35,33 +36,36 @@ fetch('data/media.json')
   .then(data=>{
     const items=Array.isArray(data.items)?data.items:[];
     mediaByEvent=items.reduce((map,item)=>{
+      if(!item||typeof item.eventId!=='string')return map;
       if(!map[item.eventId])map[item.eventId]=[];
       map[item.eventId].push(item);
       return map;
     },{});
+    if(currentMediaEventId)showMediaForEvent(currentMediaEventId);
   })
   .catch(()=>{});
 
 function showMediaForEvent(eventId){
+  currentMediaEventId=eventId;
   const item=mediaByEvent[eventId]?.[0];
-  if(!item){
+  if(!item||!item.embedUrl||!item.watchUrl){
     mediaPanel.hidden=true;
     mediaFrame.removeAttribute('src');
     return;
   }
   mediaPanel.hidden=false;
-  mediaFrame.src=item.embedUrl;
-  mediaTitle.textContent=item.title;
+  if(mediaFrame.src!==item.embedUrl)mediaFrame.src=item.embedUrl;
+  mediaTitle.textContent=item.title||'Open media source';
   mediaTitle.href=item.watchUrl;
   mediaMeta.textContent=[item.creator,item.publishedDate].filter(Boolean).join(' · ');
   mediaNote.textContent=item.note||'';
 }
 
-document.querySelectorAll('[data-event]').forEach(node=>{
-  node.addEventListener('click',()=>setTimeout(()=>showMediaForEvent(node.dataset.event),0));
-});
-
-document.getElementById('close')?.addEventListener('click',()=>{
+function clearMedia(){
+  currentMediaEventId=null;
   mediaFrame.removeAttribute('src');
   mediaPanel.hidden=true;
-});
+}
+
+document.addEventListener('lineaige:record-opened',event=>showMediaForEvent(event.detail?.id));
+document.addEventListener('lineaige:record-closed',clearMedia);
