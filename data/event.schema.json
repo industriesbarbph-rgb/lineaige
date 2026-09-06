@@ -22,6 +22,17 @@
     "people": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
     "organizations": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
     "technologies": {"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]},
+    "geography": {
+      "type":["object","null"],
+      "additionalProperties":false,
+      "properties": {
+        "country":{"type":["string","null"],"minLength":1},
+        "region":{"type":["string","null"],"enum":["Africa","Asia","Europe","Latin America and the Caribbean","Middle East","North America","Oceania",null]},
+        "context":{"type":["string","null"],"enum":["organization-base","research-location","announcement-location","deployment-location","multi-region",null]},
+        "note":{"type":["string","null"]},
+        "sourceUrl":{"type":["string","null"],"format":"uri"}
+      }
+    },
     "verification": {
       "type":"object","additionalProperties":false,"required":["state","factualClaim"],
       "properties": {
@@ -43,6 +54,7 @@
           "publisher":{"type":["string","null"]},
           "publishedDate":{"type":["string","null"],"format":"date"},
           "sourceType":{"type":"string","enum":["paper","official-announcement","archive","government-record","book","interview","video","news","other"]},
+          "sourceRole":{"type":["string","null"],"enum":["claim-evidence","corroboration","archive-copy","context","relationship-evidence",null]},
           "primary":{"type":"boolean"},
           "archivedUrl":{"type":["string","null"],"format":"uri"}
         }
