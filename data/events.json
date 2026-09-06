@@ -1,13 +1,169 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "product": "LINEAiGE",
   "principle": "The historical record is LINEAiGE. The interface is a representation of LINEAiGE.",
   "events": [
-    {"id":"foundations","date":"FOUNDATIONS","title":"Foundations","status":"CURATED ENTRY POINT","summary":"Enter the mathematical, computational and conceptual foundations from which artificial intelligence developed.","relations":["ANCESTRY → mathematical & computational foundations","DESCENDANTS → early machine intelligence","EVIDENCE → primary and archival sources"]},
-    {"id":"learning","date":"LEARNING ERA","title":"Machine Learning","status":"CURATED ENTRY POINT","summary":"Follow the shift from explicitly programmed behavior toward systems that learn patterns from data.","relations":["ANCESTORS → early AI & statistical learning","DESCENDANTS → neural and deep learning","RELATIONSHIPS → evidence-governed, not assumed"]},
-    {"id":"deep","date":"DEEP LEARNING ERA","title":"Deep Learning","status":"CURATED ENTRY POINT","summary":"Investigate the developments that made multi-layer neural systems increasingly practical and consequential.","relations":["ANCESTORS → neural networks","DESCENDANTS → modern generative systems","CONTEXT → compute, data & research advances"]},
-    {"id":"transformer","date":"2017 →","title":"Transformer Era","status":"CURATED ENTRY POINT","summary":"Traverse the evidence around attention-based architectures and the developments that followed them.","relations":["ANCESTORS → attention & neural language modeling","DESCENDANTS → large language models","SOURCE PATH → original research record"]},
-    {"id":"generative","date":"RECENT HISTORY","title":"Generative AI","status":"CURATED ENTRY POINT","summary":"Explore the rapidly branching family of generative systems, products, research and public deployments.","relations":["ANCESTORS → foundation models","BRANCHES → text, image, audio, video & agents","DESCENDANTS → still forming"]},
-    {"id":"now","date":"THE LIVING EDGE","title":"NOW","status":"PRESENT IS FORMING","summary":"This is the boundary where recorded history becomes the living present—and where declared future plans remain unresolved until evidence changes their status.","relations":["← PAST → verified record","NOW → active frontier","FUTURE → announced, proposed, targeted, changed, delayed or completed"]}
+    {
+      "id": "foundations",
+      "recordType": "entry_point",
+      "title": "Foundations",
+      "displayDate": "FOUNDATIONS",
+      "temporalState": "recorded",
+      "status": "CURATED ENTRY POINT",
+      "summary": "Enter the mathematical, computational and conceptual foundations from which artificial intelligence developed.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "This is a navigation entry point, not yet a published historical event record.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"learning","label":"Continue toward machine learning","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":null,"label":"Primary and archival evidence will be attached to verified records","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    },
+    {
+      "id": "learning",
+      "recordType": "entry_point",
+      "title": "Machine Learning",
+      "displayDate": "LEARNING ERA",
+      "temporalState": "recorded",
+      "status": "CURATED ENTRY POINT",
+      "summary": "Follow the shift from explicitly programmed behavior toward systems that learn patterns from data.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "This is a navigation entry point, not yet a published historical event record.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"foundations","label":"Travel backward to foundations","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":"deep","label":"Continue toward deep learning","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    },
+    {
+      "id": "deep",
+      "recordType": "entry_point",
+      "title": "Deep Learning",
+      "displayDate": "DEEP LEARNING ERA",
+      "temporalState": "recorded",
+      "status": "CURATED ENTRY POINT",
+      "summary": "Investigate the developments that made multi-layer neural systems increasingly practical and consequential.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "This is a navigation entry point, not yet a published historical event record.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"learning","label":"Travel backward to machine learning","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":"transformer","label":"Continue toward the transformer era","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    },
+    {
+      "id": "transformer",
+      "recordType": "entry_point",
+      "title": "Transformer Era",
+      "displayDate": "2017 →",
+      "temporalState": "recorded",
+      "status": "CURATED ENTRY POINT",
+      "summary": "Traverse the evidence around attention-based architectures and the developments that followed them.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "This is a navigation entry point. Specific historical claims and source paths will be published as verified records.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"deep","label":"Travel backward to deep learning","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":"generative","label":"Continue toward generative AI","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    },
+    {
+      "id": "generative",
+      "recordType": "entry_point",
+      "title": "Generative AI",
+      "displayDate": "RECENT HISTORY",
+      "temporalState": "recorded",
+      "status": "CURATED ENTRY POINT",
+      "summary": "Explore the rapidly branching family of generative systems, products, research and public deployments.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "This is a navigation entry point, not yet a published historical event record.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"transformer","label":"Travel backward to the transformer era","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":"now","label":"Continue to the living edge","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    },
+    {
+      "id": "now",
+      "recordType": "living_edge",
+      "title": "NOW",
+      "displayDate": "THE LIVING EDGE",
+      "temporalState": "forming",
+      "status": "PRESENT IS FORMING",
+      "summary": "This is the boundary where recorded history becomes the living present—and where declared future plans remain unresolved until evidence changes their status.",
+      "significance": null,
+      "people": [],
+      "organizations": [],
+      "technologies": [],
+      "verification": {
+        "state": "navigation-only",
+        "factualClaim": false,
+        "confidence": null,
+        "note": "NOW is an interface state marking the living edge, not a historical event claim.",
+        "lastVerified": null
+      },
+      "sources": [],
+      "relationships": [
+        {"type":"navigation","targetId":"generative","label":"Travel backward into recorded history","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]},
+        {"type":"navigation","targetId":null,"label":"Announced future records remain unresolved until evidence changes their status","evidenceState":"navigation-only","evidenceNote":null,"sourceUrls":[]}
+      ],
+      "corrections": [],
+      "contributor": null
+    }
   ]
 }
