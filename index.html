@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LINEAiGE — The Living Lineage of Artificial Intelligence</title>
+  <meta name="description" content="A living evidence-traversal system for seeing and investigating the evolution of artificial intelligence—past, present, and announced future.">
+  <link rel="stylesheet" href="lineaige.css">
+</head>
+<body>
+  <main class="stage" aria-label="LINEAiGE">
+    <header class="mast">
+      <div class="wordmark">LINE<span>AI</span>GE</div>
+      <div class="descriptor">EVIDENCE TRAVERSAL · ARTIFICIAL INTELLIGENCE</div>
+    </header>
+
+    <section class="lineage" aria-label="Past, present and announced future">
+      <div class="era-label past-label">PAST</div>
+      <div class="era-label now-label">NOW</div>
+      <div class="era-label future-label">ANNOUNCED FUTURE</div>
+
+      <div class="beam-wrap">
+        <div class="beam past-beam"></div>
+        <button class="event e1" data-event="foundations" aria-label="Enter Foundations"><i></i></button>
+        <button class="event e2" data-event="learning" aria-label="Enter Machine Learning"><i></i></button>
+        <button class="event e3" data-event="deep" aria-label="Enter Deep Learning"><i></i></button>
+        <button class="event e4" data-event="transformer" aria-label="Enter Transformer Era"><i></i></button>
+        <button class="event e5" data-event="generative" aria-label="Enter Generative AI"><i></i></button>
+        <button class="now-core" data-event="now" aria-label="Enter the living present"><b>NOW</b></button>
+        <div class="beam future-beam"></div>
+        <div class="future-particles"></div>
+      </div>
+      <p class="instruction">Touch the light. Travel the evidence.</p>
+    </section>
+
+    <aside class="drawer" id="drawer" aria-live="polite">
+      <button class="close" id="close" aria-label="Close">×</button>
+      <div class="drawer-status" id="status">VERIFIED RECORD</div>
+      <div class="drawer-date" id="date">—</div>
+      <h1 id="title">LINEAiGE</h1>
+      <p id="summary">Select a point in the light to enter the record.</p>
+      <div class="relations" id="relations"></div>
+      <div class="evidence"><span>EVIDENCE</span><p id="evidence">Every published relationship in LINEAiGE must be supported by evidence. Chronology is not presented as causality.</p></div>
+    </aside>
+
+    <footer><span>PAST IS RECORDED</span><span>PRESENT IS FORMING</span><span>FUTURE IS DECLARED, NOT ASSUMED</span></footer>
+  </main>
+  <script src="lineaige.js"></script>
+</body>
+</html>
