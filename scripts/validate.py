@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
+from collections import deque
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
@@ -222,9 +223,6 @@ index = (ROOT / "index.html").read_text(encoding="utf-8")
 beam_ids = re.findall(r'data-event="([^"]+)"', index)
 if len(beam_ids) != len(set(beam_ids)):
     fail("index.html contains duplicate data-event ids")
-for record_id in ids:
-    if record_id != "now" and record_id not in beam_ids:
-        fail(f"canonical record {record_id} is not reachable from a beam data-event")
 for beam_id in beam_ids:
     if beam_id not in id_set:
         fail(f"index.html beam references unknown canonical record {beam_id}")
@@ -233,4 +231,21 @@ if 'data-event="now"' not in index:
 if 'aria-label="Enter the living present"' not in index:
     fail("NOW control must retain its accessible label")
 
-print(f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} courses, {len(beam_ids)} traversable beam controls")
+# Canonical records do not all need their own visible beam control. A beam point may
+# lead into an evidence-traversal graph, and every published record must be reachable
+# by following relationship targets from at least one visible beam entry point.
+graph = {record["id"]: [rel.get("targetId") for rel in record["relationships"] if rel.get("targetId")] for record in events}
+reachable = set()
+queue = deque(beam_ids)
+while queue:
+    current = queue.popleft()
+    if current in reachable:
+        continue
+    reachable.add(current)
+    queue.extend(target for target in graph.get(current, []) if target not in reachable)
+
+unreachable = sorted(id_set - reachable)
+if unreachable:
+    fail(f"canonical records unreachable through beam traversal graph: {', '.join(unreachable)}")
+
+print(f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} courses, {len(beam_ids)} beam controls; all records traversable")
