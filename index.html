@@ -19,8 +19,35 @@
       <div class="era-label now-label">NOW</div>
       <div class="era-label future-label">ANNOUNCED FUTURE</div>
 
-      <div class="beam-wrap">
-        <div class="beam past-beam"></div>
+      <div class="beam-wrap" id="beamWrap">
+        <svg class="circuit-field" id="circuitField" viewBox="0 0 1600 420" preserveAspectRatio="none" aria-hidden="true">
+          <g class="circuit dormant">
+            <path d="M180 210 L260 210 L310 132 L430 132"/>
+            <circle cx="310" cy="132" r="5"/><circle cx="430" cy="132" r="5"/>
+          </g>
+          <g class="circuit dormant">
+            <path d="M420 210 L500 210 L560 298 L690 298"/>
+            <circle cx="560" cy="298" r="5"/><circle cx="690" cy="298" r="5"/>
+          </g>
+          <g class="circuit dormant">
+            <path d="M660 210 L720 210 L785 116 L930 116"/>
+            <circle cx="785" cy="116" r="5"/><circle cx="930" cy="116" r="5"/>
+          </g>
+          <g class="circuit dormant">
+            <path d="M880 210 L955 210 L1020 300 L1120 300"/>
+            <circle cx="1020" cy="300" r="5"/><circle cx="1120" cy="300" r="5"/>
+          </g>
+          <g class="circuit dormant">
+            <path d="M1045 210 L1110 210 L1170 138 L1255 138"/>
+            <circle cx="1170" cy="138" r="5"/><circle cx="1255" cy="138" r="5"/>
+          </g>
+          <g class="circuit dormant future-circuit">
+            <path d="M1210 210 L1325 210 L1385 155 L1510 155"/>
+            <circle cx="1385" cy="155" r="5"/><circle cx="1510" cy="155" r="5"/>
+          </g>
+        </svg>
+
+        <div class="beam past-beam"><span class="current current-a"></span><span class="current current-b"></span><span class="current current-c"></span></div>
         <button class="event e1" data-event="foundations" aria-label="Enter Foundations"><i></i></button>
         <button class="event e2" data-event="learning" aria-label="Enter Machine Learning"><i></i></button>
         <button class="event e3" data-event="deep" aria-label="Enter Deep Learning"><i></i></button>
