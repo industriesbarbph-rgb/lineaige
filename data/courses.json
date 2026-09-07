@@ -72,6 +72,20 @@
       "embedUrl": null,
       "topics": ["artificial intelligence", "generative AI", "machine learning", "AI engineering"],
       "verifiedAt": "2026-09-06T20:38:00+08:00"
+    },
+    {
+      "id": "stanford-cs25-transformers-united",
+      "eventIds": ["transformer-2017", "llama2-2023", "gemini1-2023", "now"],
+      "title": "CS25: Transformers United",
+      "provider": "Stanford CS25",
+      "institution": "Stanford University",
+      "providerType": "university",
+      "level": "Seminar",
+      "access": "free-public-audit",
+      "courseUrl": "https://web.stanford.edu/class/cs25/",
+      "embedUrl": null,
+      "topics": ["transformers", "large language models", "multimodal AI", "robotics", "generative AI"],
+      "verifiedAt": "2026-09-07T12:54:00+08:00"
     }
   ]
 }
