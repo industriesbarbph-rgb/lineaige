@@ -38,11 +38,26 @@ if set(value for value in source_role.get("enum", []) if value is not None) != S
 
 geo_records = 0
 role_tagged_sources = 0
+verified_records = 0
 
 for record in events:
     record_id = record.get("id", "<unknown>")
     sources = record.get("sources", [])
     source_urls = []
+    verification = record.get("verification", {})
+
+    if verification.get("state") == "verified":
+        verified_records += 1
+        if not verification.get("factualClaim"):
+            fail(f"{record_id}: verified record must explicitly declare factualClaim true")
+        if verification.get("confidence") not in {"medium", "high"}:
+            fail(f"{record_id}: verified record requires medium or high confidence")
+        if not verification.get("lastVerified"):
+            fail(f"{record_id}: verified record requires lastVerified provenance timestamp")
+        if not sources:
+            fail(f"{record_id}: verified record requires at least one canonical source")
+        if not any(source.get("primary") for source in sources):
+            fail(f"{record_id}: verified record requires at least one primary canonical source")
 
     for source in sources:
         url = source.get("url")
@@ -51,6 +66,11 @@ for record in events:
         if url in source_urls:
             fail(f"{record_id}: duplicate canonical source URL {url}")
         source_urls.append(url)
+
+        if not is_http_url(source.get("embedUrl")):
+            fail(f"{record_id}: source embedUrl must be http(s) URL or null")
+        if not is_http_url(source.get("archivedUrl")):
+            fail(f"{record_id}: source archivedUrl must be http(s) URL or null")
 
         role = source.get("sourceRole")
         if role is not None:
@@ -87,6 +107,6 @@ for record in events:
 
 print(
     "OK: evidence-role/geography schema protected across "
-    f"{len(events)} canonical records; {geo_records} geography records and "
-    f"{role_tagged_sources} role-tagged sources provenance-checked"
+    f"{len(events)} canonical records; {verified_records} verified records, "
+    f"{geo_records} geography records and {role_tagged_sources} role-tagged sources provenance-checked"
 )
