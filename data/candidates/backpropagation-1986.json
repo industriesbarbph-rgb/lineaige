@@ -1,0 +1,44 @@
+{
+  "id": "backpropagation-1986",
+  "recordType": "event",
+  "title": "Learning representations by back-propagating errors",
+  "displayDate": "9 October 1986",
+  "eventDate": "1986-10-09",
+  "datePrecision": "day",
+  "publicationMonth": null,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "David E. Rumelhart, Geoffrey E. Hinton and Ronald J. Williams published Learning representations by back-propagating errors in Nature on 9 October 1986, describing a learning procedure that repeatedly adjusts connection weights in networks of neuron-like units to reduce the difference between actual and desired outputs.",
+  "significance": "A documented major milestone in the historical development and dissemination of back-propagation for training multilayer neural networks.",
+  "people": ["David E. Rumelhart", "Geoffrey E. Hinton", "Ronald J. Williams"],
+  "organizations": ["University of California, San Diego", "Carnegie-Mellon University", "Nature"],
+  "technologies": ["Back-propagation", "Neural networks"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, publication date, volume, pages, DOI and the paper's description of its learning procedure are verified against Nature's record for the original article. This record does not claim that the authors were the first people ever to formulate back-propagation.",
+    "lastVerified": "2026-09-07T22:49:13+08:00"
+  },
+  "sources": [
+    {
+      "title": "Learning representations by back-propagating errors",
+      "url": "https://www.nature.com/articles/323533a0",
+      "publisher": "Nature",
+      "publishedDate": "1986-10-09",
+      "publishedMonth": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The publication date and historical paper are verified at day precision, but candidate policy keeps relationships empty until a deliberate canonical admission updates chronology safely.",
+    "nextStep": "Consider canonical admission between ELIZA 1966 and Transformer 2017 after the precision-aware canonical chronology work is complete; add chronology-only traversal at admission unless stronger relationship claims are separately evidenced."
+  }
+}
