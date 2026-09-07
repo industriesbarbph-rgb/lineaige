@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "product": "LINEAiGE",
+  "principle": "Research that is not safe for canonical admission is preserved without being promoted to historical fact.",
+  "entries": [
+    {
+      "id": "alphago-lee-sedol-2016-research",
+      "subject": "AlphaGo defeats Lee Sedol",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "Google DeepMind states that AlphaGo defeated Lee Sedol 4–1 in Seoul in March 2016.",
+      "date": {"value": "2016-03", "precision": "month", "meaning": "match-result month"},
+      "evidenceSummary": "A Google DeepMind first-party retrospective supports the 4–1 result, Lee Sedol as opponent, Seoul as the match location, and March 2016. The reviewed source does not establish an exact completion day.",
+      "reasonWithheld": "The current canonical event model stores day-level dates. No exact match-completion day was admitted from the reviewed first-party evidence, so LINEAiGE withheld an exact-date canonical record rather than inventing precision.",
+      "geography": {"city": "Seoul", "country": "South Korea", "context": "event-location", "sourceUrl": "https://deepmind.google/blog/deep-reinforcement-learning/"},
+      "sources": [{"title": "Deep Reinforcement Learning", "url": "https://deepmind.google/blog/deep-reinforcement-learning/", "publisher": "Google DeepMind", "publishedDate": null, "sourceType": "official-retrospective", "sourceRole": "claim-evidence", "primary": true}],
+      "relationships": []
+    },
+    {
+      "id": "latamgpt-2026-research",
+      "subject": "LatamGPT first base-model training completion",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "LatamGPT's official FAQ says the first version of the base model completed training and that this was announced at the project launch on February 10, 2026.",
+      "date": {"value": "2026-02-10", "precision": "day", "meaning": "announcement of first base-model training completion"},
+      "evidenceSummary": "The official project FAQ directly supports the training-completion announcement on February 10, 2026 and separately says the model did not yet have a confirmed release date at that stage.",
+      "reasonWithheld": "The evidence supports a training-completion/announcement milestone, not a defensible public system-release date. LINEAiGE did not convert the milestone into a system-birth claim.",
+      "sources": [{"title": "LatamGPT FAQ", "url": "https://www.latamgpt.org/en/faq", "publisher": "LatamGPT", "publishedDate": null, "sourceType": "official-documentation", "sourceRole": "claim-evidence", "primary": true}],
+      "relationships": []
+    },
+    {
+      "id": "amazoniaia-2024-research",
+      "subject": "AmazoniaIA public launch statement",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "At a Brazilian national science and technology conference panel on July 30, 2024, Widelabs CEO Nelson Leoni said the company had just launched the AmazoniaIA platform/model.",
+      "date": {"value": "2024-07-30", "precision": "day", "meaning": "dated public launch statement"},
+      "evidenceSummary": "Brazil's Ministry of Science, Technology and Innovation reported on July 31, 2024 that, during the July 30 conference panel, Widelabs' CEO said the company had just launched AmazoniaIA and described it as a Portuguese-language AI platform/model.",
+      "reasonWithheld": "The government report is strong evidence for the dated public statement, but the reviewed evidence does not independently establish the platform's exact technical/public availability boundary. LINEAiGE therefore preserved it as research instead of forcing a system-birth classification.",
+      "sources": [{"title": "Plenária esclarece proposta do Plano de Inteligência Artificial entregue ao presidente Lula", "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2024/07/plenaria-esclarece-proposta-do-plano-de-inteligencia-artificial-entregue-ao-presidente-lula", "publisher": "Brazil Ministry of Science, Technology and Innovation", "publishedDate": "2024-07-31", "sourceType": "government-record", "sourceRole": "claim-evidence", "primary": true}],
+      "relationships": []
+    },
+    {
+      "id": "inkubalm-2024-classification-review",
+      "subject": "InkubaLM canonical date/classification review",
+      "researchStatus": "canonical-review",
+      "canonicalAdmission": "review",
+      "targetCanonicalId": "inkubalm-2024",
+      "claimUnderReview": "Whether October 25, 2024 is defensible as InkubaLM's first introduction/system-birth date.",
+      "date": {"value": "2024-08-30", "precision": "day", "meaning": "arXiv paper submission/publication milestone"},
+      "evidenceSummary": "The InkubaLM paper was submitted to arXiv on August 30, 2024 and explicitly introduces InkubaLM; this predates the October 25, 2024 Lelapa AI blog date currently used by the canonical record.",
+      "reasonWithheld": "This is a canonical correction review, not a replacement date. The earlier paper proves that October 25 cannot safely be assumed to be the first introduction without further milestone-specific evidence.",
+      "sources": [{"title": "InkubaLM: A small language model for low-resource African languages", "url": "https://arxiv.org/abs/2408.17024", "publisher": "arXiv", "publishedDate": "2024-08-30", "sourceType": "paper", "sourceRole": "claim-evidence", "primary": true},{"title": "InkubaLM small language model", "url": "https://lelapa.ai/blog/inkubalm-small-language-model", "publisher": "Lelapa AI", "publishedDate": "2024-10-25", "sourceType": "official-announcement", "sourceRole": "corroboration", "primary": true}],
+      "relationships": []
+    },
+    {
+      "id": "rosenblatt-1958-date-review",
+      "subject": "Perceptron day-level date precision review",
+      "researchStatus": "canonical-review",
+      "canonicalAdmission": "review",
+      "targetCanonicalId": "rosenblatt-1958",
+      "claimUnderReview": "Whether November 1, 1958 is supported as the exact publication day for Rosenblatt's Perceptron paper.",
+      "date": {"value": "1958-11", "precision": "month", "meaning": "supported publication month"},
+      "evidenceSummary": "The reviewed PubMed bibliographic record supports November 1958. The current canonical record stores November 1, 1958, but the retrieved evidence did not establish that exact day.",
+      "reasonWithheld": "The canonical record should not be silently rewritten until the data model can preserve month-level date precision or a primary bibliographic source establishes the exact day.",
+      "sources": [{"title": "The perceptron: a probabilistic model for information storage and organization in the brain", "url": "https://pubmed.ncbi.nlm.nih.gov/13602029/", "publisher": "PubMed / U.S. National Library of Medicine", "publishedDate": "1958-11", "sourceType": "bibliographic-record", "sourceRole": "claim-evidence", "primary": false},{"title": "The perceptron: A probabilistic model for information storage and organization in the brain", "url": "https://doi.org/10.1037/h0042519", "publisher": "Psychological Review / APA", "publishedDate": null, "sourceType": "paper", "sourceRole": "corroboration", "primary": true}],
+      "relationships": []
+    }
+  ]
+}
