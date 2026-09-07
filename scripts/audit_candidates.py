@@ -57,6 +57,7 @@ for path in files:
         fail(f"{rid}: unsupported datePrecision {precision!r}")
     event_date = record.get("eventDate")
     publication_month = record.get("publicationMonth")
+    event_year = record.get("eventYear")
     if precision == "day" and not isinstance(event_date, str):
         fail(f"{rid}: day precision requires eventDate")
     if precision == "month":
@@ -64,8 +65,13 @@ for path in files:
             fail(f"{rid}: month precision must not fabricate a day-level eventDate")
         if not isinstance(publication_month, str) or not MONTH_RE.fullmatch(publication_month):
             fail(f"{rid}: month precision requires publicationMonth YYYY-MM")
-    if precision in {"year", "unknown"} and event_date is not None:
-        fail(f"{rid}: {precision} precision must not carry a day-level eventDate")
+    if precision == "year":
+        if event_date is not None:
+            fail(f"{rid}: year precision must not carry a day-level eventDate")
+        if not isinstance(event_year, int) or event_year < 1 or event_year > 9999:
+            fail(f"{rid}: year precision requires integer eventYear 1..9999")
+    if precision == "unknown" and event_date is not None:
+        fail(f"{rid}: unknown precision must not carry a day-level eventDate")
 
     sources = record.get("sources")
     if not isinstance(sources, list) or not sources:
