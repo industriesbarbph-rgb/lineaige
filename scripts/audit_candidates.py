@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -22,6 +23,16 @@ def http_url(value):
         return False
     parsed = urlparse(value)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def valid_iso_day(value):
+    if not isinstance(value, str):
+        return False
+    try:
+        parsed = date.fromisoformat(value)
+    except ValueError:
+        return False
+    return parsed.isoformat() == value
 
 
 files = sorted(CANDIDATES.glob("*.json"))
@@ -58,8 +69,8 @@ for path in files:
     event_date = record.get("eventDate")
     publication_month = record.get("publicationMonth")
     event_year = record.get("eventYear")
-    if precision == "day" and not isinstance(event_date, str):
-        fail(f"{rid}: day precision requires eventDate")
+    if precision == "day" and not valid_iso_day(event_date):
+        fail(f"{rid}: day precision requires a real ISO calendar date YYYY-MM-DD")
     if precision == "month":
         if event_date is not None:
             fail(f"{rid}: month precision must not fabricate a day-level eventDate")
@@ -90,7 +101,10 @@ for path in files:
             fail(f"{rid}: sourceRole must be explicit and valid")
         if source.get("primary") is True and role == "claim-evidence":
             primary_claim = True
-        if precision == "month" and source.get("publishedDate") is not None:
+        published_date = source.get("publishedDate")
+        if published_date is not None and not valid_iso_day(published_date):
+            fail(f"{rid}: source publishedDate must be a real ISO calendar date YYYY-MM-DD or null")
+        if precision == "month" and published_date is not None:
             fail(f"{rid}: month-precision source must not carry fabricated publishedDate")
     if not primary_claim:
         fail(f"{rid}: verified candidate requires primary claim-evidence")
