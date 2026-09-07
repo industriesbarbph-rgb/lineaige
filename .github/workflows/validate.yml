@@ -21,6 +21,9 @@ jobs:
       - name: Audit evidence roles and geographic context
         run: python3 scripts/audit_evidence_context.py
 
+      - name: Audit global canonical coverage
+        run: python3 scripts/audit_global_coverage.py
+
       - name: Audit relationship semantics
         run: python3 scripts/audit_relationship_semantics.py
 
