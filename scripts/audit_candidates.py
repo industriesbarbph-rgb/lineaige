@@ -10,6 +10,7 @@ ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 MONTH_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
 DATE_PRECISIONS = {"day", "month", "year", "unknown"}
 SOURCE_ROLES = {"claim-evidence", "corroboration", "context", "learning-resource"}
+GEOGRAPHY_CONTEXTS = {"event-location", "announcement-location", "organization-base", "research-location", "development-location", "release-geography"}
 
 
 def fail(message):
@@ -87,6 +88,21 @@ for path in files:
             fail(f"{rid}: month-precision source must not carry fabricated publishedDate")
     if not primary_claim:
         fail(f"{rid}: verified candidate requires primary claim-evidence")
+
+    geography = record.get("geography")
+    if geography is not None:
+        if not isinstance(geography, dict):
+            fail(f"{rid}: geography must be an object when present")
+        context = geography.get("context")
+        if context not in GEOGRAPHY_CONTEXTS:
+            fail(f"{rid}: geography.context must use an explicit supported meaning")
+        source_url = geography.get("sourceUrl")
+        if not http_url(source_url):
+            fail(f"{rid}: geography.sourceUrl must be a valid HTTP(S) URL")
+        if source_url not in urls:
+            fail(f"{rid}: geography.sourceUrl must also appear in sources")
+        if not any(isinstance(geography.get(field), str) and geography[field].strip() for field in ("city", "country", "region")):
+            fail(f"{rid}: geography must include at least one concrete place field")
 
     relationships = record.get("relationships")
     if relationships != []:
