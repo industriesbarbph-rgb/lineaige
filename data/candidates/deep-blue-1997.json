@@ -1,0 +1,51 @@
+{
+  "id": "deep-blue-1997",
+  "recordType": "event",
+  "title": "Deep Blue defeats Garry Kasparov",
+  "displayDate": "1997",
+  "eventDate": "1997-05-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "On May 11, 1997, IBM's chess-playing computer Deep Blue defeated reigning world chess champion Garry Kasparov in their six-game rematch.",
+  "significance": "IBM's 1997 annual report records the result as the first time a reigning world champion lost a match to a computer opponent in tournament play.",
+  "people": ["Garry Kasparov"],
+  "organizations": ["IBM"],
+  "technologies": ["Deep Blue"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Date, opponent, match result and IBM's historical characterization verified against IBM's 1997 Annual Report; system description corroborated by IBM Research.",
+    "lastVerified": "2026-09-07T18:44:13+08:00"
+  },
+  "sources": [
+    {
+      "title": "IBM Annual Report 1997",
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
+      "publisher": "IBM",
+      "publishedDate": "1998-01-01",
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Deep Blue",
+      "url": "https://research.ibm.com/publications/deep-blue",
+      "publisher": "IBM Research",
+      "publishedDate": "2002-01-01",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending",
+    "admissionReason": "Verified historical record prepared for canonical insertion. No ancestry, influence or causal relationship is asserted.",
+    "nextStep": "Insert into data/events.json in chronological position and add chronology-only traversal links after canonical review."
+  }
+}
