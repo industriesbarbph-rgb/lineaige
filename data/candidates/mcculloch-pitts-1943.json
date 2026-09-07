@@ -1,0 +1,55 @@
+{
+  "id": "mcculloch-pitts-1943",
+  "recordType": "event",
+  "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+  "displayDate": "December 1943",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1943-12",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Warren S. McCulloch and Walter Pitts published A Logical Calculus of the Ideas Immanent in Nervous Activity in The Bulletin of Mathematical Biophysics in December 1943, describing neural activity in terms of propositional logic and formal networks.",
+  "significance": "A documented pre-1950 paper connecting formal logic with networks of simplified neural units, important to the early history of computational models of nervous activity.",
+  "people": ["Warren S. McCulloch", "Walter Pitts"],
+  "organizations": ["University of Illinois", "University of Chicago"],
+  "technologies": ["Logical neural networks"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, journal, volume, pages and December 1943 publication month verified against Springer; bibliographic metadata corroborated by the National Diet Library/CiNii record. No exact publication day is asserted.",
+    "lastVerified": "2026-09-07T20:48:41+08:00"
+  },
+  "sources": [
+    {
+      "title": "A logical calculus of the ideas immanent in nervous activity",
+      "url": "https://doi.org/10.1007/BF02478259",
+      "publisher": "Springer / The Bulletin of Mathematical Biophysics",
+      "publishedDate": null,
+      "publishedMonth": "1943-12",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "A logical calculus of the ideas immanent in nervous activity",
+      "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1360574095344592000",
+      "publisher": "National Diet Library / CiNii Research",
+      "publishedDate": null,
+      "publishedMonth": "1943-12",
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "blocked-date-precision",
+    "admissionReason": "The historical record is verified to December 1943, but the current canonical event schema assumes day-level ISO dates. LINEAiGE must support month precision before admitting this record without inventing an exact day.",
+    "nextStep": "Extend canonical temporal architecture to preserve month-level precision, then admit this record chronologically before Turing 1950 using chronology-only traversal links."
+  }
+}
