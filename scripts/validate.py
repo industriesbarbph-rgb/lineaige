@@ -11,12 +11,15 @@ DATA = ROOT / "data"
 
 RECORD_TYPES = {"event", "entry_point", "living_edge", "announced_future"}
 TEMPORAL_STATES = {"recorded", "forming", "declared-unresolved"}
+DATE_PRECISIONS = {"day", "month", "year", "unknown"}
 VERIFICATION_STATES = {"unreviewed", "developing", "verified", "disputed", "navigation-only"}
 SOURCE_TYPES = {"paper", "official-announcement", "archive", "government-record", "book", "interview", "video", "news", "other"}
 RELATIONSHIP_TYPES = {"ancestor", "descendant", "influenced", "enabled", "contextual", "chronological", "related", "source-path", "navigation"}
 RELATIONSHIP_EVIDENCE = {"verified", "contextual", "disputed", "navigation-only"}
 COURSE_PROVIDER_TYPES = {"university", "school", "online-platform", "technology-provider", "government", "nonprofit", "independent-provider", "other"}
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+MONTH_RE = re.compile(r"^[0-9]{4}-(0[1-9]|1[0-2])$")
+YEAR_RE = re.compile(r"^[0-9]{4}$")
 REQUIRED = {"id", "recordType", "title", "displayDate", "temporalState", "status", "summary", "verification", "sources", "relationships"}
 
 
@@ -66,6 +69,48 @@ def require_unique_id(item, seen, family):
     return item_id
 
 
+def validate_temporal_precision(record):
+    record_id = record["id"]
+    precision = record.get("datePrecision")
+    event_date = record.get("eventDate")
+    event_month = record.get("eventMonth")
+    event_year = record.get("eventYear")
+
+    if precision is None:
+        # Backward-compatible migration behavior: existing canonical records with
+        # eventDate are treated as day-precision until explicitly migrated.
+        if event_date is not None:
+            precision = "day"
+        elif record.get("recordType") == "living_edge":
+            return
+        else:
+            fail(f"{record_id}: recorded canonical record without eventDate requires datePrecision")
+
+    if precision not in DATE_PRECISIONS:
+        fail(f"{record_id}: invalid datePrecision")
+
+    if precision == "day":
+        if event_date is None or not valid_date(event_date):
+            fail(f"{record_id}: day precision requires ISO eventDate")
+        if event_month is not None or event_year is not None:
+            fail(f"{record_id}: day precision may not also set eventMonth/eventYear")
+    elif precision == "month":
+        if event_date is not None:
+            fail(f"{record_id}: month precision may not carry synthetic eventDate")
+        if not isinstance(event_month, str) or not MONTH_RE.fullmatch(event_month):
+            fail(f"{record_id}: month precision requires eventMonth YYYY-MM")
+        if event_year is not None:
+            fail(f"{record_id}: month precision may not also set eventYear")
+    elif precision == "year":
+        if event_date is not None or event_month is not None:
+            fail(f"{record_id}: year precision may not carry synthetic eventDate/eventMonth")
+        if not isinstance(event_year, str) or not YEAR_RE.fullmatch(event_year):
+            fail(f"{record_id}: year precision requires eventYear YYYY")
+    elif precision == "unknown":
+        if event_date is not None or event_month is not None or event_year is not None:
+            fail(f"{record_id}: unknown precision may not carry a synthetic temporal value")
+
+
 events_doc = load_json("events.json")
 media_doc = load_json("media.json")
 courses_doc = load_json("courses.json")
@@ -109,6 +154,12 @@ for record in events:
     for field in ("eventDate", "endDate", "announcementDate", "targetDate"):
         if field in record and not valid_date(record[field]):
             fail(f"{record_id}: {field} must be an ISO date or null")
+    if "eventMonth" in record and record.get("eventMonth") is not None and not MONTH_RE.fullmatch(str(record.get("eventMonth"))):
+        fail(f"{record_id}: eventMonth must be YYYY-MM or null")
+    if "eventYear" in record and record.get("eventYear") is not None and not YEAR_RE.fullmatch(str(record.get("eventYear"))):
+        fail(f"{record_id}: eventYear must be YYYY or null")
+    if record["recordType"] != "living_edge":
+        validate_temporal_precision(record)
 
     verification = record["verification"]
     if not isinstance(verification, dict):
