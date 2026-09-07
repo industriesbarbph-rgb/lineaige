@@ -2,21 +2,30 @@
   "id": "deep-blue-1997",
   "recordType": "event",
   "title": "Deep Blue defeats Garry Kasparov",
-  "displayDate": "1997",
+  "displayDate": "11 May 1997",
   "eventDate": "1997-05-11",
+  "datePrecision": "day",
+  "publicationMonth": null,
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
-  "summary": "On May 11, 1997, IBM's chess-playing computer Deep Blue defeated reigning world chess champion Garry Kasparov in their six-game rematch.",
-  "significance": "IBM's 1997 annual report records the result as the first time a reigning world champion lost a match to a computer opponent in tournament play.",
+  "summary": "IBM's Deep Blue defeated reigning world chess champion Garry Kasparov in a six-game match completed on 11 May 1997, winning 3.5 to 2.5 under standard tournament time controls.",
+  "significance": "A documented computer-chess milestone: IBM records the result as the first time a reigning world chess champion lost a match to a computer opponent in tournament play.",
   "people": ["Garry Kasparov"],
   "organizations": ["IBM"],
-  "technologies": ["Deep Blue"],
+  "technologies": ["Deep Blue", "Computer chess", "Supercomputing"],
+  "geography": {
+    "city": "New York City",
+    "country": "United States",
+    "context": "event-location",
+    "note": "IBM's Deep Blue history records the 1997 rematch at the Equitable Center in New York City.",
+    "sourceUrl": "https://www.ibm.com/history/deep-blue"
+  },
   "verification": {
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Date, opponent, match result and IBM's historical characterization verified against IBM's 1997 Annual Report; system description corroborated by IBM Research.",
-    "lastVerified": "2026-09-07T18:44:13+08:00"
+    "note": "IBM's 1997 Annual Report dates the match victory to 11 May 1997 and records the first-in-tournament-play claim; IBM's Deep Blue history corroborates the 3.5–2.5 result, standard tournament time controls, and New York event context.",
+    "lastVerified": "2026-09-08T00:47:00+08:00"
   },
   "sources": [
     {
@@ -24,17 +33,19 @@
       "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
       "publisher": "IBM",
       "publishedDate": null,
-      "sourceType": "archive",
+      "publishedMonth": null,
+      "sourceType": "corporate-record",
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
     },
     {
       "title": "Deep Blue",
-      "url": "https://research.ibm.com/publications/deep-blue",
-      "publisher": "IBM Research",
-      "publishedDate": "2002-01-01",
-      "sourceType": "paper",
+      "url": "https://www.ibm.com/history/deep-blue",
+      "publisher": "IBM",
+      "publishedDate": null,
+      "publishedMonth": null,
+      "sourceType": "official-retrospective",
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
@@ -44,8 +55,8 @@
   "corrections": [],
   "contributor": null,
   "candidateMeta": {
-    "canonicalAdmission": "pending",
-    "admissionReason": "Verified historical record prepared for canonical insertion. No ancestry, influence or causal relationship is asserted.",
-    "nextStep": "Insert into data/events.json in chronological position and add chronology-only traversal links after canonical review."
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The victory date, result, event location and tournament-play milestone are supported by IBM first-party records at day precision, but candidate policy keeps relationships empty until deliberate canonical admission updates chronology safely.",
+    "nextStep": "Consider canonical admission after back-propagation 1986 and before Transformer 2017; add chronology-only traversal at admission unless stronger relationship claims are separately evidenced."
   }
 }
