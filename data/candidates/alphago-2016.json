@@ -1,0 +1,52 @@
+{
+  "id": "alphago-2016",
+  "recordType": "event",
+  "title": "Mastering the game of Go with deep neural networks and tree search",
+  "displayDate": "January 27, 2016",
+  "eventDate": "2016-01-27",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "David Silver and colleagues published Mastering the game of Go with deep neural networks and tree search online in Nature on January 27, 2016. The paper described AlphaGo, combining policy and value neural networks with Monte Carlo tree search, and reported that the system defeated European Go champion Fan Hui by five games to zero.",
+  "significance": "A documented reinforcement-learning and game-playing milestone in which a deep-neural-network system defeated a professional Go player in full-sized Go.",
+  "people": ["David Silver", "Aja Huang", "Chris J. Maddison", "Arthur Guez", "Laurent Sifre", "George van den Driessche", "Julian Schrittwieser", "Ioannis Antonoglou", "Veda Panneershelvam", "Marc Lanctot", "Sander Dieleman", "Dominik Grewe", "John Nham", "Nal Kalchbrenner", "Ilya Sutskever", "Timothy Lillicrap", "Madeleine Leach", "Koray Kavukcuoglu", "Thore Graepel", "Demis Hassabis"],
+  "organizations": ["Google DeepMind", "Google"],
+  "technologies": ["AlphaGo", "Policy networks", "Value networks", "Monte Carlo tree search", "Reinforcement learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Nature's article record establishes the title, authors, online publication date of January 27 2016, AlphaGo's policy/value-network and tree-search approach, and the reported 5-0 match result against European Go champion Fan Hui. Google Research independently preserves the publication and abstract. The record is a publication milestone; it does not infer a separate system-birth date or causal relationship to later systems.",
+    "lastVerified": "2026-09-08T07:46:44+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "url": "https://doi.org/10.1038/nature16961",
+      "publisher": "Nature",
+      "publishedDate": "2016-01-27",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "url": "https://research.google/pubs/mastering-the-game-of-go-with-deep-neural-networks-and-tree-search/",
+      "publisher": "Google Research",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publication evidence supports the January 27 2016 publication event and the technical/result claims recorded here at day precision. No ancestry, influence, causality, geography, or separate system-birth date is inferred.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve empty relationships unless dedicated evidence supports a non-chronological relationship."
+  }
+}
