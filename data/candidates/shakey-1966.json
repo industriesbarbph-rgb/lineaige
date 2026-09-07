@@ -1,0 +1,60 @@
+{
+  "id": "shakey-1966",
+  "recordType": "event",
+  "title": "Shakey the Robot",
+  "displayDate": "1966",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1966,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "SRI began the Shakey research program in 1966. Shakey combined mobile robotics with perception, reasoning, planning and route-finding in a single research system developed at SRI's Artificial Intelligence Center.",
+  "significance": "A documented early embodied artificial-intelligence system that integrated multiple AI capabilities in a mobile robot.",
+  "people": [],
+  "organizations": ["Stanford Research Institute", "SRI Artificial Intelligence Center"],
+  "technologies": ["Shakey", "Mobile robotics", "Planning", "Computer vision"],
+  "geography": {
+    "region": "California",
+    "country": "United States",
+    "context": "research-location",
+    "note": "SRI's institutional history identifies Shakey as a research subject of SRI's Artificial Intelligence Center; geography is limited to the institution's California research context and is not presented as a separate public-launch location.",
+    "sourceUrl": "https://www.sri.com/hoi/shakey-the-robot/"
+  },
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "SRI's first-party institutional history states that Shakey was the subject of its Artificial Intelligence Center research from 1966 to 1972 and describes its perception, reasoning, planning, route-finding and object-rearrangement capabilities. The record is intentionally stored at year precision because the reviewed evidence supports the research start year, not a separately verified exact system-birth day.",
+    "lastVerified": "2026-09-08T02:55:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Shakey the Robot",
+      "url": "https://www.sri.com/hoi/shakey-the-robot/",
+      "publisher": "SRI International",
+      "publishedDate": null,
+      "sourceType": "institutional-history",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The man, the myth, the legend: Meet Shakey the robot, the world’s first AI-based robot",
+      "url": "https://www.sri.com/case-study/the-man-the-myth-the-legend-meet-shakey-the-robot-the-worlds-first-ai-based-robot/",
+      "publisher": "SRI International",
+      "publishedDate": null,
+      "sourceType": "institutional-history",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The 1966 research-start year and system capabilities are supported by SRI first-party institutional evidence. Canonical admission should preserve year precision and avoid converting SRI's historical page date into an unsupported exact system-birth date.",
+    "nextStep": "Review canonical chronology around ELIZA 1966 and later historical records, then admit Shakey with year precision and chronology-only traversal until any stronger relationship is separately sourced."
+  }
+}
