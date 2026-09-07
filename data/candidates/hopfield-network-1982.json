@@ -1,0 +1,53 @@
+{
+  "id": "hopfield-network-1982",
+  "recordType": "event",
+  "title": "Neural networks and physical systems with emergent collective computational abilities",
+  "displayDate": "April 1982",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1982-04",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "John J. Hopfield published Neural networks and physical systems with emergent collective computational abilities in the Proceedings of the National Academy of Sciences in April 1982. The paper described a model in which collective properties of many simple neuron-like components produce content-addressable memory through asynchronous parallel processing.",
+  "significance": "A documented neural-network and associative-memory milestone whose original paper describes emergent collective computation and content-addressable memory in a recurrent system of neuron-like components.",
+  "people": ["John J. Hopfield"],
+  "organizations": ["Proceedings of the National Academy of Sciences", "National Academy of Sciences"],
+  "technologies": ["Neural networks", "Content-addressable memory", "Asynchronous parallel processing"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Author, title, journal, volume, issue, pages, DOI, April 1982 publication month and the paper's description of content-addressable memory and asynchronous parallel processing are supported by the PNAS record and NLM/PubMed archival record. LINEAiGE stores month precision rather than importing a synthetic day from aggregators.",
+    "lastVerified": "2026-09-08T05:44:28+08:00"
+  },
+  "sources": [
+    {
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.79.8.2554",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6953413/",
+      "publisher": "PubMed / U.S. National Library of Medicine",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/"
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary and archival records support the publication and its technical claims at April 1982 month precision. No exact publication day is required for admission and no ancestry or influence relationship is inferred from chronology alone.",
+    "nextStep": "Consider canonical admission within the pre-Transformer neural-network chronology after precision-safe placement; add only chronological traversal unless stronger relationships receive their own evidence."
+  }
+}
