@@ -86,6 +86,20 @@
       "embedUrl": null,
       "topics": ["transformers", "large language models", "multimodal AI", "robotics", "generative AI"],
       "verifiedAt": "2026-09-07T12:54:00+08:00"
+    },
+    {
+      "id": "helsinki-elements-of-ai",
+      "eventIds": ["turing-1950", "dartmouth-1955", "rosenblatt-1958", "transformer-2017", "now"],
+      "title": "Elements of AI: Introduction to AI",
+      "provider": "Elements of AI",
+      "institution": "University of Helsinki",
+      "providerType": "university",
+      "level": "Beginner",
+      "access": "free-open-courseware",
+      "courseUrl": "https://www.elementsofai.com/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "machine learning", "neural networks", "AI concepts", "AI limitations"],
+      "verifiedAt": "2026-09-07T17:48:00+08:00"
     }
   ]
 }
