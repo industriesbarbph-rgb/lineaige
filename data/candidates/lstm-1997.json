@@ -1,0 +1,42 @@
+{
+  "id": "lstm-1997",
+  "recordType": "event",
+  "title": "Long Short-Term Memory",
+  "displayDate": "15 November 1997",
+  "eventDate": "1997-11-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Sepp Hochreiter and Jürgen Schmidhuber published Long Short-Term Memory in Neural Computation on 15 November 1997. The paper introduced the gradient-based method called long short-term memory (LSTM), using constant error flow and multiplicative gate units to address long time-lag learning problems in recurrent networks.",
+  "significance": "A documented recurrent-neural-network milestone whose original publisher record explicitly names and describes the LSTM method and its mechanism for learning across long time intervals.",
+  "people": ["Sepp Hochreiter", "Jürgen Schmidhuber"],
+  "organizations": ["MIT Press", "Neural Computation"],
+  "technologies": ["Long short-term memory", "Recurrent neural networks", "Gradient-based learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Authors, journal citation, publication date, DOI and the paper's description of LSTM are verified against the MIT Press Neural Computation record. No claim is made here that this record alone establishes every precursor or later influence relationship.",
+    "lastVerified": "2026-09-08T04:58:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Long Short-Term Memory",
+      "url": "https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory",
+      "publisher": "MIT Press / Neural Computation",
+      "publishedDate": "1997-11-15",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original MIT Press publisher record supports the paper, authors, technical description and 15 November 1997 publication date at day precision. Candidate policy keeps relationships empty until chronology is deliberately updated during canonical admission.",
+    "nextStep": "Consider canonical admission in the pre-Transformer recurrent-neural-network history after chronology-safe placement among other verified 1990s records; add only chronology traversal unless stronger relationship claims are separately evidenced."
+  }
+}
