@@ -1,0 +1,52 @@
+{
+  "id": "bert-2018",
+  "recordType": "event",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "displayDate": "October 11, 2018",
+  "eventDate": "2018-10-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova submitted BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding on October 11, 2018. The paper introduced BERT, a bidirectional Transformer-based language representation model pretrained from unlabeled text and designed for fine-tuning across downstream natural-language-processing tasks.",
+  "significance": "A documented language-model milestone introducing BERT and its bidirectional pretraining approach for transfer to multiple natural-language-processing tasks.",
+  "people": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"],
+  "organizations": ["Google"],
+  "technologies": ["BERT", "Transformer", "Language representation pretraining"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, October 11 2018 submission date and the paper's description of BERT as a bidirectional pretrained language representation model are supported by the original arXiv record; Google Research independently identifies the same authors and publication work. No later conference-publication date is substituted for the documented 2018 preprint event.",
+    "lastVerified": "2026-09-08T06:44:53+08:00"
+  },
+  "sources": [
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "publisher": "arXiv",
+      "publishedDate": "2018-10-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://research.google/pubs/bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding/",
+      "publisher": "Google Research",
+      "publishedDate": null,
+      "sourceType": "institutional-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the October 11 2018 preprint event and the technical claims recorded here at day precision. Chronology alone is not used to assert ancestry, influence or causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; retain relationship fields empty unless any non-chronological relationship receives dedicated evidence."
+  }
+}
