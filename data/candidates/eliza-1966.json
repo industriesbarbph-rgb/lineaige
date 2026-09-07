@@ -17,17 +17,17 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Title, author, journal, volume, issue, pages and January 1966 publication timing are supported by MIT Press's archival reproduction and MIT institutional material. No exact publication day is asserted.",
+    "note": "Title, author, journal, volume, issue, pages and January 1966 publication timing are supported by the original Communications of the ACM DOI record and corroborated by MIT institutional material. No exact publication day is asserted.",
     "lastVerified": "2026-09-07T21:52:58+08:00"
   },
   "sources": [
     {
-      "title": "ELIZA—A Computer Program for the Study of Natural Language Communication between Man and Machine (1966)",
-      "url": "https://direct.mit.edu/books/edited-volume/5003/chapter/2657050/ELIZA-A-Computer-Program-for-the-Study-of-Natural",
-      "publisher": "MIT Press",
+      "title": "ELIZA—A Computer Program for the Study of Natural Language Communication Between Man and Machine",
+      "url": "https://doi.org/10.1145/365153.365168",
+      "publisher": "Communications of the ACM / Association for Computing Machinery",
       "publishedDate": null,
       "publishedMonth": "1966-01",
-      "sourceType": "archive",
+      "sourceType": "paper",
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
