@@ -24,6 +24,9 @@ jobs:
       - name: Audit non-canonical research ledger
         run: python3 scripts/audit_research_ledger.py
 
+      - name: Audit evidence-controlled candidates
+        run: python3 scripts/audit_candidates.py
+
       - name: Audit global canonical coverage
         run: python3 scripts/audit_global_coverage.py
 
