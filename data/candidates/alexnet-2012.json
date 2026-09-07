@@ -1,0 +1,43 @@
+{
+  "id": "alexnet-2012",
+  "recordType": "event",
+  "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+  "displayDate": "2012",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 2012,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Alex Krizhevsky, Ilya Sutskever and Geoffrey E. Hinton published ImageNet Classification with Deep Convolutional Neural Networks in the 2012 Neural Information Processing Systems proceedings, reporting a large deep convolutional neural network trained for ImageNet classification and substantially lower test error than the comparison results described in the paper.",
+  "significance": "A documented 2012 deep-convolutional-network milestone in large-scale image classification, with the original proceedings record describing the model architecture, GPU implementation and ImageNet results.",
+  "people": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+  "organizations": [],
+  "technologies": ["Deep convolutional neural network", "ImageNet", "GPU computing"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, 2012 proceedings placement, deep convolutional architecture, ImageNet training context and reported test-error comparison are verified against the official NeurIPS proceedings record. The candidate is intentionally stored at year precision because the proceedings record reviewed here establishes 2012, not an exact publication day.",
+    "lastVerified": "2026-09-08T03:52:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "url": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "publisher": "Neural Information Processing Systems Foundation",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The 2012 proceedings record and technical claims are directly supported by the original NeurIPS source, but candidate policy keeps relationships empty until chronology is deliberately updated during canonical admission.",
+    "nextStep": "Consider canonical admission after backpropagation-1986 and before transformer-2017, preserving year precision and adding chronology-only traversal unless stronger relationship claims are separately evidenced."
+  }
+}
