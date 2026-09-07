@@ -1,0 +1,61 @@
+{
+  "id": "dartmouth-workshop-1956",
+  "recordType": "event",
+  "title": "Dartmouth Summer Research Project on Artificial Intelligence",
+  "displayDate": "Summer 1956",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1956,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "In the summer of 1956, a small group of scientists gathered at Dartmouth College for the Dartmouth Summer Research Project on Artificial Intelligence, a research workshop organized under John McCarthy's leadership.",
+  "significance": "A documented 1956 workshop in the formation of artificial intelligence as a field, following the 1955 proposal that named the project.",
+  "people": ["John McCarthy"],
+  "organizations": ["Dartmouth College"],
+  "technologies": [],
+  "geography": {
+    "city": "Hanover",
+    "region": "New Hampshire",
+    "country": "United States",
+    "context": "event-location",
+    "note": "Dartmouth's institutional history identifies the 1956 Summer Research Project as a gathering held at Dartmouth; Dartmouth's current AI history describes the gathering as taking place in Hanover during summer 1956.",
+    "sourceUrl": "https://ai.dartmouth.edu/our-story"
+  },
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Year, workshop title, Dartmouth location/context and John McCarthy's leadership verified against Dartmouth institutional history. No exact start or end day is asserted because the reviewed first-party sources describe the gathering at summer/year precision rather than supplying a day-level event boundary.",
+    "lastVerified": "2026-09-08T01:44:53+08:00"
+  },
+  "sources": [
+    {
+      "title": "Our Story — Where AI was Born",
+      "url": "https://ai.dartmouth.edu/our-story",
+      "publisher": "Dartmouth College",
+      "publishedDate": null,
+      "sourceType": "institutional-history",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Artificial Intelligence (AI) Coined at Dartmouth",
+      "url": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth",
+      "publisher": "Dartmouth College",
+      "publishedDate": null,
+      "sourceType": "institutional-history",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The workshop is verified at year/summer precision, and LINEAiGE now supports non-day canonical temporal precision. Admission should be deliberate because the existing 1955 Dartmouth proposal is already canonical and the two records must remain distinct: proposal versus 1956 workshop.",
+    "nextStep": "Review canonical chronology around the 1955 proposal, 1956 workshop and 1958 perceptron record, then admit this record with year precision and chronology-only traversal links without implying direct causality."
+  }
+}
