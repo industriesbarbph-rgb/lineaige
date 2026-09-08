@@ -18,7 +18,7 @@
     "factualClaim": true,
     "confidence": "high",
     "note": "Title, authors, journal, volume, pages and December 1943 publication month verified against Springer; bibliographic metadata corroborated by the National Diet Library/CiNii record. No exact publication day is asserted.",
-    "lastVerified": "2026-09-07T20:48:41+08:00"
+    "lastVerified": "2026-09-08T11:44:52+08:00"
   },
   "sources": [
     {
@@ -48,8 +48,8 @@
   "corrections": [],
   "contributor": null,
   "candidateMeta": {
-    "canonicalAdmission": "blocked-date-precision",
-    "admissionReason": "The historical record is verified to December 1943, but the current canonical event schema assumes day-level ISO dates. LINEAiGE must support month precision before admitting this record without inventing an exact day.",
-    "nextStep": "Extend canonical temporal architecture to preserve month-level precision, then admit this record chronologically before Turing 1950 using chronology-only traversal links."
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The publication is verified to December 1943 and LINEAiGE now supports month-precision canonical chronology. Admission should be deliberate so this record can be placed before Turing 1950 without inventing a day or turning chronological adjacency into a causal claim.",
+    "nextStep": "Review canonical chronology, map candidate publicationMonth 1943-12 to canonical eventMonth 1943-12, and admit with chronology-only traversal links unless stronger relationship claims are separately evidenced."
   }
 }
