@@ -1,0 +1,52 @@
+{
+  "id": "gpt-2-2019",
+  "recordType": "event",
+  "title": "Better Language Models and Their Implications (GPT-2)",
+  "displayDate": "February 14, 2019",
+  "eventDate": "2019-02-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI published Better Language Models and Their Implications on February 14, 2019, introducing GPT-2 as a large transformer-based language model with 1.5 billion parameters and describing an initial staged-release approach in which a much smaller model and technical paper were released while the full trained model was withheld.",
+  "significance": "A documented language-model milestone combining a major GPT-family scale increase with an explicitly staged model-release strategy.",
+  "people": ["Alec Radford", "Jeffrey Wu", "Dario Amodei", "Daniella Amodei", "Jack Clark", "Miles Brundage", "Ilya Sutskever"],
+  "organizations": ["OpenAI"],
+  "technologies": ["GPT-2", "Transformer-based language model"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The February 14 2019 publication date, GPT-2 name, 1.5-billion-parameter scale, transformer-based description, and initial partial-release strategy are supported by OpenAI's first-party milestone page. The date is attached to this documented public milestone, not asserted as the model's training-completion or internal creation date. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-08T19:48:30+08:00"
+  },
+  "sources": [
+    {
+      "title": "Better language models and their implications",
+      "url": "https://openai.com/index/better-language-models/",
+      "publisher": "OpenAI",
+      "publishedDate": "2019-02-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "openai/gpt-2",
+      "url": "https://github.com/openai/gpt-2",
+      "publisher": "OpenAI",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence establishes the February 14 2019 GPT-2 public milestone and the technical/release-policy claims recorded here at day precision. Chronology is kept separate from ancestry, influence, causality, and geography.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; retain relationship and geography fields unset unless dedicated evidence supports those semantics."
+  }
+}
