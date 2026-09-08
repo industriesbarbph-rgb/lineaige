@@ -1,0 +1,53 @@
+{
+  "id": "neocognitron-1980",
+  "recordType": "event",
+  "title": "Neocognitron",
+  "displayDate": "April 1980",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1980-04",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Kunihiko Fukushima published Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position in Biological Cybernetics in April 1980. The paper proposes a self-organizing neural-network model for visual pattern recognition and explicitly gives the network the nickname neocognitron.",
+  "significance": "A documented historical neural-network milestone describing a hierarchical self-organizing pattern-recognition architecture before later convolutional-network developments.",
+  "people": ["Kunihiko Fukushima"],
+  "organizations": [],
+  "technologies": ["Neocognitron", "Self-organizing neural network", "Pattern recognition"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, author, journal placement, April 1980 publication month, pages 193-202, DOI, and the paper's description of a self-organizing visual-pattern-recognition network named the neocognitron are supported by the Springer-linked bibliographic record and PubMed. Month precision is used because the evidence reviewed here establishes April 1980 without requiring an exact publication day. No geography, institutional affiliation, ancestry, influence, or causal relationship is inferred.",
+    "lastVerified": "2026-09-08T14:47:11+08:00"
+  },
+  "sources": [
+    {
+      "title": "Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position",
+      "url": "https://doi.org/10.1007/BF00344251",
+      "publisher": "Springer / Biological Cybernetics",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Neocognitron: a self organizing neural network model for a mechanism of pattern recognition unaffected by shift in position",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7370364/",
+      "publisher": "PubMed / U.S. National Library of Medicine",
+      "publishedDate": null,
+      "sourceType": "bibliographic-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary and corroborating bibliographic evidence supports the April 1980 publication milestone and the technical claims recorded here at month precision. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe review, preserving month precision and keeping geography and relationships unset unless separately evidenced."
+  }
+}
