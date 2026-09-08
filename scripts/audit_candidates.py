@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 CANDIDATES = ROOT / "data" / "candidates"
+EVENTS = ROOT / "data" / "events.json"
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 MONTH_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
 DATE_PRECISIONS = {"day", "month", "year", "unknown"}
@@ -35,9 +36,22 @@ def valid_iso_day(value):
     return parsed.isoformat() == value
 
 
+def normalize_title(value):
+    return " ".join(value.split()).casefold()
+
+
 files = sorted(CANDIDATES.glob("*.json"))
 if not files:
     fail("data/candidates must contain at least one candidate record")
+
+with EVENTS.open("r", encoding="utf-8") as handle:
+    canonical_payload = json.load(handle)
+canonical_titles = {}
+for record in canonical_payload.get("events", []):
+    title = record.get("title")
+    rid = record.get("id")
+    if isinstance(title, str) and title.strip() and isinstance(rid, str):
+        canonical_titles[normalize_title(title)] = rid
 
 seen = set()
 seen_titles = {}
@@ -55,9 +69,11 @@ for path in files:
     title = record.get("title")
     if not isinstance(title, str) or not title.strip():
         fail(f"{rid}: candidate title is required")
-    normalized_title = " ".join(title.split()).casefold()
+    normalized_title = normalize_title(title)
     if normalized_title in seen_titles:
         fail(f"{rid}: duplicate candidate title also used by {seen_titles[normalized_title]}: {title!r}")
+    if normalized_title in canonical_titles:
+        fail(f"{rid}: candidate title already exists canonically as {canonical_titles[normalized_title]}: {title!r}")
     seen_titles[normalized_title] = rid
 
     if record.get("status") != "VERIFIED CANDIDATE":
