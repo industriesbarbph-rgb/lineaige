@@ -39,6 +39,7 @@ for path in files:
 
     candidate_precision = record.get("datePrecision")
     candidate_month = record.get("publicationMonth")
+    candidate_year = record.get("eventYear")
 
     for index, source in enumerate(sources, start=1):
         source_count += 1
@@ -47,6 +48,7 @@ for path in files:
 
         published_date = source.get("publishedDate")
         published_month = source.get("publishedMonth")
+        published_year = source.get("publishedYear")
 
         if published_date is not None and not valid_iso_day(published_date):
             fail(f"{rid}: source #{index} publishedDate must be a real ISO YYYY-MM-DD date or null")
@@ -57,6 +59,14 @@ for path in files:
             if published_date is not None and published_month != published_date[:7]:
                 fail(f"{rid}: source #{index} publishedMonth contradicts publishedDate")
 
+        if published_year is not None:
+            if not isinstance(published_year, int) or published_year < 1 or published_year > 9999:
+                fail(f"{rid}: source #{index} publishedYear must be an integer 1..9999 or null")
+            if published_date is not None and published_year != int(published_date[:4]):
+                fail(f"{rid}: source #{index} publishedYear contradicts publishedDate")
+            if published_month is not None and published_year != int(published_month[:4]):
+                fail(f"{rid}: source #{index} publishedYear contradicts publishedMonth")
+
         if (
             candidate_precision == "month"
             and source.get("primary") is True
@@ -65,5 +75,14 @@ for path in files:
             and published_month != candidate_month
         ):
             fail(f"{rid}: primary claim-evidence publishedMonth contradicts candidate publicationMonth")
+
+        if (
+            candidate_precision == "year"
+            and source.get("primary") is True
+            and source.get("sourceRole") == "claim-evidence"
+            and published_year is not None
+            and published_year != candidate_year
+        ):
+            fail(f"{rid}: primary claim-evidence publishedYear contradicts candidate eventYear")
 
 print(f"OK: temporal metadata validated across {source_count} candidate sources")
