@@ -1,0 +1,65 @@
+{
+  "id": "ibm-watson-jeopardy-2011",
+  "recordType": "event",
+  "title": "IBM Watson wins the Jeopardy! challenge",
+  "displayDate": "16 February 2011",
+  "eventDate": "2011-02-16",
+  "datePrecision": "day",
+  "publicationMonth": "2011-02",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "IBM's Watson question-answering system defeated Jeopardy! champions Ken Jennings and Brad Rutter in a televised contest conducted over February 14–16, 2011. IBM's retrospective records Watson's final winning score as USD 77,147, ahead of Jennings and Rutter.",
+  "significance": "A documented natural-language question-answering milestone in which IBM Watson competed successfully against leading human Jeopardy! champions.",
+  "people": [
+    "Ken Jennings",
+    "Brad Rutter",
+    "David Ferrucci"
+  ],
+  "organizations": [
+    "IBM",
+    "IBM Research"
+  ],
+  "technologies": [
+    "Watson",
+    "DeepQA",
+    "Natural language processing",
+    "Question answering"
+  ],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "IBM's official Watson history states that Watson defeated Ken Jennings and Brad Rutter in the televised February 2011 Jeopardy! contest and records the final scores. IBM's January 31, 2011 announcement explicitly schedules Watson's contest against the two champions for February 14–16, 2011. The candidate therefore uses February 16, 2011 as the documented completion date of the winning contest, not as a system-birth date. No geography, ancestry, influence, or causality is inferred.",
+    "lastVerified": "2026-09-08T16:47:51+08:00"
+  },
+  "sources": [
+    {
+      "title": "Watson, ‘Jeopardy!’ champion",
+      "url": "https://www.ibm.com/history/watson-jeopardy",
+      "publisher": "IBM",
+      "publishedDate": null,
+      "sourceType": "official-history",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "IBM Watson to Compete Against Jeopardy! Champions February 14–16, 2011",
+      "url": "https://fr.newsroom.ibm.com/2011-01-31-En-cas-de-victoire-de-Watson-au-jeu-televise-Jeopardy-IBM-sengage-a-reverser-ses-gains-a-des-oeuvres-de-charite",
+      "publisher": "IBM Newsroom",
+      "publishedDate": "2011-01-31",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "IBM first-party records support the contest participants, February 14–16 schedule, Watson victory, final scores, and natural-language question-answering context. The record is typed as a competition-result milestone rather than a system-birth claim.",
+    "nextStep": "Consider canonical admission after chronology-safe review. Keep the event typed as the Jeopardy! competition result; do not infer system ancestry, influence, or geography without separate evidence."
+  }
+}
