@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -34,6 +34,18 @@ def valid_iso_day(value):
     except ValueError:
         return False
     return parsed.isoformat() == value
+
+
+def valid_verification_time(value):
+    if valid_iso_day(value):
+        return True
+    if not isinstance(value, str):
+        return False
+    try:
+        parsed = datetime.fromisoformat(value)
+    except ValueError:
+        return False
+    return parsed.tzinfo is not None
 
 
 def normalize_title(value):
@@ -97,8 +109,8 @@ for path in files:
         fail(f"{rid}: verified candidate must be a factual claim")
     if verification.get("confidence") not in {"medium", "high"}:
         fail(f"{rid}: verified candidate confidence must be medium or high")
-    if not valid_iso_day(verification.get("lastVerified")):
-        fail(f"{rid}: verification.lastVerified must be a real ISO calendar date YYYY-MM-DD")
+    if not valid_verification_time(verification.get("lastVerified")):
+        fail(f"{rid}: verification.lastVerified must be ISO YYYY-MM-DD or a timezone-aware ISO datetime")
 
     precision = record.get("datePrecision", "day" if record.get("eventDate") else "unknown")
     if precision not in DATE_PRECISIONS:
