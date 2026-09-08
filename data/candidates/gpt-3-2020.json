@@ -1,0 +1,52 @@
+{
+  "id": "gpt-3-2020",
+  "recordType": "event",
+  "title": "Language Models are Few-Shot Learners (GPT-3)",
+  "displayDate": "May 28, 2020",
+  "eventDate": "2020-05-28",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Tom B. Brown and coauthors submitted Language Models are Few-Shot Learners on May 28, 2020. The paper reports GPT-3, an autoregressive language model with 175 billion parameters, and evaluates task-agnostic zero-shot, one-shot and few-shot performance without gradient updates or fine-tuning during those evaluations.",
+  "significance": "A documented language-model milestone reporting GPT-3 and large-scale task-agnostic few-shot evaluation through text interaction.",
+  "people": ["Tom B. Brown", "Benjamin Mann", "Nick Ryder", "Melanie Subbiah", "Jared Kaplan", "Prafulla Dhariwal", "Arvind Neelakantan", "Pranav Shyam", "Girish Sastry", "Amanda Askell", "Sandhini Agarwal", "Ariel Herbert-Voss", "Gretchen Krueger", "Tom Henighan", "Rewon Child", "Aditya Ramesh", "Daniel M. Ziegler", "Jeffrey Wu", "Clemens Winter", "Christopher Hesse", "Mark Chen", "Eric Sigler", "Mateusz Litwin", "Scott Gray", "Benjamin Chess", "Jack Clark", "Christopher Berner", "Sam McCandlish", "Alec Radford", "Ilya Sutskever", "Dario Amodei"],
+  "organizations": ["OpenAI"],
+  "technologies": ["GPT-3", "Autoregressive language model", "Few-shot learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, May 28 2020 submission/publication milestone, GPT-3's 175-billion-parameter scale and the described zero/one/few-shot evaluation setup are supported by the original arXiv record and OpenAI's first-party milestone page. The date is attached to this documented paper milestone, not asserted as a separate model-birth date. No ancestry, influence, causal relationship or geography is inferred.",
+    "lastVerified": "2026-09-08T12:44:57+08:00"
+  },
+  "sources": [
+    {
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "publisher": "arXiv",
+      "publishedDate": "2020-05-28",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Language models are few-shot learners",
+      "url": "https://openai.com/index/language-models-are-few-shot-learners/",
+      "publisher": "OpenAI",
+      "publishedDate": "2020-05-28",
+      "sourceType": "institutional-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary and first-party evidence establishes the May 28 2020 paper milestone and the technical claims recorded here at day precision. Chronology is kept separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; retain relationship and geography fields unset unless dedicated evidence supports those semantics."
+  }
+}
