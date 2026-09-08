@@ -1,0 +1,52 @@
+{
+  "id": "gpt-4-2023",
+  "recordType": "event",
+  "title": "GPT-4 Public Introduction",
+  "displayDate": "March 14, 2023",
+  "eventDate": "2023-03-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI publicly introduced GPT-4 on March 14, 2023. OpenAI described GPT-4 as a large multimodal model capable of accepting image and text inputs and producing text outputs.",
+  "significance": "A documented public introduction of GPT-4 and a major multimodal-model milestone in OpenAI's model history.",
+  "people": [],
+  "organizations": ["OpenAI"],
+  "technologies": ["GPT-4", "Multimodal model"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "OpenAI's first-party GPT-4 launch page establishes the March 14, 2023 public introduction milestone and describes GPT-4 as accepting image and text inputs and producing text outputs. The GPT-4 Technical Report corroborates the multimodal capability description. The date is attached only to this documented public-introduction milestone; no internal model-completion date, geography, ancestry, influence, causal relationship, or unsupported precision is inferred.",
+    "lastVerified": "2026-09-09T02:49:10+08:00"
+  },
+  "sources": [
+    {
+      "title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4/",
+      "publisher": "OpenAI",
+      "publishedDate": "2023-03-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "GPT-4 Technical Report",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "publisher": "arXiv",
+      "publishedDate": "2023-03-15",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party launch evidence establishes the March 14, 2023 public introduction at day precision, with the technical report corroborating the multimodal capability description. Chronology is kept separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; retain relationships and geography unset unless dedicated evidence supports those semantics."
+  }
+}
