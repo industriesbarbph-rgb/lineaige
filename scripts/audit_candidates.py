@@ -40,6 +40,7 @@ if not files:
     fail("data/candidates must contain at least one candidate record")
 
 seen = set()
+seen_titles = {}
 for path in files:
     with path.open("r", encoding="utf-8") as handle:
         record = json.load(handle)
@@ -50,6 +51,14 @@ for path in files:
     if rid in seen:
         fail(f"duplicate candidate id {rid}")
     seen.add(rid)
+
+    title = record.get("title")
+    if not isinstance(title, str) or not title.strip():
+        fail(f"{rid}: candidate title is required")
+    normalized_title = " ".join(title.split()).casefold()
+    if normalized_title in seen_titles:
+        fail(f"{rid}: duplicate candidate title also used by {seen_titles[normalized_title]}: {title!r}")
+    seen_titles[normalized_title] = rid
 
     if record.get("status") != "VERIFIED CANDIDATE":
         fail(f"{rid}: candidate status must be VERIFIED CANDIDATE")
