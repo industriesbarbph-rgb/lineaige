@@ -1,0 +1,52 @@
+{
+  "id": "alphafold-2021",
+  "recordType": "event",
+  "title": "Highly accurate protein structure prediction with AlphaFold",
+  "displayDate": "July 15, 2021",
+  "eventDate": "2021-07-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "John Jumper and colleagues published Highly accurate protein structure prediction with AlphaFold in Nature on July 15, 2021. The paper describes the redesigned AlphaFold neural-network system and reports CASP14 performance with accuracy competitive with experimental structures in a majority of cases.",
+  "significance": "A documented AI-for-science milestone in computational protein-structure prediction, preserved here as a publication event rather than an inferred system-birth date.",
+  "people": ["John Jumper", "Richard Evans", "Demis Hassabis"],
+  "organizations": ["DeepMind"],
+  "technologies": ["AlphaFold", "Protein structure prediction", "Deep learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Nature establishes the article title, July 15 2021 publication date, named authors, the redesigned AlphaFold neural-network model, and the reported CASP14 accuracy claims. Google DeepMind independently preserves July 15 2021 as the methodology-publication milestone. This candidate records the publication event only and does not infer a separate AlphaFold birth date, geography, ancestry, influence, or causal relationship.",
+    "lastVerified": "2026-09-08T17:45:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "publisher": "Nature",
+      "publishedDate": "2021-07-15",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "AlphaFold",
+      "url": "https://deepmind.google/science/alphafold/",
+      "publisher": "Google DeepMind",
+      "publishedDate": null,
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publication evidence supports the July 15 2021 AlphaFold methodology publication milestone and the technical/performance claims recorded here at day precision. No separate system-birth date, geography, ancestry, influence, causality, or relationships are inferred.",
+    "nextStep": "Consider canonical admission only after chronology-safe placement and retain empty relationships unless separately evidenced."
+  }
+}
