@@ -48,8 +48,8 @@
   "corrections": [],
   "contributor": null,
   "candidateMeta": {
-    "canonicalAdmission": "blocked-date-precision",
-    "admissionReason": "The historical publication is supported to January 1966, but the current canonical chronology assumes day-level ISO eventDate values. LINEAiGE must support month precision before admission without inventing an exact publication day.",
-    "nextStep": "After canonical month-precision support is implemented, consider admission between Rosenblatt 1958 and Transformer 2017 using chronology-only traversal until any stronger relationship is separately evidenced."
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary evidence supports the January 1966 publication event at month precision. Canonical month-precision support is now available, so the former date-precision blocker no longer applies. No exact publication day, ancestry, influence, causality, or geography is inferred.",
+    "nextStep": "Consider canonical admission using month-precision chronology; preserve empty non-chronological relationships unless dedicated evidence supports them."
   }
 }
