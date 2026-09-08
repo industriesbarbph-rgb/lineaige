@@ -1,0 +1,53 @@
+{
+  "id": "imagenet-2009",
+  "recordType": "event",
+  "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+  "displayDate": "2009",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 2009,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei published ImageNet: A Large-Scale Hierarchical Image Database in the 2009 IEEE Conference on Computer Vision and Pattern Recognition proceedings. The paper introduces ImageNet as a large-scale ontology of images built on the WordNet structure and reports a then-current dataset of 12 subtrees, 5,247 synsets, and 3.2 million images.",
+  "significance": "A documented computer-vision data milestone establishing ImageNet as a large-scale hierarchical image database in the 2009 CVPR literature.",
+  "people": ["Jia Deng", "Wei Dong", "Richard Socher", "Li-Jia Li", "Kai Li", "Li Fei-Fei"],
+  "organizations": [],
+  "technologies": ["ImageNet", "WordNet", "Large-scale image databases"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The IEEE CVPR 2009 proceedings record establishes the title, authors, 2009 publication context and the paper's description of ImageNet as a large-scale image ontology built on WordNet, including the reported then-current scale of 12 subtrees, 5,247 synsets and 3.2 million images. The Princeton institutional publication record corroborates the same paper, authors, year and conference context. This candidate is intentionally stored at year precision: the reviewed records establish the 2009 publication and conference context, but this record does not reinterpret a conference date or IEEE indexing date as the paper's exact publication day. No geography, institutional affiliation, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-08T23:49:09+08:00"
+  },
+  "sources": [
+    {
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://doi.org/10.1109/CVPR.2009.5206848",
+      "publisher": "IEEE",
+      "publishedDate": null,
+      "sourceType": "conference-proceedings",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+      "url": "https://collaborate.princeton.edu/en/publications/imagenet-a-large-scale-hierarchical-image-database/",
+      "publisher": "Princeton University",
+      "publishedDate": null,
+      "sourceType": "institutional-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary proceedings evidence supports the 2009 publication milestone and the dataset claims recorded here at year precision. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; retain year precision and keep relationships, institutional affiliation and geography unset unless dedicated evidence supports those semantics."
+  }
+}
