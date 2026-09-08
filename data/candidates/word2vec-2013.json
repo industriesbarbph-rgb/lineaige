@@ -1,0 +1,52 @@
+{
+  "id": "word2vec-2013",
+  "recordType": "event",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "displayDate": "January 16, 2013",
+  "eventDate": "2013-01-16",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean submitted Efficient Estimation of Word Representations in Vector Space to arXiv on January 16, 2013, describing two model architectures for learning continuous vector representations of words from very large data sets.",
+  "significance": "A documented word-representation and natural-language-processing milestone associated with efficient neural word-embedding methods.",
+  "people": ["Tomas Mikolov", "Kai Chen", "Greg Corrado", "Jeffrey Dean"],
+  "organizations": ["Google"],
+  "technologies": ["Word embeddings", "Continuous word representations", "Natural language processing"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the title, authors, submission date of January 16 2013, and the paper's proposal of two architectures for learning continuous vector word representations from large data sets. Google Research independently preserves the publication and abstract. This record is a publication/submission milestone and does not infer a separate software-release date, geography, ancestry, influence, or causal relationship.",
+    "lastVerified": "2026-09-08T08:50:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "url": "https://arxiv.org/abs/1301.3781",
+      "publisher": "arXiv",
+      "publishedDate": "2013-01-16",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "url": "https://research.google/pubs/efficient-estimation-of-word-representations-in-vector-space/",
+      "publisher": "Google Research",
+      "publishedDate": null,
+      "sourceType": "institutional-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary source evidence supports the January 16 2013 submission event and the authors' stated technical claims at day precision. No geography, ancestry, influence, causality, or separate software-release date is inferred.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve empty relationships unless dedicated evidence supports a non-chronological relationship."
+  }
+}
