@@ -121,15 +121,22 @@ for path in files:
     if precision == "day":
         if not valid_iso_day(event_date):
             fail(f"{rid}: day precision requires a real ISO calendar date YYYY-MM-DD")
-        if publication_month is not None or event_year is not None:
-            fail(f"{rid}: day precision must not carry month/year fallback fields")
+        if publication_month is not None:
+            if not isinstance(publication_month, str) or not MONTH_RE.fullmatch(publication_month):
+                fail(f"{rid}: day-precision publicationMonth must be YYYY-MM when present")
+            if publication_month != event_date[:7]:
+                fail(f"{rid}: day-precision publicationMonth contradicts eventDate")
+        if event_year is not None:
+            if not isinstance(event_year, int) or event_year != int(event_date[:4]):
+                fail(f"{rid}: day-precision eventYear contradicts eventDate")
     if precision == "month":
         if event_date is not None:
             fail(f"{rid}: month precision must not fabricate a day-level eventDate")
         if not isinstance(publication_month, str) or not MONTH_RE.fullmatch(publication_month):
             fail(f"{rid}: month precision requires publicationMonth YYYY-MM")
         if event_year is not None:
-            fail(f"{rid}: month precision must not carry a separate eventYear")
+            if not isinstance(event_year, int) or event_year != int(publication_month[:4]):
+                fail(f"{rid}: month-precision eventYear contradicts publicationMonth")
     if precision == "year":
         if event_date is not None or publication_month is not None:
             fail(f"{rid}: year precision must not carry day/month date fields")
