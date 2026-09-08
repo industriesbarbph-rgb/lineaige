@@ -1,0 +1,52 @@
+{
+  "id": "dqn-2015",
+  "recordType": "event",
+  "title": "Human-level control through deep reinforcement learning (DQN)",
+  "displayDate": "February 25, 2015",
+  "eventDate": "2015-02-25",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Volodymyr Mnih and colleagues published Human-level control through deep reinforcement learning online in Nature on February 25, 2015. The paper describes a deep Q-network (DQN) agent that combines deep neural networks with reinforcement learning and reports evaluation on 49 Atari 2600 games using pixels and game scores as inputs.",
+  "significance": "A documented deep-reinforcement-learning milestone establishing the DQN agent and its reported multi-game Atari evaluation.",
+  "people": ["Volodymyr Mnih", "Koray Kavukcuoglu", "David Silver", "Andrei A. Rusu", "Joel Veness", "Marc G. Bellemare", "Alex Graves", "Martin Riedmiller", "Andreas K. Fidjeland", "Georg Ostrovski", "Stig Petersen", "Charles Beattie", "Amir Sadik", "Ioannis Antonoglou", "Helen King", "Dharshan Kumaran", "Daan Wierstra", "Shane Legg", "Demis Hassabis"],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["Deep Q-network", "DQN", "Deep reinforcement learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Nature verifies the title, full author list, online publication date of February 25 2015, Google DeepMind affiliation, DQN terminology, reinforcement-learning/deep-neural-network method and the reported 49-game Atari evaluation. The day-precision date is attached specifically to the Nature online-publication milestone; PubMed records the issue date as February 26 2015. No separate system-birth date, geography, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-08T18:45:14+08:00"
+  },
+  "sources": [
+    {
+      "title": "Human-level control through deep reinforcement learning",
+      "url": "https://www.nature.com/articles/nature14236",
+      "publisher": "Nature",
+      "publishedDate": "2015-02-25",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Human-level control through deep reinforcement learning",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25719670/",
+      "publisher": "PubMed / U.S. National Library of Medicine",
+      "publishedDate": "2015-02-26",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publisher evidence establishes the February 25 2015 online-publication milestone and the technical claims recorded here at day precision. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep geography and relationship fields unset unless dedicated evidence supports the exact semantics required by LINEAiGE."
+  }
+}
