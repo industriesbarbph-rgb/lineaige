@@ -66,6 +66,18 @@ for path in files:
         fail(f"duplicate candidate id {rid}")
     seen.add(rid)
 
+    if record.get("recordType") != "event":
+        fail(f"{rid}: candidate recordType must be event")
+    if record.get("temporalState") != "recorded":
+        fail(f"{rid}: candidate temporalState must be recorded")
+    for field in ("summary", "significance"):
+        if not isinstance(record.get(field), str) or not record[field].strip():
+            fail(f"{rid}: candidate {field} is required")
+    for field in ("people", "organizations", "technologies"):
+        value = record.get(field)
+        if not isinstance(value, list) or any(not isinstance(item, str) or not item.strip() for item in value):
+            fail(f"{rid}: candidate {field} must be a list of non-empty strings")
+
     title = record.get("title")
     if not isinstance(title, str) or not title.strip():
         fail(f"{rid}: candidate title is required")
