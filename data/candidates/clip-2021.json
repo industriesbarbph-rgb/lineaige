@@ -1,0 +1,52 @@
+{
+  "id": "clip-2021",
+  "recordType": "event",
+  "title": "CLIP: Connecting Text and Images",
+  "displayDate": "January 5, 2021",
+  "eventDate": "2021-01-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI published its CLIP milestone on January 5, 2021, introducing Contrastive Language–Image Pre-training as a neural network that learns visual concepts from natural-language supervision and can be applied to visual classification tasks by specifying category names in natural language.",
+  "significance": "A documented multimodal-learning milestone connecting natural-language supervision with transferable visual recognition and zero-shot evaluation.",
+  "people": ["Alec Radford", "Ilya Sutskever", "Jong Wook Kim", "Gretchen Krueger", "Sandhini Agarwal"],
+  "organizations": ["OpenAI"],
+  "technologies": ["CLIP", "Contrastive Language–Image Pre-training"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The January 5 2021 milestone date, CLIP name, natural-language-supervision description, zero-shot visual-classification framing, and listed OpenAI milestone authors are supported directly by OpenAI's first-party CLIP page. The date is attached only to that documented public milestone; no internal training-completion date, geography, ancestry, influence, causality, or relationships are inferred. The later arXiv submission date is retained as corroborating paper metadata rather than substituted for the earlier first-party public milestone.",
+    "lastVerified": "2026-09-08T20:49:08+08:00"
+  },
+  "sources": [
+    {
+      "title": "CLIP: Connecting text and images",
+      "url": "https://openai.com/index/clip/",
+      "publisher": "OpenAI",
+      "publishedDate": "2021-01-05",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://arxiv.org/abs/2103.00020",
+      "publisher": "arXiv",
+      "publishedDate": "2021-02-26",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence establishes a January 5 2021 public CLIP milestone and the multimodal/zero-shot claims recorded here at day precision. Chronology remains separate from ancestry, influence, causality, and geography.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; do not add influence, ancestry, geography, or other relationships without dedicated evidence supporting those exact semantics."
+  }
+}
