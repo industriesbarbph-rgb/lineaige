@@ -1,0 +1,55 @@
+{
+  "id": "shannon-computer-chess-1950",
+  "recordType": "event",
+  "title": "Programming a Computer for Playing Chess",
+  "displayDate": "March 1950",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1950-03",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Claude E. Shannon published Programming a Computer for Playing Chess in Philosophical Magazine in March 1950, describing how a general-purpose computer could be programmed to play chess through move selection and position evaluation rather than exhaustive enumeration of every possible continuation.",
+  "significance": "A documented early computer-chess paper that framed chess as a programming and search problem for general-purpose digital computers, providing a historically useful pre-Dartmouth record of machine problem-solving research.",
+  "people": ["Claude E. Shannon"],
+  "organizations": ["Philosophical Magazine", "Taylor & Francis"],
+  "technologies": ["Computer chess", "Position evaluation", "Game-tree search"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, author, journal, volume/issue, pages and March 1950 publication month verified against the publisher DOI metadata as indexed by CiNii; the Computer History Museum preserves a copy catalogued to 1950-03. No exact publication day is asserted.",
+    "lastVerified": "2026-09-09T04:44:23+08:00"
+  },
+  "sources": [
+    {
+      "title": "XXII. Programming a computer for playing chess",
+      "url": "https://doi.org/10.1080/14786445008521796",
+      "publisher": "Taylor & Francis / Philosophical Magazine",
+      "publishedDate": null,
+      "publishedMonth": "1950-03",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Programming a Computer for Playing Chess",
+      "url": "https://www.computerhistory.org/chess/doc-431614f453dde/",
+      "publisher": "Computer History Museum",
+      "publishedDate": null,
+      "publishedMonth": "1950-03",
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The publication is verified to March 1950 without requiring a fabricated day. Canonical admission should be deliberate because it predates Turing's October 1950 paper and should be connected through chronology-only traversal unless stronger relationships are separately evidenced.",
+    "nextStep": "Review canonical chronology and admit using publicationMonth 1950-03, preserving month precision and adding only contextual chronological traversal links unless independent evidence supports stronger relationship claims."
+  }
+}
