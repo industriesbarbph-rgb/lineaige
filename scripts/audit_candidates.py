@@ -97,8 +97,8 @@ for path in files:
         fail(f"{rid}: verified candidate must be a factual claim")
     if verification.get("confidence") not in {"medium", "high"}:
         fail(f"{rid}: verified candidate confidence must be medium or high")
-    if not verification.get("lastVerified"):
-        fail(f"{rid}: verification.lastVerified is required")
+    if not valid_iso_day(verification.get("lastVerified")):
+        fail(f"{rid}: verification.lastVerified must be a real ISO calendar date YYYY-MM-DD")
 
     precision = record.get("datePrecision", "day" if record.get("eventDate") else "unknown")
     if precision not in DATE_PRECISIONS:
@@ -106,20 +106,26 @@ for path in files:
     event_date = record.get("eventDate")
     publication_month = record.get("publicationMonth")
     event_year = record.get("eventYear")
-    if precision == "day" and not valid_iso_day(event_date):
-        fail(f"{rid}: day precision requires a real ISO calendar date YYYY-MM-DD")
+    if precision == "day":
+        if not valid_iso_day(event_date):
+            fail(f"{rid}: day precision requires a real ISO calendar date YYYY-MM-DD")
+        if publication_month is not None or event_year is not None:
+            fail(f"{rid}: day precision must not carry month/year fallback fields")
     if precision == "month":
         if event_date is not None:
             fail(f"{rid}: month precision must not fabricate a day-level eventDate")
         if not isinstance(publication_month, str) or not MONTH_RE.fullmatch(publication_month):
             fail(f"{rid}: month precision requires publicationMonth YYYY-MM")
+        if event_year is not None:
+            fail(f"{rid}: month precision must not carry a separate eventYear")
     if precision == "year":
-        if event_date is not None:
-            fail(f"{rid}: year precision must not carry a day-level eventDate")
+        if event_date is not None or publication_month is not None:
+            fail(f"{rid}: year precision must not carry day/month date fields")
         if not isinstance(event_year, int) or event_year < 1 or event_year > 9999:
             fail(f"{rid}: year precision requires integer eventYear 1..9999")
-    if precision == "unknown" and event_date is not None:
-        fail(f"{rid}: unknown precision must not carry a day-level eventDate")
+    if precision == "unknown":
+        if event_date is not None or publication_month is not None or event_year is not None:
+            fail(f"{rid}: unknown precision must not carry day/month/year date fields")
 
     sources = record.get("sources")
     if not isinstance(sources, list) or not sources:
