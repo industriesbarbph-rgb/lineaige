@@ -1,0 +1,42 @@
+{
+  "id": "alexnet-imagenet-2012",
+  "recordType": "event",
+  "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+  "displayDate": "2012",
+  "eventDate": "2012",
+  "datePrecision": "year",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton published a NeurIPS 2012 paper describing a large deep convolutional neural network for ImageNet classification. The paper reports a network with five convolutional and three fully connected layers, trained with a GPU implementation, and reports a winning ILSVRC-2012 top-5 test error rate of 15.3% for a model variant.",
+  "significance": "A documented 2012 deep-learning and computer-vision milestone demonstrating large-scale convolutional neural network performance on ImageNet and the ILSVRC-2012 competition.",
+  "people": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+  "organizations": ["University of Toronto"],
+  "technologies": ["deep convolutional neural network", "ImageNet", "ILSVRC-2012", "GPU convolution"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The paper title, authors, University of Toronto affiliations, NeurIPS/NIPS 2012 publication year, architectural description, GPU implementation, and reported ILSVRC-2012 top-5 test error rate are supported directly by the NeurIPS proceedings paper. The record intentionally uses year precision only. No exact publication day, training-completion date, geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-08T21:45:50+08:00"
+  },
+  "sources": [
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "publisher": "NeurIPS Proceedings",
+      "publishedDate": "2012",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary proceedings evidence establishes the 2012 paper, authorship, institutional affiliation, architecture description, GPU implementation, and reported ILSVRC-2012 result at year precision. Chronology remains separate from ancestry, influence, causality, and geography.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; do not add influence, ancestry, geography, or relationships without dedicated evidence supporting those exact semantics."
+  }
+}
