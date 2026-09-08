@@ -1,0 +1,43 @@
+{
+  "id": "gan-2014",
+  "recordType": "event",
+  "title": "Generative Adversarial Nets",
+  "displayDate": "2014",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 2014,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio published Generative Adversarial Nets in the 2014 Neural Information Processing Systems proceedings, proposing an adversarial framework that trains a generative model and a discriminative model simultaneously.",
+  "significance": "A documented generative-modeling milestone introducing the adversarial two-model training framework described in the original proceedings paper.",
+  "people": ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"],
+  "organizations": [],
+  "technologies": ["Generative adversarial networks", "Generative models", "Adversarial training"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, 2014 proceedings placement, and the paper's proposed adversarial framework using a generative model G and discriminative model D are verified against the official NeurIPS proceedings record. The candidate is intentionally stored at year precision because the proceedings record reviewed here establishes 2014 without establishing an exact publication day for this paper. No geography, institutional affiliation, ancestry, influence, or causal relationship is inferred.",
+    "lastVerified": "2026-09-08T09:46:24+08:00"
+  },
+  "sources": [
+    {
+      "title": "Generative Adversarial Nets",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+      "publisher": "Neural Information Processing Systems Foundation",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The official 2014 proceedings record directly supports the bibliographic and technical claims at year precision. Candidate policy keeps chronology, ancestry, influence, and causality unasserted until deliberate canonical admission or separate relationship evidence review.",
+    "nextStep": "Consider canonical admission in chronology-safe placement after Word2Vec 2013 and before AlphaGo 2016, preserving year precision and adding only evidence-safe chronology unless stronger relationships are separately evidenced."
+  }
+}
