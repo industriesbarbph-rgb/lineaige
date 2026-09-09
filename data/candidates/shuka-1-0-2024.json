@@ -1,0 +1,50 @@
+{
+  "id": "shuka-1-0-2024",
+  "recordType": "event",
+  "title": "Shuka 1.0 Introduction",
+  "displayDate": "August 13, 2024",
+  "eventDate": "2024-08-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Sarvam AI introduced Shuka 1.0 on August 13, 2024 as an open-source audio-language model extending a Llama 8B model to support Indian-language voice input and text output.",
+  "significance": "A documented public introduction of an open audio-language model designed for Indian-language speech interaction.",
+  "people": [],
+  "organizations": ["Sarvam AI"],
+  "technologies": ["Shuka 1.0"],
+  "geography": {
+    "city": "Bangalore",
+    "country": "India",
+    "region": "Asia",
+    "context": "announcement-location",
+    "note": "Sarvam AI's first-party launch announcement is datelined Bangalore, India, on August 13, 2024. This records only the announcement location and does not infer training, development, or release geography beyond that sourced statement.",
+    "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-launch"
+  },
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Sarvam AI's first-party product-launch post is dated August 13, 2024 and explicitly lists Shuka 1.0 among the products introduced that day, describing it as an open-source AudioLM and an audio extension on a Llama 8B model supporting Indian-language voice input and text output. LINEAiGE does not adopt the source's marketing superlative or comparative accuracy claim. No ancestry, influence, causality, separate development date, or relationships are inferred.",
+    "lastVerified": "2026-09-09T11:44:38+08:00"
+  },
+  "sources": [
+    {
+      "title": "Sarvam product launch",
+      "url": "https://www.sarvam.ai/blogs/sarvam-launch",
+      "publisher": "Sarvam AI",
+      "publishedDate": "2024-08-13",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence supports the August 13, 2024 public introduction, Shuka 1.0 identity and described voice-input/text-output modality, with announcement-location geography explicitly separated from other geographic meanings.",
+    "nextStep": "Consider chronology-safe canonical admission after duplicate/identity review and retain empty relationships unless relationship-specific evidence is separately established."
+  }
+}
