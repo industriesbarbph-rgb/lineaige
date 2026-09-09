@@ -1,0 +1,52 @@
+{
+  "id": "wavenet-2016",
+  "recordType": "event",
+  "title": "WaveNet: A generative model for raw audio",
+  "displayDate": "8 September 2016",
+  "eventDate": "2016-09-08",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google DeepMind publicly presented WaveNet on September 8, 2016 as a deep generative model of raw audio waveforms. The associated research described WaveNet as a probabilistic autoregressive neural network that generates raw audio sample by sample and demonstrated applications including text-to-speech and music generation.",
+  "significance": "A documented generative-audio research milestone for direct modeling of raw audio waveforms with an autoregressive neural network.",
+  "people": ["Aäron van den Oord", "Sander Dieleman", "Heiga Zen", "Karen Simonyan", "Oriol Vinyals", "Alex Graves", "Nal Kalchbrenner", "Andrew Senior", "Koray Kavukcuoglu"],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["WaveNet", "Autoregressive generative model", "Raw audio generation", "Text-to-speech"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google DeepMind's first-party research post establishes September 8, 2016 as the public research-introduction date and directly supports the raw-audio generative-model and speech/music claims. The original WaveNet arXiv paper, first submitted September 12, 2016, independently supports the authorship, probabilistic autoregressive formulation, raw-waveform generation, text-to-speech, and music-generation claims. The event date is therefore attached specifically to the DeepMind public research introduction, not asserted as a software-release, API, deployment, or model-training completion date. No geography, ancestry, downstream influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-10T05:06:56+08:00"
+  },
+  "sources": [
+    {
+      "title": "WaveNet: A generative model for raw audio",
+      "url": "https://deepmind.google/blog/wavenet-a-generative-model-for-raw-audio/",
+      "publisher": "Google DeepMind",
+      "publishedDate": "2016-09-08",
+      "sourceType": "institutional-research-post",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "WaveNet: A Generative Model for Raw Audio",
+      "url": "https://arxiv.org/abs/1609.03499",
+      "publisher": "arXiv",
+      "publishedDate": "2016-09-12",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party Google DeepMind evidence establishes the September 8, 2016 public research-introduction milestone and core WaveNet claims; the original arXiv paper independently corroborates the technical description and authorship.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a public research-introduction milestone. Keep software release, product deployment, geography, ancestry, later influence, and causal relationships separate unless independently evidenced."
+  }
+}
