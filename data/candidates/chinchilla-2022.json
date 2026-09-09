@@ -1,0 +1,52 @@
+{
+  "id": "chinchilla-2022",
+  "recordType": "event",
+  "title": "Chinchilla Research Publication",
+  "displayDate": "29 March 2022",
+  "eventDate": "2022-03-29",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "DeepMind researchers introduced Chinchilla, a 70-billion-parameter language model, in the paper Training Compute-Optimal Large Language Models submitted to arXiv on March 29, 2022.",
+  "significance": "A documented research milestone that tested compute-optimal scaling by training a smaller model on substantially more data than larger contemporaneous language models under a comparable compute budget.",
+  "people": [],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["Chinchilla"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The arXiv record gives the submission timestamp as March 29, 2022 and states that the authors trained Chinchilla with 70 billion parameters using the same compute budget as Gopher but four times more data. A Google DeepMind NeurIPS 2022 retrospective independently describes Chinchilla as a 70-billion-parameter language model and says the work updated large-model scaling laws. This record is intentionally classified as a research-publication milestone, not a public product release, API launch, deployment date, or causal ancestor of later models. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-09T21:07:16+08:00"
+  },
+  "sources": [
+    {
+      "title": "Training Compute-Optimal Large Language Models",
+      "url": "https://arxiv.org/abs/2203.15556",
+      "publisher": "arXiv",
+      "publishedDate": "2022-03-29",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "DeepMind's latest research at NeurIPS 2022",
+      "url": "https://deepmind.google/blog/deepminds-latest-research-at-neurips-2022",
+      "publisher": "Google DeepMind",
+      "publishedDate": null,
+      "sourceType": "official-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The arXiv timestamp directly supports March 29, 2022 as a research-publication milestone, while Google DeepMind corroborates the Chinchilla identity, 70B scale, and scaling-law research context.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Do not reinterpret this date as public access, product launch, deployment, or evidence of direct influence on later systems without separate first-party evidence."
+  }
+}
