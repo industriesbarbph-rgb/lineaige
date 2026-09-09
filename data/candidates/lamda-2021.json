@@ -1,0 +1,52 @@
+{
+  "id": "lamda-2021",
+  "recordType": "event",
+  "title": "LaMDA Research Introduction",
+  "displayDate": "18 May 2021",
+  "eventDate": "2021-05-18",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google introduced LaMDA, short for Language Model for Dialogue Applications, in an official Google I/O research announcement on May 18, 2021.",
+  "significance": "A documented language-model research milestone focused on open-domain dialogue, with Google describing LaMDA as a Transformer-based model designed to converse across topics.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["LaMDA", "Transformer"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party May 18, 2021 announcement explicitly introduces LaMDA as a language model for dialogue applications and describes it as open-domain and built on Transformer. The later LaMDA paper, submitted to arXiv on January 20, 2022, independently corroborates the LaMDA identity and describes a family of Transformer-based neural language models specialized for dialog, with models up to 137B parameters. This record intentionally uses the dated 2021 first-party research introduction as its event boundary. It does not treat that date as a public product launch, API release, unrestricted model-weight release, deployment date, or evidence of causal influence on later systems. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-10T00:03:42+08:00"
+  },
+  "sources": [
+    {
+      "title": "LaMDA: our breakthrough conversation technology",
+      "url": "https://blog.google/innovation-and-ai/products/lamda/",
+      "publisher": "Google",
+      "publishedDate": "2021-05-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "LaMDA: Language Models for Dialog Applications",
+      "url": "https://arxiv.org/abs/2201.08239",
+      "publisher": "arXiv",
+      "publishedDate": "2022-01-20",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google directly supports May 18, 2021 as the dated LaMDA research-introduction milestone, while the later primary research paper independently corroborates the system identity and dialogue-focused Transformer architecture.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-introduction milestone. Do not reinterpret this date as unrestricted public availability, product launch, API release, deployment, or evidence of direct influence on later dialogue systems without separate first-party evidence."
+  }
+}
