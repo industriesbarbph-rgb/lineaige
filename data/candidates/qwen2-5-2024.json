@@ -1,0 +1,42 @@
+{
+  "id": "qwen2-5-2024",
+  "recordType": "event",
+  "title": "Qwen2.5 Release",
+  "displayDate": "September 19, 2024",
+  "eventDate": "2024-09-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The Qwen Team publicly introduced Qwen2.5 on September 19, 2024 and described the release as including Qwen2.5 language models alongside Qwen2.5-Coder and Qwen2.5-Math model families.",
+  "significance": "A documented public release milestone in the Qwen model family, with multiple open-weight model sizes and specialized coding and mathematics variants released together.",
+  "people": [],
+  "organizations": ["Qwen Team", "Alibaba Cloud"],
+  "technologies": ["Qwen2.5", "Qwen2.5-Coder", "Qwen2.5-Math"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The Qwen Team's first-party September 19, 2024 release post directly establishes the introduction/release date and identifies the Qwen2.5, Qwen2.5-Coder and Qwen2.5-Math families. The date is attached only to this documented public-release event; no development date, geography, ancestry, influence, causal relationship or unsupported precision is inferred.",
+    "lastVerified": "2026-09-09T09:44:35+08:00"
+  },
+  "sources": [
+    {
+      "title": "Qwen2.5: A Party of Foundation Models!",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "publisher": "Qwen Team",
+      "publishedDate": "2024-09-19",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party release evidence establishes the September 19, 2024 Qwen2.5 public-release milestone at day precision. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships and geography unset unless dedicated evidence supports those semantics."
+  }
+}
