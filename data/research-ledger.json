@@ -78,6 +78,18 @@
       "geography": {"city": "Abu Dhabi", "country": "United Arab Emirates", "context": "announcement-location", "sourceUrl": "https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model"},
       "sources": [{"title": "UAE's TII Launches Open-Source \"Falcon 40B\" Large Language Model for Research & Commercial Utilization", "url": "https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model", "publisher": "Technology Innovation Institute", "publishedDate": "2023-05-25", "sourceType": "official-announcement", "sourceRole": "claim-evidence", "primary": true},{"title": "UAE's Falcon 40B is now Royalty Free", "url": "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free", "publisher": "Technology Innovation Institute", "publishedDate": "2023-05-31", "sourceType": "official-announcement", "sourceRole": "context", "primary": true}],
       "relationships": []
+    },
+    {
+      "id": "mistral-7b-2023-duplicate-review",
+      "subject": "Mistral 7B public-release duplicate review",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "Mistral AI publicly released Mistral 7B on September 27, 2023 under the Apache 2.0 license.",
+      "date": {"value": "2023-09-27", "precision": "day", "meaning": "public-release milestone"},
+      "evidenceSummary": "Mistral AI's first-party September 27, 2023 release post explicitly releases Mistral 7B under Apache 2.0 and describes access to weights and reference implementation. Mistral AI's model-governance lifecycle independently lists the Mistral 7B 0.1 Base release date as September 27, 2023. LINEAiGE's identity-collision validation established that Mistral 7B already has a canonical technology identity in 2023.",
+      "reasonWithheld": "A new candidate would duplicate an already-canonical Mistral 7B technology identity in the same year. The investigated release milestone is preserved here rather than creating a parallel historical identity or weakening duplicate validation.",
+      "sources": [{"title": "Mistral 7B", "url": "https://mistral.ai/news/announcing-mistral-7b/", "publisher": "Mistral AI", "publishedDate": "2023-09-27", "sourceType": "official-announcement", "sourceRole": "claim-evidence", "primary": true},{"title": "Mistral 7B — Model Lifecycle", "url": "https://legal.mistral.ai/ai-governance/models/mistral-7-b", "publisher": "Mistral AI", "publishedDate": null, "sourceType": "official-model-lifecycle", "sourceRole": "corroboration", "primary": true}],
+      "relationships": []
     }
   ]
 }
