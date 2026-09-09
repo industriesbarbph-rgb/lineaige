@@ -1,0 +1,43 @@
+{
+  "id": "sea-lion-2023",
+  "recordType": "event",
+  "title": "SEA-LION Launch",
+  "displayDate": "November 2023",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "2023-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "AI Singapore states that SEA-LION (Southeast Asian Languages in One Network), its family of open large language models developed to better represent Southeast Asia's diverse contexts, languages and cultures, launched in November 2023.",
+  "significance": "A documented launch milestone for an open large-language-model family explicitly oriented toward Southeast Asian linguistic and cultural contexts.",
+  "people": [],
+  "organizations": ["AI Singapore"],
+  "technologies": ["SEA-LION"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "AI Singapore's first-party SEA-LION retrospective explicitly states that SEA-LION launched in November 2023 and describes it as a family of open LLMs developed by AI Singapore for Southeast Asian contexts, languages and cultures. The source does not establish an exact launch day, so the candidate preserves month precision. No geography, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-09T10:48:06+08:00"
+  },
+  "sources": [
+    {
+      "title": "SEA-LION Inspires Community to Build AI Solutions That Solve Real-World Challenges in Southeast Asia",
+      "url": "https://aisingapore.org/news/sea-lion-inspires-community-to-build-ai-solutions-that-solve-real-world-challenges-in-southeast-asia/",
+      "publisher": "AI Singapore",
+      "publishedDate": null,
+      "sourceType": "official-retrospective",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence supports the SEA-LION launch at November 2023 month precision while explicitly identifying the model family and its Southeast Asian orientation. No exact day is asserted.",
+    "nextStep": "Consider chronology-safe canonical admission using November 2023 month precision; add geography or stronger relationships only if separately evidenced with explicit semantics."
+  }
+}
