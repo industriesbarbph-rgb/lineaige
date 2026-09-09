@@ -27,6 +27,9 @@ jobs:
       - name: Audit evidence-controlled candidates
         run: python3 scripts/audit_candidates.py
 
+      - name: Audit candidate/canonical technology identity collisions
+        run: python3 scripts/audit_identity_collisions.py
+
       - name: Audit candidate source temporal metadata
         run: python3 scripts/audit_source_temporal_metadata.py
 
