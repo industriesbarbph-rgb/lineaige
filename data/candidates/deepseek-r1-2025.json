@@ -1,0 +1,52 @@
+{
+  "id": "deepseek-r1-2025",
+  "recordType": "event",
+  "title": "DeepSeek-R1 Release",
+  "displayDate": "January 20, 2025",
+  "eventDate": "2025-01-20",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "DeepSeek publicly released DeepSeek-R1 on January 20, 2025. Its official release announcement states that the model weights were released under the MIT License and that the model was available through DeepSeek's website and API.",
+  "significance": "A documented public release milestone for DeepSeek-R1, an openly released reasoning-model system with public model weights and API availability.",
+  "people": [],
+  "organizations": ["DeepSeek"],
+  "technologies": ["DeepSeek-R1", "Reasoning model", "Reinforcement learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "DeepSeek's first-party January 20, 2025 release announcement directly establishes the public release date, model-weight release under the MIT License, and website/API availability. DeepSeek's API documentation independently records the same release milestone and API model name. The date is attached only to this documented public-release event; no development date, geography, ancestry, influence, causal relationship, or unsupported precision is inferred.",
+    "lastVerified": "2026-09-09T08:45:03+08:00"
+  },
+  "sources": [
+    {
+      "title": "DeepSeek-R1 Release",
+      "url": "https://deepseek.com/en/news/deepseek-r1/",
+      "publisher": "DeepSeek",
+      "publishedDate": "2025-01-20",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "DeepSeek-R1 Release",
+      "url": "https://api-docs.deepseek.com/news/news250120/",
+      "publisher": "DeepSeek API Docs",
+      "publishedDate": "2025-01-20",
+      "sourceType": "official-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party release evidence establishes the January 20, 2025 public-release event at day precision, including public model-weight and API availability. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships and geography unset unless dedicated evidence supports those semantics."
+  }
+}
