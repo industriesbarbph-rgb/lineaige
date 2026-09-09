@@ -1,0 +1,52 @@
+{
+  "id": "t5-2019",
+  "recordType": "event",
+  "title": "T5 Research Publication",
+  "displayDate": "23 October 2019",
+  "eventDate": "2019-10-23",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google researchers submitted the T5 paper, 'Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,' on October 23, 2019, introducing a unified text-to-text framework for transfer learning in NLP.",
+  "significance": "A documented language-model research milestone that framed diverse text-based NLP tasks within a single text-to-text formulation and released supporting data, pretrained models, and code for reproducibility.",
+  "people": ["Colin Raffel", "Noam Shazeer", "Adam Roberts", "Katherine Lee", "Sharan Narang", "Michael Matena", "Yanqi Zhou", "Wei Li", "Peter J. Liu"],
+  "organizations": ["Google"],
+  "technologies": ["T5", "Transformer", "C4"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The primary paper was submitted to arXiv on October 23, 2019 and explicitly introduces a unified framework that converts text-based language problems into a text-to-text format, together with the Colossal Clean Crawled Corpus and released pretrained models/code. Google Research later described the resulting model as the Text-To-Text Transfer Transformer (T5) and reported an 11-billion-parameter largest model. This record intentionally uses the dated 2019 paper submission as the event boundary. It does not reinterpret that date as a commercial product launch, API release, deployment date, unrestricted availability milestone, geography claim, or evidence of causal influence on later systems. No ancestry, influence, causality, geography, or relationships are inferred.",
+    "lastVerified": "2026-09-10T01:03:41+08:00"
+  },
+  "sources": [
+    {
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "url": "https://arxiv.org/abs/1910.10683",
+      "publisher": "arXiv",
+      "publishedDate": "2019-10-23",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer",
+      "url": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+      "publisher": "Google Research",
+      "publishedDate": "2020-02-24",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original paper directly supports October 23, 2019 as the T5 research-publication milestone, while Google Research independently corroborates the T5 identity, text-to-text framing, C4 dataset, released code and pretrained models, and the 11B scale of the largest reported model.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Do not reinterpret the paper-submission date as a commercial launch, API release, deployment, unrestricted public-availability milestone, geography claim, or evidence of direct influence on later systems without separate primary evidence."
+  }
+}
