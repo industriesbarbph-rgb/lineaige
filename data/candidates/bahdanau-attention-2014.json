@@ -1,0 +1,52 @@
+{
+  "id": "bahdanau-attention-2014",
+  "recordType": "event",
+  "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+  "displayDate": "1 September 2014",
+  "eventDate": "2014-09-01",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio submitted 'Neural Machine Translation by Jointly Learning to Align and Translate' on September 1, 2014. The paper proposed extending encoder-decoder neural machine translation by allowing the model to automatically soft-search for source-sentence parts relevant to predicting each target word rather than relying only on a single fixed-length source representation.",
+  "significance": "A documented neural-machine-translation research milestone for learned soft alignment/attention in sequence models, addressing the fixed-length-vector bottleneck in encoder-decoder translation.",
+  "people": ["Dzmitry Bahdanau", "Kyunghyun Cho", "Yoshua Bengio"],
+  "organizations": [],
+  "technologies": ["Neural machine translation", "Soft alignment", "Attention mechanism", "Encoder-decoder"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the September 1, 2014 first-submission date, authors, and the proposed soft-search/alignment mechanism for neural machine translation. The official ICLR 2015 archive independently corroborates the paper title, authors, and conference presentation. This record uses the arXiv first-submission date strictly as a research-publication milestone. It does not infer an exact software-release date, geography, institutional affiliation, ancestry, downstream influence, causality, or relationships.",
+    "lastVerified": "2026-09-10T04:36:34+08:00"
+  },
+  "sources": [
+    {
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "url": "https://arxiv.org/abs/1409.0473",
+      "publisher": "arXiv",
+      "publishedDate": "2014-09-01",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ICLR 2015",
+      "url": "https://www.iclr.cc/archive/www/2015.html",
+      "publisher": "International Conference on Learning Representations",
+      "publishedYear": "2015",
+      "sourceType": "conference-program",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary research evidence establishes September 1, 2014 as the first arXiv submission milestone and directly supports the recorded soft-alignment/attention claims; the official ICLR archive independently corroborates the paper and authors.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Keep later influence, Transformer lineage, institutional geography, software release, and causal relationships separate unless independently evidenced."
+  }
+}
