@@ -1,0 +1,52 @@
+{
+  "id": "palm-2022",
+  "recordType": "event",
+  "title": "PaLM Research Publication",
+  "displayDate": "5 April 2022",
+  "eventDate": "2022-04-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google researchers introduced the Pathways Language Model (PaLM), a 540-billion-parameter densely activated Transformer language model, in a paper submitted to arXiv on April 5, 2022.",
+  "significance": "A documented research-publication milestone for a large language model trained using Google's Pathways system.",
+  "people": [],
+  "organizations": ["Google Research"],
+  "technologies": ["PaLM", "Pathways"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The arXiv record gives the submission timestamp as April 5, 2022. Google Research's publication page identifies the work as PaLM: Scaling Language Modeling with Pathways and states that the authors trained a 540-billion-parameter densely activated Transformer language model called Pathways Language Model (PaLM) using Pathways. This record is intentionally classified as a research-publication milestone, not a public product-release or deployment date. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-09T20:04:39+08:00"
+  },
+  "sources": [
+    {
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "url": "https://arxiv.org/abs/2204.02311",
+      "publisher": "arXiv",
+      "publishedDate": "2022-04-05",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "url": "https://research.google/pubs/palm-scaling-language-modeling-with-pathways/",
+      "publisher": "Google Research",
+      "publishedDate": "2022",
+      "sourceType": "official-research-publication",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The paper timestamp directly supports April 5, 2022 as a publication milestone, and Google's own research page corroborates the PaLM identity, 540B scale, Transformer architecture, and Pathways training context.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Do not silently reinterpret this date as public API availability, product launch, or first external access without separate first-party evidence."
+  }
+}
