@@ -1,0 +1,52 @@
+{
+  "id": "bloom-2022",
+  "recordType": "event",
+  "title": "BLOOM Public Release",
+  "displayDate": "12 July 2022",
+  "eventDate": "2022-07-12",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The BigScience collaboration publicly released BLOOM on July 12, 2022, describing it as a 176-billion-parameter multilingual language model capable of generating text in 46 natural languages and 13 programming languages.",
+  "significance": "A documented public-release milestone for a large multilingual language model developed through the international BigScience research collaboration.",
+  "people": [],
+  "organizations": ["BigScience", "Hugging Face"],
+  "technologies": ["BLOOM"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The BigScience/Hugging Face release post is dated July 12, 2022 and explicitly says 'Today, we release BLOOM,' while describing the 176B-parameter model and its 46 natural-language and 13 programming-language coverage. The later BLOOM paper independently documents the model as a 176B-parameter open-access multilingual language model and states that the models and code were publicly released. No development geography, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-09T14:47:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing The World's Largest Open Multilingual Language Model: BLOOM",
+      "url": "https://huggingface.co/blog/bloom",
+      "publisher": "BigScience / Hugging Face",
+      "publishedDate": "2022-07-12",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+      "url": "https://arxiv.org/abs/2211.05100",
+      "publisher": "BigScience Workshop / arXiv",
+      "publishedDate": "2022-11-09",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party release evidence directly supports the July 12, 2022 public-release milestone and core model description, with the BigScience paper providing independent primary corroboration of the model identity and public release.",
+    "nextStep": "Consider chronology-safe canonical admission as a public-release milestone. Keep geography absent unless separately sourced with explicit semantics, and do not infer causal relationships from architectural context alone."
+  }
+}
