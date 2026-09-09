@@ -1,0 +1,42 @@
+{
+  "id": "playing-atari-deep-rl-2013",
+  "recordType": "event",
+  "title": "Playing Atari with Deep Reinforcement Learning",
+  "displayDate": "19 December 2013",
+  "eventDate": "2013-12-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller submitted Playing Atari with Deep Reinforcement Learning on December 19, 2013. The paper presented a convolutional neural network trained with a variant of Q-learning to learn control policies directly from raw pixel input and evaluated the approach on seven Atari 2600 games from the Arcade Learning Environment.",
+  "significance": "A documented deep-reinforcement-learning research milestone combining convolutional neural networks with a variant of Q-learning for control directly from high-dimensional visual input.",
+  "people": ["Volodymyr Mnih", "Koray Kavukcuoglu", "David Silver", "Alex Graves", "Ioannis Antonoglou", "Daan Wierstra", "Martin Riedmiller"],
+  "organizations": [],
+  "technologies": ["Deep reinforcement learning", "Convolutional neural network", "Q-learning", "Arcade Learning Environment"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes December 19, 2013 as the first submission date and directly supports the authorship, convolutional-network architecture, variant-of-Q-learning formulation, raw-pixel input, value-function output, and evaluation on seven Atari 2600 games. The date is attached specifically to the paper-submission milestone. The record does not assert the later 'DQN' naming convention, a Nature-publication date, product/software release, deployment, institutional affiliation, geography, ancestry, downstream influence, causality, or relationships.",
+    "lastVerified": "2026-09-10T06:07:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1312.5602",
+      "publisher": "arXiv",
+      "publishedDate": "2013-12-19",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original paper provides a precise research-publication milestone and directly supports the technical claims recorded here. Institutional affiliation and later naming are intentionally withheld rather than inferred.",
+    "nextStep": "Consider chronology-safe canonical admission as a paper-submission milestone. Independently verify any later Nature publication, institutional affiliation, geography, DQN nomenclature, ancestry, influence, or causal relationships before adding them."
+  }
+}
