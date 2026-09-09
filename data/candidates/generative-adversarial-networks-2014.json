@@ -1,0 +1,53 @@
+{
+  "id": "generative-adversarial-networks-2014",
+  "recordType": "event",
+  "title": "Generative Adversarial Networks",
+  "displayDate": "10 June 2014",
+  "eventDate": "2014-06-10",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio submitted Generative Adversarial Networks on June 10, 2014. The paper proposed a framework for estimating generative models by simultaneously training a generative model and a discriminative model in a minimax two-player game.",
+  "significance": "A documented research milestone introducing the adversarial generative-modeling framework in which a generator and discriminator are trained against one another.",
+  "people": ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"],
+  "organizations": [],
+  "technologies": ["Generative adversarial networks", "Generative modeling", "Adversarial training"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes June 10, 2014 as the first submission date and directly supports the authorship and two-model adversarial/minimax formulation. The official NeurIPS 2014 proceedings independently corroborate the paper, authors and technical framework. The date is attached specifically to the paper-submission milestone. The record does not assert a product or software release, deployment, institutional geography, ancestry, downstream influence, causality, or relationships.",
+    "lastVerified": "2026-09-10T07:04:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/1406.2661",
+      "publisher": "arXiv",
+      "publishedDate": "2014-06-10",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Generative Adversarial Nets",
+      "url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+      "publisher": "Advances in Neural Information Processing Systems 27",
+      "publishedDate": null,
+      "publishedYear": 2014,
+      "sourceType": "conference-proceedings",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original paper provides a precise research-publication milestone and the technical claims recorded here are directly supported by primary sources. Product-release framing, geography and causal lineage are intentionally withheld.",
+    "nextStep": "Consider chronology-safe canonical admission as a paper-submission milestone. Independently verify any institutional affiliation, geography, later nomenclature, ancestry, influence or causal relationships before adding them."
+  }
+}
