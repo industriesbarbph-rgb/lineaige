@@ -1,0 +1,60 @@
+{
+  "id": "sarvam-2b-2024",
+  "recordType": "event",
+  "title": "Sarvam 2B Introduction",
+  "displayDate": "August 13, 2024",
+  "eventDate": "2024-08-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Sarvam AI introduced Sarvam 2B on August 13, 2024 as an open-source small Indic language model trained from scratch on an internal four-trillion-token dataset and designed for ten Indian languages plus English.",
+  "significance": "A documented public introduction of an India-developed multilingual language model explicitly built for Indic-language coverage.",
+  "people": [],
+  "organizations": ["Sarvam AI"],
+  "technologies": ["Sarvam 2B"],
+  "geography": {
+    "city": "Bengaluru",
+    "country": "India",
+    "region": "South Asia",
+    "context": "announcement-location",
+    "note": "Sarvam AI's first-party launch announcement is datelined Bangalore, India, on August 13, 2024. This field records the announcement location only and does not infer model-training or organizational geography beyond the sourced statement.",
+    "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-launch"
+  },
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Sarvam AI's first-party launch post is dated August 13, 2024 and states that the company introduced Sarvam 2B that day, describing it as an open-source 2B small Indic language model trained from scratch on an internal dataset of four trillion tokens with efficient representation for ten Indian languages. A surviving model-card copy independently preserves the model description and an August 15, 2024 usage-update note, but is used only as corroboration. Marketing superlatives such as 'first' are not adopted as LINEAiGE factual claims. No ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-09T11:44:38+08:00"
+  },
+  "sources": [
+    {
+      "title": "Sarvam product launch",
+      "url": "https://www.sarvam.ai/blogs/sarvam-launch",
+      "publisher": "Sarvam AI",
+      "publishedDate": "2024-08-13",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "sarvam-2b-v0.5 model card copy",
+      "url": "https://huggingface.co/QuantFactory/sarvam-2b-v0.5-GGUF",
+      "publisher": "Hugging Face / QuantFactory",
+      "publishedDate": null,
+      "sourceType": "model-card-copy",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence supports the August 13, 2024 public introduction at day precision, the Sarvam 2B identity, its open-source/model-description claims, and explicit announcement-location geography semantics. No unsupported superlatives or causal relationships are admitted.",
+    "nextStep": "Consider chronology-safe canonical admission after confirming the canonical model can preserve announcement-location geography without conflating it with training or organizational location."
+  }
+}
