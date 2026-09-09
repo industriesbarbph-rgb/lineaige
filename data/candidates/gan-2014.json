@@ -17,8 +17,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Title, authors, 2014 proceedings placement, and the paper's proposed adversarial framework using a generative model G and discriminative model D are verified against the official NeurIPS proceedings record. The candidate is intentionally stored at year precision because the proceedings record reviewed here establishes 2014 without establishing an exact publication day for this paper. No geography, institutional affiliation, ancestry, influence, or causal relationship is inferred.",
-    "lastVerified": "2026-09-08T09:46:24+08:00"
+    "note": "Title, authors, 2014 proceedings placement, and the paper's proposed adversarial framework using a generative model G and discriminative model D are verified against the official NeurIPS proceedings record. The original arXiv record independently establishes a first submission on 10 June 2014. The candidate remains intentionally stored at year precision because its represented milestone is the 2014 proceedings publication, not the distinct preprint-submission event. No geography, institutional affiliation, ancestry, influence, or causal relationship is inferred.",
+    "lastVerified": "2026-09-10T07:04:17+08:00"
   },
   "sources": [
     {
@@ -30,6 +30,16 @@
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/1406.2661",
+      "publisher": "arXiv",
+      "publishedDate": "2014-06-10",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -37,7 +47,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "The official 2014 proceedings record directly supports the bibliographic and technical claims at year precision. Candidate policy keeps chronology, ancestry, influence, and causality unasserted until deliberate canonical admission or separate relationship evidence review.",
+    "admissionReason": "The official 2014 proceedings record directly supports the bibliographic and technical claims at year precision. The original preprint supplies additional primary provenance without changing the represented proceedings milestone. Candidate policy keeps chronology, ancestry, influence, and causality unasserted until deliberate canonical admission or separate relationship evidence review.",
     "nextStep": "Consider canonical admission in chronology-safe placement after Word2Vec 2013 and before AlphaGo 2016, preserving year precision and adding only evidence-safe chronology unless stronger relationships are separately evidenced."
   }
 }
