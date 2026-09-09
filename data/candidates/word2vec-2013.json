@@ -2,22 +2,22 @@
   "id": "word2vec-2013",
   "recordType": "event",
   "title": "Efficient Estimation of Word Representations in Vector Space",
-  "displayDate": "16 January 2013",
+  "displayDate": "January 16, 2013",
   "eventDate": "2013-01-16",
   "datePrecision": "day",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
-  "summary": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean submitted 'Efficient Estimation of Word Representations in Vector Space' on January 16, 2013, proposing two model architectures for learning continuous word representations from large datasets: Continuous Bag-of-Words (CBOW) and Skip-gram.",
-  "significance": "A documented natural-language-processing research milestone establishing computationally efficient CBOW and Skip-gram architectures for learning continuous word vectors at large scale.",
+  "summary": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean submitted Efficient Estimation of Word Representations in Vector Space to arXiv on January 16, 2013, describing two model architectures for learning continuous vector representations of words from very large data sets.",
+  "significance": "A documented word-representation and natural-language-processing milestone associated with efficient neural word-embedding methods.",
   "people": ["Tomas Mikolov", "Kai Chen", "Greg Corrado", "Jeffrey Dean"],
-  "organizations": [],
-  "technologies": ["Continuous Bag-of-Words", "CBOW", "Skip-gram", "Continuous word representations"],
+  "organizations": ["Google"],
+  "technologies": ["Word embeddings", "Continuous word representations", "Natural language processing"],
   "verification": {
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "The original arXiv record establishes the January 16, 2013 first-submission date, authors, and the proposal of two architectures for computing continuous word representations from very large datasets. Google Research independently corroborates the title, authors, 2013 ICLR publication context, and the core abstract claims. This record uses the arXiv submission date strictly as a research-publication milestone. It does not claim this date as the release date of software named word2vec, the invention of word embeddings generally, or a causal ancestor of later NLP systems. No geography, affiliation, ancestry, influence, causality, or relationships are inferred.",
-    "lastVerified": "2026-09-10T04:08:14+08:00"
+    "note": "The original arXiv record establishes the title, authors, submission date of January 16 2013, and the paper's proposal of two architectures for learning continuous vector word representations from large data sets. Google Research independently preserves the publication and abstract. This record is a publication/submission milestone and does not infer a separate software-release date, geography, ancestry, influence, or causal relationship.",
+    "lastVerified": "2026-09-08T08:50:00+08:00"
   },
   "sources": [
     {
@@ -34,9 +34,10 @@
       "title": "Efficient Estimation of Word Representations in Vector Space",
       "url": "https://research.google/pubs/efficient-estimation-of-word-representations-in-vector-space/",
       "publisher": "Google Research",
-      "sourceType": "research-publication",
+      "publishedDate": null,
+      "sourceType": "institutional-record",
       "sourceRole": "corroboration",
-      "primary": true,
+      "primary": false,
       "archivedUrl": null
     }
   ],
@@ -45,7 +46,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Primary research evidence establishes January 16, 2013 as the first arXiv submission milestone and directly supports the recorded CBOW and Skip-gram claims; Google Research independently corroborates the publication and technical description.",
-    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Keep any software-release date, broader word-embedding history, institutional geography, and later-system influence or lineage separate unless independently evidenced."
+    "admissionReason": "Primary source evidence supports the January 16 2013 submission event and the authors' stated technical claims at day precision. No geography, ancestry, influence, causality, or separate software-release date is inferred.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve empty relationships unless dedicated evidence supports a non-chronological relationship."
   }
 }
