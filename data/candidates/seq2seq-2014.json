@@ -1,0 +1,51 @@
+{
+  "id": "seq2seq-2014",
+  "recordType": "event",
+  "title": "Sequence to Sequence Learning with Neural Networks",
+  "displayDate": "10 September 2014",
+  "eventDate": "2014-09-10",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Ilya Sutskever, Oriol Vinyals, and Quoc V. Le submitted 'Sequence to Sequence Learning with Neural Networks' on September 10, 2014, presenting an end-to-end sequence-learning approach that uses one multilayer LSTM to encode an input sequence into a fixed-dimensional vector and another deep LSTM to decode the target sequence.",
+  "significance": "A documented neural sequence-modeling research milestone demonstrating an end-to-end encoder-decoder approach for variable-length sequence mapping, evaluated on English-to-French machine translation.",
+  "people": ["Ilya Sutskever", "Oriol Vinyals", "Quoc V. Le"],
+  "organizations": [],
+  "technologies": ["Sequence-to-sequence learning", "LSTM", "Encoder-decoder"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the September 10, 2014 first-submission date, authors, and the end-to-end sequence-learning method using a multilayer LSTM encoder and deep LSTM decoder. The official NeurIPS 2014 proceedings independently corroborate the title, authors, conference placement, and technical description. This record uses the arXiv submission date strictly as a research-publication milestone. It does not claim this date as the invention of all encoder-decoder methods, a software/product release, deployment date, or causal ancestor of later systems. No geography, affiliation, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-10T03:05:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "url": "https://arxiv.org/abs/1409.3215",
+      "publisher": "arXiv",
+      "publishedDate": "2014-09-10",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html",
+      "publisher": "NeurIPS",
+      "sourceType": "conference-proceedings",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary research evidence establishes September 10, 2014 as the first arXiv submission milestone and directly supports the recorded sequence-to-sequence LSTM encoder-decoder claims; official NeurIPS proceedings independently corroborate the paper and method.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Do not infer direct ancestry, influence, causality, geography, institutional affiliation, or later-system relationships without separate evidence."
+  }
+}
