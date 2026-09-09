@@ -1,0 +1,60 @@
+{
+  "id": "ernie-bot-2023",
+  "recordType": "event",
+  "title": "ERNIE Bot Introduction",
+  "displayDate": "16 March 2023",
+  "eventDate": "2023-03-16",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Baidu introduced ERNIE Bot on March 16, 2023 as a new-generation large language model and generative AI product, with invited-user access beginning that day and enterprise API access available by application through Baidu AI Cloud.",
+  "significance": "A documented public introduction milestone for Baidu's ERNIE Bot conversational generative-AI system.",
+  "people": ["Robin Li"],
+  "organizations": ["Baidu", "Baidu AI Cloud"],
+  "technologies": ["ERNIE Bot"],
+  "geography": {
+    "city": "Beijing",
+    "country": "China",
+    "region": "Asia",
+    "context": "announcement-location",
+    "note": "Baidu's March 16, 2023 release identifies Beijing as the location of the ERNIE Bot press conference where Robin Li presented the system.",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
+  },
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Baidu's first-party March 16 release directly states that the company introduced ERNIE Bot that day, describes it as a new-generation LLM and generative-AI product, and states that invited-user access began March 16. Baidu's Q1 2023 investor-results release independently confirms that ERNIE Bot had been introduced in China during the quarter. Beijing is recorded only as the announcement location, not as a development or training location. No ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-09T13:44:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Baidu Unveils ERNIE Bot, the Latest Generative AI Mastering Chinese Language and Multi-Modal Generation",
+      "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html",
+      "publisher": "Baidu, Inc. / PR Newswire",
+      "publishedDate": "2023-03-16",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Baidu Announces First Quarter 2023 Results",
+      "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-first-quarter-2023-results/",
+      "publisher": "Baidu, Inc. Investor Relations",
+      "publishedDate": "2023-05-16",
+      "sourceType": "official-corporate-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party evidence directly supports the March 16, 2023 introduction and initial invited-user availability milestone, with separate Baidu corporate corroboration.",
+    "nextStep": "Consider chronology-safe canonical admission as an introduction/access milestone; preserve Beijing strictly as announcement-location unless separate evidence supports other geography semantics."
+  }
+}
