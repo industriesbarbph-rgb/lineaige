@@ -1,0 +1,52 @@
+{
+  "id": "stable-diffusion-2022",
+  "recordType": "event",
+  "title": "Stable Diffusion Public Release",
+  "displayDate": "22 August 2022",
+  "eventDate": "2022-08-22",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Stability AI publicly released Stable Diffusion on August 22, 2022 following an earlier researcher release, making model weights, a model card and code available for public use.",
+  "significance": "A documented public-release milestone for an openly released text-to-image generative model.",
+  "people": [],
+  "organizations": ["Stability AI", "LMU Munich", "Runway ML"],
+  "technologies": ["Stable Diffusion"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Stability AI's public-release post is dated August 22 and explicitly announces the public release of Stable Diffusion, while linking the model weights, model card and code. A later Stability AI retrospective explicitly identifies August 22, 2022 as the co-release date with researchers from LMU Munich and Runway ML. No development geography, training geography, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-09T15:48:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Stable Diffusion Public Release",
+      "url": "https://stability.ai/news-updates/stable-diffusion-public-release",
+      "publisher": "Stability AI",
+      "publishedDate": "2022-08-22",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Celebrating one year(ish) of Stable Diffusion … and what a year it’s been!",
+      "url": "https://stability.ai/news-updates/celebrating-one-year-of-stable-diffusion",
+      "publisher": "Stability AI",
+      "publishedDate": "2023-10-03",
+      "sourceType": "official-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party release evidence directly supports the August 22, 2022 public-release milestone, and a later first-party retrospective explicitly corroborates that date and the co-release context.",
+    "nextStep": "Consider chronology-safe canonical admission as a public-release milestone. Keep geography absent unless separately sourced with explicit semantics, and do not infer causal relationships from later impact or architectural context alone."
+  }
+}
