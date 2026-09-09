@@ -9,6 +9,7 @@ semantics while still preserving useful research, date uncertainty and sources.
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -21,10 +22,15 @@ ALLOWED_PRECISION = {"day", "month", "year", "unknown"}
 ALLOWED_SOURCE_ROLE = {"claim-evidence", "corroboration", "context"}
 DATE_PATTERNS = {
     "day": re.compile(r"^\d{4}-\d{2}-\d{2}$"),
-    "month": re.compile(r"^\d{4}-\d{2}$"),
+    "month": re.compile(r"^\d{4}-(0[1-9]|1[0-2])$"),
     "year": re.compile(r"^\d{4}$"),
     "unknown": re.compile(r"^unknown$"),
 }
+SOURCE_DATE_PATTERNS = (
+    re.compile(r"^\d{4}$"),
+    re.compile(r"^\d{4}-(0[1-9]|1[0-2])$"),
+    re.compile(r"^\d{4}-(0[1-9]|1[0-2])-\d{2}$"),
+)
 
 errors = []
 
@@ -36,6 +42,38 @@ def valid_http_url(value):
         return False
     parsed = urlparse(value)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+def valid_day(value):
+    if not isinstance(value, str):
+        return False
+    try:
+        parsed = date.fromisoformat(value)
+    except ValueError:
+        return False
+    return parsed.isoformat() == value
+
+def valid_precision_value(value, precision):
+    if precision not in DATE_PATTERNS or not isinstance(value, str):
+        return False
+    if not DATE_PATTERNS[precision].fullmatch(value):
+        return False
+    if precision == "day":
+        return valid_day(value)
+    if precision == "year":
+        return value != "0000"
+    return True
+
+def valid_source_published_date(value):
+    """Allow only real ISO day dates or explicit month/year precision strings."""
+    if value is None:
+        return True
+    if not isinstance(value, str) or not any(pattern.fullmatch(value) for pattern in SOURCE_DATE_PATTERNS):
+        return False
+    if len(value) == 10:
+        return valid_day(value)
+    if len(value) == 4:
+        return value != "0000"
+    return True
 
 try:
     data = json.loads(LEDGER.read_text(encoding="utf-8"))
@@ -79,17 +117,17 @@ for index, entry in enumerate(entries):
         if not isinstance(entry.get(field), str) or not entry[field].strip():
             fail(f"{prefix}.{field} must be a non-empty string")
 
-    date = entry.get("date")
-    if not isinstance(date, dict):
+    date_record = entry.get("date")
+    if not isinstance(date_record, dict):
         fail(f"{prefix}.date must be an object")
     else:
-        precision = date.get("precision")
-        value = date.get("value")
+        precision = date_record.get("precision")
+        value = date_record.get("value")
         if precision not in ALLOWED_PRECISION:
             fail(f"{prefix}.date.precision is invalid")
-        elif not isinstance(value, str) or not DATE_PATTERNS[precision].match(value):
-            fail(f"{prefix}.date.value does not match precision={precision}")
-        if not isinstance(date.get("meaning"), str) or not date["meaning"].strip():
+        elif not valid_precision_value(value, precision):
+            fail(f"{prefix}.date.value is not a real value matching precision={precision}")
+        if not isinstance(date_record.get("meaning"), str) or not date_record["meaning"].strip():
             fail(f"{prefix}.date.meaning must explain what the date represents")
 
     if entry.get("researchStatus") == "canonical-review":
@@ -106,6 +144,7 @@ for index, entry in enumerate(entries):
 
     source_urls = set()
     primary_count = 0
+    claim_evidence_count = 0
     for sidx, source in enumerate(sources):
         sp = f"{prefix}.sources[{sidx}]"
         if not isinstance(source, dict):
@@ -118,8 +157,11 @@ for index, entry in enumerate(entries):
             fail(f"{sp}.url duplicates another source in the same entry")
         else:
             source_urls.add(url)
-        if source.get("sourceRole") not in ALLOWED_SOURCE_ROLE:
+        role = source.get("sourceRole")
+        if role not in ALLOWED_SOURCE_ROLE:
             fail(f"{sp}.sourceRole is invalid")
+        elif role == "claim-evidence":
+            claim_evidence_count += 1
         if not isinstance(source.get("primary"), bool):
             fail(f"{sp}.primary must be boolean")
         elif source["primary"]:
@@ -128,11 +170,13 @@ for index, entry in enumerate(entries):
             if not isinstance(source.get(field), str) or not source[field].strip():
                 fail(f"{sp}.{field} must be a non-empty string")
         published = source.get("publishedDate")
-        if published is not None and not isinstance(published, str):
-            fail(f"{sp}.publishedDate must be a string or null")
+        if not valid_source_published_date(published):
+            fail(f"{sp}.publishedDate must be null or a valid ISO YYYY, YYYY-MM, or real YYYY-MM-DD value")
 
     if primary_count == 0:
         fail(f"{prefix} must retain at least one primary/first-party source")
+    if claim_evidence_count == 0:
+        fail(f"{prefix} must retain at least one sourceRole=claim-evidence source")
 
     geography = entry.get("geography")
     if geography is not None:
@@ -144,8 +188,9 @@ for index, entry in enumerate(entries):
                 fail(f"{prefix}.geography.sourceUrl must be a valid HTTP(S) URL")
             elif gurl not in source_urls:
                 fail(f"{prefix}.geography.sourceUrl must also appear in sources")
-            if not isinstance(geography.get("context"), str) or not geography["context"].strip():
-                fail(f"{prefix}.geography.context must be explicit")
+            for field in ("city", "country", "context"):
+                if not isinstance(geography.get(field), str) or not geography[field].strip():
+                    fail(f"{prefix}.geography.{field} must be a non-empty string")
 
     relationships = entry.get("relationships")
     if relationships not in (None, []):
