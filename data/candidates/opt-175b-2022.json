@@ -1,0 +1,52 @@
+{
+  "id": "opt-175b-2022",
+  "recordType": "event",
+  "title": "OPT-175B Research Access Announcement",
+  "displayDate": "3 May 2022",
+  "eventDate": "2022-05-03",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta AI announced on May 3, 2022 that it was sharing Open Pretrained Transformer (OPT-175B), a 175-billion-parameter language model, with the AI research community under a research-access program.",
+  "significance": "A documented large-language-model access milestone in which Meta paired a 175-billion-parameter model with research access and supporting research artifacts intended to broaden independent study of large language models.",
+  "people": [],
+  "organizations": ["Meta AI"],
+  "technologies": ["OPT-175B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta AI's first-party May 3, 2022 announcement states that it was sharing OPT-175B, a 175-billion-parameter language model trained on publicly available datasets, for research access. The associated paper's arXiv record was submitted May 2, 2022 and describes OPT as a suite of decoder-only pretrained transformers from 125M to 175B parameters, with code and a training logbook released and model access intended for interested researchers. This record is intentionally classified as a research-access announcement, not a general-public product launch, unrestricted open-weight release, API launch, deployment date, or causal ancestor of later models. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-09T22:04:25+08:00"
+  },
+  "sources": [
+    {
+      "title": "Democratizing access to large-scale language models with OPT-175B",
+      "url": "https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+      "publisher": "Meta AI",
+      "publishedDate": "2022-05-03",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "OPT: Open Pre-trained Transformer Language Models",
+      "url": "https://arxiv.org/abs/2205.01068",
+      "publisher": "arXiv",
+      "publishedDate": "2022-05-02",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Meta AI's dated first-party announcement directly supports May 3, 2022 as the research-access announcement milestone, while the associated paper independently corroborates the OPT model family, scale, and research-sharing context.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-access announcement. Do not reinterpret this date as unrestricted public release, API availability, deployment, or evidence of direct influence on later systems without separate first-party evidence."
+  }
+}
