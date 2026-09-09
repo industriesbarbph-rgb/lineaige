@@ -65,6 +65,19 @@
       "reasonWithheld": "The canonical record should not be silently rewritten until the data model can preserve month-level date precision or a primary bibliographic source establishes the exact day.",
       "sources": [{"title": "The perceptron: a probabilistic model for information storage and organization in the brain", "url": "https://pubmed.ncbi.nlm.nih.gov/13602029/", "publisher": "PubMed / U.S. National Library of Medicine", "publishedDate": "1958-11", "sourceType": "bibliographic-record", "sourceRole": "claim-evidence", "primary": false},{"title": "The perceptron: A probabilistic model for information storage and organization in the brain", "url": "https://doi.org/10.1037/h0042519", "publisher": "Psychological Review / APA", "publishedDate": null, "sourceType": "paper", "sourceRole": "corroboration", "primary": true}],
       "relationships": []
+    },
+    {
+      "id": "falcon-40b-2023-duplicate-review",
+      "subject": "Falcon 40B open-source release duplicate review",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "Technology Innovation Institute announced on May 25, 2023 that Falcon 40B was available as an open-source large language model for research and commercial use.",
+      "date": {"value": "2023-05-25", "precision": "day", "meaning": "open-source release announcement"},
+      "evidenceSummary": "TII's first-party May 25, 2023 announcement directly supports the Falcon 40B open-source milestone and is datelined Abu Dhabi, UAE. A separate TII announcement on May 31 documents a later royalty-free licensing milestone. LINEAiGE's identity-collision validation established that Falcon 40B already has a canonical technology identity in 2023.",
+      "reasonWithheld": "A new candidate would duplicate an already-canonical Falcon 40B technology identity in the same year. The investigated milestone is preserved here rather than creating a parallel historical identity or weakening duplicate validation.",
+      "geography": {"city": "Abu Dhabi", "country": "United Arab Emirates", "context": "announcement-location", "sourceUrl": "https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model"},
+      "sources": [{"title": "UAE's TII Launches Open-Source \"Falcon 40B\" Large Language Model for Research & Commercial Utilization", "url": "https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model", "publisher": "Technology Innovation Institute", "publishedDate": "2023-05-25", "sourceType": "official-announcement", "sourceRole": "claim-evidence", "primary": true},{"title": "UAE's Falcon 40B is now Royalty Free", "url": "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free", "publisher": "Technology Innovation Institute", "publishedDate": "2023-05-31", "sourceType": "official-announcement", "sourceRole": "context", "primary": true}],
+      "relationships": []
     }
   ]
 }
