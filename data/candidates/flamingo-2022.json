@@ -1,0 +1,52 @@
+{
+  "id": "flamingo-2022",
+  "recordType": "event",
+  "title": "Flamingo Research Introduction",
+  "displayDate": "28 April 2022",
+  "eventDate": "2022-04-28",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "DeepMind introduced Flamingo, a visual language model for few-shot learning across multimodal tasks, in an official research post on April 28, 2022.",
+  "significance": "A documented multimodal research milestone in which a single visual language model was presented as handling interleaved images, videos, and text and adapting to multiple tasks from only a small number of examples.",
+  "people": [],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["Flamingo"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google DeepMind's first-party research post is dated April 28, 2022 and explicitly says it introduces Flamingo as a single visual language model for few-shot learning over open-ended multimodal tasks. The associated arXiv preprint was submitted April 29, 2022 and describes Flamingo as a family of visual language models that can ingest interleaved visual and textual data. This record intentionally uses the dated first-party research introduction as the event boundary; it does not treat that date as a product launch, API release, unrestricted public-weight release, deployment date, or evidence of causal influence on later systems. No geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-09T23:02:15+08:00"
+  },
+  "sources": [
+    {
+      "title": "Tackling multiple tasks with a single visual language model",
+      "url": "https://deepmind.google/blog/tackling-multiple-tasks-with-a-single-visual-language-model/",
+      "publisher": "Google DeepMind",
+      "publishedDate": "2022-04-28",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "url": "https://arxiv.org/abs/2204.14198",
+      "publisher": "arXiv",
+      "publishedDate": "2022-04-29",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google DeepMind directly supports April 28, 2022 as the dated research-introduction milestone, while the associated paper independently corroborates the Flamingo identity, multimodal architecture, and few-shot research claims one day later.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-introduction milestone. Do not reinterpret this date as unrestricted public availability, product launch, deployment, or evidence of direct influence on later multimodal systems without separate first-party evidence."
+  }
+}
