@@ -1,0 +1,52 @@
+{
+  "id": "xgboost-2016",
+  "recordType": "event",
+  "title": "XGBoost: A Scalable Tree Boosting System",
+  "displayDate": "March 9, 2016",
+  "eventDate": "2016-03-09",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Tianqi Chen and Carlos Guestrin submitted XGBoost: A Scalable Tree Boosting System to arXiv on March 9, 2016. The paper describes XGBoost as a scalable end-to-end tree boosting system and presents a sparsity-aware algorithm, a weighted quantile sketch for approximate tree learning, and systems techniques for scaling beyond billions of examples.",
+  "significance": "A documented machine-learning systems milestone for scalable gradient tree boosting, with the paper describing algorithmic and systems techniques designed for sparse and very large datasets.",
+  "people": ["Tianqi Chen", "Carlos Guestrin"],
+  "organizations": ["University of Washington"],
+  "technologies": ["XGBoost", "Tree boosting"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, March 9 2016 initial arXiv submission date, and the recorded technical description are supported by the original arXiv record. The ACM KDD proceedings independently corroborate the authors, paper title, University of Washington affiliation, and later August 13 2016 proceedings publication. This candidate records only the arXiv paper-submission milestone and does not treat the conference publication date as a system-birth date.",
+    "lastVerified": "2026-09-11T06:04:52+08:00"
+  },
+  "sources": [
+    {
+      "title": "XGBoost: A Scalable Tree Boosting System",
+      "url": "https://arxiv.org/abs/1603.02754",
+      "publisher": "arXiv",
+      "publishedDate": "2016-03-09",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "XGBoost: A Scalable Tree Boosting System",
+      "url": "https://doi.org/10.1145/2939672.2939785",
+      "publisher": "Association for Computing Machinery",
+      "publishedDate": "2016-08-13",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the March 9 2016 arXiv paper-submission milestone at day precision and supports the technical claims recorded here. Chronology alone is not used to assert ancestry, influence or causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships empty unless dedicated evidence supports a non-chronological relationship, and do not reinterpret this paper-submission date as XGBoost's software-birth or first-release date."
+  }
+}
