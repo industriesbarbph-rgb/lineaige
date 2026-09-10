@@ -1,0 +1,66 @@
+{
+  "id": "perceptron-1958",
+  "recordType": "event",
+  "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+  "displayDate": "November 1958",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1958-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Frank Rosenblatt published The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain in Psychological Review in November 1958. The paper develops a theory for a hypothetical nervous system called a perceptron and presents it as a quantitative statistical approach to recognition, memory, and learning.",
+  "significance": "A directly documented 1958 research publication on the perceptron, providing a primary-source milestone for the history of computational learning and neural-network research without treating later influence or ancestry as established by chronology alone.",
+  "people": ["Frank Rosenblatt"],
+  "organizations": ["Cornell Aeronautical Laboratory"],
+  "technologies": ["Perceptron"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, author, journal, volume, issue, pages, DOI and November 1958 publication month are verified against the APA DOI record and PubMed. Cornell University archival and institutional records corroborate Rosenblatt's Cornell Aeronautical Laboratory role and contemporaneous 1958 perceptron work. No exact publication day, invention date, causal ancestry, influence relationship, or development geography is asserted.",
+    "lastVerified": "2026-09-10T14:06:33+08:00"
+  },
+  "sources": [
+    {
+      "title": "The perceptron: A probabilistic model for information storage and organization in the brain",
+      "url": "https://doi.org/10.1037/h0042519",
+      "publisher": "American Psychological Association / Psychological Review",
+      "publishedDate": null,
+      "publishedMonth": "1958-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The perceptron: a probabilistic model for information storage and organization in the brain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13602029/",
+      "publisher": "U.S. National Library of Medicine / PubMed",
+      "publishedDate": null,
+      "publishedMonth": "1958-11",
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    },
+    {
+      "title": "Frank Rosenblatt publications and photographs",
+      "url": "https://archives.library.cornell.edu/subjects/700",
+      "publisher": "Cornell University Library, Division of Rare and Manuscript Collections",
+      "publishedDate": null,
+      "publishedMonth": null,
+      "sourceType": "archive",
+      "sourceRole": "context",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The November 1958 paper publication is verified at month precision. Canonical admission should preserve this publication milestone separately from any 1957 technical work, July 1958 demonstration, or later Mark I hardware milestone, none of which is silently collapsed into this event.",
+    "nextStep": "Review nearby 1950s canonical chronology and admit as a month-precision publication milestone with chronology-only traversal unless a stronger relationship is separately evidenced."
+  }
+}
