@@ -17,7 +17,7 @@
     "factualClaim": true,
     "confidence": "high",
     "note": "Title, authors, December 10 2015 submission date, residual-learning formulation and reported 152-layer ImageNet experiments are supported by the original arXiv record. The Computer Vision Foundation's CVPR 2016 record independently corroborates the authors, paper, framework and later conference publication. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as a separate architecture-birth date. No ancestry, influence, causality, institutional affiliation or geography is inferred.",
-    "lastVerified": "2026-09-08T13:45:21+08:00"
+    "lastVerified": "2026-09-10T18:05:35+08:00"
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
       "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html",
       "publisher": "Computer Vision Foundation / CVPR",
       "publishedDate": null,
-      "sourceType": "conference-proceedings",
+      "sourceType": "other",
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
