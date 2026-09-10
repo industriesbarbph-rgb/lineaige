@@ -35,14 +35,21 @@
       "url": "https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/",
       "publisher": "University of Freiburg Computer Vision Group",
       "publishedDate": null,
-      "sourceType": "institutional-record",
+      "sourceType": "other",
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
     }
   ],
   "relationships": [],
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2026-09-10",
+      "note": "Normalized the University of Freiburg corroborating source type from the candidate-only label institutional-record to the canonical-compatible sourceType value other; source identity and evidence claims are unchanged.",
+      "previousValue": "institutional-record",
+      "sourceUrl": "https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/"
+    }
+  ],
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
