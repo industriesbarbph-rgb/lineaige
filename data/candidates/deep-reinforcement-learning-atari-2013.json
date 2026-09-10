@@ -1,0 +1,42 @@
+{
+  "id": "deep-reinforcement-learning-atari-2013",
+  "recordType": "event",
+  "title": "Playing Atari with Deep Reinforcement Learning",
+  "displayDate": "December 19, 2013",
+  "eventDate": "2013-12-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller submitted 'Playing Atari with Deep Reinforcement Learning' to arXiv on December 19, 2013. The paper presents a convolutional neural network trained with a variant of Q-learning to learn control policies directly from raw-pixel input and reports results on seven Atari 2600 games in the Arcade Learning Environment.",
+  "significance": "A documented publication milestone for an early combination of deep neural-network representation learning with reinforcement learning from high-dimensional visual input.",
+  "people": ["Volodymyr Mnih", "Koray Kavukcuoglu", "David Silver", "Alex Graves", "Ioannis Antonoglou", "Daan Wierstra", "Martin Riedmiller"],
+  "organizations": [],
+  "technologies": ["Deep reinforcement learning", "Convolutional neural networks", "Q-learning", "Atari 2600", "Arcade Learning Environment"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The arXiv record verifies the title, authors, December 19, 2013 submission date, and abstract claims recorded here. The date is scoped only to this paper-submission milestone. No system-birth date, model/software release date, geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-11T03:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1312.5602",
+      "publisher": "arXiv",
+      "publishedDate": "2013-12-19",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary paper evidence supports the exact arXiv submission milestone and the technical claims recorded here. Chronology is kept separate from ancestry, influence, and causality.",
+    "nextStep": "Review canonical admission after identity-collision and chronology checks; separately evaluate the 2015 Nature DQN publication milestone without conflating it with this 2013 paper submission."
+  }
+}
