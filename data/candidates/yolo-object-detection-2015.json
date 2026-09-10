@@ -1,0 +1,52 @@
+{
+  "id": "yolo-object-detection-2015",
+  "recordType": "event",
+  "title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "displayDate": "June 8, 2015",
+  "eventDate": "2015-06-08",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Joseph Redmon, Santosh Divvala, Ross Girshick and Ali Farhadi submitted You Only Look Once: Unified, Real-Time Object Detection to arXiv on June 8, 2015. The paper presents YOLO as an object-detection approach that frames detection as a regression problem and uses a single neural network to predict bounding boxes and class probabilities directly from full images in one evaluation.",
+  "significance": "A documented computer-vision research milestone for a unified neural-network approach to real-time object detection.",
+  "people": ["Joseph Redmon", "Santosh Divvala", "Ross Girshick", "Ali Farhadi"],
+  "organizations": [],
+  "technologies": ["YOLO"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The June 8 2015 date is used only for the original arXiv submission milestone. The technical description is supported by the authors' paper and independently corroborated by the CVPR 2016 open-access proceedings. This record does not infer a system birth date, release date, development geography, ancestry, influence or causality.",
+    "lastVerified": "2026-09-10T23:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "You Only Look Once: Unified, Real-Time Object Detection",
+      "url": "https://arxiv.org/abs/1506.02640",
+      "publisher": "arXiv",
+      "publishedDate": "2015-06-08",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "You Only Look Once: Unified, Real-Time Object Detection — CVPR 2016 Open Access",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html",
+      "publisher": "Computer Vision Foundation",
+      "publishedDate": "2016-06-01",
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence supports the June 8 2015 paper-submission milestone and the recorded technical claims at day precision. No unsupported geography or causal lineage is encoded.",
+    "nextStep": "Review for chronology-safe canonical placement and separately research any first public software or model release milestone before representing a release date."
+  }
+}
