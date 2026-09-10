@@ -8,8 +8,8 @@
   "publicationMonth": "1998-11",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
-  "summary": "Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner published Gradient-Based Learning Applied to Document Recognition in Proceedings of the IEEE. The paper reviews gradient-based learning for document recognition, describes convolutional neural networks for two-dimensional shape variability, and presents graph transformer networks for globally trained multimodule recognition systems.",
-  "significance": "A documented historical publication milestone for convolutional neural-network and end-to-end document-recognition methods.",
+  "summary": "Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner published Gradient-Based Learning Applied to Document Recognition in Proceedings of the IEEE. The paper reviews gradient-based learning for document recognition, describes convolutional neural networks for two-dimensional shape variability, presents graph transformer networks for globally trained multimodule recognition systems, and documents the LeNet-5 architecture in its experimental treatment.",
+  "significance": "A documented historical publication milestone for convolutional neural-network and end-to-end document-recognition methods, including LeNet-5.",
   "people": [
     "Yann LeCun",
     "Leon Bottou",
@@ -18,6 +18,7 @@
   ],
   "organizations": [],
   "technologies": [
+    "LeNet-5",
     "Convolutional neural networks",
     "Gradient-based learning",
     "Graph transformer networks",
@@ -27,8 +28,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "IEEE Xplore identifies the paper, authors, Proceedings of the IEEE volume 86 issue 11, pages 2278-2324, DOI 10.1109/5.726791, and Date of Publication 30 November 1998. Yann LeCun's publication archive independently lists the same paper in Proceedings of the IEEE 86(11):2278-2324, November 1998. Day precision is therefore used for the publisher-recorded publication milestone. No geography, institutional affiliation, ancestry, influence, causality, or relationships are inferred.",
-    "lastVerified": "2026-09-08T15:48:41+08:00"
+    "note": "IEEE Xplore identifies the paper, authors, Proceedings of the IEEE volume 86 issue 11, pages 2278-2324, DOI 10.1109/5.726791, and Date of Publication 30 November 1998. Yann LeCun's publication archive and Léon Bottou's author-hosted publication record independently corroborate the paper; Bottou's page links author-hosted copies of the paper, whose experimental treatment documents LeNet-5. Day precision is therefore used for the publisher-recorded publication milestone. No geography, institutional affiliation, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-10T10:10:02+08:00"
   },
   "sources": [
     {
@@ -50,6 +51,17 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Gradient Based Learning Applied to Document Recognition",
+      "url": "https://leon.bottou.org/papers/lecun-98h",
+      "publisher": "Léon Bottou",
+      "publishedDate": null,
+      "publishedYear": 1998,
+      "sourceType": "author-publication-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -57,7 +69,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Publisher and author records support the publication milestone and recorded technical claims. The candidate preserves chronology without asserting ancestry, influence, causality, or geography.",
+    "admissionReason": "Publisher and author records support the publication milestone, LeNet-5 identity, and recorded technical claims. The candidate preserves chronology without asserting ancestry, influence, causality, or geography.",
     "nextStep": "Consider canonical admission after chronology-safe review. Keep relationships and geography unset unless separately supported by evidence."
   }
 }
