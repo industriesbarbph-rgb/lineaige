@@ -1,0 +1,52 @@
+{
+  "id": "lora-2021",
+  "recordType": "event",
+  "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "displayDate": "June 17, 2021",
+  "eventDate": "2021-06-17",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen submitted 'LoRA: Low-Rank Adaptation of Large Language Models' to arXiv on June 17, 2021. The paper proposes freezing pretrained model weights while injecting trainable low-rank decomposition matrices into Transformer layers to reduce the number of trainable parameters needed for downstream adaptation.",
+  "significance": "A documented parameter-efficient adaptation milestone for large pretrained language models, introducing the Low-Rank Adaptation method described in the original paper.",
+  "people": ["Edward J. Hu", "Yelong Shen", "Phillip Wallis", "Zeyuan Allen-Zhu", "Yuanzhi Li", "Shean Wang", "Lu Wang", "Weizhu Chen"],
+  "organizations": [],
+  "technologies": ["LoRA", "Low-Rank Adaptation", "Transformer models", "Parameter-efficient fine-tuning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the title, authors, June 17 2021 initial submission date, and the core low-rank adaptation method recorded here. The authors also link the Microsoft LoRA code repository from the paper record. This candidate records only the paper-submission milestone and does not infer a software-release date, institutional geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T07:05:46+08:00"
+  },
+  "sources": [
+    {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "publisher": "arXiv",
+      "publishedDate": "2021-06-17",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "microsoft/LoRA",
+      "url": "https://github.com/microsoft/LoRA",
+      "publisher": "Microsoft",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the June 17 2021 arXiv paper-submission milestone at day precision and supports the core technical claim recorded here. Chronology alone is not used to assert ancestry, influence, causality, or geography.",
+    "nextStep": "Consider canonical admission after chronology-safe placement. Investigate any distinct software-release milestone separately if primary evidence supports its date and admission value; keep relationships empty unless dedicated evidence supports them."
+  }
+}
