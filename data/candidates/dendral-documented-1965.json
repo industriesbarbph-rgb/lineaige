@@ -1,0 +1,52 @@
+{
+  "id": "dendral-documented-1965",
+  "recordType": "event",
+  "title": "DENDRAL Documented in Stanford Machine-Induction Research Memo",
+  "displayDate": "April 5, 1965",
+  "eventDate": "1965-04-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "On April 5, 1965, Edward A. Feigenbaum and R. W. Watson issued An Initial Problem Statement for a Machine Induction Research Project at the Stanford Artificial Intelligence Project. The memo described research then getting under way on machine induction using organic chemistry and explicitly documented a system called Dendral as an existing ALGOL program for the B-5000.",
+  "significance": "A primary-source documentation milestone showing DENDRAL already existed as a named program by April 5, 1965, while separately documenting the planned machine-induction research around it. This record does not treat the memo date as DENDRAL's invention, first implementation, or system-birth date.",
+  "people": ["Edward A. Feigenbaum", "R. W. Watson"],
+  "organizations": ["Stanford Artificial Intelligence Project", "Stanford University"],
+  "technologies": ["DENDRAL", "Machine induction", "ALGOL"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The archived April 5, 1965 Stanford Artificial Intelligence Project memo directly states that the research project was getting under way and that a system called Dendral existed as an ALGOL program for the B-5000. Edward Feigenbaum's Stanford-hosted archival commentary independently identifies the April 5 plan as the earliest document he wrote about DENDRAL and says the DENDRAL Project had not yet formally been formed. The candidate therefore records a documentation/planning milestone only; no invention date, first-implementation date, formal project-formation date, ancestry, influence, causality, or relationship is inferred.",
+    "lastVerified": "2026-09-10T17:02:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "An Initial Problem Statement for a Machine Induction Research Project",
+      "url": "https://digirepo.nlm.nih.gov/ext/document/101584906X17008/PDF/101584906X17008.pdf",
+      "publisher": "Stanford Artificial Intelligence Project / U.S. National Library of Medicine archive",
+      "publishedDate": "1965-04-05",
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "EAF's Personal Commentary — DENDRAL Original1965",
+      "url": "https://cs.stanford.edu/people/eaf/wordpress/eaf-commentary/",
+      "publisher": "Stanford Computer Science / Edward A. Feigenbaum Collection",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated primary archival memo directly documents DENDRAL as an existing named program on April 5, 1965, and Stanford-hosted Feigenbaum commentary corroborates the document's place in DENDRAL history while explicitly distinguishing it from formal DENDRAL Project formation.",
+    "nextStep": "Review the 1964 DENDRAL-64 material and later Heuristic DENDRAL milestones before canonical admission so LINEAiGE can distinguish the pre-AI-project DENDRAL generator, the April 1965 documentation milestone, and later heuristic-system development without collapsing them into one birth date."
+  }
+}
