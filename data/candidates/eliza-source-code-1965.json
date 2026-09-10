@@ -1,0 +1,54 @@
+{
+  "id": "eliza-source-code-1965",
+  "recordType": "event",
+  "title": "ELIZA source code and DOCTOR script documented",
+  "displayDate": "1965",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1965,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "MIT Libraries preserves a 1965 archival item described as a complete printout of the source code listing of ELIZA, written in the MAD-SLIP programming language, with the DOCTOR script attached.",
+  "significance": "Primary archival evidence establishes that ELIZA software and its DOCTOR script were documented in 1965 without requiring a more precise invention, completion, or public-release date.",
+  "people": ["Joseph Weizenbaum"],
+  "organizations": [],
+  "technologies": ["ELIZA", "DOCTOR script", "MAD-SLIP"],
+  "geography": null,
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Verified against the Joseph Weizenbaum personal archives held by MIT Libraries. The archive describes a complete ELIZA source-code listing dated 1965 and states that the DOCTOR script is attached. The candidate deliberately uses year precision and does not infer an exact creation date, development geography, public debut date, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-10T13:07:01+08:00"
+  },
+  "sources": [
+    {
+      "title": "Computer conversations, 1965",
+      "url": "https://dome.mit.edu/handle/1721.3/201699",
+      "publisher": "MIT Libraries",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ELIZA wins Peabody Award",
+      "url": "https://www.csail.mit.edu/news/eliza-wins-peabody-award",
+      "publisher": "MIT CSAIL",
+      "publishedDate": "2022-03-24",
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "ready-after-chronology-review",
+    "admissionReason": "The 1965 ELIZA source-code artifact is directly supported by a primary institutional archive, but the canonical timeline should distinguish this software-documentation evidence from the separate January 1966 Communications of the ACM publication milestone.",
+    "nextStep": "Review chronology around early conversational computing and the 1966 ELIZA paper before canonical admission; preserve year precision for this record unless primary evidence supports a narrower date, and do not add causal or ancestry relationships without explicit evidence."
+  }
+}
