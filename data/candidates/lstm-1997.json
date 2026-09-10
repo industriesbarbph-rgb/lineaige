@@ -10,14 +10,14 @@
   "summary": "Sepp Hochreiter and Jürgen Schmidhuber published Long Short-Term Memory in Neural Computation on 15 November 1997. The paper introduced the gradient-based method called long short-term memory (LSTM), using constant error flow and multiplicative gate units to address long time-lag learning problems in recurrent networks.",
   "significance": "A documented recurrent-neural-network milestone whose original publisher record explicitly names and describes the LSTM method and its mechanism for learning across long time intervals.",
   "people": ["Sepp Hochreiter", "Jürgen Schmidhuber"],
-  "organizations": ["MIT Press", "Neural Computation"],
+  "organizations": ["Technische Universität München", "IDSIA", "MIT Press", "Neural Computation"],
   "technologies": ["Long short-term memory", "Recurrent neural networks", "Gradient-based learning"],
   "verification": {
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Authors, journal citation, publication date, DOI and the paper's description of LSTM are verified against the MIT Press Neural Computation record. PubMed independently corroborates the same publication date, authors, journal citation and DOI. No claim is made here that this record alone establishes every precursor or later influence relationship.",
-    "lastVerified": "2026-09-09T06:47:45+08:00"
+    "note": "Authors, journal citation, publication date, DOI, author affiliations and the paper's description of LSTM are verified against the MIT Press Neural Computation record and an author-hosted copy of the original paper. PubMed independently corroborates the same publication date, authors, journal citation and DOI. No claim is made here that this record alone establishes invention geography, every precursor, later influence, or causal relationships.",
+    "lastVerified": "2026-09-10T12:05:10+08:00"
   },
   "sources": [
     {
@@ -28,6 +28,17 @@
       "publishedMonth": "1997-11",
       "sourceType": "paper",
       "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Long Short-Term Memory",
+      "url": "https://people.idsia.ch/~juergen/lstm1997-2024head.pdf",
+      "publisher": "Jürgen Schmidhuber / IDSIA",
+      "publishedDate": "1997-11-15",
+      "publishedMonth": "1997-11",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
     },
@@ -48,7 +59,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "The original MIT Press publisher record supports the paper, authors, technical description and 15 November 1997 publication date at day precision, with PubMed providing independent bibliographic corroboration. Candidate policy keeps relationships empty until chronology is deliberately updated during canonical admission.",
+    "admissionReason": "The original MIT Press publisher record supports the paper, authors, technical description and 15 November 1997 publication date at day precision, with an author-hosted copy of the original paper and PubMed providing additional corroboration. Candidate policy keeps relationships empty until chronology is deliberately updated during canonical admission.",
     "nextStep": "Consider canonical admission in the pre-Transformer recurrent-neural-network history after chronology-safe placement among other verified 1990s records; add only chronology traversal unless stronger relationship claims are separately evidenced."
   }
 }
