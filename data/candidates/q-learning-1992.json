@@ -1,0 +1,44 @@
+{
+  "id": "q-learning-1992",
+  "recordType": "event",
+  "title": "Q-learning",
+  "displayDate": "May 1992",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1992-05",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Christopher J. C. H. Watkins and Peter Dayan published Q-learning in Machine Learning in May 1992. The paper describes Q-learning as an incremental dynamic-programming method for agents to improve action-value estimates and presents a detailed convergence theorem for the method under stated conditions.",
+  "significance": "A documented reinforcement-learning milestone providing a formal published treatment and convergence result for Q-learning while explicitly identifying the method as originating in Watkins's earlier 1989 work.",
+  "people": ["Christopher J. C. H. Watkins", "Peter Dayan"],
+  "organizations": ["Machine Learning"],
+  "technologies": ["Q-learning", "Reinforcement learning", "Dynamic programming"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The Springer journal record verifies the authors, journal, volume, pages, May 1992 issue date, DOI, and abstract. The abstract explicitly states that Q-learning is an incremental method for dynamic programming, that it improves action-value evaluations, that the paper proves a convergence theorem, and that the method is attributed to Watkins (1989). Month precision is retained because the reviewed publisher record establishes May 1992 without an exact publication day. This record does not infer a 1989 thesis date beyond the year, development geography, ancestry, influence, or causal relationships.",
+    "lastVerified": "2026-09-11T02:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Q-learning",
+      "url": "https://doi.org/10.1007/BF00992698",
+      "publisher": "Springer / Machine Learning",
+      "publishedDate": null,
+      "publishedMonth": "1992-05",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publisher evidence supports the May 1992 publication milestone and the technical claims recorded here at month precision. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Investigate the 1989 Watkins thesis from a primary institutional copy before deciding whether it merits a separate earlier milestone; consider canonical admission only after precision-aware chronology review, keeping relationships empty unless separately evidenced."
+  }
+}
