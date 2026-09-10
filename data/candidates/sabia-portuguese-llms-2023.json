@@ -1,0 +1,42 @@
+{
+  "id": "sabia-portuguese-llms-2023",
+  "recordType": "event",
+  "title": "Sabiá: Portuguese Large Language Models",
+  "displayDate": "April 16, 2023",
+  "eventDate": "2023-04-16",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Ramon Pires, Hugo Abonizio, Thales Sales Almeida and Rodrigo Nogueira submitted Sabiá: Portuguese Large Language Models to arXiv on April 16, 2023. The paper documents language models produced by further pretraining GPT-J and LLaMA models on Portuguese texts and evaluates them on Portuguese-language datasets.",
+  "significance": "A documented Portuguese-language-model research milestone focused on language-specific continued pretraining and evaluation.",
+  "people": ["Ramon Pires", "Hugo Abonizio", "Thales Sales Almeida", "Rodrigo Nogueira"],
+  "organizations": ["Maritaca AI"],
+  "technologies": ["Sabiá", "GPT-J", "LLaMA"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Title, authors, April 16 2023 v1 submission date, Portuguese-text continued-pretraining method and Portuguese evaluation claims are supported by the original arXiv record. The record does not infer a model birth date, development geography, ancestry, influence or causality beyond what the paper explicitly states.",
+    "lastVerified": "2026-09-10T22:06:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Sabiá: Portuguese Large Language Models",
+      "url": "https://arxiv.org/abs/2304.07880",
+      "publisher": "arXiv",
+      "publishedDate": "2023-04-16",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence supports the April 16 2023 paper-submission milestone and the recorded technical claims at day precision. No unsupported geography or causal lineage is encoded.",
+    "nextStep": "Review for chronology-safe canonical placement and seek a first-party Maritaca archival source if one can independently corroborate the 2023 milestone without introducing later-version ambiguity."
+  }
+}
