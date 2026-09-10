@@ -1,0 +1,42 @@
+{
+  "id": "auto-encoding-variational-bayes-2013",
+  "recordType": "event",
+  "title": "Auto-Encoding Variational Bayes Research Publication",
+  "displayDate": "20 December 2013",
+  "eventDate": "2013-12-20",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Diederik P. Kingma and Max Welling submitted 'Auto-Encoding Variational Bayes' on December 20, 2013. The paper presented a stochastic variational inference and learning method for directed probabilistic models with continuous latent variables, including a reparameterized variational-lower-bound estimator that can be optimized with standard stochastic gradient methods.",
+  "significance": "A documented generative latent-variable modeling milestone that combines variational inference with a learned approximate inference, or recognition, model and a reparameterization-based optimization method.",
+  "people": ["Diederik P. Kingma", "Max Welling"],
+  "organizations": [],
+  "technologies": ["Auto-Encoding Variational Bayes", "Variational inference", "Latent-variable models"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the December 20, 2013 first-submission date, authors, and the paper's stochastic variational inference, reparameterized lower-bound estimator, and approximate-inference-model claims. This record uses that first-submission date strictly as a research-publication milestone. It does not infer a software or product release date, institutional affiliation, geography, ancestry, later influence, causality, or relationships, and it does not retroactively assign terminology beyond what is needed to identify the documented method.",
+    "lastVerified": "2026-09-10T09:04:42+08:00"
+  },
+  "sources": [
+    {
+      "title": "Auto-Encoding Variational Bayes",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "publisher": "arXiv",
+      "publishedDate": "2013-12-20",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original primary paper directly establishes the December 20, 2013 research-publication milestone and supports the recorded variational-inference, reparameterization, and learned approximate-inference claims.",
+    "nextStep": "Consider chronology-safe canonical admission specifically as a research-publication milestone. Keep later naming conventions, institutional geography, software or product release, ancestry, influence, and causal relationships separate unless independently evidenced."
+  }
+}
