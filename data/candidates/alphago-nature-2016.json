@@ -1,0 +1,45 @@
+{
+  "id": "alphago-nature-2016",
+  "recordType": "event",
+  "title": "AlphaGo Nature publication",
+  "displayDate": "27 January 2016",
+  "eventDate": "2016-01-27",
+  "datePrecision": "day",
+  "publicationMonth": "2016-01",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Nature published the AlphaGo paper on 27 January 2016, describing a computer Go system that combined policy and value neural networks with tree search and had defeated European Go champion Fan Hui by five games to zero.",
+  "significance": "The paper documents AlphaGo as the first computer program to defeat a human professional player in the full-sized game of Go, while this record uses only the paper's publication date as its timeline date.",
+  "people": ["David Silver", "Aja Huang"],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["AlphaGo", "Deep neural networks", "Reinforcement learning", "Monte Carlo tree search"],
+  "geography": null,
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Nature's article metadata gives 27 January 2016 as the publication date. Its abstract describes the policy/value network and tree-search approach, the 5-0 result against Fan Hui, and the first-professional-player milestone. This candidate does not treat the publication date as AlphaGo's development, completion, release, or match date.",
+    "lastVerified": "2026-09-10T21:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "url": "https://www.nature.com/articles/nature16961",
+      "publisher": "Nature",
+      "publishedDate": "2016-01-27",
+      "publishedMonth": "2016-01",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The 27 January 2016 publication milestone and the claims summarized here are directly supported by the Nature paper. Relationships remain empty until deliberate canonical admission and chronology review.",
+    "nextStep": "Review whether LINEAiGE should separately represent AlphaGo's October 2015 Fan Hui match and March 2016 Lee Sedol match as distinct milestones rather than collapsing those events into this publication record."
+  }
+}
