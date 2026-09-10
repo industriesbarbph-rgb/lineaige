@@ -1,0 +1,52 @@
+{
+  "id": "gemma-2024",
+  "recordType": "event",
+  "title": "Gemma Open Models Introduction",
+  "displayDate": "February 21, 2024",
+  "eventDate": "2024-02-21",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google introduced Gemma on February 21, 2024 as a family of lightweight open models, releasing Gemma 2B and Gemma 7B in pretrained and instruction-tuned variants.",
+  "significance": "A documented public introduction and availability milestone for Google's Gemma open-model family.",
+  "people": ["Jeanine Banks", "Tris Warkentin"],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma", "Gemma 2B", "Gemma 7B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party February 21, 2024 announcement directly establishes the public introduction date, worldwide availability, Gemma family identity, and 2B/7B pretrained and instruction-tuned variants. This record treats the date only as the documented public introduction/availability milestone; no development date, development geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-10T16:03:55+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma: Introducing new state-of-the-art open models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-open-models/",
+      "publisher": "Google",
+      "publishedDate": "2024-02-21",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Introducing Gemma models in Keras",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-models-in-keras/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2024-02-21",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google sources establish the February 21, 2024 Gemma public introduction/availability milestone and the 2B/7B model variants at day precision.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep development geography, ancestry, influence, causality, and relationships unset unless dedicated evidence supports those semantics."
+  }
+}
