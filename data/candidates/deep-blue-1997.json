@@ -17,15 +17,15 @@
     "city": "New York City",
     "country": "United States",
     "context": "event-location",
-    "note": "IBM's Deep Blue history records the 1997 rematch at the Equitable Center in New York City.",
-    "sourceUrl": "https://www.ibm.com/history/deep-blue"
+    "note": "IBM first-party material identifies the 11 May 1997 rematch venue as the Equitable Center in New York City.",
+    "sourceUrl": "https://public.dhe.ibm.com/solutions/DFO_IBM_Presentation/DFO-IBM-Power6.pdf"
   },
   "verification": {
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "IBM's 1997 Annual Report dates the match victory to 11 May 1997 and records the first-in-tournament-play claim; IBM's Deep Blue history corroborates the 3.5–2.5 result, standard tournament time controls, and New York event context.",
-    "lastVerified": "2026-09-08T00:47:00+08:00"
+    "note": "IBM's 1997 Annual Report dates the match victory to 11 May 1997 and records the first-in-tournament-play claim; IBM first-party retrospective material independently records the 11 May 1997 Equitable Center rematch and 3.5–2.5 result; IBM Research describes Deep Blue as the chess machine that defeated the reigning World Chess Champion in a six-game match in 1997.",
+    "lastVerified": "2026-09-10T20:04:54+08:00"
   },
   "sources": [
     {
@@ -40,12 +40,23 @@
       "archivedUrl": null
     },
     {
-      "title": "Deep Blue",
-      "url": "https://www.ibm.com/history/deep-blue",
+      "title": "IBM Power6 presentation — Deep Blue retrospective",
+      "url": "https://public.dhe.ibm.com/solutions/DFO_IBM_Presentation/DFO-IBM-Power6.pdf",
       "publisher": "IBM",
       "publishedDate": null,
       "publishedMonth": null,
       "sourceType": "official-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Deep Blue",
+      "url": "https://research.ibm.com/publications/deep-blue",
+      "publisher": "IBM Research",
+      "publishedDate": "2002-01-01",
+      "publishedMonth": "2002-01",
+      "sourceType": "paper",
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
@@ -56,7 +67,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "The victory date, result, event location and tournament-play milestone are supported by IBM first-party records at day precision, but candidate policy keeps relationships empty until deliberate canonical admission updates chronology safely.",
+    "admissionReason": "The victory date, result, event location and tournament-play milestone are supported by multiple IBM first-party records at day precision, but candidate policy keeps relationships empty until deliberate canonical admission updates chronology safely.",
     "nextStep": "Consider canonical admission after back-propagation 1986 and before Transformer 2017; add chronology-only traversal at admission unless stronger relationship claims are separately evidenced."
   }
 }
