@@ -30,7 +30,7 @@ jobs:
       - name: Audit candidate/canonical technology identity collisions
         run: python3 scripts/audit_identity_collisions.py
 
-      - name: Audit candidate source types against canonical schema
+      - name: Audit candidate source contract and admission compatibility
         run: python3 scripts/audit_candidate_source_types.py
 
       - name: Audit candidate source temporal metadata
