@@ -1,0 +1,55 @@
+{
+  "id": "perceptron-1958",
+  "recordType": "event",
+  "title": "The Perceptron",
+  "displayDate": "November 1958",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1958-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Frank Rosenblatt published \"The perceptron: A probabilistic model for information storage and organization in the brain\" in Psychological Review in November 1958. The paper develops a theory for a hypothetical nervous system called a perceptron and presents it as a quantitative statistical approach to questions of recognition, memory, and behavior.",
+  "significance": "A documented neural-network and machine-learning milestone establishing Rosenblatt's published perceptron formulation at a defensible month-level publication date, without treating that publication date as an inferred invention or machine-construction date.",
+  "people": ["Frank Rosenblatt"],
+  "organizations": ["Psychological Review", "American Psychological Association"],
+  "technologies": ["Perceptron", "Neural networks", "Statistical learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The American Psychological Association publisher record verifies Frank Rosenblatt, the article title, Psychological Review volume 65 issue 6, pages 386-408, DOI 10.1037/h0042519, and publication year 1958. PubMed independently records the article as 1958 Nov;65(6):386-408 with the same DOI. Month precision is therefore retained. This record does not infer an exact publication day, a perceptron invention date, hardware-construction date, development geography, ancestry, influence, or causal relationships.",
+    "lastVerified": "2026-09-11T05:07:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "The perceptron: A probabilistic model for information storage and organization in the brain",
+      "url": "https://doi.org/10.1037/h0042519",
+      "publisher": "American Psychological Association / Psychological Review",
+      "publishedDate": null,
+      "publishedMonth": "1958-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The perceptron: a probabilistic model for information storage and organization in the brain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13602029/",
+      "publisher": "National Library of Medicine / PubMed",
+      "publishedDate": null,
+      "publishedMonth": "1958-11",
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Publisher and bibliographic evidence support the November 1958 publication milestone and the limited technical claims recorded here at month precision. Chronology remains separate from invention, hardware realization, ancestry, influence, and causality.",
+    "nextStep": "Before canonical admission, investigate primary archival evidence for earlier Rosenblatt perceptron reports and the Mark I Perceptron hardware timeline as potentially separate milestones; do not merge those dates into this publication record without source-specific evidence."
+  }
+}
