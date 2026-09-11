@@ -1,0 +1,62 @@
+{
+  "id": "q-learning-1989",
+  "recordType": "event",
+  "title": "Learning from Delayed Rewards",
+  "displayDate": "May 1989",
+  "eventYear": 1989,
+  "datePrecision": "month",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Christopher John Cornish Hellaby Watkins submitted his University of Cambridge PhD thesis 'Learning from Delayed Rewards' in May 1989. Watkins's own account states that the thesis described a range of reinforcement-learning algorithms, including one-step Q-learning, and sketched a proof of its convergence.",
+  "significance": "A documented research milestone for Q-learning in the reinforcement-learning literature, represented here strictly as the May 1989 thesis-submission milestone.",
+  "people": ["Christopher John Cornish Hellaby Watkins"],
+  "organizations": ["University of Cambridge"],
+  "technologies": ["Q-learning", "Reinforcement learning", "Markov decision processes", "Dynamic programming"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Watkins's own thesis page identifies 'Learning from Delayed Rewards' as his Cambridge 1989 PhD thesis and states that it describes reinforcement-learning algorithms including Q-learning. His first-person historical account states that he submitted the thesis in May 1989. The University of Cambridge repository independently identifies Watkins as author and the item as a thesis. May 1989 is therefore recorded only as the thesis-submission milestone; it is not asserted as a universal invention, release, or system-birth date. University of Cambridge is recorded as the thesis institution, not as inferred development geography. No ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-12T07:04:11+08:00"
+  },
+  "sources": [
+    {
+      "title": "PhD Thesis: Learning from Delayed Rewards",
+      "url": "https://www.cs.rhul.ac.uk/~chrisw/thesis.html",
+      "publisher": "Christopher J. C. H. Watkins",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Reinforcement Learning: some history",
+      "url": "https://www.cs.rhul.ac.uk/home/chrisw/RL_some_history.html",
+      "publisher": "Christopher J. C. H. Watkins",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "date-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Learning from Delayed Rewards",
+      "url": "https://www.repository.cam.ac.uk/items/f1ce2aa9-2e01-4a08-92b7-1eec76b652ed",
+      "publisher": "University of Cambridge Apollo Repository",
+      "publishedDate": null,
+      "sourceType": "thesis",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party author evidence and the Cambridge repository support the thesis identity, author, institutional context, May 1989 submission chronology, and the thesis's inclusion of Q-learning. The record deliberately avoids converting that chronology into an unsupported universal invention date or causal claim.",
+    "nextStep": "Consider chronology-safe canonical admission as a thesis/research milestone. Preserve empty relationships unless dedicated evidence separately supports a specific non-causal or causal relationship claim."
+  }
+}
