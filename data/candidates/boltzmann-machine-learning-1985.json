@@ -1,0 +1,44 @@
+{
+  "id": "boltzmann-machine-learning-1985",
+  "recordType": "event",
+  "title": "A Learning Algorithm for Boltzmann Machines",
+  "displayDate": "January 1985",
+  "eventDate": null,
+  "publicationMonth": "1985-01",
+  "datePrecision": "month",
+  "eventYear": 1985,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "David H. Ackley, Geoffrey E. Hinton, and Terrence J. Sejnowski published \"A Learning Algorithm for Boltzmann Machines\" in Cognitive Science in January 1985. The paper describes a general parallel search method based on statistical mechanics and a learning rule for modifying connection strengths to incorporate task-domain knowledge.",
+  "significance": "A documented neural-network and machine-learning milestone describing a learning algorithm for Boltzmann machines, preserved at month precision from the publisher record.",
+  "people": ["David H. Ackley", "Geoffrey E. Hinton", "Terrence J. Sejnowski"],
+  "organizations": ["Carnegie-Mellon University", "The Johns Hopkins University"],
+  "technologies": ["Boltzmann machines", "Neural networks", "Statistical mechanics"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Wiley's publisher record identifies the paper, authors, Cognitive Science volume 9 issue 1, pages 147-169, and first publication in January 1985. Its abstract describes a general parallel search method based on statistical mechanics and a general learning rule for modifying connection strengths. The record preserves month precision only and does not infer a universal invention date, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-12T00:04:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "A Learning Algorithm for Boltzmann Machines",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_7",
+      "publisher": "Cognitive Science / Wiley",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The publisher record directly supports the January 1985 publication milestone, authorship, bibliographic placement, and the paper's stated learning-method description at month precision. No unsupported relationship or causal claim is required for candidate admission.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve January 1985 month precision and keep relationships empty unless dedicated evidence supports a non-chronological relationship."
+  }
+}
