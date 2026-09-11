@@ -1,0 +1,52 @@
+{
+  "id": "glove-2014",
+  "recordType": "event",
+  "title": "GloVe original release",
+  "displayDate": "August 2014",
+  "eventDate": "2014-08",
+  "datePrecision": "month",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The Stanford NLP Group records August 2014 as the original release of GloVe, prepared by Jeffrey Pennington. The project describes GloVe as an unsupervised learning algorithm for obtaining vector representations for words from aggregated global word-word co-occurrence statistics.",
+  "significance": "A documented word-representation milestone centered on global corpus co-occurrence statistics and distributed vector representations.",
+  "people": ["Jeffrey Pennington", "Richard Socher", "Christopher D. Manning"],
+  "organizations": ["Stanford NLP Group"],
+  "technologies": ["GloVe", "Word embeddings", "Distributional semantics"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The first-party Stanford GloVe project page explicitly records GloVe v1.0 as the original release in August 2014 and describes the algorithm as learning word-vector representations from aggregated global word-word co-occurrence statistics. The ACL Anthology independently corroborates the 2014 GloVe paper and authorship. This record uses month precision only and does not infer an exact release day, institutional geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T12:07:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "GloVe: Global Vectors for Word Representation",
+      "url": "https://nlp.stanford.edu/projects/glove/",
+      "publisher": "Stanford NLP Group",
+      "publishedDate": "2014-08",
+      "sourceType": "project-page",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "GloVe: Global Vectors for Word Representation",
+      "url": "https://aclanthology.org/D14-1162/",
+      "publisher": "Association for Computational Linguistics",
+      "publishedDate": "2014-10",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party Stanford evidence supports an August 2014 original-release milestone at month precision, and the official ACL Anthology corroborates the 2014 GloVe paper and authorship. No exact day, geography, ancestry, influence, causality, or relationships are inferred.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve month precision and empty relationships unless dedicated evidence supports more precision or a non-chronological relationship."
+  }
+}
