@@ -1,0 +1,62 @@
+{
+  "id": "layer-normalization-2016",
+  "recordType": "event",
+  "title": "Layer Normalization",
+  "displayDate": "July 21, 2016",
+  "eventDate": "2016-07-21",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton submitted Layer Normalization on July 21, 2016. The paper proposed computing normalization statistics across the summed inputs to the neurons in a layer for a single training case, rather than across a mini-batch, and described the method as straightforward to apply to recurrent neural networks.",
+  "significance": "A documented neural-network normalization milestone introducing Layer Normalization as a training method distinct from mini-batch-dependent Batch Normalization.",
+  "people": ["Jimmy Lei Ba", "Jamie Ryan Kiros", "Geoffrey E. Hinton"],
+  "organizations": [],
+  "technologies": ["Layer Normalization", "Deep neural networks", "Recurrent neural networks"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record identifies the authors, July 21 2016 submission date, and the Layer Normalization method. Geoffrey Hinton's University of Toronto publication page and the author-hosted paper independently corroborate the paper, authors, 2016 publication context, and method description. The day-precision date is attached specifically to the arXiv submission milestone and is not asserted as a separate method-birth date. No geography, institutional affiliation, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-11T16:07:15+08:00"
+  },
+  "sources": [
+    {
+      "title": "Layer Normalization",
+      "url": "https://arxiv.org/abs/1607.06450",
+      "publisher": "arXiv",
+      "publishedDate": "2016-07-21",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Layer Normalization",
+      "url": "https://www.cs.toronto.edu/~hinton/absps/LayerNormalization.pdf",
+      "publisher": "University of Toronto",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Geoffrey E. Hinton's Publications",
+      "url": "https://www.cs.toronto.edu/~hinton/papers.html",
+      "publisher": "University of Toronto",
+      "publishedDate": null,
+      "sourceType": "institutional-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the July 21 2016 paper-submission milestone and directly supports the recorded Layer Normalization method claims. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve the submission-date semantics and empty relationships unless dedicated evidence supports a different relationship or geography claim."
+  }
+}
