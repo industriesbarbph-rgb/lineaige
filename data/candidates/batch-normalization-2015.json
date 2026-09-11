@@ -1,0 +1,52 @@
+{
+  "id": "batch-normalization-2015",
+  "recordType": "event",
+  "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+  "displayDate": "February 11, 2015",
+  "eventDate": "2015-02-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Sergey Ioffe and Christian Szegedy submitted Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift on February 11, 2015. The paper proposed normalizing layer inputs as part of the model architecture using statistics computed for each training mini-batch, and reported that the method enabled higher learning rates and reduced sensitivity to initialization.",
+  "significance": "A documented deep-learning optimization and normalization milestone introducing Batch Normalization as an architectural training method.",
+  "people": ["Sergey Ioffe", "Christian Szegedy"],
+  "organizations": [],
+  "technologies": ["Batch Normalization", "Deep neural networks", "Mini-batch normalization"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record identifies the authors, February 11 2015 submission date, and the method of normalizing layer inputs for each training mini-batch. The official PMLR ICML 2015 proceedings independently corroborate the authors, title, method description and 2015 conference publication. The day-precision date is attached specifically to the arXiv submission milestone and is not asserted as a separate method-birth date. No geography, institutional affiliation, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-11T15:06:32+08:00"
+  },
+  "sources": [
+    {
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "url": "https://arxiv.org/abs/1502.03167",
+      "publisher": "arXiv",
+      "publishedDate": "2015-02-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "url": "https://proceedings.mlr.press/v37/ioffe15.html",
+      "publisher": "Proceedings of Machine Learning Research",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the February 11 2015 paper-submission milestone and directly supports the recorded Batch Normalization method claims. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve the submission-date semantics and empty relationships unless dedicated evidence supports a different relationship or geography claim."
+  }
+}
