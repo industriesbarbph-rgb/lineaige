@@ -10,14 +10,14 @@
   "summary": "Karen Simonyan and Andrew Zisserman submitted Very Deep Convolutional Networks for Large-Scale Image Recognition to arXiv on September 4, 2014. The paper evaluates convolutional-network depth for large-scale image recognition, using very small 3x3 convolution filters and reporting networks with 16 to 19 weight layers.",
   "significance": "A documented deep-convolutional-network milestone associated with the very-deep VGG family and the authors' ImageNet Challenge 2014 work.",
   "people": ["Karen Simonyan", "Andrew Zisserman"],
-  "organizations": [],
+  "organizations": ["University of Oxford"],
   "technologies": ["Deep convolutional neural networks", "3x3 convolution filters", "VGG"],
   "verification": {
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "The arXiv record establishes the title, authors, September 4 2014 first-submission date, use of very small 3x3 convolution filters, and evaluation of networks up to 16-19 weight layers. The University of Oxford Visual Geometry Group publication record corroborates the title, authors and later ICLR 2015 publication. The day-precision date is attached only to the documented arXiv submission milestone. No geography, ancestry, influence, causality, institutional affiliation, or relationships are inferred.",
-    "lastVerified": "2026-09-08T22:46:23+08:00"
+    "note": "The arXiv record establishes the title, authors, September 4 2014 first-submission date, use of very small 3x3 convolution filters, and evaluation of networks up to 16-19 weight layers. The University of Oxford Visual Geometry Group publication record and author-hosted conference paper corroborate the title, authors, University of Oxford affiliation, technical claims, and later ICLR 2015 publication. The day-precision date is attached only to the documented arXiv submission milestone. University of Oxford is recorded only as the explicit author affiliation; no broader geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-11T23:02:33+08:00"
   },
   "sources": [
     {
@@ -46,7 +46,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Primary-source evidence supports the September 4 2014 submission milestone and the technical claims recorded here at day precision. Chronology remains separate from ancestry, influence and causality.",
-    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships, institutional affiliation and geography unset unless dedicated evidence supports those semantics."
+    "admissionReason": "Primary-source evidence supports the September 4 2014 submission milestone, technical claims, and recorded University of Oxford author affiliation. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships and broader geography unset unless dedicated evidence supports those semantics."
   }
 }
