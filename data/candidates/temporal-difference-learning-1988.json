@@ -1,0 +1,52 @@
+{
+  "id": "temporal-difference-learning-1988",
+  "recordType": "event",
+  "title": "Learning to Predict by the Methods of Temporal Differences",
+  "displayDate": "1988",
+  "eventYear": "1988",
+  "datePrecision": "year",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Richard S. Sutton published 'Learning to Predict by the Methods of Temporal Differences' in Machine Learning in 1988. The paper introduces a class of incremental prediction-learning procedures that assign credit using differences between temporally successive predictions and studies convergence and optimality in special cases.",
+  "significance": "A documented reinforcement-learning research milestone establishing temporal-difference methods in the peer-reviewed literature.",
+  "people": ["Richard S. Sutton"],
+  "organizations": [],
+  "technologies": ["Temporal-difference learning", "Prediction learning", "Reinforcement learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The 1988 Machine Learning paper itself and its bibliographic records establish Richard S. Sutton as author, volume 3 pages 9-44, DOI 10.1007/BF00115009, and the paper's stated introduction of incremental prediction-learning procedures based on differences between temporally successive predictions. LINEAiGE preserves year precision only because the evidence used in this admission run does not justify treating any more specific date as the authoritative publication milestone. No organization, geography, ancestry, influence, causality, or relationship is inferred.",
+    "lastVerified": "2026-09-12T06:04:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Learning to Predict by the Methods of Temporal Differences",
+      "url": "https://doi.org/10.1007/BF00115009",
+      "publisher": "Machine Learning / Kluwer Academic Publishers",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Learning to Predict by the Methods of Temporal Differences",
+      "url": "https://mlanthology.org/mlj/1988/sutton1988mlj-learning/",
+      "publisher": "ML Anthology",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original paper and bibliographic evidence establish a 1988 publication milestone and directly support the recorded temporal-difference method claims. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve year precision and empty relationships unless dedicated evidence supports more precise publication chronology or separate relationship, organization, or geography claims."
+  }
+}
