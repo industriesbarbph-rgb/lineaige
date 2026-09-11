@@ -1,0 +1,44 @@
+{
+  "id": "gradient-based-document-recognition-1998",
+  "recordType": "event",
+  "title": "Gradient-Based Learning Applied to Document Recognition",
+  "displayDate": "November 1998",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1998-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner published 'Gradient-Based Learning Applied to Document Recognition' in the November 1998 issue of Proceedings of the IEEE. The paper reviews gradient-based methods for handwritten-character recognition, reports that convolutional neural networks outperform the other techniques compared on a standard handwritten-digit task, and describes graph transformer networks for globally trained multimodule document-recognition systems.",
+  "significance": "A documented neural-network and document-recognition research milestone connecting convolutional neural-network methods, back-propagation-based learning, and globally trained document-recognition systems in a primary IEEE publication.",
+  "people": ["Yann LeCun", "Léon Bottou", "Yoshua Bengio", "Patrick Haffner"],
+  "organizations": ["Proceedings of the IEEE"],
+  "technologies": ["Convolutional neural networks", "Back-propagation", "Graph transformer networks", "Document recognition"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official Proceedings of the IEEE page establishes the authors, November 1998 publication month, and the abstract claims recorded here. Month precision is retained because the reviewed publisher evidence establishes November 1998 without an exact publication day. No geography, ancestry, later influence, causal relationships, or unsupported model-release date is inferred.",
+    "lastVerified": "2026-09-11T09:04:22+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "url": "https://proceedingsoftheieee.ieee.org/gradient-based-learning-applied-to-document-recognition/",
+      "publisher": "Proceedings of the IEEE",
+      "publishedDate": null,
+      "publishedMonth": "1998-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publisher evidence supports the November 1998 publication milestone and the technical claims recorded here at month precision. Chronology is kept separate from ancestry, influence, causality, geography, and any separate model-release milestone.",
+    "nextStep": "Consider canonical admission after chronology-safe placement. If a separate LeNet-5 system milestone is proposed, verify its exact source-defined milestone and identity before admission rather than treating this paper publication automatically as a model-release date."
+  }
+}
