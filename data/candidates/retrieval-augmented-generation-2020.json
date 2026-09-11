@@ -1,0 +1,54 @@
+{
+  "id": "retrieval-augmented-generation-2020",
+  "recordType": "event",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "displayDate": "May 22, 2020",
+  "eventDate": "2020-05-22",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Patrick Lewis and coauthors submitted 'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks' on May 22, 2020. The paper introduces RAG models that combine a pre-trained sequence-to-sequence model as parametric memory with a dense vector index of Wikipedia accessed through a neural retriever as non-parametric memory.",
+  "significance": "A documented research-publication milestone for retrieval-augmented generation (RAG) models that jointly use parametric and retrieved non-parametric memory for language generation.",
+  "people": ["Patrick Lewis", "Ethan Perez", "Aleksandra Piktus", "Fabio Petroni", "Vladimir Karpukhin", "Naman Goyal", "Heinrich Kuttler", "Mike Lewis", "Wen-tau Yih", "Tim Rocktaschel", "Sebastian Riedel", "Douwe Kiela"],
+  "organizations": [],
+  "technologies": ["Retrieval-Augmented Generation", "RAG", "Natural language processing", "Neural retrieval"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record identifies the twelve authors and the May 22 2020 submission date and directly describes retrieval-augmented generation models combining parametric and non-parametric memory. The official NeurIPS 2020 proceedings independently corroborate the paper title, author list, venue, and the same technical description. The day-precision date is scoped only to the arXiv submission milestone, not asserted as a universal invention or system-birth date. The NeurIPS paper lists Facebook AI Research, University College London, and New York University affiliations, but this candidate leaves organizations empty because author-affiliation mapping is not represented here without per-author semantics. No geography, ancestry, influence, causality, or relationship edges are inferred.",
+    "lastVerified": "2026-09-12T03:04:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "publisher": "arXiv",
+      "publishedDate": "2020-05-22",
+      "publishedMonth": "2020-05",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://papers.neurips.cc/paper_files/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+      "publisher": "NeurIPS 2020",
+      "publishedDate": null,
+      "publishedMonth": null,
+      "sourceType": "publication-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the May 22 2020 paper-submission milestone and directly supports the recorded RAG model description. Chronology remains separate from unsupported invention-date, geography, ancestry, influence, and causality claims.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve the arXiv submission-date semantics and empty relationships unless dedicated evidence supports a separate relationship or geography claim."
+  }
+}
