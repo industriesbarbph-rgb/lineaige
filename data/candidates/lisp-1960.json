@@ -1,0 +1,44 @@
+{
+  "id": "lisp-1960",
+  "recordType": "event",
+  "title": "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+  "displayDate": "April 1960",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1960-04",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "John McCarthy published 'Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I' in April 1960. The paper describes LISP, developed for the IBM 704 by the Artificial Intelligence group at MIT, and presents a system for representing partial recursive functions over symbolic expressions, including S-expressions and S-functions.",
+  "significance": "A documented symbolic-computing and artificial-intelligence research milestone in which McCarthy formally described the LISP programming system and its representation of recursive functions over symbolic expressions.",
+  "people": ["John McCarthy"],
+  "organizations": ["Massachusetts Institute of Technology"],
+  "technologies": ["LISP", "S-expressions", "S-functions", "Symbolic computation"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "John McCarthy's Stanford-hosted author copy states April 1960 and directly supports the title, authorship, LISP description, IBM 704 context, MIT Artificial Intelligence group context, and symbolic-expression claims recorded here. Month precision is retained; no exact publication day, geography, ancestry, downstream influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-11T09:04:22+08:00"
+  },
+  "sources": [
+    {
+      "title": "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+      "url": "https://www-formal.stanford.edu/jmc/recursive.pdf",
+      "publisher": "John McCarthy / Stanford University",
+      "publishedDate": null,
+      "publishedMonth": "1960-04",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary author-hosted paper evidence supports the April 1960 publication milestone and the recorded LISP and symbolic-computation claims at month precision. Chronology remains separate from ancestry, influence, causality, and geography.",
+    "nextStep": "Consider canonical admission after chronology-safe review. Investigate any earlier LISP development milestones and relationships only from dedicated primary evidence rather than back-projecting the April 1960 publication date onto the system's development history."
+  }
+}
