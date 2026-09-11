@@ -1,0 +1,55 @@
+{
+  "id": "lightgbm-2017",
+  "recordType": "event",
+  "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+  "displayDate": "December 2017",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "2017-12",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and Tie-Yan Liu published \"LightGBM: A Highly Efficient Gradient Boosting Decision Tree\" in December 2017. The paper describes LightGBM as a gradient-boosting decision-tree implementation using Gradient-based One-Side Sampling (GOSS) and Exclusive Feature Bundling (EFB) to improve training efficiency and scalability.",
+  "significance": "A documented machine-learning systems milestone for efficient gradient-boosted decision trees, recorded from the official NeurIPS proceedings and Microsoft Research publication record.",
+  "people": ["Guolin Ke", "Qi Meng", "Thomas Finley", "Taifeng Wang", "Wei Chen", "Weidong Ma", "Qiwei Ye", "Tie-Yan Liu"],
+  "organizations": [],
+  "technologies": ["LightGBM", "Gradient-boosted decision trees", "Gradient-based One-Side Sampling", "Exclusive Feature Bundling"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official NeurIPS 2017 proceedings identify the authors and describe LightGBM as a GBDT implementation using GOSS and EFB. Microsoft Research independently lists the publication in December 2017. LINEAiGE records only the December 2017 publication milestone at month precision and does not infer a universal software-birth date, release day, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T21:03:01+08:00"
+  },
+  "sources": [
+    {
+      "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+      "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html",
+      "publisher": "Neural Information Processing Systems Foundation",
+      "publishedDate": null,
+      "publishedMonth": "2017-12",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "LightGBM - Publications",
+      "url": "https://www.microsoft.com/en-us/research/project/lightgbm/publications/",
+      "publisher": "Microsoft Research",
+      "publishedDate": null,
+      "publishedMonth": "2017-12",
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Official NeurIPS and Microsoft Research records establish the December 2017 publication milestone, authorship, and the recorded GOSS/EFB LightGBM claims. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a publication milestone; preserve month precision and empty relationships unless dedicated evidence supports a separate release milestone, geography claim, or non-chronological relationship."
+  }
+}
