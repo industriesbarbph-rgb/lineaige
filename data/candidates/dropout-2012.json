@@ -1,0 +1,62 @@
+{
+  "id": "dropout-2012",
+  "recordType": "event",
+  "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+  "displayDate": "July 3, 2012",
+  "eventDate": "2012-07-03",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and Ruslan R. Salakhutdinov submitted the paper 'Improving neural networks by preventing co-adaptation of feature detectors' on July 3, 2012. The paper describes reducing overfitting by randomly omitting feature detectors during training and refers to the method as random dropout.",
+  "significance": "A documented research-publication milestone for dropout as a neural-network regularization technique.",
+  "people": ["Geoffrey E. Hinton", "Nitish Srivastava", "Alex Krizhevsky", "Ilya Sutskever", "Ruslan R. Salakhutdinov"],
+  "organizations": [],
+  "technologies": ["Dropout", "Neural networks", "Regularization"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record identifies the authors, July 3 2012 submission date, and the paper's dropout method. The later JMLR paper independently corroborates the method and authorship. The day-precision date is attached only to the arXiv submission milestone and is not asserted as the method's universal birth date. No geography, institutional affiliation, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-11T17:05:13+08:00"
+  },
+  "sources": [
+    {
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "url": "https://arxiv.org/abs/1207.0580",
+      "publisher": "arXiv",
+      "publishedDate": "2012-07-03",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+      "url": "https://www.jmlr.org/papers/v15/srivastava14a.html",
+      "publisher": "Journal of Machine Learning Research",
+      "publishedDate": "2014",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+      "url": "https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf",
+      "publisher": "University of Toronto",
+      "publishedDate": "2014-06",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the July 3 2012 paper-submission milestone and directly supports the recorded dropout-method claims. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve the submission-date semantics and empty relationships unless dedicated evidence supports a different relationship or geography claim."
+  }
+}
