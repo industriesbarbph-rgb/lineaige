@@ -1,0 +1,54 @@
+{
+  "id": "vision-transformer-2020",
+  "recordType": "event",
+  "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+  "displayDate": "October 22, 2020",
+  "eventDate": "2020-10-22",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Alexey Dosovitskiy and coauthors submitted 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale' on October 22, 2020. The paper describes applying a pure Transformer directly to sequences of image patches and names the resulting model Vision Transformer (ViT).",
+  "significance": "A documented research-publication milestone for Vision Transformer (ViT) as a Transformer-based image-classification model.",
+  "people": ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov", "Dirk Weissenborn", "Xiaohua Zhai", "Thomas Unterthiner", "Mostafa Dehghani", "Matthias Minderer", "Georg Heigold", "Sylvain Gelly", "Jakob Uszkoreit", "Neil Houlsby"],
+  "organizations": [],
+  "technologies": ["Vision Transformer", "ViT", "Transformers", "Image classification"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record identifies the authors, October 22 2020 submission date, and the paper's description of a pure Transformer applied directly to sequences of image patches, naming Vision Transformer (ViT). Google Research independently lists the same work and authors as an ICLR 2021 publication. The day-precision date is attached only to the arXiv submission milestone and is not asserted as a universal system-birth date. No geography, institutional affiliation, ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-11T18:03:26+08:00"
+  },
+  "sources": [
+    {
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "publisher": "arXiv",
+      "publishedDate": "2020-10-22",
+      "publishedMonth": "2020-10",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://research.google/pubs/an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale/",
+      "publisher": "Google Research",
+      "publishedDate": null,
+      "publishedMonth": null,
+      "sourceType": "publication-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the October 22 2020 paper-submission milestone and directly supports the recorded Vision Transformer claims. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve submission-date semantics and empty relationships unless dedicated evidence supports a separate relationship or geography claim."
+  }
+}
