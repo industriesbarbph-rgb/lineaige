@@ -1,0 +1,53 @@
+{
+  "id": "alexnet-imagenet-2012",
+  "recordType": "event",
+  "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+  "displayDate": "2012",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 2012,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton published \"ImageNet Classification with Deep Convolutional Neural Networks\" in the 2012 Neural Information Processing Systems proceedings. The paper reports a large deep convolutional neural network trained on ImageNet and substantially lower classification error than prior results reported in the paper.",
+  "significance": "A documented computer-vision and deep-learning milestone preserved at year precision from the NeurIPS proceedings record.",
+  "people": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+  "organizations": [],
+  "technologies": ["Deep convolutional neural networks", "ImageNet", "GPU-accelerated neural network training"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The NeurIPS proceedings record identifies the 2012 paper, authors, and reported architecture/results. A University of Toronto presentation by the authors independently corroborates the paper title, authors, institution, and NIPS 2012 context. LINEAiGE records only the documented 2012 publication milestone and does not infer a universal invention date, exact conference day, ancestry, influence, causality, or additional relationships.",
+    "lastVerified": "2026-09-11T23:02:33+08:00"
+  },
+  "sources": [
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "publisher": "Neural Information Processing Systems Foundation",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "url": "https://www.cs.toronto.edu/~kriz/lsvrc-2012-pres.pdf",
+      "publisher": "University of Toronto",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The NeurIPS proceedings directly support the 2012 bibliographic milestone and the paper's architecture/results, with University of Toronto corroboration. No unsupported relationship or causal claim is required for candidate admission.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve year precision and empty relationships unless dedicated evidence supports stronger temporal precision or a non-chronological relationship."
+  }
+}
