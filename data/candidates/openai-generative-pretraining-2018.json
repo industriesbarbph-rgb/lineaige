@@ -1,0 +1,52 @@
+{
+  "id": "openai-generative-pretraining-2018",
+  "recordType": "event",
+  "title": "Improving language understanding with unsupervised learning",
+  "displayDate": "June 11, 2018",
+  "eventDate": "2018-06-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI published Improving language understanding with unsupervised learning on June 11, 2018, describing and releasing a scalable, task-agnostic language system that combined Transformer models with unsupervised pre-training followed by supervised fine-tuning across diverse language tasks.",
+  "significance": "A documented OpenAI language-model research and release milestone for generative pre-training with a Transformer-based model before the later GPT-2 publication.",
+  "people": ["Alec Radford", "Karthik Narasimhan", "Tim Salimans", "Ilya Sutskever"],
+  "organizations": ["OpenAI"],
+  "technologies": ["Transformer", "Unsupervised pre-training", "Generative pre-training"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "OpenAI's first-party June 11, 2018 publication establishes the dated public research/release milestone and explicitly describes a scalable task-agnostic system combining Transformers and unsupervised pre-training, with model release. The linked OpenAI technical report identifies Radford, Narasimhan, Salimans, and Sutskever as authors and documents the generative pre-training/fine-tuning method. This record does not retroactively assert that OpenAI used the product/model name GPT-1 on that date, and it does not infer geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T13:02:10+08:00"
+  },
+  "sources": [
+    {
+      "title": "Improving language understanding with unsupervised learning",
+      "url": "https://openai.com/index/language-unsupervised/",
+      "publisher": "OpenAI",
+      "publishedDate": "2018-06-11",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Improving Language Understanding by Generative Pre-Training",
+      "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "publisher": "OpenAI",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "method-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party OpenAI evidence supports June 11, 2018 as the public research/release milestone and directly supports the Transformer plus unsupervised-pre-training and fine-tuning description. The record deliberately avoids retroactively naming the system GPT-1 and makes no geography, ancestry, influence, causality, or relationship claims.",
+    "nextStep": "Consider chronology-safe canonical admission as a dated OpenAI research/release milestone; retain the contemporaneous title and do not reinterpret the date as a separately evidenced GPT-1 product-launch date."
+  }
+}
