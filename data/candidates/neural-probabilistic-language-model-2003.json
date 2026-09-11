@@ -1,0 +1,55 @@
+{
+  "id": "neural-probabilistic-language-model-2003",
+  "recordType": "event",
+  "title": "A Neural Probabilistic Language Model",
+  "displayDate": "February 2003",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "2003-02",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Jauvin published A Neural Probabilistic Language Model in the Journal of Machine Learning Research in February 2003. The paper proposed learning distributed word representations jointly with a neural probability function for word sequences to address generalization limits associated with the curse of dimensionality.",
+  "significance": "A documented neural language-modeling research milestone combining learned distributed word representations with a neural network probability model for word sequences.",
+  "people": ["Yoshua Bengio", "Réjean Ducharme", "Pascal Vincent", "Christian Jauvin"],
+  "organizations": [],
+  "technologies": ["Neural probabilistic language model", "Distributed word representations", "Neural networks", "Statistical language modeling"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official Journal of Machine Learning Research article page identifies the authors, volume, pages, and February 2003 publication month and directly states that the model learns a distributed representation for each word together with a probability function for word sequences using neural networks. The JMLR paper PDF independently records 'Published 2/03'. This record preserves month precision and does not infer an exact publication day, system-birth date, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T14:04:48+08:00"
+  },
+  "sources": [
+    {
+      "title": "A Neural Probabilistic Language Model",
+      "url": "https://jmlr.org/papers/v3/bengio03a.html",
+      "publisher": "Journal of Machine Learning Research",
+      "publishedDate": null,
+      "publishedMonth": "2003-02",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "A Neural Probabilistic Language Model (PDF)",
+      "url": "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+      "publisher": "Journal of Machine Learning Research",
+      "publishedDate": null,
+      "publishedMonth": "2003-02",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary JMLR evidence supports a February 2003 publication milestone at month precision and directly supports the recorded distributed-representation and neural language-model claims. No exact day, geography, ancestry, influence, causality, or relationships are inferred.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve month precision and empty relationships unless dedicated evidence supports greater precision or a non-chronological relationship."
+  }
+}
