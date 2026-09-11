@@ -1,0 +1,52 @@
+{
+  "id": "adam-2014",
+  "recordType": "event",
+  "title": "Adam: A Method for Stochastic Optimization",
+  "displayDate": "December 22, 2014",
+  "eventDate": "2014-12-22",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Diederik P. Kingma and Jimmy Ba submitted 'Adam: A Method for Stochastic Optimization' on December 22, 2014. The paper introduces Adam, a first-order gradient-based optimization algorithm for stochastic objective functions based on adaptive estimates of lower-order moments.",
+  "significance": "A documented optimization-method research milestone introducing Adam in the published research record.",
+  "people": ["Diederik P. Kingma", "Jimmy Ba"],
+  "organizations": [],
+  "technologies": ["Adam", "Stochastic optimization", "Gradient-based optimization", "Adaptive moment estimation"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the authors, December 22 2014 first-submission date, title, and description of Adam as a first-order gradient-based optimization algorithm using adaptive estimates of lower-order moments. The University of Amsterdam research repository independently corroborates the authors, paper title, ICLR 2015 publication context, and core method description. The day-precision date is attached only to the arXiv submission milestone and is not asserted as a universal invention, release, or system-birth date. No geography, institutional affiliation, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-12T05:07:47+08:00"
+  },
+  "sources": [
+    {
+      "title": "Adam: A Method for Stochastic Optimization",
+      "url": "https://arxiv.org/abs/1412.6980",
+      "publisher": "arXiv",
+      "publishedDate": "2014-12-22",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Adam: A Method for Stochastic Optimization",
+      "url": "https://dare.uva.nl/search?identifier=7a6a7a31-0e98-4e1c-8d60-2091fc7d40b3",
+      "publisher": "University of Amsterdam",
+      "publishedDate": null,
+      "sourceType": "repository-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the December 22 2014 paper-submission milestone and directly supports the recorded Adam optimization-method claims. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve submission-date semantics and empty relationships unless dedicated evidence supports separate relationship, organization, or geography claims."
+  }
+}
