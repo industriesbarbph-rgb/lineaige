@@ -1,0 +1,55 @@
+{
+  "id": "gradient-based-document-recognition-1998",
+  "recordType": "event",
+  "title": "Gradient-Based Learning Applied to Document Recognition",
+  "displayDate": "November 1998",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1998-11",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner published 'Gradient-Based Learning Applied to Document Recognition' in the November 1998 issue of Proceedings of the IEEE. The paper reviews gradient-based learning for document recognition and reports convolutional neural networks designed for two-dimensional shape variability, alongside integrated recognition systems using graph transformer networks.",
+  "significance": "A documented neural-network and document-recognition research milestone centered on convolutional networks, gradient-based learning, and integrated trainable recognition systems.",
+  "people": ["Yann LeCun", "Léon Bottou", "Yoshua Bengio", "Patrick Haffner"],
+  "organizations": [],
+  "technologies": ["Convolutional neural networks", "Gradient-based learning", "Document recognition", "Graph transformer networks"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "IEEE Xplore establishes the paper and publisher record, while Yann LeCun's publication index directly corroborates the four authors, Proceedings of the IEEE volume 86 issue 11 pages 2278-2324, and November 1998 publication month, describing the work as a paper on convolutional nets, graph transformer networks, and discriminative training for sequence labeling. LINEAiGE preserves month precision because the primary evidence used here supports November 1998 without relying on an inferred exact publication day. No organization, geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-12T05:07:47+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gradient-based learning applied to document recognition",
+      "url": "https://ieeexplore.ieee.org/document/726791",
+      "publisher": "IEEE",
+      "publishedDate": null,
+      "publishedMonth": "1998-11",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Yann LeCun's Publications",
+      "url": "https://yann.lecun.com/exdb/publis/",
+      "publisher": "Yann LeCun",
+      "publishedDate": null,
+      "publishedMonth": "1998-11",
+      "sourceType": "author-publication-index",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source records establish the November 1998 publication milestone, authors, bibliographic placement, and the paper's documented convolutional-network and trainable document-recognition content. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve month precision and empty relationships unless dedicated evidence supports a separate relationship, organization, or geography claim."
+  }
+}
