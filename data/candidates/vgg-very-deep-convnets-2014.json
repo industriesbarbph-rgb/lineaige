@@ -1,0 +1,52 @@
+{
+  "id": "vgg-very-deep-convnets-2014",
+  "recordType": "event",
+  "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "displayDate": "September 4, 2014",
+  "eventDate": "2014-09-04",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Karen Simonyan and Andrew Zisserman submitted Very Deep Convolutional Networks for Large-Scale Image Recognition on September 4, 2014. The paper evaluates increasing convolutional-network depth using very small 3 x 3 filters and reports configurations with 16 to 19 weight layers for large-scale image recognition.",
+  "significance": "A documented deep-convolutional-network milestone associated with the VGG team's ImageNet Challenge 2014 work and later ICLR 2015 publication.",
+  "people": ["Karen Simonyan", "Andrew Zisserman"],
+  "organizations": ["University of Oxford"],
+  "technologies": ["Very deep convolutional networks", "ImageNet", "3 x 3 convolution filters"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The arXiv record establishes the September 4, 2014 submission date, authors, 16-19-weight-layer depth evaluation and 3 x 3 convolution-filter architecture. The University of Oxford Visual Geometry Group publication page independently corroborates the authors, University of Oxford context, technical claims, ImageNet Challenge 2014 results and later ICLR 2015 publication. The day-precision date is scoped specifically to the arXiv submission milestone; it is not asserted as a universal model-birth date. No ancestry, influence, causality or relationships are inferred.",
+    "lastVerified": "2026-09-11T23:02:33+08:00"
+  },
+  "sources": [
+    {
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "url": "https://arxiv.org/abs/1409.1556",
+      "publisher": "arXiv",
+      "publishedDate": "2014-09-04",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "url": "https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/",
+      "publisher": "Visual Geometry Group, University of Oxford",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the September 4, 2014 paper-submission milestone and directly supports the recorded architecture claims, with University of Oxford corroboration. Chronology remains separate from ancestry, influence and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve the submission-date semantics and empty relationships unless dedicated evidence supports a different relationship claim."
+  }
+}
