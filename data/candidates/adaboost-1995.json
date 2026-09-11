@@ -1,0 +1,53 @@
+{
+  "id": "adaboost-1995",
+  "recordType": "event",
+  "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+  "displayDate": "1995",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1995,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yoav Freund and Robert E. Schapire published \"A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting\" in the 1995 EuroCOLT proceedings. The paper describes a new boosting algorithm derived from a multiplicative weight-update framework that does not require prior knowledge of the weak learner's performance.",
+  "significance": "A documented machine-learning milestone in boosting, preserved at year precision from the original Springer proceedings record and institutional bibliographic corroboration.",
+  "people": ["Yoav Freund", "Robert E. Schapire"],
+  "organizations": [],
+  "technologies": ["Boosting", "AdaBoost", "Multiplicative weight updates"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The Springer proceedings record identifies the 1995 EuroCOLT paper, authors, pages 23-37, DOI 10.1007/3-540-59119-2_166, and the new boosting algorithm described in the paper. Princeton's publication record independently corroborates the 1995 proceedings placement and EuroCOLT context. LINEAiGE records only the 1995 publication milestone and does not infer a universal invention date, geography, institutional affiliation, ancestry, influence, causality, or additional relationships.",
+    "lastVerified": "2026-09-11T22:05:14+08:00"
+  },
+  "sources": [
+    {
+      "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-59119-2_166",
+      "publisher": "Springer",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "A decision-theoretic generalization of on-line learning and an application to boosting",
+      "url": "https://collaborate.princeton.edu/en/publications/a-decision-theoretic-generalization-of-on-line-learning-and-an-ap-2/",
+      "publisher": "Princeton University",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The Springer proceedings record directly supports the 1995 bibliographic milestone and the paper's boosting-algorithm claim, while Princeton independently corroborates the proceedings metadata. No unsupported relationship or causal claim is required for candidate admission.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve year precision and empty relationships unless dedicated evidence supports stronger temporal precision or a non-chronological relationship."
+  }
+}
