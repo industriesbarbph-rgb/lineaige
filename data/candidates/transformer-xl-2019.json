@@ -1,0 +1,52 @@
+{
+  "id": "transformer-xl-2019",
+  "recordType": "event",
+  "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+  "displayDate": "January 9, 2019",
+  "eventDate": "2019-01-09",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan Salakhutdinov submitted 'Transformer-XL: Attentive Language Models beyond a Fixed-Length Context' on January 9, 2019. The paper proposes Transformer-XL, a neural architecture using a segment-level recurrence mechanism and a positional encoding scheme to model dependency beyond a fixed-length context.",
+  "significance": "A documented language-model architecture milestone introducing Transformer-XL for learning dependencies beyond a fixed-length context.",
+  "people": ["Zihang Dai", "Zhilin Yang", "Yiming Yang", "Jaime Carbonell", "Quoc V. Le", "Ruslan Salakhutdinov"],
+  "organizations": [],
+  "technologies": ["Transformer-XL", "Transformers", "Language modeling", "Segment-level recurrence"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the authors, January 9 2019 submission date, and the paper's description of Transformer-XL, including segment-level recurrence and a positional encoding scheme. The ACL Anthology independently corroborates the paper, authors, technical description, July 2019 conference publication, and pages 2978-2988. The day-precision date is attached only to the arXiv submission milestone and is not asserted as a universal architecture-invention, release, or system-birth date. No geography, institutional affiliation, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-12T04:05:45+08:00"
+  },
+  "sources": [
+    {
+      "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+      "url": "https://arxiv.org/abs/1901.02860",
+      "publisher": "arXiv",
+      "publishedDate": "2019-01-09",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+      "url": "https://aclanthology.org/P19-1285/",
+      "publisher": "Association for Computational Linguistics",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the January 9 2019 paper-submission milestone and directly supports the recorded Transformer-XL architecture claims. Chronology remains separate from ancestry, influence, and causality.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone; preserve submission-date semantics and empty relationships unless dedicated evidence supports a separate relationship or geography claim."
+  }
+}
