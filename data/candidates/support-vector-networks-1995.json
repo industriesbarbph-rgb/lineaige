@@ -1,0 +1,44 @@
+{
+  "id": "support-vector-networks-1995",
+  "recordType": "event",
+  "title": "Support-Vector Networks",
+  "displayDate": "September 1995",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1995-09",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Corinna Cortes and Vladimir Vapnik published Support-Vector Networks in the September 1995 issue of Machine Learning. The paper describes the support-vector network as a learning machine for two-group classification that maps input vectors nonlinearly into a high-dimensional feature space and constructs a linear decision surface there, extending the approach to non-separable training data.",
+  "significance": "A documented machine-learning method milestone for support-vector classification, recorded from the original publisher's bibliographic record and paper abstract.",
+  "people": ["Corinna Cortes", "Vladimir Vapnik"],
+  "organizations": ["AT&T Bell Labs"],
+  "technologies": ["Support-vector network", "Support vector machine"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Springer Nature's original publisher record supports the title, authors, AT&T Bell Labs affiliation, September 1995 issue date, and the recorded method description. The same record distinguishes received (May 15, 1993), accepted (February 20, 1995), and issue-date milestones. LINEAiGE records only the September 1995 publication milestone at month precision and does not invent an exact publication day, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-11T19:09:27+08:00"
+  },
+  "sources": [
+    {
+      "title": "Support-vector networks",
+      "url": "https://link.springer.com/article/10.1007/BF00994018",
+      "publisher": "Springer Nature / Machine Learning",
+      "publishedDate": null,
+      "publishedMonth": "1995-09",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original publisher record establishes the September 1995 publication milestone at month precision and directly supports the recorded authorship, affiliation, and method description. Chronology alone is not used to assert ancestry, influence, or causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve month precision and empty relationships unless dedicated evidence supports additional precision or a non-chronological relationship."
+  }
+}
