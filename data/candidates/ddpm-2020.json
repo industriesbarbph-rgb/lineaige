@@ -1,0 +1,52 @@
+{
+  "id": "ddpm-2020",
+  "recordType": "event",
+  "title": "Denoising Diffusion Probabilistic Models",
+  "displayDate": "June 19, 2020",
+  "eventDate": "2020-06-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Jonathan Ho, Ajay Jain, and Pieter Abbeel submitted 'Denoising Diffusion Probabilistic Models' to arXiv on June 19, 2020. The paper reports high-quality image synthesis using diffusion probabilistic models, with training based on a weighted variational bound connected to denoising score matching with Langevin dynamics.",
+  "significance": "A documented generative-model research milestone demonstrating high-quality image synthesis with denoising diffusion probabilistic models and later published at NeurIPS 2020.",
+  "people": ["Jonathan Ho", "Ajay Jain", "Pieter Abbeel"],
+  "organizations": [],
+  "technologies": ["Denoising Diffusion Probabilistic Models", "DDPM", "Diffusion probabilistic models"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the title, authors, June 19 2020 initial submission date, and the diffusion-model claims recorded here. The official NeurIPS 2020 proceedings independently corroborate the paper, authors, venue, and reported image-synthesis method and results. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as the birth date of diffusion models as a broader research family. No institutional geography, ancestry, influence, causality, or relationships are inferred.",
+    "lastVerified": "2026-09-11T08:08:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://arxiv.org/abs/2006.11239",
+      "publisher": "arXiv",
+      "publishedDate": "2020-06-19",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "publisher": "NeurIPS",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the June 19 2020 arXiv paper-submission milestone and the technical claims recorded here at day precision. Chronology is kept separate from ancestry, influence, causality, and geography.",
+    "nextStep": "Consider canonical admission after chronology-safe placement. Investigate broader diffusion-model lineage and any relationships only with dedicated evidence; do not treat chronology or later prominence as proof of ancestry or influence."
+  }
+}
