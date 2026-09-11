@@ -1,0 +1,42 @@
+{
+  "id": "alphazero-2017",
+  "recordType": "event",
+  "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+  "displayDate": "December 5, 2017",
+  "eventDate": "2017-12-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "David Silver and colleagues submitted Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm to arXiv on December 5, 2017. The paper described AlphaZero as a single algorithm that learned through self-play from random play with no domain knowledge beyond game rules and reported superhuman performance in chess, shogi, and Go.",
+  "significance": "A documented reinforcement-learning milestone demonstrating one self-play algorithm across multiple challenging board-game domains without handcrafted domain knowledge beyond the rules.",
+  "people": ["David Silver", "Thomas Hubert", "Julian Schrittwieser", "Ioannis Antonoglou", "Matthew Lai", "Arthur Guez", "Marc Lanctot", "Laurent Sifre", "Dharshan Kumaran", "Thore Graepel", "Timothy Lillicrap", "Karen Simonyan", "Demis Hassabis"],
+  "organizations": [],
+  "technologies": ["AlphaZero", "Reinforcement learning", "Self-play", "Monte Carlo tree search"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the title, authors, December 5 2017 first-submission date, and the paper's description of AlphaZero as a single algorithm learning from random play with only game rules and achieving superhuman play in chess, shogi, and Go. This record is scoped to the paper-submission milestone and does not infer a separate system-birth date, institutional geography, ancestry, influence, or causal relationships.",
+    "lastVerified": "2026-09-11T11:03:50+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+      "url": "https://arxiv.org/abs/1712.01815",
+      "publisher": "arXiv",
+      "publishedDate": "2017-12-05",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary paper evidence supports the December 5 2017 submission event and the technical/performance claims recorded here at day precision. No separate system-birth date, geography, ancestry, influence, causality, or relationships are inferred.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve empty relationships unless dedicated evidence supports a non-chronological relationship."
+  }
+}
