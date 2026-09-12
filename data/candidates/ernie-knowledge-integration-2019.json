@@ -1,0 +1,42 @@
+{
+  "id": "ernie-knowledge-integration-2019",
+  "recordType": "event",
+  "title": "ERNIE: Enhanced Representation through Knowledge Integration",
+  "displayDate": "April 19, 2019",
+  "eventDate": "2019-04-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Xuyi Chen, Han Zhang, Xin Tian, Danxiang Zhu, Hao Tian, and Hua Wu submitted the paper 'ERNIE: Enhanced Representation through Knowledge Integration' on April 19, 2019. The paper described ERNIE as a language representation model using knowledge-oriented masking strategies, including entity-level and phrase-level masking.",
+  "significance": "A documented publication milestone for the ERNIE language-representation approach described by its authors as incorporating knowledge through entity-level and phrase-level masking strategies.",
+  "people": ["Yu Sun", "Shuohuan Wang", "Yukun Li", "Shikun Feng", "Xuyi Chen", "Han Zhang", "Xin Tian", "Danxiang Zhu", "Hao Tian", "Hua Wu"],
+  "organizations": [],
+  "technologies": ["ERNIE", "Language representation pretraining", "Knowledge masking"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' arXiv record directly supports the April 19, 2019 submission date, authorship, ERNIE name, and the paper's description of entity-level and phrase-level knowledge masking. This record is intentionally limited to the documented paper-submission milestone. It does not assert ERNIE's invention or system-birth date, institutional geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T01:04:16+08:00"
+  },
+  "sources": [
+    {
+      "title": "ERNIE: Enhanced Representation through Knowledge Integration",
+      "url": "https://arxiv.org/abs/1904.09223",
+      "publisher": "arXiv",
+      "publishedDate": "2019-04-19",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The authors' primary paper record directly establishes the April 19, 2019 publication milestone and the technical claims included here at day precision.",
+    "nextStep": "Seek first-party institutional corroboration and review chronology-safe canonical placement. Keep geography and relationship fields empty unless separately supported by evidence with explicit semantic roles."
+  }
+}
