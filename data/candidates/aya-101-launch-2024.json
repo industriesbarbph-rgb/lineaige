@@ -1,0 +1,52 @@
+{
+  "id": "aya-101-launch-2024",
+  "recordType": "event",
+  "title": "Aya 101 Public Launch",
+  "displayDate": "13 February 2024",
+  "eventDate": "2024-02-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere For AI announced the public launch of Aya on February 13, 2024. The accompanying primary technical paper describes Aya as an instruction-following multilingual generative language model covering 101 languages and states that the model and instruction datasets were released openly for research use.",
+  "significance": "A dated public-release milestone for an openly released multilingual language model designed to extend instruction-following coverage across 101 languages, including many lower-resourced languages.",
+  "people": ["Ahmet Üstün", "Viraat Aryabumi", "Zheng-Xin Yong", "Wei-Yin Ko", "Daniel D'souza", "Gbemileke Onilude", "Neel Bhandari", "Shivalika Singh", "Hui-Lee Ooi", "Amr Kayid", "Freddie Vargus", "Phil Blunsom", "Shayne Longpre", "Niklas Muennighoff", "Marzieh Fadaee", "Julia Kreutzer", "Sara Hooker"],
+  "organizations": ["Cohere For AI"],
+  "technologies": ["Aya", "Aya 101"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere For AI's first-party launch announcement is dated February 13, 2024 and explicitly announces Aya. The authors' primary technical paper, submitted February 12, 2024, documents Aya as an instruction-following multilingual generative language model covering 101 languages and states that the instruction datasets and model were openly released. This candidate records the February 13 public-launch milestone only; it does not treat the February 12 paper-submission date as the model's birth date and does not infer development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T04:06:42+08:00"
+  },
+  "sources": [
+    {
+      "title": "C4AI Launches Aya, an LLM Covering More Than 100 Languages",
+      "url": "https://cohere.com/blog/aya",
+      "publisher": "Cohere For AI / Cohere",
+      "publishedDate": "2024-02-13",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+      "url": "https://arxiv.org/abs/2402.07827",
+      "publisher": "Aya authors / arXiv",
+      "publishedDate": "2024-02-12",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party dated launch announcement and the authors' primary technical paper directly support the public-release milestone and the model characteristics summarized here.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Preserve the distinction between the February 12 paper submission and February 13 launch announcement, and do not infer development geography or causal/ancestry relationships without separate evidence."
+  }
+}
