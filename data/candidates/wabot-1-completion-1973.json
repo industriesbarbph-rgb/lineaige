@@ -1,0 +1,62 @@
+{
+  "id": "wabot-1-completion-1973",
+  "recordType": "event",
+  "title": "WABOT-1 — 1973 Waseda Completion Milestone",
+  "displayDate": "1973",
+  "datePrecision": "year",
+  "eventYear": 1973,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Waseda University records that Professor Ichiro Kato's team completed WABOT-1 in 1973. University histories describe the humanoid robot as capable of bipedal walking and simple conversation; later Waseda material also describes object grasping and simple Japanese communication.",
+  "significance": "A directly institution-documented 1973 completion milestone in Japan's humanoid-robotics history. LINEAiGE records the supported completion year and demonstrated capabilities without converting retrospective priority language into an independent universal 'first-ever' claim.",
+  "people": ["Ichiro Kato"],
+  "organizations": ["Waseda University"],
+  "technologies": ["WABOT-1"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Multiple first-party Waseda University histories independently identify 1973 as the year WABOT-1 was completed or developed and describe its bipedal and conversational capabilities. This candidate preserves year-level precision only. It does not assert an exact completion date, universal priority, system-birth date, causal influence, ancestry, or relationship edge.",
+    "lastVerified": "2026-09-12T17:07:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Waseda robotics research leading the world",
+      "url": "https://www.waseda.jp/top/en/news/13858",
+      "publisher": "Waseda University",
+      "publishedDate": null,
+      "sourceType": "institutional",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The Robots of Waseda: A 50-Year Journey in Humanoid Innovation",
+      "url": "https://www.waseda.jp/top/en/news/88080",
+      "publisher": "Waseda University",
+      "publishedDate": null,
+      "sourceType": "institutional",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Frontier of Embodiment Informatics: ICT and Robotics",
+      "url": "https://www.waseda.jp/inst/sgu/en/unit/ict-robotics/",
+      "publisher": "Waseda University",
+      "publishedDate": null,
+      "sourceType": "institutional",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Waseda University directly documents WABOT-1's 1973 completion/development milestone and capabilities across multiple institutional histories. The event can be retained as a year-level completion record without relying on stronger retrospective priority claims.",
+    "nextStep": "Before canonical admission, locate and assess contemporaneous 1970s WABOT-1 technical publications or archival documentation, distinguish project start from component-development and completion milestones, and evaluate any priority claim separately from the completion record."
+  }
+}
