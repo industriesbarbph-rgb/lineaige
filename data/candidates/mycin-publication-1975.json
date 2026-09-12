@@ -1,0 +1,53 @@
+{
+  "id": "mycin-publication-1975",
+  "recordType": "event",
+  "title": "MYCIN — 1975 Clinical Therapeutics Publication",
+  "displayDate": "August 1975",
+  "datePrecision": "month",
+  "publicationMonth": "1975-08",
+  "eventYear": 1975,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "In August 1975, Edward H. Shortliffe, Randall Davis, Stanton G. Axline, Bruce G. Buchanan, C. Cordell Green, and Stanley N. Cohen published a paper describing progress on MYCIN, an interactive computer program designed to advise physicians about selecting antimicrobial therapy for hospital patients with bacterial infections.",
+  "significance": "A directly dated publication milestone documenting MYCIN as a functioning rule-based medical consultation system. LINEAiGE records this as a 1975 publication/documentation milestone, not as MYCIN's invention date, first implementation date, or universal system-birth date.",
+  "people": ["Edward H. Shortliffe", "Randall Davis", "Stanton G. Axline", "Bruce G. Buchanan", "C. Cordell Green", "Stanley N. Cohen"],
+  "organizations": ["Stanford University"],
+  "technologies": ["MYCIN"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The U.S. National Library of Medicine's PubMed record identifies the article, authors, journal, volume, issue, pages, DOI, and publication month as August 1975. Stanford Medicine's later first-party retrospective identifies the MYCIN project as spanning 1972-1979 and Shortliffe's doctoral work as completed in 1976. This candidate uses only the publication milestone supported by the 1975 paper and does not infer a precise MYCIN creation date, first-ever status, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-12T16:07:40+08:00"
+  },
+  "sources": [
+    {
+      "title": "Computer-based consultations in clinical therapeutics: explanation and rule acquisition capabilities of the MYCIN system",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1157471/",
+      "publisher": "Computers and Biomedical Research / U.S. National Library of Medicine (PubMed)",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Stanford DBDS Seminar — Edward H. Shortliffe — 4 February 2021",
+      "url": "https://med.stanford.edu/content/dam/sm/dbds/documents/biostats-workshop/Stanford-DBDS-Seminar---Shortliffe---4Feb2021.pdf",
+      "publisher": "Stanford Medicine",
+      "publishedDate": "2021-02-04",
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The 1975 peer-reviewed paper directly documents MYCIN and has stable bibliographic metadata at PubMed. The record can be retained as a dated publication milestone without converting that publication date into an unsupported system-birth claim.",
+    "nextStep": "Before canonical admission, reconcile this 1975 publication with the project's earlier 1972-1974 development history, Shortliffe's 1976 dissertation, and subsequent MYCIN evaluation publications. Keep publication, development, dissertation, and evaluation milestones distinct unless primary evidence supports consolidation."
+  }
+}
