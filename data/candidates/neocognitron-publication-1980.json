@@ -5,6 +5,7 @@
   "displayDate": "April 1980",
   "datePrecision": "month",
   "eventYear": 1980,
+  "publicationMonth": "1980-04",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
   "summary": "Kunihiko Fukushima's paper 'Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position' was published in Biological Cybernetics in April 1980. The paper describes a self-organizing neural-network model for visual pattern recognition, uses the name 'neocognitron', and reports position-tolerant pattern recognition after unsupervised self-organization.",
