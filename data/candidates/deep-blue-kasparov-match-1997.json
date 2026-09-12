@@ -1,0 +1,52 @@
+{
+  "id": "deep-blue-kasparov-match-1997",
+  "recordType": "event",
+  "title": "Deep Blue — Kasparov Match Victory Milestone",
+  "displayDate": "11 May 1997",
+  "eventDate": "1997-05-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "IBM records that on 11 May 1997 its Deep Blue chess computer defeated Garry Kasparov in a six-game match. IBM's 1997 annual report describes Deep Blue as an IBM RS/6000 SP supercomputer capable of calculating 200 million chess positions per second, and IBM's historical account states that the rematch ended 3.5–2.5.",
+  "significance": "A first-party documented 1997 computer-chess milestone. LINEAiGE records the match result and the system characteristics IBM documents without treating the match date as Deep Blue's creation date or inferring broader causal influence, ancestry, or unsupported technical relationships.",
+  "people": ["Garry Kasparov"],
+  "organizations": ["IBM"],
+  "technologies": ["Deep Blue", "IBM RS/6000 SP", "Computer chess"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "IBM's 1997 annual report explicitly dates the match victory to 11 May 1997 and states that Deep Blue defeated Garry Kasparov in a six-game match. IBM's current historical account independently corroborates the May 1997 rematch, final 3.5–2.5 score, and 200-million-positions-per-second capability. This candidate does not infer a system-birth date, development geography, ancestry, influence, causality, or relationship edge.",
+    "lastVerified": "2026-09-12T20:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "IBM Annual Report 1997",
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
+      "publisher": "IBM",
+      "publishedDate": "1997",
+      "sourceType": "institutional",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Deep Blue",
+      "url": "https://www.ibm.com/history/deep-blue",
+      "publisher": "IBM",
+      "publishedDate": null,
+      "sourceType": "institutional",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "IBM first-party material directly supports the 11 May 1997 match-victory milestone and retained system/result claims. The event is kept distinct from Deep Blue's development chronology and from broader retrospective claims about AI influence.",
+    "nextStep": "Before canonical admission, reconcile the 1997 victory milestone with the February 1996 match and Deep Blue's documented development chronology; assess any priority wording separately and add relationship edges only where relationship-specific evidence exists."
+  }
+}
