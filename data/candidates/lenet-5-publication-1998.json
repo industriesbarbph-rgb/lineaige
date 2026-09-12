@@ -1,0 +1,53 @@
+{
+  "id": "lenet-5-publication-1998",
+  "recordType": "event",
+  "title": "LeNet-5 — 1998 Proceedings of the IEEE Publication Milestone",
+  "displayDate": "November 1998",
+  "datePrecision": "month",
+  "publicationMonth": "1998-11",
+  "eventYear": 1998,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "In November 1998, Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner published \"Gradient-Based Learning Applied to Document Recognition\" in Proceedings of the IEEE. The paper describes gradient-based learning for document recognition and presents the LeNet-5 convolutional neural-network architecture in that publication context.",
+  "significance": "A directly identifiable publication milestone for LeNet-5 and gradient-trained convolutional neural networks in document recognition. LINEAiGE records the November 1998 publication milestone without treating it as the invention date of convolutional neural networks, LeNet's first implementation date, or a universal system-birth date.",
+  "people": ["Yann LeCun", "Léon Bottou", "Yoshua Bengio", "Patrick Haffner"],
+  "organizations": ["Institute of Electrical and Electronics Engineers (IEEE)"],
+  "technologies": ["LeNet-5", "Convolutional neural networks", "Gradient-based learning", "Document recognition"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The IEEE publication metadata and DOI identify the article, authors, Proceedings of the IEEE volume 86 issue 11, pages 2278-2324, and November 1998 publication context. An author-hosted copy is available from Yann LeCun's publication archive. This candidate is limited to the November 1998 publication/documentation milestone and does not infer an exact publication day, first implementation date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-12T21:06:48+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "url": "https://doi.org/10.1109/5.726791",
+      "publisher": "Proceedings of the IEEE / IEEE",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gradient-Based Learning Applied to Document Recognition — author-hosted PDF",
+      "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf",
+      "publisher": "Yann LeCun",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The 1998 Proceedings of the IEEE publication and DOI directly support a stable LeNet-5 publication milestone. The record preserves publication chronology separately from system-origin, priority, ancestry, influence, and causality claims.",
+    "nextStep": "Before canonical admission, reconcile this 1998 publication with LeCun's earlier handwritten-digit and zip-code recognition work, including the 1989 publication history, and retain separate milestones unless primary evidence supports consolidation."
+  }
+}
