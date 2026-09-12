@@ -1,0 +1,52 @@
+{
+  "id": "falcon-40b-launch-2023",
+  "recordType": "event",
+  "title": "Falcon 40B Launch",
+  "displayDate": "15 March 2023",
+  "eventDate": "2023-03-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The Technology Innovation Institute (TII) announced Falcon LLM on March 15, 2023 as a 40-billion-parameter foundational large language model. TII stated that the model was trained on one trillion tokens and was built by its AI and Digital Science Research Center's AI Cross-Center Unit.",
+  "significance": "A documented public launch milestone for the Falcon 40B large language model from the Technology Innovation Institute in the United Arab Emirates.",
+  "people": [],
+  "organizations": ["Technology Innovation Institute", "AI and Digital Science Research Center"],
+  "technologies": ["Falcon LLM", "Falcon 40B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "TII's first-party March 15, 2023 announcement directly documents the launch date, the Falcon LLM identity, its 40-billion-parameter scale, training on one trillion tokens, and the TII/AIDRC team attribution. TII's May 25, 2023 open-source announcement independently refers back to Falcon being first unveiled in March 2023 and documents the later open-source milestone. This candidate is restricted to the March 15 launch milestone. Promotional benchmark or priority language is not adopted as a historical claim, and no system-birth date, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-13T02:03:47+08:00"
+  },
+  "sources": [
+    {
+      "title": "Abu Dhabi-based Technology Innovation Institute Introduces Falcon LLM: Foundational Large Language Model (LLM) outperforms GPT-3 with 40 Billion Parameters",
+      "url": "https://www.tii.ae/news/abu-dhabi-based-technology-innovation-institute-introduces-falcon-llm-foundational-large",
+      "publisher": "Technology Innovation Institute",
+      "publishedDate": "2023-03-15",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "UAE's Technology Innovation Institute Launches Open-Source \"Falcon 40B\" Large Language Model for Research & Commercial Utilization",
+      "url": "https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model",
+      "publisher": "Technology Innovation Institute",
+      "publishedDate": "2023-05-25",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party TII evidence directly supports the March 15, 2023 Falcon 40B public-launch milestone and core model-scale/training facts; a later TII announcement corroborates that Falcon was first unveiled in March 2023.",
+    "nextStep": "Consider chronology-safe canonical admission as a public-launch milestone. Keep the May 25, 2023 open-source release as a distinct later milestone if separately admitted, and do not infer ancestry, causal influence, or universal priority from TII's promotional language."
+  }
+}
