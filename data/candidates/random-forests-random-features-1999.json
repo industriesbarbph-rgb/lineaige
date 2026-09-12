@@ -1,0 +1,52 @@
+{
+  "id": "random-forests-random-features-1999",
+  "recordType": "event",
+  "title": "Random Forests--Random Features",
+  "displayDate": "September 1, 1999",
+  "eventDate": "1999-09-01",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Leo Breiman's University of California, Berkeley Statistics technical report 'Random Forests--Random Features' is dated September 1, 1999. The report describes random forests as combinations of tree predictors in which each tree depends on an independently sampled random vector, and discusses random feature selection for tree splitting.",
+  "significance": "A documented research-publication milestone for random forests, represented strictly as the dated Berkeley technical-report record rather than as a universal invention or release date.",
+  "people": ["Leo Breiman"],
+  "organizations": ["University of California, Berkeley"],
+  "technologies": ["Random forests", "Decision trees", "Ensemble learning", "Random feature selection"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The UC Berkeley Statistics Department technical-report record directly identifies Leo Breiman, report number 567, the title 'Random Forests--Random Features', and September 1, 1999, and its abstract supports the recorded technical description. Springer Nature's later 2001 journal article independently corroborates Breiman's authorship, the random-forests formulation, and his Statistics Department, University of California, Berkeley affiliation. September 1, 1999 is attached only to this technical-report milestone; it is not asserted as a universal invention, software-release, or system-birth date. University of California, Berkeley is recorded as report/author institutional context, not as inferred development geography. No ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-12T08:07:47+08:00"
+  },
+  "sources": [
+    {
+      "title": "Random Forests--Random Features",
+      "url": "https://statistics.berkeley.edu/tech-reports/567",
+      "publisher": "Department of Statistics, University of California, Berkeley",
+      "publishedDate": "1999-09-01",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Random Forests",
+      "url": "https://doi.org/10.1023/A:1010933404324",
+      "publisher": "Springer Nature",
+      "publishedDate": "2001-10",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary institutional evidence establishes the September 1, 1999 Berkeley technical-report milestone, authorship, report identity, and the recorded random-forests technical description; Springer independently corroborates authorship, formulation, and affiliation context. Chronology remains separate from ancestry, influence, causality, and release claims.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone. Preserve the technical-report date semantics and empty relationships unless dedicated evidence separately supports a specific relationship or geography claim."
+  }
+}
