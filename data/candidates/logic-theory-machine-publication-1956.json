@@ -18,7 +18,7 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Verified against Carnegie Mellon University Archives' Allen Newell collection. The archive identifies the article, its authors, journal, volume/issue, and September 1956 date. LINEAiGE retains year precision in the candidate record and treats this strictly as a publication/documentation milestone, not as an invention, completion, first-ever, geographic, causal, or lineage claim.",
+    "note": "Verified against Carnegie Mellon University Archives' Allen Newell collection. The archive identifies the article, its authors, journal, volume/issue, and September 1956 date. LINEAiGE retains year precision in the candidate record and leaves source publishedDate null because the archival metadata does not provide a safely supported calendar day. This is strictly a publication/documentation milestone, not an invention, completion, first-ever, geographic, causal, or lineage claim.",
     "lastVerified": "2026-09-12T14:04:32+08:00"
   },
   "sources": [
@@ -26,7 +26,7 @@
       "title": "Article -- The Logic Theory Machine: A Complex Information Processing System -- Newell and Simon -- IRE TRANSACTIONS ON INFORMATION THEORY IT 2:3",
       "url": "https://digitalcollections.library.cmu.edu/node/19110",
       "publisher": "Carnegie Mellon University Archives",
-      "publishedDate": "1956-09",
+      "publishedDate": null,
       "sourceType": "archive",
       "sourceRole": "claim-evidence",
       "primary": true,
