@@ -1,0 +1,52 @@
+{
+  "id": "pangu-alpha-paper-2021",
+  "recordType": "event",
+  "title": "PanGu-α Technical Paper Submission",
+  "displayDate": "26 April 2021",
+  "eventDate": "2021-04-26",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The PanGu-α authors submitted the paper \"PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation\" on April 26, 2021. The paper documents autoregressive language models with up to 200 billion parameters, developed with MindSpore and trained using 2048 Ascend 910 AI processors on 1.1 TB of Chinese pretraining data.",
+  "significance": "A primary technical-publication milestone documenting PanGu-α, a large-scale Chinese autoregressive pretrained language-model effort in 2021.",
+  "people": ["Wei Zeng", "Xiaozhe Ren", "Teng Su", "Hui Wang", "Yi Liao", "Zhiwei Wang", "Xin Jiang", "ZhenZhang Yang", "Kaisheng Wang", "Xiaoda Zhang", "Chen Li", "Ziyan Gong", "Yifan Yao", "Xinjing Huang", "Jun Wang", "Jianfeng Yu", "Qi Guo", "Yue Yu", "Yan Zhang", "Jin Wang", "Hengtao Tao", "Dasen Yan", "Zexuan Yi", "Fang Peng", "Fangqing Jiang", "Han Zhang", "Lingfeng Deng", "Yehong Zhang", "Zhe Lin", "Chao Zhang", "Shaojie Zhang", "Mingyue Guo", "Shanzhi Gu", "Gaojun Fan", "Yaowei Wang", "Xuefeng Jin", "Qun Liu", "Yonghong Tian"],
+  "organizations": [],
+  "technologies": ["PanGu-α", "MindSpore", "Ascend 910"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' primary paper record supplies the April 26, 2021 submission date and directly documents PanGu-α models up to 200 billion parameters, MindSpore-based development, training on 2048 Ascend 910 processors, and 1.1 TB of Chinese pretraining data. Huawei's retrospective account separately states that the Pangu large model was officially released in April 2021. This candidate is intentionally limited to the paper-submission milestone; it does not convert Huawei's month-level release statement into an exact launch day and does not infer system-birth date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T03:05:46+08:00"
+  },
+  "sources": [
+    {
+      "title": "PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation",
+      "url": "https://arxiv.org/abs/2104.12369",
+      "publisher": "PanGu-α authors / arXiv",
+      "publishedDate": "2021-04-26",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "“盘古”开天记，AI落地时",
+      "url": "https://www.huawei.com/cn/huaweitech/publication/90/huawei-cloud-pangu-model-releases-ai-productivity",
+      "publisher": "Huawei",
+      "publishedDate": null,
+      "sourceType": "official-history",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The authors' primary technical record directly supports the dated publication milestone and the technical characteristics summarized here; Huawei independently corroborates an April 2021 Pangu release without supplying a day-level release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a technical-publication milestone. Preserve the distinction between the April 26 paper submission and Huawei's month-level April 2021 public-release statement; do not infer a precise release day, development geography, or causal/ancestry relationships without separate evidence."
+  }
+}
