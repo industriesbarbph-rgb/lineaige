@@ -1,0 +1,42 @@
+{
+  "id": "geometry-theorem-machine-1960",
+  "recordType": "event",
+  "title": "Empirical Explorations of the Geometry Theorem Machine",
+  "displayDate": "3 May 1960",
+  "eventDate": "1960-05-03",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Herbert Gelernter, J. R. Hansen and D. W. Loveland published a conference paper documenting empirical work with an IBM 704 geometry theorem-proving machine. The paper reports that the system had proved its first elementary Euclidean plane-geometry theorem in early spring 1959 and subsequently solved numerous textbook and examination problems.",
+  "significance": "A dated primary-source documentation milestone for early machine theorem proving and symbolic problem solving. LINEAiGE records the 1960 publication and the historical claims explicitly stated in that paper; it does not treat the publication date as the system's invention date or infer broader priority, ancestry, influence, causality, or geography.",
+  "people": ["Herbert Gelernter", "J. R. Hansen", "D. W. Loveland"],
+  "organizations": ["IBM"],
+  "technologies": ["Geometry theorem-proving machine", "IBM 704"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "IBM Research identifies the conference paper 'Empirical explorations of the geometry theorem machine' as published May 3, 1960, lists Gelernter, Hansen and Loveland as authors, and states that the IBM 704-based machine proved its first elementary Euclidean plane-geometry theorem in early spring 1959 and later solved many textbook and examination problems. LINEAiGE records this as a publication/documentation milestone only and does not infer an invention date, universal first, geography, ancestry, influence, causality, or additional relationships.",
+    "lastVerified": "2026-09-12T13:07:16+08:00"
+  },
+  "sources": [
+    {
+      "title": "Empirical explorations of the geometry theorem machine",
+      "url": "https://research.ibm.com/publications/empirical-explorations-of-the-geometry-theorem-machine",
+      "publisher": "IBM Research",
+      "publishedDate": "1960-05-03",
+      "sourceType": "conference-paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "IBM Research supplies a dated first-party publication record and the paper itself documents the IBM 704 theorem-proving system's empirical operation. The candidate can therefore be retained as a verified documentation milestone without making stronger priority or lineage claims.",
+    "nextStep": "Before canonical admission, review earlier geometry-theorem-machine documentation and any separate 1959 milestone evidence. Keep publication chronology distinct from invention, implementation, priority, and causal lineage unless primary evidence supports those claims."
+  }
+}
