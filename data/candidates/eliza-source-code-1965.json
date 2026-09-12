@@ -19,7 +19,7 @@
     "factualClaim": true,
     "confidence": "high",
     "note": "Verified against the Joseph Weizenbaum personal archives held by MIT Libraries. The archive describes a complete ELIZA source-code listing dated 1965 and states that the DOCTOR script is attached. The candidate deliberately uses year precision and does not infer an exact creation date, development geography, public debut date, ancestry, influence, causality, or relationships.",
-    "lastVerified": "2026-09-10T13:07:01+08:00"
+    "lastVerified": "2026-09-12T10:02:33+08:00"
   },
   "sources": [
     {
@@ -33,13 +33,13 @@
       "archivedUrl": null
     },
     {
-      "title": "ELIZA wins Peabody Award",
-      "url": "https://www.csail.mit.edu/news/eliza-wins-peabody-award",
-      "publisher": "MIT CSAIL",
-      "publishedDate": "2022-03-24",
-      "sourceType": "other",
+      "title": "Joseph Weizenbaum personal archives",
+      "url": "https://dome.mit.edu/handle/1721.3/201698",
+      "publisher": "MIT Libraries",
+      "publishedDate": null,
+      "sourceType": "archive",
       "sourceRole": "corroboration",
-      "primary": false,
+      "primary": true,
       "archivedUrl": null
     }
   ],
