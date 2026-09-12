@@ -1,0 +1,54 @@
+{
+  "id": "shrdlu-publication-1972",
+  "recordType": "event",
+  "title": "SHRDLU natural-language system documented by Terry Winograd",
+  "displayDate": "1972",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1972,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Stanford University teaching materials identify Terry Winograd's SHRDLU as a 1972 natural-language system that parsed user input, mapped it to logical form, interpreted that form within a blocks-world environment, took appropriate action, and generated responses.",
+  "significance": "A documented early natural-language-understanding system milestone. LINEAiGE records the safely supported 1972 documentation milestone and does not infer an exact creation date, first-ever status, geography, ancestry, influence, causality, or relationship edges from the cited material alone.",
+  "people": ["Terry Winograd"],
+  "organizations": [],
+  "technologies": ["SHRDLU"],
+  "geography": null,
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Verified against Stanford University course material that explicitly labels SHRDLU as Winograd 1972 and describes its grounded language-processing behavior. Stanford's institutional biography for Winograd independently identifies SHRDLU as his early research on natural-language understanding. The candidate deliberately retains year precision and withholds invention, completion, priority, geographic, causal, and lineage claims.",
+    "lastVerified": "2026-09-12T15:06:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "SHRDLU (Winograd 1972)",
+      "url": "https://stanford.edu/class/cs224u/2018/materials/cs224u-2018-grounding.pdf",
+      "publisher": "Stanford University",
+      "publishedDate": null,
+      "sourceType": "course-material",
+      "sourceRole": "claim-evidence",
+      "primary": false,
+      "archivedUrl": null
+    },
+    {
+      "title": "Professor Terry Winograd",
+      "url": "https://humanrights.stanford.edu/people/professor-terry-winograd",
+      "publisher": "Stanford University",
+      "publishedDate": null,
+      "sourceType": "institutional-profile",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Stanford institutional sources support SHRDLU as a Winograd natural-language-understanding system and Stanford course material dates the referenced system milestone to 1972.",
+    "nextStep": "Before canonical admission, reconcile the 1972 documentation milestone with Winograd's 1970 MIT thesis/report and any earlier implementation chronology. Do not convert publication/documentation chronology into a system-birth, first-ever, geographic, or causal claim without primary evidence."
+  }
+}
