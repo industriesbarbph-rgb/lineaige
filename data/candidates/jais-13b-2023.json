@@ -1,0 +1,52 @@
+{
+  "id": "jais-13b-2023",
+  "recordType": "event",
+  "title": "Jais 13B Open Release",
+  "displayDate": "30 August 2023",
+  "eventDate": "2023-08-30",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Inception, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), and Cerebras Systems announced the open release of Jais on August 30, 2023. The released Jais model had 13 billion parameters and was trained on a purpose-built Arabic-English dataset; the collaborating team also released an instruction-tuned Jais-chat variant.",
+  "significance": "A documented public-release milestone for an Arabic-centric open generative large language model developed through collaboration between Inception, MBZUAI, and Cerebras Systems.",
+  "people": [],
+  "organizations": ["Inception", "Mohamed bin Zayed University of Artificial Intelligence", "Cerebras Systems"],
+  "technologies": ["Jais", "Jais-chat"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "MBZUAI's first-party August 30, 2023 announcement states that Inception announced the open-source release of Jais, identifies the collaboration with MBZUAI and Cerebras, and describes the released model as a 13-billion-parameter Arabic-centric LLM. The authors' Jais/Jais-chat paper was submitted to arXiv the same day and independently documents the release of the Jais foundation model and Jais-chat instruction-tuned variant. The record is limited to the public-release milestone; no system-birth date, universal priority claim, development geography, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-13T00:06:02+08:00"
+  },
+  "sources": [
+    {
+      "title": "Meet ‘Jais’, The World’s Most Advanced Arabic Large Language Model Open Sourced by G42’s Inception",
+      "url": "https://mbzuai.ac.ae/news/meet-jais-the-worlds-most-advanced-arabic-large-language-model-open-sourced-by-g42s-inception/",
+      "publisher": "Mohamed bin Zayed University of Artificial Intelligence",
+      "publishedDate": "2023-08-30",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models",
+      "url": "https://arxiv.org/abs/2308.16149",
+      "publisher": "Jais authors / arXiv",
+      "publishedDate": "2023-08-30",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party institutional evidence directly supports the August 30, 2023 open-release milestone and core Jais 13B description, with the authors' technical paper providing same-day primary corroboration of the Jais and Jais-chat releases.",
+    "nextStep": "Consider chronology-safe canonical admission as a public-release milestone. Keep geography absent unless a separately reviewed source supports the precise semantic role of any location, and do not infer causal or ancestry relationships from architectural descriptions alone."
+  }
+}
