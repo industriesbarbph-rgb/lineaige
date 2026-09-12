@@ -1,0 +1,52 @@
+{
+  "id": "mindspore-open-source-release-2020",
+  "recordType": "event",
+  "title": "MindSpore Open-Source Release",
+  "displayDate": "28 March 2020",
+  "eventDate": "2020-03-28",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Huawei announced on March 28, 2020 that its all-scenario AI computing framework MindSpore had been officially open-sourced.",
+  "significance": "A dated public open-source release milestone for MindSpore, preserved as a release event rather than an inferred invention or system-birth date.",
+  "people": [],
+  "organizations": ["Huawei"],
+  "technologies": ["MindSpore"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "MindSpore's first-party announcement is dated March 28, 2020 and states that Huawei announced MindSpore was officially open-sourced that day. A later first-party Huawei technical retrospective independently states that the MindSpore framework was officially open-sourced on March 28, 2020. This candidate records the public open-source release milestone only; it does not infer MindSpore's invention date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T07:02:33+08:00"
+  },
+  "sources": [
+    {
+      "title": "华为全场景AI计算框架MindSpore正式开源，赋能开发者昇腾万里",
+      "url": "https://www.mindspore.cn/news/zh/175",
+      "publisher": "MindSpore",
+      "publishedDate": "2020-03-28",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "构筑开放基础软件栈，共建昇腾AI算力新生态",
+      "url": "https://www.huawei.com/cn/huaweitech/publication/202503/new-ecology-of-ascend-computing-power",
+      "publisher": "Huawei",
+      "publishedDate": "2025-03-01",
+      "sourceType": "official-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party MindSpore announcement directly supports the March 28, 2020 public open-source release, and a later first-party Huawei retrospective independently corroborates the same date.",
+    "nextStep": "Review for chronology-safe canonical admission as an open-source release milestone. Do not convert this release date into an invention/system-birth date or add geography, priority, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
