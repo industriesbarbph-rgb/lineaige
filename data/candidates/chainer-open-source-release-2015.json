@@ -1,0 +1,52 @@
+{
+  "id": "chainer-open-source-release-2015",
+  "recordType": "event",
+  "title": "Chainer Open-Source Release",
+  "displayDate": "9 June 2015",
+  "eventDate": "2015-06-09",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Preferred Infrastructure and Preferred Networks announced on June 9, 2015 that they had developed the Chainer deep-learning framework and released it as open-source software.",
+  "significance": "A dated public open-source release milestone for the Chainer deep-learning framework, preserved as a release event rather than an inferred invention or system-birth date.",
+  "people": [],
+  "organizations": ["Preferred Infrastructure", "Preferred Networks"],
+  "technologies": ["Chainer"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Preferred Networks' first-party announcement dated June 9, 2015 states that Preferred Infrastructure and Preferred Networks developed the Chainer deep-learning framework and released it as open-source software. Later first-party Preferred Networks materials independently describe Chainer as having been open-sourced in June 2015. This candidate records the June 9 public open-source release milestone only; it does not infer the framework's invention date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T05:02:22+08:00"
+  },
+  "sources": [
+    {
+      "title": "Open-source deep learning framework Chainer released",
+      "url": "https://www.preferred.jp/ja/news/8531/",
+      "publisher": "Preferred Networks, Inc.",
+      "publishedDate": "2015-06-09",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Preferred Networks released ChainerMN, a multi-node extension to Chainer, an open source framework for deep learning",
+      "url": "https://www.preferred.jp/en/news/pr20170509",
+      "publisher": "Preferred Networks, Inc.",
+      "publishedDate": null,
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party announcement directly supports Chainer's June 9, 2015 open-source release, and later first-party material corroborates the June 2015 open-sourcing milestone.",
+    "nextStep": "Review for chronology-safe canonical admission as an open-source release milestone. Do not convert this release date into an invention/system-birth date or add geography, priority, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
