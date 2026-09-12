@@ -1,0 +1,42 @@
+{
+  "id": "td-gammon-1993",
+  "recordType": "event",
+  "title": "TD-Gammon — AAAI Fall Symposium Publication Milestone",
+  "displayDate": "22 October 1993",
+  "eventDate": "1993-10-22",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Gerald Tesauro published a TD-Gammon paper for AAAI-FS 1993 on 22 October 1993. IBM Research describes TD-Gammon as a neural network that learned to play backgammon through self-play using the TD(lambda) reinforcement-learning algorithm and reports that a version with hand-crafted input features was estimated to play at a strong master level.",
+  "significance": "A primary-institutional publication milestone documenting an early reinforcement-learning system that learned a complex game through self-play. The record is limited to the 1993 publication and claims stated by IBM Research rather than treating the publication date as the system's creation date.",
+  "people": ["Gerald Tesauro"],
+  "organizations": ["IBM Research", "AAAI-FS 1993"],
+  "technologies": ["TD-Gammon", "TD(lambda)", "Reinforcement learning", "Neural networks", "Self-play"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "IBM Research directly records the paper title, author, publication venue, 22 October 1993 date, and abstract describing TD-Gammon's self-play training using TD(lambda) and its reported playing strength. This candidate treats 22 October 1993 only as the publication milestone; it does not infer the system's creation date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-12T19:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "TD-Gammon, A Self-Teaching Backgammon Program, Achieves Master-Level Play",
+      "url": "https://research.ibm.com/publications/td-gammon-a-self-teaching-backgammon-program-achieves-master-level-play",
+      "publisher": "IBM Research",
+      "publishedDate": "1993-10-22",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "IBM Research directly supports the 22 October 1993 publication milestone and the technical claims retained here. Publication chronology remains separate from system-origin, priority, ancestry, influence, and causality claims.",
+    "nextStep": "Before canonical admission, reconcile the 1993 symposium milestone with IBM's 1992 TD-learning publications and later TD-Gammon papers; keep each publication milestone distinct and add relationship edges only if separately evidenced."
+  }
+}
