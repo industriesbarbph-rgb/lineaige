@@ -1,0 +1,52 @@
+{
+  "id": "dendral-64-part-i-1964",
+  "recordType": "event",
+  "title": "DENDRAL-64 — Part I: Notational Algorithm for Tree Structures",
+  "displayDate": "15 December 1964",
+  "eventDate": "1964-12-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Joshua Lederberg's DENDRAL-64 technical report, Part I, was published on December 15, 1964. The report documents a system for computer construction, enumeration and notation of organic molecules as tree structures and cyclic graphs, with Part I devoted to a notational algorithm for tree structures.",
+  "significance": "A dated primary-source documentation milestone for DENDRAL-64 that predates LINEAiGE's existing April 1965 DENDRAL machine-induction memo record. This record documents the 1964 technical report and does not treat its publication date as the invention date, first implementation date, or birth of the later heuristic DENDRAL system.",
+  "people": ["Joshua Lederberg"],
+  "organizations": ["Stanford University", "NASA"],
+  "technologies": ["DENDRAL-64", "DENDRAL", "Graph algorithms"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "NASA Technical Reports Server identifies Joshua Lederberg as author, Stanford University as affiliation, the publication date as December 15, 1964, report number NASA-CR-57029, and the report subject as computer construction, enumeration and notation of organic molecules. A 1965 Lederberg paper preserved by the U.S. National Library of Medicine cites DENDRAL-64 and NASA CR 57029 as a 1964 work. LINEAiGE records only this dated documentation/publication milestone and does not infer an invention date, first implementation date, system-birth date, geography, ancestry, influence, causality, or additional relationships.",
+    "lastVerified": "2026-09-12T12:04:38+08:00"
+  },
+  "sources": [
+    {
+      "title": "Dendral-64 - a system for computer construction, enumeration and notation of organic molecules as tree structures and cyclic graphs. Part I - notational algorithm for tree structures",
+      "url": "https://ntrs.nasa.gov/citations/19650003557",
+      "publisher": "NASA Technical Reports Server",
+      "publishedDate": "1964-12-15",
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Topological Mapping of Organic Molecules",
+      "url": "https://digirepo.nlm.nih.gov/ext/document/101584906X875/PDF/101584906X875.pdf",
+      "publisher": "Proceedings of the National Academy of Sciences / U.S. National Library of Medicine archive",
+      "publishedDate": "1965-01-01",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "NASA's primary technical-report record supplies an exact publication date and report identity, and Lederberg's 1965 paper independently cites DENDRAL-64 / NASA CR 57029 as a 1964 work. The record can therefore be admitted as a documentation milestone without claiming a universal DENDRAL birth date.",
+    "nextStep": "Before canonical admission, review the relationship among the 1964 DENDRAL-64 report, the April 1965 machine-induction memo, later Heuristic DENDRAL work, and any earlier 1964 program materials. Keep each milestone distinct unless primary evidence supports consolidation or a stronger relationship."
+  }
+}
