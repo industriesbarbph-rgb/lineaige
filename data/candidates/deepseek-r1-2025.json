@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "DeepSeek's first-party January 20, 2025 release announcement directly establishes the public release date, model-weight release under the MIT License, and website/API availability. DeepSeek's API documentation independently records the same release milestone and API model name. The date is attached only to this documented public-release event; no development date, geography, ancestry, influence, causal relationship, or unsupported precision is inferred.",
-    "lastVerified": "2026-09-09T08:45:03+08:00"
+    "note": "DeepSeek's first-party January 20, 2025 release announcement directly establishes the public release date, model-weight release under the MIT License, and website/API availability. DeepSeek's official API change log independently records 2025.01.20 as the deepseek-reasoner / DeepSeek-R1 milestone. The date is attached only to this documented public-release event; no development date, geography, ancestry, influence, causal relationship, or unsupported precision is inferred.",
+    "lastVerified": "2026-09-14T01:05:27+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Change Log",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "publisher": "DeepSeek API Docs",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "First-party release evidence establishes the January 20, 2025 public-release event at day precision, including public model-weight and API availability. Chronology remains separate from ancestry, influence and causality.",
+    "admissionReason": "First-party release evidence establishes the January 20, 2025 public-release event at day precision, including public model-weight and API availability; the official API change log independently corroborates the same date. Chronology remains separate from ancestry, influence and causality.",
     "nextStep": "Consider canonical admission after chronology-safe placement; keep relationships and geography unset unless dedicated evidence supports those semantics."
   }
 }
