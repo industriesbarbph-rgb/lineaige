@@ -1,0 +1,52 @@
+{
+  "id": "resnet-paper-submission-2015",
+  "recordType": "event",
+  "title": "Deep Residual Learning for Image Recognition — Paper Submission",
+  "displayDate": "December 10, 2015",
+  "eventDate": "2015-12-10",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun submitted 'Deep Residual Learning for Image Recognition' on December 10, 2015. The paper presents a residual learning framework that reformulates layers as learning residual functions with reference to layer inputs and reports experiments with residual networks up to 152 layers on ImageNet.",
+  "significance": "A documented deep-learning research milestone for residual learning, recorded at the paper-submission level without treating the submission date as an invention, development-start, or system-birth date.",
+  "people": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
+  "organizations": [],
+  "technologies": ["Residual learning", "Residual neural networks", "Deep neural networks"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' arXiv record establishes the title, author list, December 10 2015 first-submission date, and the paper's residual-learning method description. The CVPR 2016 open-access proceedings independently corroborate the title, authors, and residual-learning paper. This candidate records only the dated paper-submission milestone. It does not infer an invention date, development-start date, software-release date, universal priority, institutional geography, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-14T05:02:04+08:00"
+  },
+  "sources": [
+    {
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "publisher": "arXiv",
+      "publishedDate": "2015-12-10",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html",
+      "publisher": "Computer Vision Foundation / CVPR",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source paper evidence directly supports the December 10 2015 submission milestone and recorded residual-learning method claims. Chronology is kept separate from invention, ancestry, influence, causality, institutional, and geographic claims.",
+    "nextStep": "Review for chronology-safe canonical admission as a research-publication milestone; preserve submission-date semantics and keep relationships and geography empty unless dedicated evidence supports them."
+  }
+}
