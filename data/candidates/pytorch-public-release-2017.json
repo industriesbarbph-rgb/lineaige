@@ -1,0 +1,52 @@
+{
+  "id": "pytorch-public-release-2017",
+  "recordType": "event",
+  "title": "PyTorch Public Release",
+  "displayDate": "19 January 2017",
+  "eventDate": "2017-01-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The PyTorch team retrospectively marked January 19, 2017 as the date PyTorch was released publicly.",
+  "significance": "A dated public-release milestone for the open-source PyTorch deep-learning framework, preserved as a release event rather than an inferred invention or system-birth date.",
+  "people": [],
+  "organizations": ["Facebook AI Research"],
+  "technologies": ["PyTorch"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "A first-party PyTorch retrospective published January 19, 2018 states that the date marked one year since PyTorch was released publicly, supporting January 19, 2017 as the public-release date. A first-party Facebook AI Research retrospective independently states that PyTorch was announced at the beginning of 2017 and describes it as an open-source project. This candidate records the public-release milestone only; it does not infer PyTorch's invention date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T08:05:04+08:00"
+  },
+  "sources": [
+    {
+      "title": "PyTorch, a year in….",
+      "url": "https://pytorch.org/blog/a-year-in/",
+      "publisher": "PyTorch",
+      "publishedDate": "2018-01-19",
+      "sourceType": "official-retrospective",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "FAIR at 5: Facebook Artificial Intelligence Research accomplishments",
+      "url": "https://engineering.fb.com/2018/12/05/ai-research/fair-fifth-anniversary/",
+      "publisher": "Facebook Engineering",
+      "publishedDate": "2018-12-05",
+      "sourceType": "official-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party PyTorch retrospective directly supports January 19, 2017 as the public-release date, with a first-party Facebook AI Research retrospective corroborating the early-2017 announcement context.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-release milestone. Do not convert this release date into an invention/system-birth date or add geography, priority, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
