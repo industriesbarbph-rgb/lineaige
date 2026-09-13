@@ -17,8 +17,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Microsoft's official CNTK project history explicitly records '2016-01-25 13:00 GMT. CNTK new repository in GitHub went public' and notes that the CNTK website became available at the same time. A Microsoft Research post published June 10, 2016 independently states that earlier in 2016 Microsoft made its open-source Computational Network Toolkit available on GitHub. This candidate is limited to the GitHub-public milestone and does not infer an invention/system-birth date, development geography, universal priority, ancestry, influence, causality, or unsupported relationship.",
-    "lastVerified": "2026-09-13T12:03:51+08:00"
+    "note": "Microsoft's official CNTK project history explicitly records '2016-01-25 13:00 GMT. CNTK new repository in GitHub went public' and notes that the CNTK website became available at the same time. Microsoft's dated January 25, 2016 AI Blog announcement independently states that the company was releasing CNTK on GitHub, and a Microsoft Research post published June 10, 2016 states that earlier in 2016 Microsoft made its open-source Computational Network Toolkit available on GitHub. This candidate is limited to the GitHub-public milestone and does not infer an invention/system-birth date, development geography, universal priority, ancestry, influence, causality, or unsupported relationship.",
+    "lastVerified": "2026-09-13T23:02:09+08:00"
   },
   "sources": [
     {
@@ -28,6 +28,16 @@
       "publishedDate": null,
       "sourceType": "official-project-history",
       "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Microsoft releases CNTK, its open source deep learning toolkit, on GitHub",
+      "url": "https://blogs.microsoft.com/ai/microsoft-releases-cntk-its-open-source-deep-learning-toolkit-on-github/",
+      "publisher": "Microsoft",
+      "publishedDate": "2016-01-25",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
     },
@@ -47,7 +57,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Microsoft's official project history establishes a day-precision GitHub-public milestone, and Microsoft Research independently corroborates that CNTK was made available on GitHub earlier in 2016. The evidence supports public availability, not an invention or system-birth date.",
+    "admissionReason": "Microsoft's official project history establishes a day-precision GitHub-public milestone, Microsoft's same-day AI Blog announcement corroborates the public release, and Microsoft Research independently confirms that CNTK was made available on GitHub earlier in 2016. The evidence supports public availability, not an invention or system-birth date.",
     "nextStep": "Review for chronology-safe canonical admission as a public-availability milestone. Separately research earlier CNTK history and its April 2015 open-source licensing claim before adding any earlier event, and do not add geography, ancestry, influence, or causal relationships without claim-specific evidence."
   }
 }
