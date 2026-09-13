@@ -1,0 +1,53 @@
+{
+  "id": "cntk-github-public-2016",
+  "recordType": "event",
+  "title": "CNTK GitHub Repository Goes Public",
+  "displayDate": "25 January 2016",
+  "eventDate": "2016-01-25",
+  "datePrecision": "day",
+  "eventYear": 2016,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Microsoft's CNTK project history records that the CNTK repository on GitHub went public on January 25, 2016, together with a new CNTK website.",
+  "significance": "A primary-source, day-precision public-availability milestone for CNTK that can be recorded without treating the date as the toolkit's invention, development start, or system birth.",
+  "people": [],
+  "organizations": ["Microsoft"],
+  "technologies": ["CNTK"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Microsoft's official CNTK project history explicitly records '2016-01-25 13:00 GMT. CNTK new repository in GitHub went public' and notes that the CNTK website became available at the same time. A Microsoft Research post published June 10, 2016 independently states that earlier in 2016 Microsoft made its open-source Computational Network Toolkit available on GitHub. This candidate is limited to the GitHub-public milestone and does not infer an invention/system-birth date, development geography, universal priority, ancestry, influence, causality, or unsupported relationship.",
+    "lastVerified": "2026-09-13T12:03:51+08:00"
+  },
+  "sources": [
+    {
+      "title": "News 2016 · microsoft/CNTK Wiki",
+      "url": "https://github.com/microsoft/CNTK/wiki/News-2016",
+      "publisher": "Microsoft CNTK project",
+      "publishedDate": null,
+      "sourceType": "official-project-history",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Microsoft improves programming flexibility of its AI toolkit",
+      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-improves-programming-flexibility-of-its-ai-toolkit/",
+      "publisher": "Microsoft Research",
+      "publishedDate": "2016-06-10",
+      "sourceType": "official-research-blog",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Microsoft's official project history establishes a day-precision GitHub-public milestone, and Microsoft Research independently corroborates that CNTK was made available on GitHub earlier in 2016. The evidence supports public availability, not an invention or system-birth date.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-availability milestone. Separately research earlier CNTK history and its April 2015 open-source licensing claim before adding any earlier event, and do not add geography, ancestry, influence, or causal relationships without claim-specific evidence."
+  }
+}
