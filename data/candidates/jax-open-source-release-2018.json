@@ -1,0 +1,52 @@
+{
+  "id": "jax-open-source-release-2018",
+  "recordType": "event",
+  "title": "JAX Open-Source Release",
+  "displayDate": "2018",
+  "datePrecision": "year",
+  "eventYear": 2018,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "JAX's official repository citation metadata states that 2018 corresponds to the project's open-source release, and Google Research's 2018 retrospective says Google released JAX that year as an accelerator-backed NumPy system supporting automatic differentiation and using XLA infrastructure.",
+  "significance": "A first-party, year-precision public-release milestone for JAX that can be recorded without inventing a day or month or treating the release year as an invention or development-start date.",
+  "people": ["James Bradbury", "Roy Frostig", "Peter Hawkins", "Matthew James Johnson", "Yash Katariya", "Chris Leary", "Dougal Maclaurin", "George Necula", "Adam Paszke", "Jake VanderPlas", "Skye Wanderman-Milne", "Qiao Zhang"],
+  "organizations": ["Google Research"],
+  "technologies": ["JAX", "XLA", "NumPy"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official JAX repository's citation section explicitly says that the year 2018 corresponds to the project's open-source release. Google Research's January 15, 2019 retrospective independently states that Google released JAX in 2018 and describes it as an accelerator-backed variant of NumPy supporting automatic differentiation and leveraging XLA infrastructure. This candidate is limited to a year-precision open-source-release milestone and does not infer an exact release day or month, invention/system-birth date, development-start date, development geography, universal priority, ancestry, influence, causality, or unsupported relationship.",
+    "lastVerified": "2026-09-13T18:05:30+08:00"
+  },
+  "sources": [
+    {
+      "title": "JAX — README: Citing JAX",
+      "url": "https://github.com/jax-ml/jax",
+      "publisher": "JAX Project",
+      "publishedDate": null,
+      "sourceType": "official-project-repository",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Looking Back at Google’s Research Efforts in 2018",
+      "url": "https://research.google/blog/looking-back-at-googles-research-efforts-in-2018/",
+      "publisher": "Google Research",
+      "publishedDate": "2019-01-15",
+      "sourceType": "first-party-retrospective",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party sources support a 2018 open-source/public-release milestone for JAX at year precision. They do not establish an exact release day or month or a separate invention/development-start date.",
+    "nextStep": "Review for chronology-safe canonical admission as a year-precision open-source-release milestone. Separately research earlier JAX/Autograd/XLA development chronology and any relationship claims before adding ancestry or influence edges."
+  }
+}
