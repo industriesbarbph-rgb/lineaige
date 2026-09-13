@@ -1,0 +1,52 @@
+{
+  "id": "mobilenet-paper-2017",
+  "recordType": "event",
+  "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+  "displayDate": "April 17, 2017",
+  "eventDate": "2017-04-17",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto and Hartwig Adam submitted MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications on April 17, 2017. The paper presents MobileNets as efficient models for mobile and embedded vision applications, based on depthwise separable convolutions and two global hyperparameters for trading off latency and accuracy.",
+  "significance": "A documented research milestone for the MobileNet model family and efficient on-device computer vision, recorded at the original paper-submission level rather than as an invention, development-start, software-release or universal-priority claim.",
+  "people": ["Andrew G. Howard", "Menglong Zhu", "Bo Chen", "Dmitry Kalenichenko", "Weijun Wang", "Tobias Weyand", "Marco Andreetto", "Hartwig Adam"],
+  "organizations": [],
+  "technologies": ["MobileNet", "Depthwise separable convolution", "On-device computer vision"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record supports the title, authors, April 17 2017 submission date and the paper's description of MobileNets as efficient models for mobile and embedded vision using depthwise separable convolutions and global width/resolution hyperparameters. Google Research's April 3 2018 MobileNetV2 announcement independently identifies MobileNetV1 as the prior generation and cites the 2017 MobileNets paper. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as an invention, model-family birth, development-start, code release or universal priority date. No institutional affiliation, geography, ancestry, influence or causality is inferred.",
+    "lastVerified": "2026-09-14T06:05:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+      "url": "https://arxiv.org/abs/1704.04861",
+      "publisher": "arXiv",
+      "publishedDate": "2017-04-17",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "MobileNetV2: The Next Generation of On-Device Computer Vision Networks",
+      "url": "https://research.google/blog/mobilenetv2-the-next-generation-of-on-device-computer-vision-networks/",
+      "publisher": "Google Research",
+      "publishedDate": "2018-04-03",
+      "sourceType": "institutional",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the April 17 2017 paper-submission milestone and the technical claims recorded here at day precision. Chronology remains separate from invention, software release, ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; independently evaluate any later open-source-release milestone before representing it as a separate event, and keep relationship, institutional-affiliation and geography fields unset unless dedicated evidence supports those semantics."
+  }
+}
