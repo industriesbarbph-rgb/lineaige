@@ -1,0 +1,52 @@
+{
+  "id": "torch7-paper-2011",
+  "recordType": "event",
+  "title": "Torch7 Described at BigLearn, NIPS Workshop",
+  "displayDate": "2011",
+  "datePrecision": "year",
+  "eventYear": 2011,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Ronan Collobert's publication record and Idiap's institutional publication record identify the paper 'Torch7: A Matlab-like Environment for Machine Learning' by Ronan Collobert, Koray Kavukcuoglu, and Clément Farabet as a 2011 BigLearn, NIPS Workshop publication describing Torch7 as a Lua-based numeric computing framework and machine-learning library.",
+  "significance": "A primary/institutional, year-precision documentary milestone for Torch7 that can be recorded without treating 2011 as an exact invention, development-start, or public-release date.",
+  "people": ["Ronan Collobert", "Koray Kavukcuoglu", "Clément Farabet"],
+  "organizations": ["Idiap Research Institute"],
+  "technologies": ["Torch7"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The lead author's publication page lists 'Torch7: A Matlab-like Environment for Machine Learning' by R. Collobert, K. Kavukcuoglu, and C. Farabet in BigLearn, NIPS Workshop, 2011, and describes Torch7 as a versatile numeric computing framework and machine-learning library extending Lua. Idiap's institutional publication record independently lists the same title, authors, workshop, and year. This candidate is limited to the documented 2011 paper/workshop milestone and does not infer an exact publication day, invention/system-birth date, development geography, universal priority, ancestry, influence, causality, or unsupported relationship.",
+    "lastVerified": "2026-09-13T13:02:25+08:00"
+  },
+  "sources": [
+    {
+      "title": "Ronan Collobert — Publications: Torch7",
+      "url": "https://ronan.collobert.com/",
+      "publisher": "Ronan Collobert",
+      "publishedDate": null,
+      "sourceType": "author-publication-page",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Torch7: A Matlab-like Environment for Machine Learning",
+      "url": "https://publications.idiap.ch/publications/show/2240",
+      "publisher": "Idiap Research Institute",
+      "publishedDate": null,
+      "sourceType": "institutional-publication-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Author and institutional publication records support a year-precision 2011 Torch7 paper/workshop milestone and the framework description. They do not establish an exact invention, development-start, or public-release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a documentary framework milestone. Separately research earlier Torch/Torch7 development and release history before adding any earlier event, and do not add geography, ancestry, influence, causal claims, or relationship edges without claim-specific evidence."
+  }
+}
