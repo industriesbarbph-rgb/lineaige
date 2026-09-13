@@ -1,0 +1,52 @@
+{
+  "id": "onnx-announcement-2017",
+  "recordType": "event",
+  "title": "Open Neural Network Exchange (ONNX) Announced",
+  "displayDate": "7 September 2017",
+  "eventDate": "2017-09-07",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Microsoft announced the Open Neural Network Exchange (ONNX) format on 7 September 2017 in conjunction with Facebook, describing it as a shared model representation intended to support interoperability across AI frameworks.",
+  "significance": "A first-party, day-precision public-announcement milestone for an open model-representation project explicitly co-developed by Microsoft and Facebook, distinct from ONNX 1.0 becoming production-ready later in December 2017.",
+  "people": ["Eric Boyd"],
+  "organizations": ["Microsoft", "Facebook"],
+  "technologies": ["ONNX", "Microsoft Cognitive Toolkit", "Caffe2", "PyTorch"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Microsoft's first-party announcement dated September 7, 2017 explicitly states that Microsoft and Facebook were announcing ONNX together and had co-developed it as an open source project. Meta's later first-party ONNX 1.0 release post independently states that an early version was released in September 2017 and distinguishes that earlier milestone from the production-ready first version announced in December. This candidate records only the September 7 public-announcement milestone. It does not infer an invention date, development-start date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T17:04:12+08:00"
+  },
+  "sources": [
+    {
+      "title": "Microsoft and Facebook create open ecosystem for AI model interoperability",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-facebook-create-open-ecosystem-for-ai-model-interoperability/",
+      "publisher": "Microsoft Azure Blog",
+      "publishedDate": "2017-09-07",
+      "sourceType": "first-party-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ONNX V1 released",
+      "url": "https://engineering.fb.com/2017/12/08/ml-applications/onnx-v1-released/",
+      "publisher": "Engineering at Meta",
+      "publishedDate": "2017-12-08",
+      "sourceType": "first-party-project-update",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Microsoft's dated first-party announcement directly documents the September 7, 2017 ONNX announcement and co-development with Facebook; Meta's later first-party release post corroborates the September early-version milestone while clearly separating it from the December production-ready ONNX 1.0 release.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-announcement milestone. Keep the September announcement distinct from the December 2017 ONNX 1.0 production-ready milestone, and do not add ancestry, influence, causality, or relationship edges without claim-specific evidence."
+  }
+}
