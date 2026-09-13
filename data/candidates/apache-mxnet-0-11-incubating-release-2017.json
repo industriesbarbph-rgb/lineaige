@@ -1,0 +1,52 @@
+{
+  "id": "apache-mxnet-0-11-incubating-release-2017",
+  "recordType": "event",
+  "title": "Apache MXNet 0.11 First Official Incubating Release",
+  "displayDate": "6 September 2017",
+  "eventDate": "2017-09-06",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Amazon Web Services announced on September 6, 2017 the availability of Apache MXNet 0.11 and described it as MXNet's first official release as an Apache incubating project.",
+  "significance": "A dated project-governance and release milestone for MXNet under the Apache Software Foundation incubation process, preserved separately from MXNet's earlier development and open-source history.",
+  "people": [],
+  "organizations": ["Apache Software Foundation", "Amazon Web Services"],
+  "technologies": ["Apache MXNet", "MXNet 0.11"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "AWS's dated September 6, 2017 release announcement states that Apache MXNet 0.11 was available and that the project had made its first official release as an incubating Apache project. The Apache Software Foundation archive independently preserves a 0.11.0 release directory. This candidate records the Apache-incubating release milestone only; it does not infer MXNet's invention date, original public-release date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T21:05:47+08:00"
+  },
+  "sources": [
+    {
+      "title": "Apache MXNet Version 0.11 Now Supports Apple Core ML and Keras",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2017/09/apache-mxnet-version-011-now-supports-apple-core-ml-and-keras/",
+      "publisher": "Amazon Web Services",
+      "publishedDate": "2017-09-06",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Index of /dist/incubator/mxnet",
+      "url": "https://archive.apache.org/dist/incubator/mxnet/",
+      "publisher": "Apache Software Foundation",
+      "publishedDate": null,
+      "sourceType": "official-archive",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated official AWS release announcement explicitly identifies Apache MXNet 0.11 as the project's first official release as an incubating Apache project, while the Apache Software Foundation archive corroborates the 0.11.0 release artifact family.",
+    "nextStep": "Review for chronology-safe canonical admission as an Apache-incubating release milestone. Keep this distinct from MXNet's earlier origin/open-source milestones and do not add geography, priority, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
