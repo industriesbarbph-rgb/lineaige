@@ -1,0 +1,62 @@
+{
+  "id": "xgboost-v0-1-repository-milestone-2014",
+  "recordType": "event",
+  "title": "XGBoost v0.1 Repository Milestone",
+  "displayDate": "March 2014",
+  "datePrecision": "month",
+  "publicationMonth": "2014-03",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The official XGBoost repository preserves a v0.1 tag whose referenced commit is dated March 2014. The current official repository identifies XGBoost as originating from a research project at the University of Washington.",
+  "significance": "A primary-source, month-precision repository milestone for early XGBoost that can be recorded without turning a lightweight Git tag or its commit timestamp into an unsupported exact public-release, invention, or development-start date.",
+  "people": ["Tianqi Chen"],
+  "organizations": ["University of Washington"],
+  "technologies": ["XGBoost"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official dmlc/xgboost repository exposes refs/tags/v0.1 pointing to commit 2aa1031d24586a5ad798637fec380ecc01a9b013; GitHub's commit object dates that commit to 2014-03-26T23:47:01Z. The current official repository states that XGBoost originates from a research project at the University of Washington. This candidate records only a March 2014 v0.1 repository milestone. It does not assert that the commit timestamp is an exact public-release date, or infer an invention/system-birth date, development-start date, development geography beyond the repository's explicit institutional-origin statement, universal priority, ancestry, influence, causality, or unsupported relationship edge.",
+    "lastVerified": "2026-09-14T00:04:59+08:00"
+  },
+  "sources": [
+    {
+      "title": "XGBoost repository tag v0.1",
+      "url": "https://api.github.com/repos/dmlc/xgboost/git/ref/tags/v0.1",
+      "publisher": "XGBoost Project / GitHub",
+      "publishedDate": null,
+      "sourceType": "official-project-repository",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "XGBoost v0.1 referenced commit 2aa1031d24586a5ad798637fec380ecc01a9b013",
+      "url": "https://api.github.com/repos/dmlc/xgboost/git/commits/2aa1031d24586a5ad798637fec380ecc01a9b013",
+      "publisher": "XGBoost Project / GitHub",
+      "publishedDate": null,
+      "sourceType": "official-project-repository",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "dmlc/xgboost official repository README",
+      "url": "https://github.com/dmlc/xgboost",
+      "publisher": "XGBoost Project",
+      "publishedDate": null,
+      "sourceType": "official-project-repository",
+      "sourceRole": "context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The official repository preserves a v0.1 tag pointing to a commit dated March 2014, supporting a month-precision repository milestone while not proving an exact public-release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a repository milestone. Separately research claim-specific primary evidence for XGBoost's initial public release and earlier development chronology before adding any release, origin, geography, ancestry, influence, causal, or relationship claims."
+  }
+}
