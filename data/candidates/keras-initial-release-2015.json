@@ -1,0 +1,52 @@
+{
+  "id": "keras-initial-release-2015",
+  "recordType": "event",
+  "title": "Keras Initial Public Release",
+  "displayDate": "March 2015",
+  "datePrecision": "month",
+  "publicationMonth": "2015-03",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "François Chollet's first-party Keras 1.0 announcement states that Keras was initially released in late March 2015. The Keras GitHub repository contains project activity from late March 2015, consistent with that retrospective account.",
+  "significance": "A primary-source, month-precision initial-release milestone for Keras that avoids manufacturing an exact day from retrospective wording.",
+  "people": ["François Chollet"],
+  "organizations": [],
+  "technologies": ["Keras"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "François Chollet's April 2016 first-party Keras 1.0 announcement explicitly states that Keras was initially released a year earlier, in late March 2015. Repository activity from late March 2015 is consistent corroboration. This candidate therefore records March 2015 at month precision only. It does not infer an exact release day, invention or development-start date, development geography, organizational ownership at release, universal priority, ancestry, influence, causality, or unsupported relationship edges.",
+    "lastVerified": "2026-09-13T15:07:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Keras 1.0",
+      "url": "https://blog.keras.io/introducing-keras-10.html",
+      "publisher": "Keras Blog / François Chollet",
+      "publishedDate": null,
+      "sourceType": "first-party-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "keras-team/keras repository commit history (late March 2015)",
+      "url": "https://github.com/keras-team/keras/commits/master/?after=2219704aaa0662dd9a276d6b21e0352999be54df+0",
+      "publisher": "GitHub / keras-team",
+      "publishedDate": null,
+      "sourceType": "repository-history",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party retrospective explicitly identifies late March 2015 as Keras's initial release period, and contemporaneous repository activity corroborates active public project history in late March 2015. Month precision preserves the strongest supportable chronology without inventing a day.",
+    "nextStep": "Review for chronology-safe canonical admission as a month-precision initial-release milestone. Separately investigate whether an immutable first-release artifact or contemporaneous announcement supports day precision before any precision upgrade; do not infer development start, geography, ancestry, influence, causality, or relationship edges without claim-specific evidence."
+  }
+}
