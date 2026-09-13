@@ -1,0 +1,53 @@
+{
+  "id": "caffe-paper-2014",
+  "recordType": "event",
+  "title": "Caffe Technical Paper",
+  "displayDate": "20 June 2014",
+  "eventDate": "2014-06-20",
+  "datePrecision": "day",
+  "eventYear": 2014,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The Caffe authors recorded the framework in the paper 'Caffe: Convolutional Architecture for Fast Feature Embedding' on June 20, 2014, describing Caffe as a fully open-source deep-learning framework implemented in C++ with CUDA and bindings for Python and MATLAB.",
+  "significance": "A primary-source, day-precision documentation milestone for Caffe that records the framework without converting the paper date into an unsupported invention, system-birth, or public-release date.",
+  "people": ["Yangqing Jia", "Evan Shelhamer", "Jeff Donahue", "Sergey Karayev", "Jonathan Long", "Ross Girshick", "Sergio Guadarrama", "Trevor Darrell"],
+  "organizations": ["Berkeley Vision and Learning Center"],
+  "technologies": ["Caffe"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' primary paper gives a June 20, 2014 date and directly describes Caffe as a fully open-source framework, its C++/CUDA implementation, Python and MATLAB bindings, and BVLC maintenance/development. The official Caffe project page independently corroborates Yangqing Jia as creator, Evan Shelhamer as lead developer, BAIR/community development, and BSD 2-Clause licensing. This candidate records only the paper milestone and source-explicit organizational attribution; it does not infer an invention/system-birth date, exact public-release date, development geography, universal priority, ancestry edge, influence, causality, or other unsupported relationship.",
+    "lastVerified": "2026-09-13T11:03:07+08:00"
+  },
+  "sources": [
+    {
+      "title": "Caffe: Convolutional Architecture for Fast Feature Embedding",
+      "url": "https://arxiv.org/abs/1408.5093",
+      "publisher": "arXiv",
+      "publishedDate": "2014-06-20",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Caffe | Deep Learning Framework",
+      "url": "https://caffe.berkeleyvision.org/",
+      "publisher": "Berkeley AI Research",
+      "publishedDate": null,
+      "sourceType": "official-project-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The authors' primary paper safely establishes a day-precision Caffe documentation milestone and the official project page corroborates framework identity and attribution, while the evidence reviewed in this run does not establish that date as Caffe's invention, birth, or exact public-release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a technical-paper milestone. Separately research a contemporaneous first-party public-release record before adding any release event, and do not add geography, ancestry, influence, or causal relationships without claim-specific evidence."
+  }
+}
