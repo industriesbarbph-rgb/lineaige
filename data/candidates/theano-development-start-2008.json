@@ -1,0 +1,52 @@
+{
+  "id": "theano-development-start-2008",
+  "recordType": "event",
+  "title": "Theano Development and Use Began",
+  "displayDate": "January 2008",
+  "datePrecision": "month",
+  "eventMonth": "2008-01",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The authors of the SciPy 2010 paper 'Theano: A CPU and GPU Math Compiler in Python' state that Theano development and use began in January 2008. A later paper by the Theano Development Team independently states that Theano had been actively and continuously developed since 2008.",
+  "significance": "A primary-source, month-precision development-start milestone for Theano that does not require converting a later paper, release, or announcement date into the system's origin date.",
+  "people": ["James Bergstra", "Olivier Breuleux", "Frédéric Bastien", "Pascal Lamblin", "Razvan Pascanu", "Guillaume Desjardins", "Joseph Turian", "David Warde-Farley", "Yoshua Bengio"],
+  "organizations": ["Université de Montréal"],
+  "technologies": ["Theano"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' SciPy 2010 paper explicitly states that Theano development and use began in January 2008. The 2016 Theano Development Team paper corroborates continuous development since 2008. This candidate records only that documented development/use start. It does not infer an exact day, public-release date, invention priority, development geography beyond the authors' stated institutional affiliation, ancestry, influence, causality, or unsupported relationship edge.",
+    "lastVerified": "2026-09-13T14:08:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Theano: A CPU and GPU Math Compiler in Python",
+      "url": "https://www.iro.umontreal.ca/~lisa/pointeurs/theano_scipy2010.pdf",
+      "publisher": "Proceedings of the 9th Python in Science Conference (SciPy 2010)",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Theano: A Python framework for fast computation of mathematical expressions",
+      "url": "https://arxiv.org/abs/1605.02688",
+      "publisher": "The Theano Development Team",
+      "publishedDate": "2016-05-09",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source authors explicitly document January 2008 as the start of Theano development and use, with later Theano Development Team corroboration for development since 2008. No exact day or release date is asserted.",
+    "nextStep": "Review for chronology-safe canonical admission as a month-precision development-start milestone. Separately research the earliest documented public distribution/release milestone before adding any release event, and do not add ancestry, influence, causal claims, geography semantics, or relationship edges without claim-specific evidence."
+  }
+}
