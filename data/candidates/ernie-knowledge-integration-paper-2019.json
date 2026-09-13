@@ -1,0 +1,42 @@
+{
+  "id": "ernie-knowledge-integration-paper-2019",
+  "recordType": "event",
+  "title": "ERNIE: Enhanced Representation through Knowledge Integration — Paper Submission",
+  "displayDate": "19 April 2019",
+  "eventDate": "2019-04-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Xuyi Chen, Han Zhang, Xin Tian, Danxiang Zhu, Hao Tian, and Hua Wu submitted 'ERNIE: Enhanced Representation through Knowledge Integration' on April 19, 2019. The paper presents ERNIE as a language-representation model enhanced by knowledge masking strategies, including entity-level and phrase-level masking.",
+  "significance": "A documented 2019 research milestone for knowledge-enhanced pre-trained language representation, recorded at the paper-submission level without treating that date as the model's invention or development-start date.",
+  "people": ["Yu Sun", "Shuohuan Wang", "Yukun Li", "Shikun Feng", "Xuyi Chen", "Han Zhang", "Xin Tian", "Danxiang Zhu", "Hao Tian", "Hua Wu"],
+  "organizations": [],
+  "technologies": ["ERNIE", "Knowledge-enhanced language representation", "Entity-level masking", "Phrase-level masking"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' arXiv record establishes the title, author list, April 19 2019 first-submission date, and the paper's description of ERNIE as a knowledge-enhanced language representation model using entity-level and phrase-level masking strategies. This candidate records only the paper-submission milestone. It does not infer the model's invention date, development-start date, public software-release date, institutional affiliation, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-14T04:05:44+08:00"
+  },
+  "sources": [
+    {
+      "title": "ERNIE: Enhanced Representation through Knowledge Integration",
+      "url": "https://arxiv.org/abs/1904.09223",
+      "publisher": "ERNIE authors / arXiv",
+      "publishedDate": "2019-04-19",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source paper metadata and abstract text directly support the dated submission milestone and the recorded method description. Chronology is kept separate from causal, ancestry, institutional, and geographic claims.",
+    "nextStep": "Review for chronology-safe canonical admission as a research-publication milestone. Seek claim-specific first-party institutional corroboration before adding organization or geography semantics, and keep relationships empty unless separate evidence supports them."
+  }
+}
