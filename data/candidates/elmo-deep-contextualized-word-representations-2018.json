@@ -1,0 +1,42 @@
+{
+  "id": "elmo-deep-contextualized-word-representations-2018",
+  "recordType": "event",
+  "title": "Deep contextualized word representations",
+  "displayDate": "February 15, 2018",
+  "eventDate": "2018-02-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee and Luke Zettlemoyer submitted Deep contextualized word representations on February 15, 2018. The paper introduced deep contextualized word representations learned from the internal states of a deep bidirectional language model and described improvements across six NLP tasks when the representations were added to existing models.",
+  "significance": "A documented research milestone for contextual word representations in natural-language processing, recorded at the original paper-submission level rather than as an invention, software-release, model-family-birth, development-start, universal-priority or causal-influence claim.",
+  "people": ["Matthew E. Peters", "Mark Neumann", "Mohit Iyyer", "Matt Gardner", "Christopher Clark", "Kenton Lee", "Luke Zettlemoyer"],
+  "organizations": [],
+  "technologies": ["ELMo", "Deep contextualized word representations", "Bidirectional language model"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record supports the title, authors, February 15 2018 submission date, and the paper's description of deep contextualized word representations as learned functions of internal states of a deep bidirectional language model, with reported improvements across six NLP tasks. The day-precision date is attached specifically to the arXiv submission milestone. No invention date, software release, development start, institutional affiliation, geography, ancestry, influence, causality or universal-priority claim is inferred.",
+    "lastVerified": "2026-09-14T07:05:44+08:00"
+  },
+  "sources": [
+    {
+      "title": "Deep contextualized word representations",
+      "url": "https://arxiv.org/abs/1802.05365",
+      "publisher": "arXiv",
+      "publishedDate": "2018-02-15",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary-source evidence establishes the February 15 2018 paper-submission milestone and the technical claims recorded here at day precision. Chronology remains separate from invention, software release, institutional geography, ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; independently verify any distinct software or model-release milestone before representing it separately, and keep relationship, institutional-affiliation and geography fields unset unless dedicated evidence supports those semantics."
+  }
+}
