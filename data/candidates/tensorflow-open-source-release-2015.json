@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Google's first-party announcement dated November 9, 2015 introduces TensorFlow and explicitly says Google was open-sourcing TensorFlow that day. The TensorFlow authors' technical paper independently states that the TensorFlow API and reference implementation were released as an open-source package under the Apache 2.0 license in November 2015. This candidate records the November 9 public open-source release milestone only; it does not infer TensorFlow's invention date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
-    "lastVerified": "2026-09-13T06:04:00+08:00"
+    "note": "Google's first-party announcement dated November 9, 2015 introduces TensorFlow and explicitly says Google was open-sourcing TensorFlow that day. The TensorFlow authors' technical paper independently states that the TensorFlow API and reference implementation were released as an open-source package under the Apache 2.0 license in November 2015. Google Research's institutional publication record independently preserves that same paper and its November 2015 open-source-release statement. This candidate records the November 9 public open-source release milestone only; it does not infer TensorFlow's invention date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T22:04:32+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+      "url": "https://research.google/pubs/tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems/",
+      "publisher": "Google Research",
+      "publishedDate": "2015",
+      "sourceType": "official-publication-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A dated first-party Google announcement directly supports TensorFlow's November 9, 2015 public open-source release, and the authors' technical paper independently corroborates the November 2015 open-source release.",
+    "admissionReason": "A dated first-party Google announcement directly supports TensorFlow's November 9, 2015 public open-source release, while the authors' technical paper and Google Research's institutional publication record independently corroborate the November 2015 open-source release.",
     "nextStep": "Review for chronology-safe canonical admission as an open-source release milestone. Do not convert this release date into an invention/system-birth date or add geography, priority, ancestry, influence, or causal relationships without separate evidence."
   }
 }
