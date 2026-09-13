@@ -8,7 +8,7 @@
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
   "summary": "Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun submitted Deep Residual Learning for Image Recognition on December 10, 2015. The paper presents a residual learning framework that reformulates layers as learning residual functions with reference to layer inputs and reports experiments with residual networks up to 152 layers on ImageNet.",
-  "significance": "A documented deep-learning architecture milestone introducing the residual-learning framework later published at CVPR 2016.",
+  "significance": "A documented deep-learning research milestone for the residual-learning framework later published at CVPR 2016, recorded here at the paper-submission level rather than as an invention or system-birth date.",
   "people": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
   "organizations": [],
   "technologies": ["Residual learning", "Residual network", "ResNet"],
@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Title, authors, December 10 2015 submission date, residual-learning formulation and reported 152-layer ImageNet experiments are supported by the original arXiv record. The Computer Vision Foundation's CVPR 2016 record independently corroborates the authors, paper, framework and later conference publication. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as a separate architecture-birth date. No ancestry, influence, causality, institutional affiliation or geography is inferred.",
-    "lastVerified": "2026-09-10T18:05:35+08:00"
+    "note": "Title, authors, December 10 2015 submission date, residual-learning formulation and reported 152-layer ImageNet experiments are supported by the original arXiv record. The Computer Vision Foundation's CVPR 2016 record independently corroborates the authors, paper, framework and later conference publication. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as an invention, architecture-birth, development-start, or software-release date. No universal priority, ancestry, influence, causality, institutional affiliation or geography is inferred.",
+    "lastVerified": "2026-09-14T05:02:04+08:00"
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
       "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html",
       "publisher": "Computer Vision Foundation / CVPR",
       "publishedDate": null,
-      "sourceType": "other",
+      "sourceType": "paper",
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
@@ -46,7 +46,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Primary-source evidence establishes the December 10 2015 paper-submission milestone and the technical claims recorded here at day precision. Chronology remains separate from ancestry, influence and causality.",
+    "admissionReason": "Primary-source evidence establishes the December 10 2015 paper-submission milestone and the technical claims recorded here at day precision. Chronology remains separate from invention, ancestry, influence and causality.",
     "nextStep": "Consider canonical admission after chronology-safe placement; keep relationship, institutional-affiliation and geography fields unset unless dedicated evidence supports those semantics."
   }
 }
