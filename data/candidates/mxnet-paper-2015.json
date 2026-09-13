@@ -1,0 +1,52 @@
+{
+  "id": "mxnet-paper-2015",
+  "recordType": "event",
+  "title": "MXNet Technical Paper",
+  "displayDate": "December 3, 2015",
+  "datePrecision": "day",
+  "eventYear": 2015,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "The MXNet authors submitted the technical paper 'MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems' on December 3, 2015, describing MXNet as a multi-language machine-learning library particularly for deep neural networks.",
+  "significance": "A primary-source, day-precision documentation milestone for MXNet that records the system without converting the paper date into an unsupported invention, system-birth, or public-release date.",
+  "people": ["Tianqi Chen", "Mu Li", "Yutian Li", "Min Lin", "Naiyan Wang", "Minjie Wang", "Tianjun Xiao", "Bing Xu", "Chiyuan Zhang", "Zheng Zhang"],
+  "organizations": [],
+  "technologies": ["MXNet"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The authors' arXiv record gives a December 3, 2015 submission date and describes MXNet's API and implementation. The Apache MXNet project history independently identifies the same reference paper and states that MXNet emerged from collaboration among authors of cxxnet, minerva, and purine2. This candidate records only the paper milestone; it does not infer an invention/system-birth date, public-release date, development geography, organizational attribution, universal priority, ancestry edge, influence, causality, or other relationship beyond what is directly represented by the source descriptions.",
+    "lastVerified": "2026-09-13T10:06:14+08:00"
+  },
+  "sources": [
+    {
+      "title": "MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems",
+      "url": "https://arxiv.org/abs/1512.01274",
+      "publisher": "arXiv",
+      "publishedDate": "2015-12-03",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Apache MXNet",
+      "url": "https://github.com/apache/mxnet",
+      "publisher": "Apache MXNet",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The authors' primary paper safely establishes a day-precision MXNet documentation milestone, while the evidence reviewed in this run does not establish that date as MXNet's invention, birth, or public-release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a technical-paper milestone. Separately research a contemporaneous first-party public-release record before adding any release event, and do not add organizational geography, ancestry, influence, or causal relationships without claim-specific evidence."
+  }
+}
