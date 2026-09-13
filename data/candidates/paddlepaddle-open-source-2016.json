@@ -1,0 +1,52 @@
+{
+  "id": "paddlepaddle-open-source-2016",
+  "recordType": "event",
+  "title": "PaddlePaddle Open-Source Release",
+  "displayDate": "2016",
+  "datePrecision": "year",
+  "eventYear": 2016,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "PaddlePaddle's official project documentation and Baidu's corporate reporting state that Baidu open-sourced the PaddlePaddle deep-learning framework in 2016.",
+  "significance": "A year-precision public open-source milestone for Baidu's PaddlePaddle deep-learning framework, preserved without fabricating a day-level release date.",
+  "people": [],
+  "organizations": ["Baidu"],
+  "technologies": ["PaddlePaddle"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The official PaddlePaddle repository states that PaddlePaddle has been officially open-sourced to professional communities since 2016. Baidu's 2024 Form 20-F independently states that PaddlePaddle is Baidu's in-house deep-learning framework and that Baidu open-sourced it in 2016. The available first-party evidence safely supports year precision; this candidate does not invent an exact release day or infer an invention/system-birth date, development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-13T09:02:31+08:00"
+  },
+  "sources": [
+    {
+      "title": "PaddlePaddle / Paddle",
+      "url": "https://github.com/PaddlePaddle/Paddle",
+      "publisher": "PaddlePaddle",
+      "publishedDate": null,
+      "sourceType": "other",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Baidu, Inc. Form 20-F 2023 Annual Report",
+      "url": "https://ir.baidu.com/static-files/6053f234-9dbd-4afb-b300-7fcba9cb6f27",
+      "publisher": "Baidu, Inc.",
+      "publishedDate": "2024-03-15",
+      "sourceType": "government-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party sources independently support PaddlePaddle's 2016 open-sourcing, while the evidence reviewed here does not establish a safe exact day-level release date.",
+    "nextStep": "Review for chronology-safe canonical admission as a year-precision open-source milestone. Retain year precision unless a primary contemporaneous source establishes a more precise public-release date; do not add geography, priority, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
