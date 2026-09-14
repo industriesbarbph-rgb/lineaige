@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Title, authors, December 10 2015 submission date, residual-learning formulation and reported 152-layer ImageNet experiments are supported by the original arXiv record. The Computer Vision Foundation's CVPR 2016 record independently corroborates the authors, paper, framework and later conference publication. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as an invention, architecture-birth, development-start, or software-release date. No universal priority, ancestry, influence, causality, institutional affiliation or geography is inferred.",
-    "lastVerified": "2026-09-14T05:02:04+08:00"
+    "note": "Title, authors, December 10 2015 submission date, residual-learning formulation and reported 152-layer ImageNet experiments are supported by the original arXiv record. The Computer Vision Foundation's CVPR 2016 record independently corroborates the authors, paper, framework and later conference publication. Microsoft Research additionally records the same paper and authors as a CVPR publication in June 2016. The day-precision date is attached specifically to the arXiv submission milestone, not asserted as an invention, architecture-birth, development-start, or software-release date. No universal priority, ancestry, influence, causality, institutional affiliation or geography is inferred.",
+    "lastVerified": "2026-09-14T17:08:05+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,17 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.microsoft.com/en-us/research/publication/deep-residual-learning-for-image-recognition/",
+      "publisher": "Microsoft Research",
+      "publishedDate": null,
+      "publishedMonth": "2016-06",
+      "sourceType": "institutional-record",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +57,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "Primary-source evidence establishes the December 10 2015 paper-submission milestone and the technical claims recorded here at day precision. Chronology remains separate from invention, ancestry, influence and causality.",
-    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationship, institutional-affiliation and geography fields unset unless dedicated evidence supports those semantics."
+    "admissionReason": "Primary-source evidence establishes the December 10 2015 paper-submission milestone and the technical claims recorded here at day precision. CVF and Microsoft Research independently corroborate the paper identity and later CVPR 2016 publication while chronology remains separate from invention, ancestry, influence and causality.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; keep relationship, institutional-affiliation and geography fields unset unless dedicated evidence supports those semantics. Preserve the December 10, 2015 arXiv submission as distinct from the later CVPR 2016 publication milestone."
   }
 }
