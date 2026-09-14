@@ -1,0 +1,54 @@
+{
+  "id": "hopfield-neural-networks-1982",
+  "recordType": "event",
+  "title": "Neural networks and physical systems with emergent collective computational abilities",
+  "displayDate": "April 1982",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1982-04",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "J. J. Hopfield published 'Neural networks and physical systems with emergent collective computational abilities' in the Proceedings of the National Academy of Sciences in April 1982. The paper describes a neural-system model whose collective properties produce content-addressable memory and whose state evolution uses asynchronous parallel processing.",
+  "significance": "A documented 1982 neural-network publication milestone concerning collective computation and content-addressable memory, represented strictly as a publication event rather than an invention, priority, ancestry, or causal claim.",
+  "people": ["J. J. Hopfield"],
+  "organizations": [],
+  "technologies": ["Neural networks", "Content-addressable memory", "Asynchronous parallel processing"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "CaltechAUTHORS preserves an institutional copy of the paper and records it as published April 15, 1982 in PNAS, volume 79 issue 8, pages 2554-2558. Its abstract directly supports the content-addressable-memory and asynchronous-parallel-processing description. PubMed independently corroborates the article identity, author, DOI, journal, volume, issue, pages, and April 1982 publication month. LINEAiGE preserves month precision for the event chronology despite the Caltech archive exposing an exact date, avoiding unsupported assumptions about issue-day semantics. No invention date, priority claim, development geography, ancestry, influence, causality, or relationship edge is asserted.",
+    "lastVerified": "2026-09-15T06:03:04+08:00"
+  },
+  "sources": [
+    {
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "url": "https://authors.library.caltech.edu/records/w41x7-8bn13",
+      "publisher": "CaltechAUTHORS / California Institute of Technology",
+      "publishedDate": "1982-04-15",
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6953413/",
+      "publisher": "PubMed / U.S. National Library of Medicine",
+      "publishedDate": null,
+      "publishedMonth": "1982-04",
+      "sourceType": "bibliographic-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Institutional preservation of the original paper and independent PubMed bibliographic metadata support the April 1982 publication milestone and the recorded technical description. The record intentionally leaves geography and relationships unset and does not infer invention, priority, ancestry, influence, or causality.",
+    "nextStep": "Review for chronology-safe canonical admission. Preserve month-level event precision unless repository policy explicitly permits the Caltech archive's exact publication date as the event date, and keep relationships empty unless separately evidenced."
+  }
+}
