@@ -1,0 +1,43 @@
+{
+  "id": "samuel-checkers-machine-learning-1959",
+  "recordType": "event",
+  "title": "Some Studies in Machine Learning Using the Game of Checkers",
+  "displayDate": "July 31, 1959",
+  "eventYear": 1959,
+  "eventDate": "1959-07-31",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Arthur L. Samuel published 'Some Studies in Machine Learning Using the Game of Checkers' in the IBM Journal of Research and Development on July 31, 1959. The paper reports two machine-learning procedures investigated through a checkers program and describes experiments in which the program improved its play through learning procedures.",
+  "significance": "A documented 1959 machine-learning research milestone represented strictly as the journal-publication event for Samuel's checkers-learning paper.",
+  "people": ["Arthur L. Samuel"],
+  "organizations": ["IBM"],
+  "technologies": ["Machine learning", "Checkers-playing program"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The IBM journal record hosted through IEEE Xplore identifies Arthur L. Samuel's paper, volume 3 issue 3, pages 210-229, and gives a publication date of July 31, 1959. Its abstract states that two machine-learning procedures were investigated using checkers and reports that the program could learn to play a better game. This record therefore represents only the documented journal-publication milestone. It does not assert that July 31, 1959 was the invention or birth date of machine learning, the start of Samuel's work, or the creation date of the checkers program. IBM is recorded as the journal publisher/organizational context, not as inferred development geography. No ancestry, influence, causality, universal-priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-15T00:03:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Some Studies in Machine Learning Using the Game of Checkers",
+      "url": "https://doi.org/10.1147/rd.33.0210",
+      "publisher": "IBM Journal of Research and Development / IEEE Xplore",
+      "publishedDate": "1959-07-31",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The official IBM journal record supports the paper identity, author, journal metadata, exact July 31, 1959 publication date, and the paper's machine-learning/checkers scope. The record deliberately preserves this as a publication milestone rather than converting it into an unsupported invention, system-birth, or universal-priority claim.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication milestone. Preserve empty relationships unless dedicated evidence separately supports a specific relationship claim, and do not infer development geography from publisher metadata."
+  }
+}
