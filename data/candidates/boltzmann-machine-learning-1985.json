@@ -18,8 +18,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Wiley's publisher record identifies the paper, authors, Cognitive Science volume 9 issue 1, pages 147-169, and first publication in January 1985. Its abstract describes a general parallel search method based on statistical mechanics and a general learning rule for modifying connection strengths. The record preserves month precision only and does not infer a universal invention date, geography, ancestry, influence, causality, or relationships.",
-    "lastVerified": "2026-09-12T00:04:36+08:00"
+    "note": "Wiley's publisher record identifies the paper, authors, Cognitive Science volume 9 issue 1, pages 147-169, and first publication in January 1985. Its abstract describes a general parallel search method based on statistical mechanics and a general learning rule for modifying connection strengths. ScienceDirect independently corroborates the article identity, journal issue, page range, 1985 publication, and DOI. The record preserves month precision only and does not infer a universal invention date, exact publication day, geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-15T04:03:24+08:00"
   },
   "sources": [
     {
@@ -31,6 +31,16 @@
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "A learning algorithm for boltzmann machines",
+      "url": "https://doi.org/10.1016/S0364-0213(85)80012-4",
+      "publisher": "Cognitive Science / ScienceDirect",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -38,7 +48,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "The publisher record directly supports the January 1985 publication milestone, authorship, bibliographic placement, and the paper's stated learning-method description at month precision. No unsupported relationship or causal claim is required for candidate admission.",
+    "admissionReason": "The publisher record directly supports the January 1985 publication milestone, authorship, bibliographic placement, and the paper's stated learning-method description at month precision; ScienceDirect provides independent bibliographic corroboration. No unsupported relationship or causal claim is required for candidate admission.",
     "nextStep": "Consider canonical admission after chronology-safe placement; preserve January 1985 month precision and keep relationships empty unless dedicated evidence supports a non-chronological relationship."
   }
 }
