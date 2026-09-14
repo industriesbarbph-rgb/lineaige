@@ -7,7 +7,7 @@
   "datePrecision": "day",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
-  "summary": "Inception, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), and Cerebras Systems announced the open release of Jais on August 30, 2023. The released Jais model had 13 billion parameters and was trained on a purpose-built Arabic-English dataset; the collaborating team also released an instruction-tuned Jais-chat variant.",
+  "summary": "Inception, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), and Cerebras Systems announced the open release of Jais on August 30, 2023. The released Jais model had 13 billion parameters and was trained on a purpose-built Arabic-English dataset; the collaborating team also released an instruction-tuned Jais-chat variant. First-party institutional announcements also state that Jais was trained on the Condor Galaxy 1 supercomputer.",
   "significance": "A documented public-release milestone for an Arabic-centric open generative large language model developed through collaboration between Inception, MBZUAI, and Cerebras Systems.",
   "people": [],
   "organizations": ["Inception", "Mohamed bin Zayed University of Artificial Intelligence", "Cerebras Systems"],
@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "MBZUAI's first-party August 30, 2023 announcement states that Inception announced the open-source release of Jais, identifies the collaboration with MBZUAI and Cerebras, and describes the released model as a 13-billion-parameter Arabic-centric LLM. The authors' Jais/Jais-chat paper was submitted to arXiv the same day and independently documents the release of the Jais foundation model and Jais-chat instruction-tuned variant. The record is limited to the public-release milestone; no system-birth date, universal priority claim, development geography, ancestry, influence, causality, or relationship edge is inferred.",
-    "lastVerified": "2026-09-13T00:06:02+08:00"
+    "note": "MBZUAI's first-party August 30, 2023 announcement states that Inception announced the open-source release of Jais, identifies the collaboration with MBZUAI and Cerebras, describes the released model as a 13-billion-parameter Arabic-centric LLM, and states that it was trained on Condor Galaxy 1. The authors' Jais/Jais-chat paper was submitted to arXiv the same day and independently documents the release of the Jais foundation model and Jais-chat instruction-tuned variant. G42's same-day institutional announcement independently corroborates the open-source release, collaboration, model scale, and Condor Galaxy 1 training system. The record is limited to the public-release milestone; no system-birth date, universal priority claim, development geography, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-14T08:06:22+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Meet Jais, The World’s Most Advanced Arabic LLM",
+      "url": "https://www.g42.ai/resources/news/meet-jais-worlds-most-advanced-arabic-llm-open-sourced-g42s-inception",
+      "publisher": "G42",
+      "publishedDate": "2023-08-30",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "First-party institutional evidence directly supports the August 30, 2023 open-release milestone and core Jais 13B description, with the authors' technical paper providing same-day primary corroboration of the Jais and Jais-chat releases.",
-    "nextStep": "Consider chronology-safe canonical admission as a public-release milestone. Keep geography absent unless a separately reviewed source supports the precise semantic role of any location, and do not infer causal or ancestry relationships from architectural descriptions alone."
+    "admissionReason": "First-party institutional evidence directly supports the August 30, 2023 open-release milestone, core Jais 13B description, collaboration, and Condor Galaxy 1 training context, with the authors' technical paper providing same-day primary corroboration of the Jais and Jais-chat releases.",
+    "nextStep": "Consider chronology-safe canonical admission as a public-release milestone. Keep geography absent unless a separately reviewed source supports the precise semantic role of any location, and do not infer causal, ancestry, development-start, or universal-priority claims from architectural or institutional descriptions alone."
   }
 }
