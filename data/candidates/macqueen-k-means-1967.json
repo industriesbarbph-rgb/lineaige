@@ -1,0 +1,53 @@
+{
+  "id": "macqueen-k-means-1967",
+  "recordType": "event",
+  "title": "Some methods for classification and analysis of multivariate observations",
+  "displayDate": "1967",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1967,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "J. MacQueen published 'Some methods for classification and analysis of multivariate observations' in the Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability in 1967. The paper describes a process for partitioning an N-dimensional population into k sets and explicitly calls the process 'k-means.'",
+  "significance": "A documented 1967 publication milestone for the k-means method, represented strictly as a publication event rather than an invention or priority claim.",
+  "people": ["J. MacQueen"],
+  "organizations": [],
+  "technologies": ["k-means"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The University of California, Berkeley digital archive preserves MacQueen's original proceedings paper and its text explicitly states that the described partitioning process is called 'k-means.' Independent National Diet Library / CiNii bibliographic metadata records the publication year as 1967, in the Proceedings of the Fifth Berkeley Symposium, volume 1, pages 281-297, University of California Press. The Berkeley archive also exposes the symposium session dates spanning 1965-1966, which are not treated here as the publication date. This candidate therefore preserves year-only publication precision and does not assert an invention date, first-ever claim, development geography, ancestry, influence, causality, or relationship edge.",
+    "lastVerified": "2026-09-15T05:03:30+08:00"
+  },
+  "sources": [
+    {
+      "title": "Some methods for classification and analysis of multivariate observations",
+      "url": "https://digicoll.lib.berkeley.edu/record/113015",
+      "publisher": "University of California, Berkeley Digital Collections",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Some methods for classification and analysis of multivariate observations",
+      "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1570854176026181760",
+      "publisher": "National Diet Library Search / CiNii Research",
+      "publishedDate": null,
+      "sourceType": "bibliographic-record",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The Berkeley archival source supports the paper identity, author, proceedings context, and explicit naming and description of the k-means process; independent bibliographic metadata supports the 1967 publication year. Session dates are kept separate from publication chronology, and no invention, priority, geography, ancestry, influence, or causality claim is inferred.",
+    "nextStep": "Review for chronology-safe canonical admission as a 1967 publication milestone. Preserve year precision unless a primary bibliographic source establishes an exact publication date, and keep relationships empty unless separately evidenced."
+  }
+}
