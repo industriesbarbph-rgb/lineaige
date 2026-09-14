@@ -1,0 +1,54 @@
+{
+  "id": "lenet-document-recognition-1998",
+  "recordType": "event",
+  "title": "Gradient Based Learning Applied to Document Recognition",
+  "displayDate": "1998",
+  "eventDate": null,
+  "publicationMonth": null,
+  "eventYear": 1998,
+  "datePrecision": "year",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yann Le Cun, Léon Bottou, Yoshua Bengio and Patrick Haffner published 'Gradient Based Learning Applied to Document Recognition' in Proceedings of the IEEE in 1998. The paper documents gradient-based learning for handwritten character and document recognition, including convolutional neural networks and the LeNet-5 architecture.",
+  "significance": "A documented 1998 research-publication milestone for convolutional neural networks and trainable document-recognition systems, recorded at publication-year precision without treating it as an invention date, development start, universal priority claim, or causal ancestor assertion.",
+  "people": ["Yann Le Cun", "Léon Bottou", "Yoshua Bengio", "Patrick Haffner"],
+  "organizations": [],
+  "technologies": ["Convolutional neural networks", "LeNet-5", "Gradient-based learning", "Document recognition"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Coauthor Léon Bottou's publication page directly supports the title, four authors, Proceedings of IEEE venue, volume 86 issue 11, pages 2278-2324, and publication year 1998, and provides the paper itself. CiNii Research independently corroborates the title, authors, DOI 10.1109/5.726791, publisher, venue, volume/issue, pages and year. The candidate deliberately stores only year precision because this run did not establish a publication day from first-party evidence. No invention date, development geography, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-14T13:07:48+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gradient Based Learning Applied to Document Recognition",
+      "url": "https://leon.bottou.org/papers/lecun-98h",
+      "publisher": "Léon Bottou",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gradient-based learning applied to document recognition",
+      "url": "https://cir.nii.ac.jp/crid/1362544418782658688",
+      "publisher": "CiNii Research / National Institute of Informatics",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A coauthor-maintained publication record and independent bibliographic corroboration establish the 1998 paper milestone and bibliographic identity at year precision.",
+    "nextStep": "Consider chronology-safe canonical admission as a 1998 research-publication milestone. Keep any earlier LeNet prototypes, exact publication month/day, development geography, commercial deployment milestones, ancestry, influence, causality, and relationships separate until claim-specific evidence supports them."
+  }
+}
