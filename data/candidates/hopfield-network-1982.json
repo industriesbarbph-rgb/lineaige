@@ -17,8 +17,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Author, title, journal, volume, issue, pages, DOI, April 1982 publication month and the paper's description of content-addressable memory and asynchronous parallel processing are supported by the PNAS record and NLM/PubMed archival record. LINEAiGE stores month precision rather than importing a synthetic day from aggregators.",
-    "lastVerified": "2026-09-08T05:44:28+08:00"
+    "note": "Author, title, journal, volume, issue, pages, DOI, April 1982 publication month and the paper's description of content-addressable memory and asynchronous parallel processing are supported by the PNAS record and NLM/PubMed archival record. CaltechAUTHORS additionally preserves an institutional copy of the paper and records the article as published April 15, 1982, while also reproducing the paper's abstract and stated Caltech/Bell Laboratories affiliations. LINEAiGE deliberately retains the candidate itself at month precision pending a dedicated temporal-precision decision rather than silently upgrading an existing historical date from a repository metadata field. No development geography, invention date, universal priority, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-14T12:07:22+08:00"
   },
   "sources": [
     {
@@ -28,6 +28,16 @@
       "publishedDate": null,
       "sourceType": "paper",
       "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "url": "https://authors.library.caltech.edu/records/w41x7-8bn13",
+      "publisher": "CaltechAUTHORS / California Institute of Technology",
+      "publishedDate": "1982-04-15",
+      "sourceType": "institutional-archive",
+      "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
     },
@@ -48,6 +58,6 @@
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
     "admissionReason": "Primary and archival records support the publication and its technical claims at April 1982 month precision. No exact publication day is required for admission and no ancestry or influence relationship is inferred from chronology alone.",
-    "nextStep": "Consider canonical admission within the pre-Transformer neural-network chronology after precision-safe placement; add only chronological traversal unless stronger relationships receive their own evidence."
+    "nextStep": "Consider canonical admission within the pre-Transformer neural-network chronology after precision-safe placement. Separately audit whether CaltechAUTHORS' April 15, 1982 publication metadata is sufficient under LINEAiGE's temporal-evidence policy to support day precision; until then retain month precision. Add only chronological traversal unless stronger relationships receive their own evidence."
   }
 }
