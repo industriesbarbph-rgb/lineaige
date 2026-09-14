@@ -9,7 +9,7 @@
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
   "summary": "Leo Breiman published \"Random Forests\" in Machine Learning in October 2001. The paper describes random forests as combinations of tree predictors in which each tree depends on a randomly sampled vector, and analyzes forest generalization error in terms of individual-tree strength and correlation.",
-  "significance": "A documented machine-learning milestone for random-forest ensemble methods, recorded from the original Springer publisher record and a University of California, Berkeley technical-report record documenting Breiman's closely related earlier random-forest work.",
+  "significance": "A documented machine-learning milestone for random-forest ensemble methods, recorded from the original Springer publisher record, Breiman's author-hosted paper copy, and a University of California, Berkeley technical-report record documenting closely related earlier random-forest work.",
   "people": ["Leo Breiman"],
   "organizations": [],
   "technologies": ["Random forests", "Ensemble learning", "Tree predictors"],
@@ -17,8 +17,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Springer records the Machine Learning article as issue date October 2001, volume 45, pages 5-32, DOI 10.1023/A:1010933404324. UC Berkeley separately preserves Breiman's 1999 technical report \"Random Forests--Random Features\". LINEAiGE records only the October 2001 journal-publication milestone here and does not infer a universal invention date, geography, ancestry, influence, causality, or relationships.",
-    "lastVerified": "2026-09-11T20:03:48+08:00"
+    "note": "Springer records the Machine Learning article as issue date October 2001, volume 45, pages 5-32, DOI 10.1023/A:1010933404324. Breiman's author-hosted January 2001 paper copy independently exposes the paper text and supports the method description, including randomly sampled vectors, generalization error, tree strength/correlation, random feature selection, variable importance, and regression use; its January manuscript date is not treated as the journal-publication month. UC Berkeley separately preserves Breiman's September 1999 technical report \"Random Forests--Random Features\". LINEAiGE records only the October 2001 journal-publication milestone here and does not infer a universal invention date, development geography, ancestry, influence, causality, or relationships.",
+    "lastVerified": "2026-09-14T16:06:05+08:00"
   },
   "sources": [
     {
@@ -27,6 +27,17 @@
       "publisher": "Springer / Machine Learning",
       "publishedDate": null,
       "publishedMonth": "2001-10",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Random Forests",
+      "url": "https://www.stat.berkeley.edu/users/breiman/randomforest2001.pdf",
+      "publisher": "Leo Breiman / University of California, Berkeley",
+      "publishedDate": null,
+      "publishedMonth": null,
       "sourceType": "paper",
       "sourceRole": "claim-evidence",
       "primary": true,
@@ -49,7 +60,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "The Springer publisher record establishes the October 2001 publication milestone, authorship, and random-forest method description. The Berkeley technical-report record corroborates Breiman's earlier work without being converted into an ancestry, influence, or causality claim.",
-    "nextStep": "Consider canonical admission after chronology-safe placement; preserve month precision and empty relationships unless dedicated evidence supports additional precision or a non-chronological relationship."
+    "admissionReason": "The Springer publisher record establishes the October 2001 publication milestone, authorship, and random-forest method description. Breiman's author-hosted paper copy strengthens claim-level technical provenance, while the Berkeley technical-report record corroborates earlier related work without being converted into an ancestry, influence, or causality claim.",
+    "nextStep": "Consider canonical admission after chronology-safe placement; preserve month precision and empty relationships unless dedicated evidence supports additional precision or a non-chronological relationship. Keep the January 2001 author-copy date and September 1999 technical-report milestone distinct from the October 2001 journal-publication date."
   }
 }
