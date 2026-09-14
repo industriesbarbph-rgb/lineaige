@@ -1,0 +1,53 @@
+{
+  "id": "kohonen-feature-maps-1982",
+  "recordType": "event",
+  "title": "Self-organized formation of topologically correct feature maps",
+  "displayDate": "January 1982",
+  "eventDate": null,
+  "eventMonth": "1982-01",
+  "datePrecision": "month",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Teuvo Kohonen published 'Self-organized formation of topologically correct feature maps' in Biological Cybernetics in January 1982. The paper studied and simulated a self-organizing process in which signal representations become arranged into topologically ordered output responses.",
+  "significance": "A documented early self-organizing neural-network milestone centered on topology-preserving feature maps.",
+  "people": ["Teuvo Kohonen"],
+  "organizations": ["Helsinki University of Technology"],
+  "technologies": ["Self-organizing feature map", "Neural networks", "Unsupervised learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Springer Nature's publisher record directly supports the title, author, January 1982 publication month, Biological Cybernetics volume 43 pages 59-69, DOI 10.1007/BF00337288, and author affiliation with the Department of Technical Physics at Helsinki University of Technology. Its abstract directly supports the description of a self-organizing process that forms topologically ordered feature maps. The date is intentionally stored at month precision; no exact publication day, invention date, development geography, ancestry, influence, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-14T11:02:46+08:00"
+  },
+  "sources": [
+    {
+      "title": "Self-organized formation of topologically correct feature maps",
+      "url": "https://doi.org/10.1007/BF00337288",
+      "publisher": "Springer Nature / Biological Cybernetics",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Self-organized formation of topologically correct feature maps",
+      "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1573387450692152832",
+      "publisher": "National Diet Library Search",
+      "publishedDate": null,
+      "sourceType": "archive",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary publisher evidence establishes the January 1982 publication milestone and the paper's topology-preserving self-organizing feature-map claims at month precision, with independent bibliographic corroboration.",
+    "nextStep": "Consider chronology-safe canonical admission as a January 1982 research-publication milestone. Treat Helsinki University of Technology only as publisher-supported author affiliation; keep invention priority, development geography, ancestry, influence, causality, and later SOM relationships separate unless independently evidenced."
+  }
+}
