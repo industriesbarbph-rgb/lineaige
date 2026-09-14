@@ -4,7 +4,7 @@
   "title": "Self-organized formation of topologically correct feature maps",
   "displayDate": "January 1982",
   "eventDate": null,
-  "eventMonth": "1982-01",
+  "publicationMonth": "1982-01",
   "datePrecision": "month",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
@@ -43,7 +43,14 @@
     }
   ],
   "relationships": [],
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2026-09-14",
+      "note": "Corrected the month-precision storage field from eventMonth to the candidate-audit contract field publicationMonth; the verified January 1982 precision and underlying evidence are unchanged.",
+      "previousValue": "eventMonth: 1982-01",
+      "sourceUrl": "https://doi.org/10.1007/BF00337288"
+    }
+  ],
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
