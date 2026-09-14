@@ -1,0 +1,43 @@
+{
+  "id": "quinlan-induction-decision-trees-1986",
+  "recordType": "event",
+  "title": "Induction of decision trees",
+  "displayDate": "1986",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1986,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "J. R. Quinlan published 'Induction of decision trees' in Machine Learning in 1986. The paper summarizes an approach to synthesizing decision trees and describes the ID3 system in detail, including studies addressing noisy or incomplete information.",
+  "significance": "A documented 1986 machine-learning publication milestone for decision-tree induction and the ID3 system, represented strictly as a publication event.",
+  "people": ["J. R. Quinlan"],
+  "organizations": [],
+  "technologies": ["Decision-tree induction", "ID3"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Springer Nature's publisher record identifies J. R. Quinlan's article 'Induction of decision trees' in Machine Learning, volume 1, pages 81-106, with a March 1986 issue date. Its abstract states that the paper summarizes an approach to synthesizing decision trees and describes ID3 in detail, including work on noisy or incomplete information. Because the publisher metadata provides month-level rather than verified day-level publication precision, this candidate deliberately records only the year 1986 and leaves eventDate and source publishedDate null. It does not assert an invention date, first-ever claim, development geography, ancestry, influence, causality, or relationship edge.",
+    "lastVerified": "2026-09-15T03:04:01+08:00"
+  },
+  "sources": [
+    {
+      "title": "Induction of decision trees",
+      "url": "https://doi.org/10.1007/BF00116251",
+      "publisher": "Machine Learning / Springer Nature",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The publisher record supports the article identity, author, 1986 chronology, journal metadata, decision-tree-induction scope, and explicit description of ID3. Month-level publication metadata is not promoted to unsupported day precision, and no invention, priority, geography, ancestry, influence, or causality claim is inferred.",
+    "nextStep": "Review for chronology-safe canonical admission as a 1986 publication milestone. Preserve year precision unless a primary source establishes an exact publication day, and keep relationships empty unless separately evidenced."
+  }
+}
