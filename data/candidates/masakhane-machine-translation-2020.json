@@ -1,0 +1,52 @@
+{
+  "id": "masakhane-machine-translation-2020",
+  "recordType": "event",
+  "title": "Masakhane -- Machine Translation For Africa",
+  "displayDate": "March 13, 2020",
+  "eventDate": "2020-03-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Iroro Orife and collaborators submitted 'Masakhane -- Machine Translation For Africa' on March 13, 2020. The paper documents Masakhane as an open-source, continent-wide, distributed, online research effort focused on machine translation for African languages and describes its community-building and research methodology.",
+  "significance": "A documented African-language machine-translation research milestone centered on an open, distributed research community and low-resourced language work.",
+  "people": ["Iroro Orife", "Julia Kreutzer", "Blessing Sibanda", "Daniel Whitenack", "Kathleen Siminyu", "Laura Martinus", "Jamiil Toure Ali", "Jade Abbott", "Vukosi Marivate", "Salomon Kabongo", "Musie Meressa", "Espoir Murhabazi", "Orevaoghene Ahia", "Elan van Biljon", "Arshath Ramkilowan", "Adewale Akinfaderin", "Alp Öktem", "Wole Akin", "Ghollah Kioko", "Kevin Degila", "Herman Kamper", "Bonaventure Dossou", "Chris Emezue", "Kelechi Ogueji", "Abdallah Bashir"],
+  "organizations": [],
+  "technologies": ["Masakhane", "Machine translation", "African-language NLP"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The original arXiv record establishes the March 13 2020 submission date, author list, and characterization of Masakhane as an open-source, continent-wide, distributed, online research effort for machine translation for African languages. ACL Anthology's later 2020 Findings paper independently documents Masakhane's participatory machine-translation work, benchmarks, datasets, models, code, and evaluation results across African languages. 'Continent-wide' is retained only as the project's own scope characterization and is not converted into a development-location claim. No specific country of origin, institutional affiliation, ancestry, influence, causality, or relationship is inferred.",
+    "lastVerified": "2026-09-14T18:06:49+08:00"
+  },
+  "sources": [
+    {
+      "title": "Masakhane -- Machine Translation For Africa",
+      "url": "https://arxiv.org/abs/2003.11529",
+      "publisher": "arXiv",
+      "publishedDate": "2020-03-13",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages",
+      "url": "https://aclanthology.org/2020.findings-emnlp.195/",
+      "publisher": "Association for Computational Linguistics",
+      "publishedMonth": "2020-11",
+      "sourceType": "conference-proceedings",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary research evidence establishes the March 13 2020 paper-submission milestone and directly supports the recorded characterization of Masakhane's African-language machine-translation research effort. Geography remains scope semantics, not an inferred development location.",
+    "nextStep": "Consider chronology-safe canonical admission as a research-publication/community milestone. Preserve explicit project-scope wording separately from development geography, and keep relationships empty unless dedicated evidence supports them."
+  }
+}
