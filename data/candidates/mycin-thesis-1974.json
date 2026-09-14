@@ -1,0 +1,53 @@
+{
+  "id": "mycin-thesis-1974",
+  "recordType": "event",
+  "title": "MYCIN thesis milestone",
+  "displayDate": "1974",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1974,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Edward H. Shortliffe's Stanford thesis documented MYCIN as a rule-based computer program designed to advise physicians regarding antimicrobial therapy selection. Stanford's computer-science report bibliography lists the thesis in October 1974 and describes MYCIN's consultation, explanation, and rule-acquisition components.",
+  "significance": "A documented 1974 research milestone for a rule-based medical consultation system, represented as a thesis/documentation event rather than as an asserted invention or system-birth date.",
+  "people": ["Edward H. Shortliffe"],
+  "organizations": ["Stanford University"],
+  "technologies": ["MYCIN", "Rule-based expert system", "Medical consultation system"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Stanford's bibliography of Artificial Intelligence Laboratory reports identifies Edward H. Shortliffe's thesis 'MYCIN: A Rule-Based Computer Program for Advising Physicians Regarding Antimicrobial Therapy Selection' as an October 1974 Ph.D. thesis and describes MYCIN as a rule-based problem-solving system for therapy selection in bacterial infections, including consultation, explanation, and rule-acquisition components. A later Stanford presentation by Shortliffe identifies the MYCIN Project as spanning 1972-1979. This candidate intentionally uses year precision and represents the documented thesis milestone only. It does not convert October 1974 into MYCIN's invention, project-start, deployment, or system-birth date; does not infer development geography beyond Stanford's role as the thesis institution; and adds no ancestry, influence, causality, universal-priority claim, or relationship edge.",
+    "lastVerified": "2026-09-15T01:07:30+08:00"
+  },
+  "sources": [
+    {
+      "title": "Stanford Artificial Intelligence Laboratory report bibliography (AIM-251 / CS-465)",
+      "url": "https://i.stanford.edu/pub/cstr/reports/cs/tr/77/624/CS-TR-77-624.pdf",
+      "publisher": "Stanford University",
+      "publishedDate": "1977-06",
+      "sourceType": "institutional-report",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Stanford DBDS Seminar — Shortliffe — 4 Feb 2021",
+      "url": "https://med.stanford.edu/content/dam/sm/dbds/documents/biostats-workshop/Stanford-DBDS-Seminar---Shortliffe---4Feb2021.pdf",
+      "publisher": "Stanford Medicine",
+      "publishedDate": "2021-02-04",
+      "sourceType": "institutional-presentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Primary Stanford institutional material supports the thesis identity, author, 1974 chronology, MYCIN name, rule-based medical-consultation scope, and system-component description. The record deliberately preserves this as a thesis/documentation milestone and avoids unsupported system-birth, invention, deployment, geography, ancestry, influence, or causality claims.",
+    "nextStep": "Review chronology-safe canonical admission as a 1974 thesis/documentation milestone. Preserve year precision unless a dedicated source and schema review justifies month precision, and keep relationships empty unless separately evidenced."
+  }
+}
