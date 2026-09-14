@@ -1,0 +1,53 @@
+{
+  "id": "boltzmann-machine-1985",
+  "recordType": "event",
+  "title": "A Learning Algorithm for Boltzmann Machines",
+  "displayDate": "January 1985",
+  "eventDate": null,
+  "datePrecision": "month",
+  "publicationMonth": "1985-01",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "David H. Ackley, Geoffrey E. Hinton, and Terrence J. Sejnowski published 'A Learning Algorithm for Boltzmann Machines' in Cognitive Science in January 1985. The paper describes a parallel search method based on statistical mechanics and a learning rule for modifying connection strengths so that task-domain knowledge can be represented in the network.",
+  "significance": "A documented 1985 machine-learning publication milestone for Boltzmann machines, represented strictly as a publication event.",
+  "people": ["David H. Ackley", "Geoffrey E. Hinton", "Terrence J. Sejnowski"],
+  "organizations": [],
+  "technologies": ["Boltzmann machine", "Connectionist learning", "Statistical-mechanics-based learning"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Wiley's Cognitive Science publisher record identifies the paper, authors, volume 9 issue 1, pages 147-169, and first publication in January 1985. Its abstract states that the authors describe a general parallel search method based on statistical mechanics and show how it leads to a learning rule for modifying connection strengths. ScienceDirect independently corroborates the article identity, journal issue, pages, and 1985 publication. Month precision is retained; no exact publication day, invention date, first-ever claim, development geography, ancestry, influence, causality, or relationship edge is asserted.",
+    "lastVerified": "2026-09-15T04:03:24+08:00"
+  },
+  "sources": [
+    {
+      "title": "A Learning Algorithm for Boltzmann Machines",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_7",
+      "publisher": "Cognitive Science / Wiley",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "A learning algorithm for boltzmann machines",
+      "url": "https://doi.org/10.1016/S0364-0213(85)80012-4",
+      "publisher": "Cognitive Science / ScienceDirect",
+      "publishedDate": null,
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Publisher evidence supports the article identity, authors, January 1985 chronology, journal metadata, and the explicitly described statistical-mechanics-based parallel search and learning rule. The record does not infer invention, priority, geography, ancestry, influence, or causality.",
+    "nextStep": "Review for chronology-safe canonical admission as a January 1985 publication milestone. Keep relationships empty unless separately evidenced and preserve month precision unless a primary source establishes an exact publication day."
+  }
+}
