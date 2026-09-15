@@ -1,0 +1,53 @@
+{
+  "id": "freund-schapire-boosting-1995",
+  "recordType": "event",
+  "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+  "displayDate": "1995",
+  "eventDate": null,
+  "datePrecision": "year",
+  "eventYear": 1995,
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Yoav Freund and Robert E. Schapire published a 1995 conference paper applying a multiplicative weight-update technique to derive a new boosting algorithm that did not require prior knowledge of the weak learning algorithm's performance.",
+  "significance": "A documented 1995 publication milestone in boosting research, represented as a publication event rather than an invention, priority, ancestry, or causal claim.",
+  "people": ["Yoav Freund", "Robert E. Schapire"],
+  "organizations": [],
+  "technologies": ["boosting"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Princeton's institutional research record identifies the paper, authors, 1995 publication in the EuroCOLT 1995 proceedings, pages 23-37, and states that the paper derives a new boosting algorithm that does not require prior knowledge of weak-learner performance. The later 1997 journal version is separate chronology and is not used to manufacture a more precise 1995 publication date. No development geography, ancestry, influence, causality, universal priority, or relationship edge is asserted.",
+    "lastVerified": "2026-09-15T09:04:27+08:00"
+  },
+  "sources": [
+    {
+      "title": "A decision-theoretic generalization of on-line learning and an application to boosting",
+      "url": "https://collaborate.princeton.edu/en/publications/a-decision-theoretic-generalization-of-on-line-learning-and-an-ap-2/",
+      "publisher": "Princeton University",
+      "publishedDate": null,
+      "sourceType": "institutional-record",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+      "url": "https://dblp.org/rec/journals/jcss/FreundS97.html",
+      "publisher": "dblp",
+      "publishedDate": null,
+      "sourceType": "bibliographic-record",
+      "sourceRole": "chronology-context",
+      "primary": false,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Institutional evidence supports the 1995 conference-publication identity, authors, proceedings context, pages, and the paper's boosting-algorithm claim. Year precision avoids conflating conference dates with an exact publication date.",
+    "nextStep": "Review for chronology-safe canonical admission as a 1995 publication milestone. Keep relationships empty unless separately evidenced and preserve the distinction between the 1995 proceedings paper and the later 1997 journal version."
+  }
+}
