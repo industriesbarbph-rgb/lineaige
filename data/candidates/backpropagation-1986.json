@@ -5,7 +5,7 @@
   "displayDate": "9 October 1986",
   "eventDate": "1986-10-09",
   "datePrecision": "day",
-  "publicationMonth": "1986-10",
+  "publicationMonth": null,
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
   "summary": "David E. Rumelhart, Geoffrey E. Hinton and Ronald J. Williams published Learning representations by back-propagating errors in Nature on 9 October 1986, describing a learning procedure that repeatedly adjusts connection weights in networks of neuron-like units to reduce the difference between actual and desired outputs.",
