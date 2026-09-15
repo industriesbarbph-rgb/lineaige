@@ -90,6 +90,18 @@
       "reasonWithheld": "A new candidate would duplicate an already-canonical Mistral 7B technology identity in the same year. The investigated release milestone is preserved here rather than creating a parallel historical identity or weakening duplicate validation.",
       "sources": [{"title": "Mistral 7B", "url": "https://mistral.ai/news/announcing-mistral-7b/", "publisher": "Mistral AI", "publishedDate": "2023-09-27", "sourceType": "official-announcement", "sourceRole": "claim-evidence", "primary": true},{"title": "Mistral 7B — Model Lifecycle", "url": "https://legal.mistral.ai/ai-governance/models/mistral-7-b", "publisher": "Mistral AI", "publishedDate": null, "sourceType": "official-model-lifecycle", "sourceRole": "corroboration", "primary": true}],
       "relationships": []
+    },
+    {
+      "id": "efficient-word-representations-2013-audit-review",
+      "subject": "Efficient Estimation of Word Representations in Vector Space candidate audit review",
+      "researchStatus": "held-back",
+      "canonicalAdmission": "withheld",
+      "claimUnderReview": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean submitted 'Efficient Estimation of Word Representations in Vector Space' on January 16, 2013; the paper proposed two model architectures for computing continuous vector representations of words from very large data sets.",
+      "date": {"value": "2013-01-16", "precision": "day", "meaning": "arXiv first-submission research-publication milestone"},
+      "evidenceSummary": "The original arXiv record establishes the January 16, 2013 first-submission date, authors, and paper claims. Google Research independently identifies the work as an ICLR 2013 publication and describes the same two-model contribution.",
+      "reasonWithheld": "A production candidate carrying this evidence failed LINEAiGE's evidence-controlled candidate audit and was withdrawn rather than weakening validation or guessing at a repair. The investigated research is preserved here pending exact audit-compatible admission review. No software/toolkit release date, geography, ancestry, influence, causality, or relationships are inferred.",
+      "sources": [{"title": "Efficient Estimation of Word Representations in Vector Space", "url": "https://arxiv.org/abs/1301.3781", "publisher": "arXiv", "publishedDate": "2013-01-16", "sourceType": "paper", "sourceRole": "claim-evidence", "primary": true},{"title": "Efficient Estimation of Word Representations in Vector Space", "url": "https://research.google/pubs/efficient-estimation-of-word-representations-in-vector-space/", "publisher": "Google Research", "publishedDate": null, "sourceType": "official-research-record", "sourceRole": "corroboration", "primary": true}],
+      "relationships": []
     }
   ]
 }
