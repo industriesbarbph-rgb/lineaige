@@ -16,6 +16,9 @@ GEOGRAPHY_CONTEXTS = {"event-location", "announcement-location", "organization-b
 
 
 def fail(message):
+    # GitHub Actions annotations keep the exact candidate-audit failure visible
+    # even when full step logs are unavailable to downstream ALW tooling.
+    print(f"::error title=LINEAiGE candidate audit::{message}")
     raise SystemExit(f"CANDIDATE AUDIT FAILED: {message}")
 
 
