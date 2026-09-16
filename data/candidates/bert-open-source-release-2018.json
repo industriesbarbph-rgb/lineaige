@@ -1,0 +1,52 @@
+{
+  "id": "bert-open-source-release-2018",
+  "recordType": "event",
+  "title": "BERT Open-Source Release",
+  "displayDate": "2 November 2018",
+  "eventDate": "2018-11-02",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google AI announced the open-source release of BERT on November 2, 2018. The release included TensorFlow source code and pre-trained language representation models. The associated authors' paper describes BERT as Bidirectional Encoder Representations from Transformers and as a method for pre-training deep bidirectional representations from unlabeled text.",
+  "significance": "A dated public open-source release milestone for BERT, recorded separately from the associated paper's earlier submission date.",
+  "people": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina N. Toutanova"],
+  "organizations": ["Google AI"],
+  "technologies": ["BERT", "Bidirectional Encoder Representations from Transformers"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party announcement is dated November 2, 2018 and explicitly states that BERT was open sourced, including TensorFlow source code and pre-trained language representation models. The authors' primary paper was first submitted October 11, 2018 and documents BERT's method and name. This candidate records the November 2 open-source-release milestone only; it does not substitute the October 11 paper-submission date for the release date and does not infer development geography, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-17T04:02:20+08:00"
+  },
+  "sources": [
+    {
+      "title": "Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processing",
+      "url": "https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/",
+      "publisher": "Google Research",
+      "publishedDate": "2018-11-02",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "publisher": "BERT authors / arXiv",
+      "publishedDate": "2018-10-11",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party release announcement directly supports the November 2 2018 public open-source milestone, while the authors' primary paper independently supports the model name and method description.",
+    "nextStep": "Run candidate/canonical identity-collision and schema validation before canonical admission. Preserve the distinction between the October 11 paper submission and November 2 open-source release, and do not infer geography or causal/ancestry relationships without dedicated evidence."
+  }
+}
