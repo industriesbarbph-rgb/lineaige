@@ -1,0 +1,52 @@
+{
+  "id": "aya-23-launch-2024",
+  "recordType": "event",
+  "title": "Aya 23 Public Launch",
+  "displayDate": "23 May 2024",
+  "eventDate": "2024-05-23",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere For AI announced Aya 23 on May 23, 2024 as a family of multilingual generative language models covering 23 languages, with 8B and 35B parameter open-weight models. The accompanying primary technical report was submitted the same day and describes the Aya 23 family and release of both models' open weights.",
+  "significance": "A dated public-release milestone in the Aya multilingual model family, documenting a deliberate depth-over-breadth experiment across 23 languages and release of 8B and 35B open-weight models.",
+  "people": ["Viraat Aryabumi", "John Dang", "Dwarak Talupuru", "Saurabh Dash", "David Cairuz", "Hangyu Lin", "Bharat Venkitesh", "Madeline Smith", "Jon Ander Campos", "Yi Chern Tan", "Kelly Marchisio", "Max Bartolo", "Sebastian Ruder", "Acyr Locatelli", "Julia Kreutzer", "Nick Frosst", "Aidan Gomez", "Phil Blunsom", "Marzieh Fadaee", "Ahmet Üstün", "Sara Hooker"],
+  "organizations": ["Cohere For AI"],
+  "technologies": ["Aya 23"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere For AI's first-party launch announcement is dated May 23, 2024 and explicitly announces Aya 23 as 8B and 35B parameter open-weight multilingual models covering 23 languages. The authors' primary technical report was submitted May 23, 2024 and independently documents the Aya 23 family and release of both models' open weights. This candidate records the dated public-launch milestone only and does not infer development geography, universal priority, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-16T10:06:48+08:00"
+  },
+  "sources": [
+    {
+      "title": "C4AI Launches Aya 23, 8B and 35B Parameter Open Weights Release",
+      "url": "https://cohere.com/blog/aya23",
+      "publisher": "Cohere For AI / Cohere",
+      "publishedDate": "2024-05-23",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Aya 23: Open Weight Releases to Further Multilingual Progress",
+      "url": "https://arxiv.org/abs/2405.15032",
+      "publisher": "Aya 23 authors / arXiv",
+      "publishedDate": "2024-05-23",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party dated launch announcement and the authors' primary technical report directly support the May 23, 2024 public-release milestone, model sizes, multilingual scope, and open-weight release.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Do not infer development geography or causal/ancestry relationships without separate evidence."
+  }
+}
