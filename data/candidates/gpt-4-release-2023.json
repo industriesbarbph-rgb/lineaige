@@ -1,0 +1,52 @@
+{
+  "id": "gpt-4-release-2023",
+  "recordType": "event",
+  "title": "GPT-4 Public Release",
+  "displayDate": "14 March 2023",
+  "eventDate": "2023-03-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI introduced GPT-4 on March 14, 2023 as a large multimodal model accepting image and text inputs and emitting text outputs. OpenAI also made GPT-4 available in ChatGPT Plus and began limited API access on the same date.",
+  "significance": "A dated public-release milestone for GPT-4, documenting OpenAI's introduction of a large multimodal model and its initial ChatGPT Plus and limited API availability.",
+  "people": [],
+  "organizations": ["OpenAI"],
+  "technologies": ["GPT-4"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "OpenAI's first-party release and research pages are both dated March 14, 2023 and directly support the introduction date, multimodal input/text-output description, ChatGPT Plus availability, and initial limited API access. This candidate records the dated public-release milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-16T23:07:08+08:00"
+  },
+  "sources": [
+    {
+      "title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4/",
+      "publisher": "OpenAI",
+      "publishedDate": "2023-03-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4-research/",
+      "publisher": "OpenAI",
+      "publishedDate": "2023-03-14",
+      "sourceType": "official-research-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party OpenAI pages directly support the March 14, 2023 introduction milestone, GPT-4's multimodal input/text-output description, and initial availability.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-release milestone. Do not infer development geography or causal/ancestry relationships without separate evidence."
+  }
+}
