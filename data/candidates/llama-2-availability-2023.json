@@ -1,0 +1,52 @@
+{
+  "id": "llama-2-availability-2023",
+  "recordType": "event",
+  "title": "Llama 2 Public Availability",
+  "displayDate": "18 July 2023",
+  "eventDate": "2023-07-18",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta announced the availability of Llama 2 on July 18, 2023, making the next-generation model family available free of charge for research and commercial use and providing model weights and starting code for pretrained and conversational fine-tuned versions.",
+  "significance": "A dated public-availability milestone for Llama 2, distinct from the February 2023 gated research release of the first LLaMA model family.",
+  "people": [],
+  "organizations": ["Meta", "Microsoft"],
+  "technologies": ["Llama 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's first-party announcement is dated July 18, 2023 and explicitly announces Llama 2 availability, free research and commercial use, and provision of model weights and starting code. The Llama 2 technical paper was submitted to arXiv on the same date and describes release of pretrained and fine-tuned models ranging from 7B to 70B parameters. This candidate records the dated public-availability milestone only; it does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-16T17:07:14+08:00"
+  },
+  "sources": [
+    {
+      "title": "Meta and Microsoft Introduce the Next Generation of Llama",
+      "url": "https://about.fb.com/news/2023/07/llama-2/",
+      "publisher": "Meta",
+      "publishedDate": "2023-07-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "publisher": "Llama 2 authors / arXiv",
+      "publishedDate": "2023-07-18",
+      "sourceType": "paper",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Meta's dated first-party announcement directly supports the July 18, 2023 public-availability milestone and access terms; the same-day technical paper corroborates the model family and release.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-availability milestone. Do not add geography or causal/ancestry relationships without separate evidence."
+  }
+}
