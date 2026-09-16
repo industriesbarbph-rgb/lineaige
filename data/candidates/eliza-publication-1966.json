@@ -1,0 +1,42 @@
+{
+  "id": "eliza-publication-1966",
+  "recordType": "event",
+  "title": "ELIZA Publication",
+  "displayDate": "January 1966",
+  "eventDate": "1966-01",
+  "datePrecision": "month",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Joseph Weizenbaum's paper describing ELIZA was published in the January 1966 issue of Communications of the ACM. The paper describes ELIZA as a program operating within MIT's MAC time-sharing system that enables certain kinds of natural-language conversation between a person and a computer, using keyword-triggered decomposition rules and associated reassembly rules.",
+  "significance": "A primary-source publication milestone for the documented ELIZA conversational program, recorded without inferring a separate creation or release date.",
+  "people": ["Joseph Weizenbaum"],
+  "organizations": ["Massachusetts Institute of Technology", "Association for Computing Machinery"],
+  "technologies": ["ELIZA"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The ACM Digital Library records the ELIZA paper in Communications of the ACM, Volume 9, Issue 1, January 1966, pages 36-45, DOI 10.1145/365153.365168. This candidate records the publication milestone only. It does not infer ELIZA's exact creation date, public release date, development geography beyond what the paper itself states about operation within MIT's MAC time-sharing system, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-17T06:04:44+08:00"
+  },
+  "sources": [
+    {
+      "title": "ELIZA—a computer program for the study of natural language communication between man and machine",
+      "url": "https://dl.acm.org/doi/10.1145/365153.365168",
+      "publisher": "Association for Computing Machinery",
+      "publishedDate": "1966-01",
+      "sourceType": "paper",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "The original author's peer-reviewed ACM paper directly supports the January 1966 publication milestone and the program description used here.",
+    "nextStep": "Run candidate/canonical identity-collision and schema validation before canonical admission. Keep publication chronology separate from any earlier development chronology unless primary evidence supports a more precise event."
+  }
+}
