@@ -1,0 +1,52 @@
+{
+  "id": "bloom-public-release-2022",
+  "recordType": "event",
+  "title": "BLOOM Public Release",
+  "displayDate": "12 July 2022",
+  "eventDate": "2022-07-12",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Hugging Face announced the public release of BLOOM on July 12, 2022. The first-party announcement describes BLOOM as a 176-billion-parameter multilingual language model able to generate text in 46 natural languages and 13 programming languages, created through the BigScience collaboration.",
+  "significance": "A dated public-release milestone for a large multilingual language model produced through the BigScience open-science collaboration, with downloadable model access described in the first-party release announcement.",
+  "people": [],
+  "organizations": ["BigScience", "Hugging Face"],
+  "technologies": ["BLOOM"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Hugging Face's first-party announcement is dated July 12, 2022 and explicitly states 'Today, we release BLOOM,' describing a 176B-parameter model covering 46 natural languages and 13 programming languages. The BigScience BLOOM model card independently identifies the model as developed by BigScience and documents the same language scope and architecture context. This candidate records the dated public-release milestone only; it does not infer development geography, priority beyond the announcement's directly supported facts, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-16T12:05:51+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing The World's Largest Open Multilingual Language Model: BLOOM",
+      "url": "https://huggingface.co/blog/bloom",
+      "publisher": "Hugging Face",
+      "publishedDate": "2022-07-12",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "BigScience Large Open-science Open-access Multilingual Language Model",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "publisher": "BigScience / Hugging Face",
+      "publishedDate": null,
+      "sourceType": "model-card",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party release announcement directly supports the July 12, 2022 public-release milestone, while the BigScience model card corroborates the model identity and technical scope.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-release milestone. Do not infer geography, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
