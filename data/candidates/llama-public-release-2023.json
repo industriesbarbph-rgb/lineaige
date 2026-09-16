@@ -1,0 +1,62 @@
+{
+  "id": "llama-public-release-2023",
+  "recordType": "event",
+  "title": "LLaMA Public Research Release",
+  "displayDate": "24 February 2023",
+  "eventDate": "2023-02-24",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta AI announced LLaMA on February 24, 2023 as a collection of foundation language models offered in 7B, 13B, 33B, and 65B parameter sizes, with access to model weights granted on a case-by-case basis for research use under a noncommercial license.",
+  "significance": "A dated public research-release milestone for the first LLaMA model family, documenting Meta AI's gated research-access release and the four announced model sizes.",
+  "people": ["Hugo Touvron", "Thibaut Lavril", "Gautier Izacard", "Xavier Martinet", "Marie-Anne Lachaux", "Timothée Lacroix", "Baptiste Rozière", "Naman Goyal", "Eric Hambro", "Faisal Azhar", "Aurelien Rodriguez", "Armand Joulin", "Edouard Grave", "Guillaume Lample"],
+  "organizations": ["Meta AI"],
+  "technologies": ["LLaMA"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta AI's first-party announcement is dated February 24, 2023 and explicitly says it was publicly releasing LLaMA, listing 7B, 13B, 33B, and 65B sizes and describing case-by-case research access under a noncommercial license. Meta AI's publication page carries the same February 24, 2023 date and identifies the accompanying LLaMA paper. The arXiv record was submitted February 27, 2023, so that later paper-submission date is not substituted for the release date. This candidate records the dated public research-release milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-16T15:07:16+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing LLaMA: A foundational, 65-billion-parameter large language model",
+      "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+      "publisher": "Meta AI",
+      "publishedDate": "2023-02-24",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "url": "https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/",
+      "publisher": "Meta AI",
+      "publishedDate": "2023-02-24",
+      "sourceType": "paper-publication-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "url": "https://arxiv.org/abs/2302.13971",
+      "publisher": "LLaMA authors / arXiv",
+      "publishedDate": "2023-02-27",
+      "sourceType": "paper",
+      "sourceRole": "context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Meta AI's dated first-party announcement directly supports the February 24, 2023 public research-release milestone, announced model sizes, and gated research-access terms; Meta AI's publication page independently corroborates the date and model family.",
+    "nextStep": "Review for chronology-safe canonical admission as a public research-release milestone. Keep the February 27 arXiv submission distinct from the February 24 release and do not infer geography or causal/ancestry relationships without separate evidence."
+  }
+}
