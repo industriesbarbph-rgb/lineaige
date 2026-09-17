@@ -1,0 +1,42 @@
+{
+  "id": "chatgpt-research-preview-2022",
+  "recordType": "event",
+  "title": "ChatGPT Research Preview",
+  "displayDate": "30 November 2022",
+  "eventDate": "2022-11-30",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "OpenAI introduced ChatGPT on November 30, 2022 as a conversational model and research preview intended to gather user feedback. OpenAI stated that ChatGPT was fine-tuned from a model in the GPT-3.5 series and trained using reinforcement learning from human feedback.",
+  "significance": "A dated first-party public introduction and research-preview milestone for ChatGPT.",
+  "people": [],
+  "organizations": ["OpenAI"],
+  "technologies": ["ChatGPT", "GPT-3.5", "reinforcement learning from human feedback"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "OpenAI's first-party introduction is dated November 30, 2022 and explicitly introduces ChatGPT as a conversational model offered as a research preview for user feedback. This candidate records that public introduction/research-preview milestone only. It does not infer an earlier creation date, development geography, ancestry beyond OpenAI's explicit GPT-3.5 fine-tuning statement, influence, causality, or additional relationship edges.",
+    "lastVerified": "2026-09-17T14:05:20+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing ChatGPT",
+      "url": "https://openai.com/index/chatgpt/",
+      "publisher": "OpenAI",
+      "publishedDate": "2022-11-30",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party OpenAI announcement directly supports the November 30, 2022 ChatGPT public introduction and research-preview milestone.",
+    "nextStep": "Run candidate/canonical identity-collision and schema validation before canonical admission. Preserve this as a public introduction/research-preview event and do not infer unsupported creation geography, causal influence, or relationship edges."
+  }
+}
