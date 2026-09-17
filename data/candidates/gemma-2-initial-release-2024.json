@@ -1,0 +1,52 @@
+{
+  "id": "gemma-2-initial-release-2024",
+  "recordType": "event",
+  "title": "Gemma 2 Initial Release",
+  "displayDate": "27 June 2024",
+  "eventDate": "2024-06-27",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced the initial release of Gemma 2 on June 27, 2024, making 9B and 27B parameter models available to researchers and developers.",
+  "significance": "A dated public-release milestone in Google's Gemma open-model family.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 2", "Gemma 2 9B", "Gemma 2 27B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party announcement is dated June 27, 2024 and states that Gemma 2 was being officially released to researchers and developers globally in 9B and 27B parameter sizes. Google's Gemma release chronology independently lists June 27, 2024 as the initial release of Gemma 2 in 9B and 27B sizes. This candidate records the dated public-release milestone only and does not infer development geography, ancestry, influence, causality, priority, or relationship edges.",
+    "lastVerified": "2026-09-17T22:07:55+08:00"
+  },
+  "sources": [
+    {
+      "title": "Google launches Gemma 2, its next generation of open models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+      "publisher": "Google",
+      "publishedDate": "2024-06-27",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google sources directly support June 27, 2024 as the initial Gemma 2 release date and identify the 9B and 27B model sizes.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-release milestone. Do not infer development geography, ancestry, influence, causality, or relationship edges without separate evidence."
+  }
+}
