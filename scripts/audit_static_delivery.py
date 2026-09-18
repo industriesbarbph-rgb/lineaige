@@ -33,7 +33,7 @@ else:
         elif not target.exists():
             errors.append(f"missing local asset referenced by index.html: {ref}")
 
-for js_name in ("lineaige.js", "media.js", "courses.js"):
+for js_name in ("lineaige-data.js", "lineaige.js", "media.js", "courses.js"):
     path = ROOT / js_name
     if not path.exists():
         errors.append(f"missing runtime script: {js_name}")

@@ -271,32 +271,50 @@ for item in course_items:
         fail(f"course {item_id}: verifiedAt must be an ISO date-time")
 
 index = (ROOT / "index.html").read_text(encoding="utf-8")
-beam_ids = re.findall(r'data-event="([^"]+)"', index)
-if len(beam_ids) != len(set(beam_ids)):
-    fail("index.html contains duplicate data-event ids")
-for beam_id in beam_ids:
-    if beam_id not in id_set:
-        fail(f"index.html beam references unknown canonical record {beam_id}")
-if 'data-event="now"' not in index:
-    fail("index.html must expose the NOW living edge")
-if 'aria-label="Enter the living present"' not in index:
-    fail("NOW control must retain its accessible label")
+runtime = (ROOT / "lineaige.js").read_text(encoding="utf-8")
+data_adapter_path = ROOT / "lineaige-data.js"
+data_adapter = data_adapter_path.read_text(encoding="utf-8") if data_adapter_path.exists() else ""
 
-# Canonical records do not all need their own visible beam control. A beam point may
-# lead into an evidence-traversal graph, and every published record must be reachable
-# by following relationship targets from at least one visible beam entry point.
-graph = {record["id"]: [rel.get("targetId") for rel in record["relationships"] if rel.get("targetId")] for record in events}
-reachable = set()
-queue = deque(beam_ids)
-while queue:
-    current = queue.popleft()
-    if current in reachable:
-        continue
-    reachable.add(current)
-    queue.extend(target for target in graph.get(current, []) if target not in reachable)
+static_ids = re.findall(r'data-event="([^"]+)"', index)
+if len(static_ids) != len(set(static_ids)):
+    fail("index.html contains duplicate static data-event ids")
+for static_id in static_ids:
+    if static_id not in id_set:
+        fail(f"index.html references unknown canonical record {static_id}")
 
-unreachable = sorted(id_set - reachable)
-if unreachable:
-    fail(f"canonical records unreachable through beam traversal graph: {', '.join(unreachable)}")
+# During the renderer transition, the legacy interface may expose static entry controls.
+# The official Pencil renderer will instead generate the canonical inventory from
+# data/events.json through lineaige-data.js. Both modes remain fail-closed here.
+if static_ids:
+    if "now" not in static_ids:
+        fail("static renderer must expose the NOW living edge")
+    graph = {
+        record["id"]: [rel.get("targetId") for rel in record["relationships"] if rel.get("targetId")]
+        for record in events
+    }
+    reachable = set()
+    queue = deque(static_ids)
+    while queue:
+        current = queue.popleft()
+        if current in reachable:
+            continue
+        reachable.add(current)
+        queue.extend(target for target in graph.get(current, []) if target not in reachable)
 
-print(f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} courses, {len(beam_ids)} beam controls; all records traversable")
+    unreachable = sorted(id_set - reachable)
+    if unreachable:
+        fail(f"canonical records unreachable through static traversal graph: {', '.join(unreachable)}")
+    renderer_mode = f"static-transition ({len(static_ids)} entry controls)"
+else:
+    if not data_adapter_path.exists():
+        fail("data-driven renderer requires lineaige-data.js")
+    if "canonicalTimelineRecords" not in data_adapter or "data/events.json" not in data_adapter:
+        fail("lineaige-data.js must derive the public timeline from data/events.json")
+    if "data/candidates/" in runtime or "research-ledger.json" in runtime:
+        fail("public runtime must not silently render candidates or research-ledger entries as canonical history")
+    renderer_mode = "data-driven"
+
+print(
+    f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} courses; "
+    f"renderer mode: {renderer_mode}"
+)

@@ -6,7 +6,17 @@ A living evidence-traversal system for seeing and investigating the evolution of
 
 **The historical record is LINEAiGE. The interface is a representation of LINEAiGE.**
 
-LINEAiGE is designed around zero irreplaceable dependencies. The public interface is static HTML/CSS/JavaScript. Historical records, contextual media and learning resources are stored separately in portable structured data so the interface can change without becoming the source of truth.
+LINEAiGE is designed around zero irreplaceable dependencies. Historical records, contextual media, learning resources, research-review material and candidate records are stored separately in portable structured data so the public renderer can change without becoming the source of truth.
+
+## Official public renderer
+
+The selected production direction is the **Pencil Theme**.
+
+Its material language is textured artist paper, graphite, charcoal and colored pencil. It must render canonical LINEAiGE data rather than hard-code a small set of historical nodes.
+
+The September 6 Beam-Light interface family is discarded as a production direction. The existing Beam-era frontend files on the working branch are transitional only and must be replaced before deployment.
+
+See `docs/pencil-theme-official-contract.md` for the production build contract.
 
 ## Time model
 
@@ -14,35 +24,54 @@ LINEAiGE is designed around zero irreplaceable dependencies. The public interfac
 - **Now** — the living edge where history is forming.
 - **Announced future** — documented intentions, targets, proposals and plans; never represented as accomplished fact.
 
+No decorative future marker is itself evidence.
+
 ## Evidence rule
 
 Chronology alone is never presented as causality. Relationships must be supported, classified and inspectable. Primary evidence, secondary evidence, contextual media and learning resources remain visibly distinct.
+
+Unsupported precision is withheld rather than manufactured.
 
 ## Current data layers
 
 - `data/events.json` — canonical historical and living-edge records.
 - `data/event.schema.json` — portable event/source/relationship schema.
+- `data/candidates/` — evidence-controlled candidate records awaiting deliberate canonical admission.
+- `data/research-ledger.json` — research that is held back, under review, or preserved as a resolved canonical-review trail.
 - `data/media.json` — supplemental public media attached to records; context is not automatically historical proof.
-- `data/courses.json` — AI learning resources from universities, schools, platforms and providers; courses are a learning layer, not historical evidence.
+- `data/courses.json` — learning resources; courses are a learning layer, not historical evidence.
 
-## Interface structure
+## Renderer architecture
 
-- `index.html` — primary beam interface and evidence drawer.
-- `lineaige.css` — colorless-light visual system and responsive layout.
-- `lineaige.js` — canonical record loading, source rendering, traversal and shared record lifecycle events.
-- `media.js` — contextual media renderer synchronized to every record traversal path.
-- `courses.js` — learning-resource renderer synchronized to every record traversal path.
+- `lineaige-data.js` — neutral canonical timeline data adapter and temporal ordering.
+- `index.html` — public renderer shell; to be replaced by the official Pencil Theme before deployment.
+- `lineaige.js` — record interaction, traversal, source rendering and shared lifecycle behavior.
+- `lineaige.css` — renderer styling; current Beam-era styling is transitional and is not the production direction.
+- `media.js` — contextual media synchronized to record traversal.
+- `courses.js` — learning-resource rendering synchronized to record traversal.
 
-## Traversal contract
+## Data-driven rule
 
-Every successful record opening emits the same `lineaige:record-opened` event, whether the visitor enters from the beam or follows a relationship. Supplemental layers listen to that shared lifecycle instead of maintaining separate navigation state. Closing the record emits `lineaige:record-closed` so embedded media and supplemental panels can release their state cleanly.
+The HTML must not define the historical inventory.
+
+`data/events.json` determines which canonical records exist. The Pencil renderer must generate the public timeline from the canonical data through `lineaige-data.js`.
+
+Candidate and research-ledger files must not be silently rendered as canonical history.
+
+## Shared traversal contract
+
+Every successful record opening emits `lineaige:record-opened`, regardless of whether the visitor enters from a timeline mark or follows a relationship. Supplemental layers listen to that lifecycle instead of maintaining separate navigation state.
+
+Closing a record emits `lineaige:record-closed` so supplemental layers can release their state cleanly.
 
 ## Graceful failure
 
-The core historical drawer remains usable if supplemental media or course data fail to load. Missing supplemental data is hidden rather than represented as evidence. If the canonical record cannot load, the interface marks the record layer offline instead of fabricating content.
+The core historical record view remains usable if supplemental media or course data fail to load. Missing supplemental data is hidden rather than represented as evidence. If canonical data cannot load, the interface must visibly fail closed instead of fabricating content.
 
-## Deployment checklist
+## Deployment rule
 
-Before deployment, verify that every beam `data-event` maps to a canonical record, every relationship target resolves or is intentionally null, every supplemental `eventId`/`eventIds` maps to a canonical record, JSON files parse cleanly, source URLs use valid public destinations, keyboard traversal and Escape work, mobile drawer content remains scrollable, reduced-motion behavior is respected, and the static build runs without requiring a framework, database, login or proprietary runtime.
+Before deployment, verify canonical and research data, chronology, relationship semantics, global coverage, frontend accessibility, responsive behavior, static delivery, JavaScript syntax, real-device Android/iPhone behavior, and the exact commit intended for production.
+
+Deployment must use the exact validated repository state.
 
 Established September 6, 2026.
