@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "data" / "research-ledger.json"
 
-ALLOWED_RESEARCH_STATUS = {"investigating", "held-back", "canonical-review", "verified-candidate", "rejected"}
+ALLOWED_RESEARCH_STATUS = {"investigating", "held-back", "canonical-review", "resolved", "verified-candidate", "rejected"}
 ALLOWED_ADMISSION = {"pending", "withheld", "review", "not-applicable"}
 ALLOWED_PRECISION = {"day", "month", "year", "unknown"}
 ALLOWED_SOURCE_ROLE = {"claim-evidence", "corroboration", "context"}
@@ -136,6 +136,21 @@ for index, entry in enumerate(entries):
             fail(f"{prefix}.targetCanonicalId is required for canonical-review entries")
         if admission != "review":
             fail(f"{prefix} canonical-review entries must use canonicalAdmission=review")
+
+    if entry.get("researchStatus") == "resolved":
+        target = entry.get("targetCanonicalId")
+        if not isinstance(target, str) or not target.strip():
+            fail(f"{prefix}.targetCanonicalId is required for resolved canonical-review records")
+        if admission != "not-applicable":
+            fail(f"{prefix} resolved entries must use canonicalAdmission=not-applicable")
+        resolution = entry.get("resolution")
+        if not isinstance(resolution, dict):
+            fail(f"{prefix}.resolution is required for resolved entries")
+        else:
+            if not valid_day(resolution.get("date")):
+                fail(f"{prefix}.resolution.date must be a real ISO day")
+            if not isinstance(resolution.get("note"), str) or not resolution["note"].strip():
+                fail(f"{prefix}.resolution.note must be a non-empty string")
 
     sources = entry.get("sources")
     if not isinstance(sources, list) or not sources:
