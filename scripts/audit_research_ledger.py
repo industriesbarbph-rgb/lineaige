@@ -19,7 +19,7 @@ LEDGER = ROOT / "data" / "research-ledger.json"
 ALLOWED_RESEARCH_STATUS = {"investigating", "held-back", "canonical-review", "resolved", "verified-candidate", "rejected"}
 ALLOWED_ADMISSION = {"pending", "withheld", "review", "not-applicable"}
 ALLOWED_PRECISION = {"day", "month", "year", "unknown"}
-ALLOWED_SOURCE_ROLE = {"claim-evidence", "corroboration", "context"}
+ALLOWED_SOURCE_ROLE = {"claim-evidence", "corroboration", "context", "chronology"}
 DATE_PATTERNS = {
     "day": re.compile(r"^\d{4}-\d{2}-\d{2}$"),
     "month": re.compile(r"^\d{4}-(0[1-9]|1[0-2])$"),
