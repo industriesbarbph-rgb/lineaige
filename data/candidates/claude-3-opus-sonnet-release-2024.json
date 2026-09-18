@@ -1,0 +1,42 @@
+{
+  "id": "claude-3-opus-sonnet-release-2024",
+  "recordType": "event",
+  "title": "Claude 3 Opus and Sonnet Release",
+  "displayDate": "4 March 2024",
+  "eventDate": "2024-03-04",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Anthropic announced the Claude 3 model family on March 4, 2024 and made Claude 3 Opus and Claude 3 Sonnet available that day through claude.ai and the Claude API; Claude 3 Haiku was announced as coming soon.",
+  "significance": "A dated public announcement and availability milestone for Claude 3 Opus and Claude 3 Sonnet.",
+  "people": [],
+  "organizations": ["Anthropic"],
+  "technologies": ["Claude 3", "Claude 3 Opus", "Claude 3 Sonnet", "Claude 3 Haiku"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Anthropic's first-party announcement is dated March 4, 2024, announces the Claude 3 family, and states that Opus and Sonnet were available that day while Haiku would be available soon. This candidate records only the dated announcement/availability milestone and does not treat Haiku as released on March 4 or infer development geography, ancestry, influence, causality, priority, or relationship edges.",
+    "lastVerified": "2026-09-18T10:02:40+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing the next generation of Claude",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "publisher": "Anthropic",
+      "publishedDate": "2024-03-04",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party Anthropic announcement directly supports the March 4, 2024 Claude 3 family announcement and same-day availability of Claude 3 Opus and Claude 3 Sonnet.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep Claude 3 Haiku's later release as a separate dated milestone; do not infer development geography, ancestry, influence, causality, priority, or relationship edges without separate evidence."
+  }
+}
