@@ -1,0 +1,42 @@
+{
+  "id": "gemini-1-5-pro-preview-2024",
+  "recordType": "event",
+  "title": "Gemini 1.5 Pro Limited Preview",
+  "displayDate": "15 February 2024",
+  "eventDate": "2024-02-15",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced Gemini 1.5 on February 15, 2024 and offered Gemini 1.5 Pro in limited preview to developers and enterprise customers through AI Studio and Vertex AI.",
+  "significance": "A dated public announcement and limited-preview milestone for Gemini 1.5 Pro.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemini 1.5", "Gemini 1.5 Pro"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party announcement is dated February 15, 2024, identifies Gemini 1.5 Pro as the first Gemini 1.5 model released for early testing, and states that a limited preview was offered to developers and enterprise customers via AI Studio and Vertex AI. This candidate records only the dated announcement/preview milestone and does not infer development geography, ancestry, influence, causality, priority, or relationship edges.",
+    "lastVerified": "2026-09-18T08:07:59+08:00"
+  },
+  "sources": [
+    {
+      "title": "Our next-generation model: Gemini 1.5",
+      "url": "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/",
+      "publisher": "Google",
+      "publishedDate": "2024-02-15",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party Google announcement directly supports the February 15, 2024 Gemini 1.5 announcement and Gemini 1.5 Pro limited-preview milestone.",
+    "nextStep": "Review for chronology-safe canonical admission. Do not infer development geography, ancestry, influence, causality, priority, or relationship edges without separate evidence."
+  }
+}
