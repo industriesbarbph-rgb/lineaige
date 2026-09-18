@@ -1,0 +1,42 @@
+{
+  "id": "claude-3-haiku-release-2024",
+  "recordType": "event",
+  "title": "Claude 3 Haiku Release",
+  "displayDate": "13 March 2024",
+  "eventDate": "2024-03-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Anthropic released Claude 3 Haiku on March 13, 2024 and stated that it was available through the Claude API and to Claude Pro subscribers on claude.ai.",
+  "significance": "A dated public release and availability milestone for Claude 3 Haiku.",
+  "people": [],
+  "organizations": ["Anthropic"],
+  "technologies": ["Claude 3 Haiku"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Anthropic's first-party announcement is dated March 13, 2024 and explicitly states that Claude 3 Haiku was being released that day. This candidate records only the dated release/availability milestone and does not infer development geography, ancestry, influence, causality, priority, or relationship edges.",
+    "lastVerified": "2026-09-18T11:04:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Claude 3 Haiku: our fastest model yet",
+      "url": "https://www.anthropic.com/news/claude-3-haiku",
+      "publisher": "Anthropic",
+      "publishedDate": "2024-03-13",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party Anthropic announcement directly supports the March 13, 2024 Claude 3 Haiku release and same-day availability through the Claude API and claude.ai for Claude Pro subscribers.",
+    "nextStep": "Review for chronology-safe canonical admission. Do not infer development geography, ancestry, influence, causality, priority, or relationship edges without separate evidence."
+  }
+}
