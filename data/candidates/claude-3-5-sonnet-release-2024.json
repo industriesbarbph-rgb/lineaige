@@ -1,0 +1,42 @@
+{
+  "id": "claude-3-5-sonnet-release-2024",
+  "recordType": "event",
+  "title": "Claude 3.5 Sonnet Release",
+  "displayDate": "21 June 2024",
+  "eventDate": "2024-06-21",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Anthropic launched Claude 3.5 Sonnet on June 21, 2024 and stated that it was available on Claude.ai, the Claude iOS app, the Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI.",
+  "significance": "A dated public release and availability milestone for Claude 3.5 Sonnet.",
+  "people": [],
+  "organizations": ["Anthropic"],
+  "technologies": ["Claude 3.5 Sonnet"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Anthropic's first-party announcement is dated June 21, 2024 and explicitly states that Claude 3.5 Sonnet was being launched that day. This candidate records only the dated release/availability milestone and does not infer development geography, ancestry, influence, causality, priority, or relationship edges.",
+    "lastVerified": "2026-09-18T13:07:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Claude 3.5 Sonnet",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "publisher": "Anthropic",
+      "publishedDate": "2024-06-21",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party Anthropic announcement directly supports the June 21, 2024 Claude 3.5 Sonnet launch and same-day availability across Anthropic and named platform channels.",
+    "nextStep": "Review for chronology-safe canonical admission. Do not infer development geography, ancestry, influence, causality, priority, or relationship edges without separate evidence."
+  }
+}
