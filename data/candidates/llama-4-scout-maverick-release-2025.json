@@ -1,0 +1,42 @@
+{
+  "id": "llama-4-scout-maverick-release-2025",
+  "recordType": "event",
+  "title": "Llama 4 Scout and Maverick Release",
+  "displayDate": "5 April 2025",
+  "eventDate": "2025-04-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta announced Llama 4 Scout and Llama 4 Maverick on April 5, 2025 and made both models available for download that day; Llama 4 Behemoth was described separately as still in training and not yet released.",
+  "significance": "A dated public-release milestone for the first released models in Meta's Llama 4 family, while preserving the contemporaneous distinction between released Scout and Maverick models and the unreleased Behemoth model.",
+  "people": [],
+  "organizations": ["Meta"],
+  "technologies": ["Llama 4 Scout", "Llama 4 Maverick"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's first-party April 5, 2025 announcement explicitly introduces Llama 4 Scout and Llama 4 Maverick and states that both were available for download that day. The same announcement explicitly says Llama 4 Behemoth was still training and was not being released, so Behemoth is not represented as a released technology in this candidate. No development geography, ancestry, downstream influence, causality, people attribution, or relationship edges are inferred.",
+    "lastVerified": "2026-09-20T03:07:16+08:00"
+  },
+  "sources": [
+    {
+      "title": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+      "url": "https://about.fb.com/news/2025/04/llama-4-multimodal-intelligence/",
+      "publisher": "Meta",
+      "publishedDate": "2025-04-05",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Meta's dated first-party announcement directly supports the April 5, 2025 public release and same-day download availability of Llama 4 Scout and Llama 4 Maverick, while explicitly withholding Llama 4 Behemoth from release.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep Behemoth outside this release record unless a separately dated release is independently verified, and do not infer geography or causal/ancestry relationships without separate evidence."
+  }
+}
