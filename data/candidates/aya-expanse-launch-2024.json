@@ -1,0 +1,52 @@
+{
+  "id": "aya-expanse-launch-2024",
+  "recordType": "event",
+  "title": "Aya Expanse Public Launch",
+  "displayDate": "24 October 2024",
+  "eventDate": "2024-10-24",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere For AI announced Aya Expanse on October 24, 2024 as a multilingual family of 8B and 32B parameter models supporting 23 languages.",
+  "significance": "A dated public-release milestone in Cohere For AI's Aya multilingual model program, introducing Aya Expanse as an open-weights multilingual model family in 8B and 32B sizes.",
+  "people": [],
+  "organizations": ["Cohere For AI"],
+  "technologies": ["Aya Expanse", "Aya Expanse 8B", "Aya Expanse 32B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere For AI's first-party launch announcement is dated October 24, 2024 and explicitly says it launches Aya Expanse, describing 8B and 32B models and 23-language coverage. Cohere's current first-party Aya research page independently lists Aya Expanse in the Aya model family and describes the 23-language research model. This candidate records the dated public-launch milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-19T17:06:44+08:00"
+  },
+  "sources": [
+    {
+      "title": "Aya Expanse: Connecting our world",
+      "url": "https://cohere.com/blog/aya-expanse-connecting-our-world",
+      "publisher": "Cohere For AI / Cohere",
+      "publishedDate": "2024-10-24",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Aya",
+      "url": "https://cohere.com/research/aya",
+      "publisher": "Cohere Labs",
+      "publishedDate": null,
+      "sourceType": "official-project-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party dated launch announcement directly supports the October 24, 2024 public-launch milestone, 8B and 32B model sizes, and 23-language scope; Cohere's current Aya research page corroborates the model family and scope.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Do not infer development geography or causal/ancestry relationships without separate evidence."
+  }
+}
