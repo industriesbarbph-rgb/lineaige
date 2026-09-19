@@ -55,6 +55,9 @@ required = [
     "data/event.schema.json",
     "data/media.json",
     "data/courses.json",
+    "data/creator-releases.json",
+    "co-author/index.html",
+    "co-author/co-author.css",
 ]
 for ref in required:
     if not (ROOT / ref).exists():
