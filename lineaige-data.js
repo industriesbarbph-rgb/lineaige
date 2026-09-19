@@ -2,14 +2,14 @@
   'use strict';
 
   const EVENTS_URL='data/events.json';
+  const COURSES_URL='data/courses.json';
+  const CREATOR_RELEASES_URL='data/creator-releases.json';
 
   function usableRecord(record){
     return Boolean(
       record &&
       typeof record.id==='string' &&
-      typeof record.title==='string' &&
-      typeof record.summary==='string' &&
-      typeof record.recordType==='string'
+      typeof record.title==='string'
     );
   }
 
@@ -38,6 +38,31 @@
     return parseDay(record.announcementDate);
   }
 
+  function learningTemporalValue(item){
+    const precision=item.startPrecision ||
+      (item.startDate ? 'day' : item.startMonth ? 'month' : item.startYear ? 'year' : null);
+    if(precision==='day' && item.startDate) return parseDay(item.startDate);
+    if(precision==='month' && item.startMonth) return parseDay(item.startMonth+'-01');
+    if(precision==='year' && item.startYear) return parseDay(item.startYear+'-01-01');
+    return Number.POSITIVE_INFINITY;
+  }
+
+  function learningEndValue(item){
+    if(item.endDate) return parseDay(item.endDate);
+    if(item.endMonth) return parseDay(item.endMonth+'-01');
+    if(item.endYear) return parseDay(item.endYear+'-01-01');
+    return Number.POSITIVE_INFINITY;
+  }
+
+  function creatorTemporalValue(item){
+    const precision=item.releasePrecision ||
+      (item.releaseDate ? 'day' : item.releaseMonth ? 'month' : item.releaseYear ? 'year' : null);
+    if(precision==='day' && item.releaseDate) return parseDay(item.releaseDate);
+    if(precision==='month' && item.releaseMonth) return parseDay(item.releaseMonth+'-01');
+    if(precision==='year' && item.releaseYear) return parseDay(item.releaseYear+'-01-01');
+    return Number.POSITIVE_INFINITY;
+  }
+
   function partitionCanonicalRecords(events){
     const records=events.filter(usableRecord);
 
@@ -61,34 +86,60 @@
     return [...recorded,...(now ? [now] : []),...announcedFuture];
   }
 
+  async function fetchJson(url,required){
+    try{
+      const response=await fetch(url,{cache:'no-store'});
+      if(!response.ok){
+        if(required) throw new Error(`${url} unavailable (${response.status})`);
+        return null;
+      }
+      return await response.json();
+    }catch(error){
+      if(required) throw error;
+      return null;
+    }
+  }
+
   async function load(){
-    const response=await fetch(EVENTS_URL,{cache:'no-store'});
-    if(!response.ok) throw new Error(`canonical record unavailable (${response.status})`);
+    const [eventData,courseData,creatorData]=await Promise.all([
+      fetchJson(EVENTS_URL,true),
+      fetchJson(COURSES_URL,false),
+      fetchJson(CREATOR_RELEASES_URL,false)
+    ]);
 
-    const data=await response.json();
-    if(!data || !Array.isArray(data.events)) throw new Error('invalid canonical record document');
+    if(!eventData || !Array.isArray(eventData.events)) throw new Error('invalid canonical record document');
 
-    const partitioned=partitionCanonicalRecords(data.events);
+    const partitioned=partitionCanonicalRecords(eventData.events);
     const timeline=[...partitioned.recorded,...(partitioned.now ? [partitioned.now] : []),...partitioned.announcedFuture];
     if(!timeline.length) throw new Error('canonical record document is empty');
 
+    const courses=Array.isArray(courseData?.items) ? courseData.items.filter(usableRecord) : [];
+    const creatorReleases=Array.isArray(creatorData?.items) ? creatorData.items.filter(usableRecord) : [];
+
     return {
-      schemaVersion:data.schemaVersion || null,
-      product:data.product || 'LINEAiGE',
-      principle:data.principle || null,
+      schemaVersion:eventData.schemaVersion || null,
+      product:eventData.product || 'LINEAiGE',
+      principle:eventData.principle || null,
       records:timeline,
       recorded:partitioned.recorded,
       now:partitioned.now,
-      announcedFuture:partitioned.announcedFuture
+      announcedFuture:partitioned.announcedFuture,
+      courses,
+      creatorReleases
     };
   }
 
   global.LINEAiGEData=Object.freeze({
     EVENTS_URL,
+    COURSES_URL,
+    CREATOR_RELEASES_URL,
     load,
     canonicalTimelineRecords,
     partitionCanonicalRecords,
     temporalValue,
-    futureTargetValue
+    futureTargetValue,
+    learningTemporalValue,
+    learningEndValue,
+    creatorTemporalValue
   });
 })(window);
