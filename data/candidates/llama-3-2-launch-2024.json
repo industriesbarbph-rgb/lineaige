@@ -1,0 +1,42 @@
+{
+  "id": "llama-3-2-launch-2024",
+  "recordType": "event",
+  "title": "Llama 3.2 Public Launch",
+  "displayDate": "25 September 2024",
+  "eventDate": "2024-09-25",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta announced Llama 3.2 on September 25, 2024, including 11B and 90B vision models and lightweight 1B and 3B text-only models.",
+  "significance": "A dated public-release milestone in Meta's Llama model family, introducing Llama's first vision-capable models alongside lightweight text-only models intended for mobile and edge use.",
+  "people": [],
+  "organizations": ["Meta"],
+  "technologies": ["Llama 3.2", "Llama 3.2 1B", "Llama 3.2 3B", "Llama 3.2 11B", "Llama 3.2 90B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's first-party September 25, 2024 launch announcement explicitly states that it is launching Llama 3.2, identifies 11B and 90B vision models and 1B and 3B lightweight text-only models, and states that the models were made available for download and immediate development through partner platforms. This candidate records the dated public-launch milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-19T20:07:08+08:00"
+  },
+  "sources": [
+    {
+      "title": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+      "url": "https://about.fb.com/news/2024/09/llama-3-2-revolutionizing-edge-ai-and-vision-with-open-customizable-models/",
+      "publisher": "Meta",
+      "publishedDate": "2024-09-25",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party dated Meta launch announcement directly supports the September 25, 2024 public-launch milestone and the 1B, 3B, 11B, and 90B model variants.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Do not infer development geography or causal/ancestry relationships without separate evidence."
+  }
+}
