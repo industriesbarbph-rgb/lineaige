@@ -157,6 +157,7 @@ def validate_future_target_precision(record):
 events_doc = load_json("events.json")
 media_doc = load_json("media.json")
 courses_doc = load_json("courses.json")
+creator_releases_doc = load_json("creator-releases.json")
 schema_doc = load_json("event.schema.json")
 
 if events_doc.get("schemaVersion") != "1.1.0":
@@ -165,6 +166,8 @@ if media_doc.get("schemaVersion") != "1.0.0":
     fail("data/media.json schemaVersion must be 1.0.0")
 if courses_doc.get("schemaVersion") != "1.0.0":
     fail("data/courses.json schemaVersion must be 1.0.0")
+if creator_releases_doc.get("schemaVersion") != "1.0.0":
+    fail("data/creator-releases.json schemaVersion must be 1.0.0")
 if schema_doc.get("additionalProperties") is not False:
     fail("event.schema.json must preserve additionalProperties=false")
 
@@ -212,6 +215,38 @@ for record in events:
             fail(f"{record_id}: co-author contributor.name must be non-empty")
     elif contributor is not None:
         fail(f"{record_id}: lineaige-authored records must not carry co-author contributor metadata")
+
+    contributions = record.get("contributions", [])
+    if not isinstance(contributions, list):
+        fail(f"{record_id}: contributions must be an array when present")
+    contribution_ids = set()
+    for contribution in contributions:
+        if not isinstance(contribution, dict):
+            fail(f"{record_id}: every contribution must be an object")
+        contribution_id = contribution.get("id")
+        if not isinstance(contribution_id, str) or not ID_RE.fullmatch(contribution_id):
+            fail(f"{record_id}: contribution has invalid id {contribution_id!r}")
+        if contribution_id in contribution_ids:
+            fail(f"{record_id}: duplicate contribution id {contribution_id}")
+        contribution_ids.add(contribution_id)
+        if contribution.get("origin") not in {"lineaige", "co-author"}:
+            fail(f"{record_id}: contribution {contribution_id} has invalid origin")
+        if contribution.get("type") not in {"factual-addition", "context", "interpretation", "question-research-lead", "correction"}:
+            fail(f"{record_id}: contribution {contribution_id} has invalid type")
+        if not isinstance(contribution.get("text"), str) or not contribution["text"].strip():
+            fail(f"{record_id}: contribution {contribution_id} requires text")
+        if not valid_datetime(contribution.get("admittedAt")):
+            fail(f"{record_id}: contribution {contribution_id} requires admittedAt ISO date-time")
+        contribution_sources = contribution.get("sources", [])
+        if not isinstance(contribution_sources, list) or any(not is_http_url(url) for url in contribution_sources):
+            fail(f"{record_id}: contribution {contribution_id} sources must be http(s) URLs")
+        if contribution.get("origin") == "co-author":
+            contribution_person = contribution.get("contributor")
+            if not isinstance(contribution_person, dict):
+                fail(f"{record_id}: co-author contribution {contribution_id} requires contributor metadata")
+            public_name = contribution_person.get("name") or contribution_person.get("creditPreference")
+            if not isinstance(public_name, str) or not public_name.strip():
+                fail(f"{record_id}: co-author contribution {contribution_id} requires public credit")
 
     if record["recordType"] in {"event", "entry_point"}:
         validate_temporal_precision(record)
@@ -310,14 +345,29 @@ if not isinstance(course_items, list):
 course_ids = set()
 for item in course_items:
     item_id = require_unique_id(item, course_ids, "course")
-    event_ids = item.get("eventIds")
-    if not isinstance(event_ids, list) or not event_ids:
-        fail(f"course {item_id}: eventIds must be a non-empty array")
+    event_ids = item.get("eventIds", [])
+    if not isinstance(event_ids, list):
+        fail(f"course {item_id}: eventIds must be an array when present")
     if len(event_ids) != len(set(event_ids)):
         fail(f"course {item_id}: eventIds must not contain duplicates")
     unresolved = [event_id for event_id in event_ids if event_id not in id_set]
     if unresolved:
         fail(f"course {item_id}: unresolved eventIds {', '.join(unresolved)}")
+    start_precision = item.get("startPrecision")
+    if start_precision is not None and start_precision not in DATE_PRECISIONS:
+        fail(f"course {item_id}: invalid startPrecision")
+    if item.get("startDate") is not None and not valid_date(item.get("startDate")):
+        fail(f"course {item_id}: startDate must be an ISO date")
+    if item.get("startMonth") is not None and not MONTH_RE.fullmatch(str(item.get("startMonth"))):
+        fail(f"course {item_id}: startMonth must be YYYY-MM")
+    if item.get("startYear") is not None and not YEAR_RE.fullmatch(str(item.get("startYear"))):
+        fail(f"course {item_id}: startYear must be YYYY")
+    if item.get("endDate") is not None and not valid_date(item.get("endDate")):
+        fail(f"course {item_id}: endDate must be an ISO date")
+    if item.get("endMonth") is not None and not MONTH_RE.fullmatch(str(item.get("endMonth"))):
+        fail(f"course {item_id}: endMonth must be YYYY-MM")
+    if item.get("endYear") is not None and not YEAR_RE.fullmatch(str(item.get("endYear"))):
+        fail(f"course {item_id}: endYear must be YYYY")
     for field in ("title", "provider", "institution", "level", "access"):
         if not isinstance(item.get(field), str) or not item[field].strip():
             fail(f"course {item_id}: {field} must be non-empty")
@@ -332,6 +382,24 @@ for item in course_items:
         fail(f"course {item_id}: topics must be a non-empty array of strings")
     if not valid_datetime(item.get("verifiedAt")) or item.get("verifiedAt") is None:
         fail(f"course {item_id}: verifiedAt must be an ISO date-time")
+
+creator_release_items = creator_releases_doc.get("items")
+if not isinstance(creator_release_items, list):
+    fail("data/creator-releases.json items must be an array")
+creator_release_ids = set()
+for item in creator_release_items:
+    item_id = require_unique_id(item, creator_release_ids, "creator release")
+    if not isinstance(item.get("title"), str) or not item["title"].strip():
+        fail(f"creator release {item_id}: title must be non-empty")
+    release_url = item.get("projectUrl") or item.get("releaseUrl")
+    if release_url is not None and not is_http_url(release_url):
+        fail(f"creator release {item_id}: projectUrl/releaseUrl must be a valid http(s) URL")
+    if item.get("releaseDate") is not None and not valid_date(item.get("releaseDate")):
+        fail(f"creator release {item_id}: releaseDate must be an ISO date")
+    if item.get("releaseMonth") is not None and not MONTH_RE.fullmatch(str(item.get("releaseMonth"))):
+        fail(f"creator release {item_id}: releaseMonth must be YYYY-MM")
+    if item.get("releaseYear") is not None and not YEAR_RE.fullmatch(str(item.get("releaseYear"))):
+        fail(f"creator release {item_id}: releaseYear must be YYYY")
 
 index = (ROOT / "index.html").read_text(encoding="utf-8")
 runtime = (ROOT / "lineaige.js").read_text(encoding="utf-8")
@@ -378,6 +446,6 @@ else:
     renderer_mode = "data-driven"
 
 print(
-    f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} courses; "
+    f"OK: {len(events)} canonical records, {len(media_items)} media items, {len(course_items)} learning/program records, {len(creator_release_items)} creator releases; "
     f"renderer mode: {renderer_mode}"
 )
