@@ -2,65 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>LINEAiGE — The Living Lineage of Artificial Intelligence</title>
-  <meta name="description" content="A living evidence-traversal system for seeing and investigating the evolution of artificial intelligence—past, present, and announced future.">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#eee8dc">
+  <title>BarbPH LINEAiGE — The Living Lineage of Artificial Intelligence</title>
+  <meta name="description" content="BarbPH LINEAiGE is an evidence-controlled, living record for traversing the evolution of artificial intelligence, what people build with it, how people learn it, and documented announced future plans.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BarbPH LINEAiGE">
+  <meta property="og:description" content="Traverse the evidence-controlled evolution of artificial intelligence.">
   <link rel="stylesheet" href="lineaige.css">
 </head>
 <body>
-  <main class="stage" aria-label="LINEAiGE">
-    <header class="mast">
-      <div class="wordmark">LINE<span>AI</span>GE</div>
-      <div class="descriptor">EVIDENCE TRAVERSAL · ARTIFICIAL INTELLIGENCE</div>
+  <main class="paper-stage" aria-label="BarbPH LINEAiGE">
+    <header class="site-header">
+      <button class="brand" id="brandInfo" type="button" aria-expanded="false" aria-controls="brandExplainer">
+        <span class="brand-emboss" aria-hidden="true">BarbPH</span>
+        <span class="brand-front">LINE<span>AI</span>GE</span>
+      </button>
+
+      <nav class="top-links" aria-label="LINEAiGE links">
+        <a href="/co-author/">BE A CO-AUTHOR</a>
+        <a href="https://docs.google.com/document/d/1N5y-Jgt5U6iyIuDC9XqcsO5JgUWiMZUvPP12-adWyWE/edit" target="_blank" rel="noopener noreferrer">PAPER TRAIL</a>
+        <a href="#" id="youtubeLink" data-unconfigured="true">YOUTUBE</a>
+        <a href="#" id="contactLink" data-unconfigured="true">CONTACT US</a>
+      </nav>
+
+      <div class="brand-explainer" id="brandExplainer" role="status">
+        An evidence-controlled record of how artificial intelligence developed, what people build with it, how people learn it, and what credible actors have announced next.
+      </div>
     </header>
 
-    <section class="lineage" aria-label="Past, present and announced future">
-      <div class="era-label past-label">PAST</div>
-      <div class="era-label now-label">NOW</div>
-      <div class="era-label future-label">ANNOUNCED FUTURE</div>
-
-      <div class="beam-wrap" id="beamWrap">
-        <svg class="circuit-field" id="circuitField" viewBox="0 0 1600 420" preserveAspectRatio="none" aria-hidden="true">
-          <g class="circuit dormant" data-circuit="turing-1950"><path d="M180 210 L260 210 L310 132 L430 132"/><circle cx="310" cy="132" r="5"/><circle cx="430" cy="132" r="5"/></g>
-          <g class="circuit dormant" data-circuit="dartmouth-1955"><path d="M420 210 L500 210 L560 298 L690 298"/><circle cx="560" cy="298" r="5"/><circle cx="690" cy="298" r="5"/></g>
-          <g class="circuit dormant" data-circuit="rosenblatt-1958"><path d="M660 210 L720 210 L785 116 L930 116"/><circle cx="785" cy="116" r="5"/><circle cx="930" cy="116" r="5"/></g>
-          <g class="circuit dormant" data-circuit="transformer-2017"><path d="M880 210 L955 210 L1020 300 L1120 300"/><circle cx="1020" cy="300" r="5"/><circle cx="1120" cy="300" r="5"/></g>
-          <g class="circuit dormant future-circuit" data-circuit="now"><path d="M1210 210 L1325 210 L1385 155 L1510 155"/><circle cx="1385" cy="155" r="5"/><circle cx="1510" cy="155" r="5"/></g>
-        </svg>
-
-        <div class="beam past-beam"><span class="current current-a"></span><span class="current current-b"></span><span class="current current-c"></span></div>
-        <button class="event e1" data-event="turing-1950" aria-label="Enter Turing 1950"><i></i></button>
-        <button class="event e2" data-event="dartmouth-1955" aria-label="Enter Dartmouth 1955"><i></i></button>
-        <button class="event e3" data-event="rosenblatt-1958" aria-label="Enter Perceptron 1958"><i></i></button>
-        <button class="event e4" data-event="transformer-2017" aria-label="Enter Transformer 2017"><i></i></button>
-        <button class="now-core" data-event="now" aria-label="Enter the living present"><b>NOW</b></button>
-        <div class="beam future-beam"></div>
-        <span class="future-marker f1" aria-hidden="true"></span><span class="future-marker f2" aria-hidden="true"></span><span class="future-marker f3" aria-hidden="true"></span>
-        <div class="future-particles"></div>
+    <section class="timeline-shell" aria-label="LINEAiGE chronology">
+      <div class="timeline-viewport" id="timelineViewport" tabindex="0" aria-label="Drag left or right to travel through the LINEAiGE chronology. Use Left and Right Arrow keys for keyboard travel.">
+        <div class="timeline-world" id="lineaigeTimeline" aria-live="polite">
+          <div class="travel-shade" id="travelShade" aria-hidden="true"></div>
+          <div class="lane lane-creators" id="creatorLane" aria-label="Creator releases"></div>
+          <div class="history-line" id="historyLine" aria-hidden="true"></div>
+          <div class="lane lane-history" id="historyLane" aria-label="Historical records"></div>
+          <div class="lane lane-learning" id="learningLane" aria-label="Learning and programs"></div>
+          <div class="future-line" id="futureLine" aria-hidden="true"></div>
+          <div class="lane lane-future" id="futureLane" aria-label="Announced future"></div>
+          <button class="today-mark" id="todayMark" type="button" aria-label="Open TODAY, the living edge">
+            <span class="today-word">TODAY</span>
+            <span class="today-date" id="todayDate"></span>
+            <span class="today-time" id="todayTime"></span>
+            <span class="today-zone" id="todayZone"></span>
+          </button>
+        </div>
       </div>
 
-      <div class="time-key" aria-label="Time state legend">
-        <span><i class="solid"></i>RECORDED</span>
-        <span><i class="live"></i>FORMING</span>
-        <span><i class="projected"></i>DECLARED / UNRESOLVED</span>
+      <div class="reading-guide" id="readingGuide" aria-hidden="true">
+        <span id="readingDate">—</span>
       </div>
-      <p class="instruction">Touch the light. Travel the evidence.</p>
+
+      <p class="drag-cue" id="dragCue">drag the paper through time</p>
+
+      <div class="timeline-key" aria-label="Timeline mark key">
+        <span><i class="key-history"></i>HISTORY</span>
+        <span><i class="key-learning"></i>LEARNING &amp; PROGRAMS</span>
+        <span><i class="key-creator"></i>CREATOR RELEASES</span>
+        <span><i class="key-future"></i>ANNOUNCED FUTURE</span>
+      </div>
     </section>
 
-    <aside class="drawer" id="drawer" aria-live="polite" aria-hidden="true">
-      <button class="close" id="close" aria-label="Close">×</button>
-      <div class="drawer-status" id="status">VERIFIED RECORD</div>
-      <div class="drawer-date" id="date">—</div>
-      <h1 id="title">LINEAiGE</h1>
-      <p id="summary">Select a point in the light to enter the record.</p>
-      <div class="relations" id="relations"></div>
-      <div class="evidence"><span>EVIDENCE</span><p id="evidence">Every published relationship in LINEAiGE must be supported by evidence. Chronology is not presented as causality.</p></div>
-      <div id="sources" class="source-list" aria-label="Sources"></div>
-      <div class="record-note">Verified historical records expose their source trail. Context media and courses are kept distinct from primary historical evidence.</div>
+    <aside class="record-note" id="drawer" aria-live="polite" aria-hidden="true">
+      <button class="close-note" id="close" type="button" aria-label="Close record">CLOSE</button>
+
+      <div class="record-meta-row">
+        <span id="recordType">RECORD</span>
+        <span id="date">—</span>
+      </div>
+
+      <h1 id="title" tabindex="-1">LINEAiGE</h1>
+
+      <section class="note-section" id="whatSection">
+        <h2>WHAT HAPPENED</h2>
+        <p id="summary"></p>
+      </section>
+
+      <section class="note-section" id="whySection" hidden>
+        <h2>WHY IT MATTERS</h2>
+        <p id="significance"></p>
+      </section>
+
+      <div class="record-facts">
+        <div><span>ORIGIN</span><strong id="origin"></strong></div>
+        <div><span>VERIFICATION</span><strong id="verification"></strong></div>
+        <div><span>SOURCES</span><strong id="sourceCount"></strong></div>
+      </div>
+
+      <div class="record-actions" id="recordActions">
+        <button type="button" id="proofButton" hidden>SHOW ME THE PROOF</button>
+        <button type="button" id="traceButton" hidden>TRACE EVOLUTION</button>
+      </div>
+
+      <section class="fold-section" id="proofSection" hidden>
+        <h2>PROOF</h2>
+        <div id="sources" class="source-list"></div>
+      </section>
+
+      <section class="fold-section" id="traceSection" hidden>
+        <h2>TRACE EVOLUTION</h2>
+        <div id="relations" class="relations"></div>
+      </section>
+
+      <section class="marginalia" id="marginaliaSection" hidden>
+        <button class="marginalia-toggle" id="marginaliaToggle" type="button" aria-expanded="false">
+          <span id="marginaliaCount">CO-AUTHOR NOTES</span>
+        </button>
+        <div id="marginaliaList" class="marginalia-list" hidden></div>
+      </section>
     </aside>
 
-    <footer><span>PAST IS RECORDED</span><span>PRESENT IS FORMING</span><span>FUTURE IS DECLARED, NOT ASSUMED</span></footer>
+    <div class="link-note" id="linkNote" role="status" hidden></div>
+
+    <footer class="site-footer">
+      <span>PAST IS RECORDED</span>
+      <span>PRESENT IS FORMING</span>
+      <span>FUTURE IS DECLARED, NOT ASSUMED</span>
+    </footer>
   </main>
+
+  <script src="lineaige-data.js"></script>
   <script src="lineaige.js"></script>
   <script src="media.js"></script>
   <script src="courses.js"></script>
