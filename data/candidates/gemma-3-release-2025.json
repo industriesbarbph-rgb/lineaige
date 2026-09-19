@@ -1,0 +1,52 @@
+{
+  "id": "gemma-3-release-2025",
+  "recordType": "event",
+  "title": "Gemma 3 Release",
+  "displayDate": "10 March 2025",
+  "eventDate": "2025-03-10",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's Gemma release documentation records the release of Gemma 3 on March 10, 2025, in 1B, 4B, 12B, and 27B parameter sizes.",
+  "significance": "A dated release milestone in Google's Gemma family of open models.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["Gemma 3", "Gemma 3 1B", "Gemma 3 4B", "Gemma 3 12B", "Gemma 3 27B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google AI for Developers' first-party Gemma releases documentation explicitly records March 10, 2025 as the release date for Gemma 3 in 1B, 4B, 12B and 27B sizes. A separate Google announcement dated March 12 introduces Gemma 3 and describes immediate access, but this candidate uses the dedicated release ledger for the release date rather than silently substituting the later announcement date. No development geography, ancestry, downstream influence, causality, people attribution, or relationship edges are inferred.",
+    "lastVerified": "2026-09-19T22:02:18+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Introducing Gemma 3: The most capable model you can run on a single GPU or TPU",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "publisher": "Google",
+      "publishedDate": "2025-03-12",
+      "sourceType": "official-announcement",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's dedicated first-party release documentation directly supports a March 10, 2025 Gemma 3 release in four parameter sizes; Google's March 12 announcement independently establishes contemporaneous product identity and availability context without overriding the release ledger date.",
+    "nextStep": "Review for chronology-safe canonical admission. Preserve the March 10 release-ledger date separately from the March 12 announcement publication date, and do not infer geography or causal/ancestry relationships without separate evidence."
+  }
+}
