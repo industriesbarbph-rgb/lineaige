@@ -1081,11 +1081,11 @@
     {
       "id": "now",
       "recordType": "living_edge",
-      "title": "NOW",
-      "displayDate": "THE LIVING EDGE",
+      "title": "TODAY",
+      "displayDate": "VISITOR LOCAL DATE & TIME",
       "temporalState": "forming",
       "status": "PRESENT IS FORMING",
-      "summary": "This is the boundary where recorded history becomes the living present—and where declared future plans remain unresolved until evidence changes their status.",
+      "summary": "This is the living boundary between recorded history and the present. The public Pencil Theme renders TODAY with the visitor's current local date, time, and time-zone context at runtime.",
       "significance": null,
       "people": [],
       "organizations": [],
@@ -1094,7 +1094,7 @@
         "state": "navigation-only",
         "factualClaim": false,
         "confidence": null,
-        "note": "NOW is an interface state marking the living edge, not a historical event claim.",
+        "note": "TODAY is a runtime interface state, not a historical event claim. Its displayed date and time come from the visitor's browser/device locale and time zone rather than being stored as historical data.",
         "lastVerified": null
       },
       "sources": [],
