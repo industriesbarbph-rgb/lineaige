@@ -50,7 +50,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "dartmouth-1955",
@@ -109,7 +110,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "rosenblatt-1958",
@@ -187,7 +189,8 @@
       ],
       "contributor": null,
       "datePrecision": "month",
-      "eventMonth": "1958-11"
+      "eventMonth": "1958-11",
+      "entryOrigin": "lineaige"
     },
     {
       "id": "transformer-2017",
@@ -251,7 +254,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "chatgpt-2022",
@@ -307,7 +311,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "claude-2023",
@@ -363,7 +368,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "falcon-2023",
@@ -429,7 +435,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "llama2-2023",
@@ -486,7 +493,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "hyperclovax-2023",
@@ -554,7 +562,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "mistral7b-2023",
@@ -621,7 +630,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "gemini1-2023",
@@ -685,7 +695,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "typhoon-2024",
@@ -761,7 +772,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "qwen2-2024",
@@ -834,7 +846,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "sarvam2b-2024",
@@ -901,7 +914,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "inkubalm-2024",
@@ -994,7 +1008,8 @@
         }
       ],
       "contributor": null,
-      "datePrecision": "day"
+      "datePrecision": "day",
+      "entryOrigin": "lineaige"
     },
     {
       "id": "plamo-prime-2024",
@@ -1060,7 +1075,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     },
     {
       "id": "now",
@@ -1093,7 +1109,8 @@
         }
       ],
       "corrections": [],
-      "contributor": null
+      "contributor": null,
+      "entryOrigin": "lineaige"
     }
   ]
 }
