@@ -32,6 +32,26 @@ The HTML must not hard-code the canonical event inventory.
 
 A new canonical record should become eligible for the Pencil Theme without manually adding a new hard-coded event node to HTML.
 
+
+## Authorship provenance and color coding
+
+Every canonical public record carries an `entryOrigin` value:
+- `lineaige` — information added through the LINEAiGE editorial/evidence operation;
+- `co-author` — information submitted by a public co-author and admitted after moderation and evidence review.
+
+The Pencil Theme must make that distinction visible at a glance.
+
+Origin styling is separate from historical status:
+- LINEAiGE-added material uses the core graphite/charcoal authorship mark;
+- approved co-author material uses a distinct colored-pencil authorship mark;
+- both also carry a readable text label such as `LINEAiGE` or `CO-AUTHOR`, so color is never the only signal.
+
+A co-author record must retain contributor metadata. Approval does not erase authorship.
+
+Historical/future state is an independent visual dimension. For example, a co-author may contribute an announced-future record: its co-author color remains, while its future/unresolved treatment still shows that the plan has not happened.
+
+Existing canonical records are marked `entryOrigin: lineaige`. From this point forward, origin metadata is mandatory for every canonical record.
+
 ## Pencil visual language
 
 Official material language:
@@ -51,9 +71,14 @@ The September 6 Beam-Light implementation is discarded and must not be used as t
 ## Time architecture
 
 - Past occupies the historical body of the timeline.
-- NOW marks the transition to the living present.
-- Space may be reserved after NOW for documented future material.
+- The living edge is presented publicly as **TODAY**, not a frozen `NOW` label.
+- TODAY renders the visitor's actual current local date and time at runtime using the browser/device locale and time zone.
+- The clock remains live while the page is open.
+- The visitor's local time must not be stored as historical evidence.
+- No precise-location permission is required merely to show local date/time; the renderer uses the visitor's browser/device time-zone context.
+- Space after TODAY is reserved for evidence-backed announced-future records.
 - Empty future space must remain empty rather than being populated with decorative pseudo-events.
+- Announced-future records are ordered separately from historical events and remain visibly unresolved until evidence changes their status.
 - Visual placement must be derived from temporal data rather than fixed per-event coordinates.
 
 ## Interaction contract
