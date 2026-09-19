@@ -1,0 +1,42 @@
+{
+  "id": "gemini-3-release-2025",
+  "recordType": "event",
+  "title": "Gemini 3 Release",
+  "displayDate": "18 November 2025",
+  "eventDate": "2025-11-18",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced the release of Gemini 3 on November 18, 2025, beginning the Gemini 3 era with Gemini 3 Pro in preview and availability across Google products and developer platforms.",
+  "significance": "A dated public release milestone in Google's Gemini model family.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemini 3", "Gemini 3 Pro"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party November 18, 2025 announcement explicitly states that Google was releasing Gemini 3, beginning with Gemini 3 Pro in preview, and making it available that day across the Gemini app, AI Mode in Search, AI Studio, Vertex AI, Gemini CLI, and Google Antigravity. The candidate records only that directly supported public release milestone. No development geography, ancestry, downstream influence, causality, or relationship edges are inferred.",
+    "lastVerified": "2026-09-19T23:05:13+08:00"
+  },
+  "sources": [
+    {
+      "title": "A new era of intelligence with Gemini 3",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "publisher": "Google",
+      "publishedDate": "2025-11-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's dated first-party announcement directly supports the November 18, 2025 Gemini 3 release and same-day Gemini 3 Pro preview availability.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep Gemini 3 family release distinct from later releases of additional Gemini 3-series models, and do not infer geography or causal/ancestry relationships without separate evidence."
+  }
+}
