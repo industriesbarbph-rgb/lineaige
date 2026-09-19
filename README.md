@@ -21,7 +21,7 @@ See `docs/pencil-theme-official-contract.md` for the production build contract.
 ## Time model
 
 - **Past** — recorded evidence.
-- **Now** — the living edge where history is forming.
+- **TODAY** — the living edge, rendered with the visitor’s current local date and time at runtime.
 - **Announced future** — documented intentions, targets, proposals and plans; never represented as accomplished fact.
 
 No decorative future marker is itself evidence.
@@ -57,6 +57,17 @@ The HTML must not define the historical inventory.
 `data/events.json` determines which canonical records exist. The Pencil renderer must generate the public timeline from the canonical data through `lineaige-data.js`.
 
 Candidate and research-ledger files must not be silently rendered as canonical history.
+
+
+## Authorship provenance
+
+Every canonical public record carries `entryOrigin`:
+- `lineaige` for records added through the LINEAiGE editorial/evidence operation;
+- `co-author` for approved public co-author contributions.
+
+The Pencil Theme renders these with distinct authorship marks and readable labels. Color is not the sole indicator. Co-author approval never erases contributor metadata.
+
+Authorship origin and temporal status are separate: an announced-future record can be LINEAiGE-added or co-author-added while still remaining visibly unresolved.
 
 ## Shared traversal contract
 

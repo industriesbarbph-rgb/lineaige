@@ -20,7 +20,7 @@ COURSE_PROVIDER_TYPES = {"university", "school", "online-platform", "technology-
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 MONTH_RE = re.compile(r"^[0-9]{4}-(0[1-9]|1[0-2])$")
 YEAR_RE = re.compile(r"^[0-9]{4}$")
-REQUIRED = {"id", "recordType", "title", "displayDate", "temporalState", "status", "summary", "verification", "sources", "relationships"}
+REQUIRED = {"id", "recordType", "title", "displayDate", "temporalState", "status", "summary", "verification", "sources", "relationships", "entryOrigin"}
 
 
 def load_json(name):
@@ -111,6 +111,49 @@ def validate_temporal_precision(record):
             fail(f"{record_id}: unknown precision may not carry a synthetic temporal value")
 
 
+
+
+def validate_future_target_precision(record):
+    record_id = record["id"]
+    precision = record.get("targetPrecision")
+    target_date = record.get("targetDate")
+    target_month = record.get("targetMonth")
+    target_year = record.get("targetYear")
+
+    if precision is None:
+        if target_date is not None:
+            precision = "day"
+        elif target_month is not None:
+            precision = "month"
+        elif target_year is not None:
+            precision = "year"
+        else:
+            precision = "unknown"
+
+    if precision not in DATE_PRECISIONS:
+        fail(f"{record_id}: invalid targetPrecision")
+
+    if precision == "day":
+        if target_date is None or not valid_date(target_date):
+            fail(f"{record_id}: day targetPrecision requires targetDate")
+        if target_month is not None or target_year is not None:
+            fail(f"{record_id}: day targetPrecision may not also set targetMonth/targetYear")
+    elif precision == "month":
+        if target_date is not None:
+            fail(f"{record_id}: month targetPrecision may not carry synthetic targetDate")
+        if not isinstance(target_month, str) or not MONTH_RE.fullmatch(target_month):
+            fail(f"{record_id}: month targetPrecision requires targetMonth YYYY-MM")
+        if target_year is not None:
+            fail(f"{record_id}: month targetPrecision may not also set targetYear")
+    elif precision == "year":
+        if target_date is not None or target_month is not None:
+            fail(f"{record_id}: year targetPrecision may not carry synthetic targetDate/targetMonth")
+        if not isinstance(target_year, str) or not YEAR_RE.fullmatch(target_year):
+            fail(f"{record_id}: year targetPrecision requires targetYear YYYY")
+    elif precision == "unknown":
+        if target_date is not None or target_month is not None or target_year is not None:
+            fail(f"{record_id}: unknown targetPrecision may not carry a synthetic target value")
+
 events_doc = load_json("events.json")
 media_doc = load_json("media.json")
 courses_doc = load_json("courses.json")
@@ -158,8 +201,28 @@ for record in events:
         fail(f"{record_id}: eventMonth must be YYYY-MM or null")
     if "eventYear" in record and record.get("eventYear") is not None and not YEAR_RE.fullmatch(str(record.get("eventYear"))):
         fail(f"{record_id}: eventYear must be YYYY or null")
-    if record["recordType"] != "living_edge":
+    if record.get("entryOrigin") not in {"lineaige", "co-author"}:
+        fail(f"{record_id}: entryOrigin must be lineaige or co-author")
+
+    contributor = record.get("contributor")
+    if record.get("entryOrigin") == "co-author":
+        if not isinstance(contributor, dict):
+            fail(f"{record_id}: co-author records require contributor metadata")
+        if not isinstance(contributor.get("name"), str) or not contributor["name"].strip():
+            fail(f"{record_id}: co-author contributor.name must be non-empty")
+    elif contributor is not None:
+        fail(f"{record_id}: lineaige-authored records must not carry co-author contributor metadata")
+
+    if record["recordType"] in {"event", "entry_point"}:
         validate_temporal_precision(record)
+    elif record["recordType"] == "announced_future":
+        if record.get("temporalState") != "declared-unresolved":
+            fail(f"{record_id}: announced_future must use temporalState=declared-unresolved")
+        if not valid_date(record.get("announcementDate")) or record.get("announcementDate") is None:
+            fail(f"{record_id}: announced_future requires an ISO announcementDate")
+        validate_future_target_precision(record)
+    elif record["recordType"] == "living_edge" and record.get("temporalState") != "forming":
+        fail(f"{record_id}: living_edge must use temporalState=forming")
 
     verification = record["verification"]
     if not isinstance(verification, dict):
