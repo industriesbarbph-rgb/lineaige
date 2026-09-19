@@ -487,6 +487,86 @@
         "null"
       ],
       "pattern": "^[0-9]{4}$"
+    },
+    "contributions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "origin",
+          "type",
+          "text",
+          "admittedAt"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$"
+          },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "lineaige",
+              "co-author"
+            ]
+          },
+          "contributor": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "creditPreference": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "factual-addition",
+              "context",
+              "interpretation",
+              "question-research-lead",
+              "correction"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "uniqueItems": true,
+            "default": []
+          },
+          "admittedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "public": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      },
+      "default": []
     }
   }
 }
