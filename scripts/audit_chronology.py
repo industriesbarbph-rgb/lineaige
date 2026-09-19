@@ -84,8 +84,12 @@ if len(ids) != len(set(ids)):
 living_edges = [record for record in events if record.get("recordType") == "living_edge"]
 if len(living_edges) != 1 or living_edges[0].get("id") != "now":
     fail("exactly one living edge with id 'now' is required")
-if events[-1].get("id") != "now":
-    fail("NOW must remain the final canonical array entry")
+now_index = next(index for index, record in enumerate(events) if record.get("id") == "now")
+for index, record in enumerate(events):
+    if record.get("recordType") == "announced_future" and index < now_index:
+        fail(f"{record.get('id')}: announced_future records must be stored after TODAY")
+    if record.get("recordType") in {"event", "entry_point"} and index > now_index:
+        fail(f"{record.get('id')}: recorded historical records must be stored before TODAY")
 
 recorded = [record for record in events if record.get("recordType") in {"event", "entry_point"}]
 announced_future = [record for record in events if record.get("recordType") == "announced_future"]
@@ -118,7 +122,9 @@ for record in recorded:
         if target is None:
             fail(f"{record['id']}: chronological target {target_id!r} does not exist")
         if target.get("recordType") == "living_edge":
-            fail(f"{record['id']}: use navigation, not chronological, for NOW")
+            fail(f"{record['id']}: use navigation, not chronological, for TODAY")
+        if target.get("recordType") == "announced_future":
+            fail(f"{record['id']}: historical chronological relationships may not target announced future records")
         target_earliest, target_latest, _ = bounds_by_id[target_id]
         deterministically_ordered = source_latest < target_earliest or target_latest < source_earliest
         if not deterministically_ordered:
@@ -150,7 +156,7 @@ for _, _, precision in bounds_by_id.values():
     precision_counts[precision] += 1
 
 print(
-    f"OK: canonical chronology is precision-aware and ordered across {len(recorded)} recorded records plus NOW "
+    f"OK: canonical chronology is precision-aware and ordered across {len(recorded)} recorded records plus TODAY "
     f"and {len(announced_future)} announced-future records "
     f"(day={precision_counts['day']}, month={precision_counts['month']}, year={precision_counts['year']})"
 )
