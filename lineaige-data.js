@@ -13,33 +13,52 @@
     );
   }
 
-  function temporalValue(record){
-    if(record.recordType==='living_edge') return Number.POSITIVE_INFINITY;
+  function parseDay(value){
+    if(typeof value!=='string') return Number.POSITIVE_INFINITY;
+    const parsed=Date.parse(value+'T00:00:00Z');
+    return Number.isFinite(parsed) ? parsed : Number.POSITIVE_INFINITY;
+  }
 
+  function temporalValue(record){
     const precision=record.datePrecision || (record.eventDate ? 'day' : null);
-    if(precision==='day' && record.eventDate){
-      const value=Date.parse(record.eventDate+'T00:00:00Z');
-      return Number.isFinite(value) ? value : Number.POSITIVE_INFINITY;
-    }
-    if(precision==='month' && record.eventMonth){
-      const value=Date.parse(record.eventMonth+'-01T00:00:00Z');
-      return Number.isFinite(value) ? value : Number.POSITIVE_INFINITY;
-    }
-    if(precision==='year' && record.eventYear){
-      const value=Date.parse(record.eventYear+'-01-01T00:00:00Z');
-      return Number.isFinite(value) ? value : Number.POSITIVE_INFINITY;
-    }
+    if(precision==='day' && record.eventDate) return parseDay(record.eventDate);
+    if(precision==='month' && record.eventMonth) return parseDay(record.eventMonth+'-01');
+    if(precision==='year' && record.eventYear) return parseDay(record.eventYear+'-01-01');
     return Number.POSITIVE_INFINITY;
   }
 
-  function canonicalTimelineRecords(events){
+  function futureTargetValue(record){
+    const precision=record.targetPrecision ||
+      (record.targetDate ? 'day' : record.targetMonth ? 'month' : record.targetYear ? 'year' : 'unknown');
+
+    if(precision==='day' && record.targetDate) return parseDay(record.targetDate);
+    if(precision==='month' && record.targetMonth) return parseDay(record.targetMonth+'-01');
+    if(precision==='year' && record.targetYear) return parseDay(record.targetYear+'-01-01');
+
+    return parseDay(record.announcementDate);
+  }
+
+  function partitionCanonicalRecords(events){
     const records=events.filter(usableRecord);
+
     const recorded=records
-      .filter(record=>record.recordType!=='living_edge')
+      .filter(record=>record.recordType==='event' || record.recordType==='entry_point')
       .slice()
       .sort((a,b)=>temporalValue(a)-temporalValue(b) || a.id.localeCompare(b.id));
+
     const now=records.find(record=>record.id==='now' && record.recordType==='living_edge') || null;
-    return now ? [...recorded, now] : recorded;
+
+    const announcedFuture=records
+      .filter(record=>record.recordType==='announced_future')
+      .slice()
+      .sort((a,b)=>futureTargetValue(a)-futureTargetValue(b) || a.id.localeCompare(b.id));
+
+    return {recorded,now,announcedFuture};
+  }
+
+  function canonicalTimelineRecords(events){
+    const {recorded,now,announcedFuture}=partitionCanonicalRecords(events);
+    return [...recorded,...(now ? [now] : []),...announcedFuture];
   }
 
   async function load(){
@@ -49,7 +68,8 @@
     const data=await response.json();
     if(!data || !Array.isArray(data.events)) throw new Error('invalid canonical record document');
 
-    const timeline=canonicalTimelineRecords(data.events);
+    const partitioned=partitionCanonicalRecords(data.events);
+    const timeline=[...partitioned.recorded,...(partitioned.now ? [partitioned.now] : []),...partitioned.announcedFuture];
     if(!timeline.length) throw new Error('canonical record document is empty');
 
     return {
@@ -57,8 +77,9 @@
       product:data.product || 'LINEAiGE',
       principle:data.principle || null,
       records:timeline,
-      recorded:timeline.filter(record=>record.recordType!=='living_edge'),
-      now:timeline.find(record=>record.id==='now') || null
+      recorded:partitioned.recorded,
+      now:partitioned.now,
+      announcedFuture:partitioned.announcedFuture
     };
   }
 
@@ -66,6 +87,8 @@
     EVENTS_URL,
     load,
     canonicalTimelineRecords,
-    temporalValue
+    partitionCanonicalRecords,
+    temporalValue,
+    futureTargetValue
   });
 })(window);
