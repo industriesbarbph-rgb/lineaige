@@ -87,7 +87,8 @@ if len(living_edges) != 1 or living_edges[0].get("id") != "now":
 if events[-1].get("id") != "now":
     fail("NOW must remain the final canonical array entry")
 
-recorded = [record for record in events if record.get("recordType") != "living_edge"]
+recorded = [record for record in events if record.get("recordType") in {"event", "entry_point"}]
+announced_future = [record for record in events if record.get("recordType") == "announced_future"]
 bounds_by_id = {}
 for record in recorded:
     earliest, latest, precision = temporal_bounds(record)
@@ -150,5 +151,6 @@ for _, _, precision in bounds_by_id.values():
 
 print(
     f"OK: canonical chronology is precision-aware and ordered across {len(recorded)} recorded records plus NOW "
+    f"and {len(announced_future)} announced-future records "
     f"(day={precision_counts['day']}, month={precision_counts['month']}, year={precision_counts['year']})"
 )
