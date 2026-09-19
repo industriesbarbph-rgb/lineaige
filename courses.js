@@ -1,3 +1,5 @@
+'use strict';
+
 let coursesByEvent={};
 let currentCourseEventId=null;
 
@@ -5,8 +7,8 @@ const coursesPanel=document.createElement('section');
 coursesPanel.className='courses-panel';
 coursesPanel.hidden=true;
 coursesPanel.innerHTML=`
-  <div class="courses-kicker">LEARN THIS ERA · AI COURSES</div>
-  <div class="courses-intro">University, school, platform and provider courses are kept separate from historical evidence.</div>
+  <div class="courses-kicker">LEARN THIS</div>
+  <div class="courses-intro">Reviewed learning resources connected to this record. Learning material is not historical proof.</div>
   <div id="coursesList" class="courses-list"></div>`;
 
 document.getElementById('drawer')?.appendChild(coursesPanel);
@@ -14,16 +16,15 @@ const coursesList=coursesPanel.querySelector('#coursesList');
 
 const coursesStyle=document.createElement('style');
 coursesStyle.textContent=`
-.courses-panel{margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12)}
-.courses-kicker{font-size:9px;letter-spacing:.28em;color:rgba(255,255,255,.48);margin-bottom:9px}
-.courses-intro{font-size:10px;line-height:1.55;color:rgba(255,255,255,.34);margin-bottom:14px}
-.courses-list{display:grid;gap:10px}
-.course-card{display:block;padding:13px 14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.025);color:#fff;text-decoration:none;transition:border-color .2s,background .2s,transform .2s}
-.course-card:hover,.course-card:focus-visible{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.05);transform:translateX(2px);outline:1px solid rgba(255,255,255,.35);outline-offset:3px}
-.course-badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-.course-badge{font-size:7px;letter-spacing:.14em;padding:4px 6px;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.46)}
-.course-title{font-size:12px;line-height:1.4}
-.course-meta{font-size:9px;line-height:1.5;color:rgba(255,255,255,.38);margin-top:5px}
+.courses-kicker{font-size:8px;font-weight:800;letter-spacing:.18em;color:#5c6570;margin-bottom:8px}
+.courses-intro{font-family:Georgia,"Times New Roman",serif;font-size:11px;line-height:1.55;color:#6f6962;margin-bottom:12px}
+.courses-list{display:grid;gap:9px}
+.course-card{display:block;padding:11px 12px 12px;border-left:3px solid rgba(68,101,138,.48);background:rgba(255,255,255,.24);color:#34312e;text-decoration:none}
+.course-card:hover,.course-card:focus-visible{background:rgba(255,255,255,.5);outline:2px solid rgba(48,48,45,.55);outline-offset:3px}
+.course-badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:7px}
+.course-badge{font-size:6px;letter-spacing:.11em;padding:3px 5px;border:1px solid rgba(68,101,138,.24);color:#5a6673}
+.course-title{font-family:Georgia,"Times New Roman",serif;font-size:12px;line-height:1.4}
+.course-meta{font-size:8px;line-height:1.45;color:#777067;margin-top:4px}
 `;
 document.head.appendChild(coursesStyle);
 
@@ -52,6 +53,7 @@ function showCoursesForEvent(eventId){
     return;
   }
   coursesPanel.hidden=false;
+
   items.forEach(item=>{
     if(!item||!item.courseUrl||!item.title)return;
     const card=document.createElement('a');
@@ -62,19 +64,22 @@ function showCoursesForEvent(eventId){
 
     const badges=document.createElement('div');
     badges.className='course-badges';
-    [item.providerType,item.level,item.access].filter(Boolean).forEach(text=>{
+    [item.providerType,item.level,item.access].filter(Boolean).forEach(value=>{
       const badge=document.createElement('span');
       badge.className='course-badge';
-      badge.textContent=String(text).replaceAll('-',' ').toUpperCase();
+      badge.textContent=String(value).replaceAll('-',' ').toUpperCase();
       badges.appendChild(badge);
     });
 
     const title=document.createElement('div');
     title.className='course-title';
     title.textContent=item.title;
+
     const meta=document.createElement('div');
     meta.className='course-meta';
-    meta.textContent=[item.institution,item.provider].filter(Boolean).join(' · ');
+    const start=item.startYear ? 'STARTED '+item.startYear : null;
+    meta.textContent=[item.institution,item.provider,start].filter(Boolean).join(' · ');
+
     card.append(badges,title,meta);
     coursesList.appendChild(card);
   });
