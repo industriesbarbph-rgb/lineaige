@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-20T16:07:05Z",
+  "updatedAt": "2026-09-20T20:46:18Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4720,6 +4720,54 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-20T16:07:05Z",
       "note": "Historical discovery lead for query: computer vision; verify original source before admission."
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump Floats New Names For Artificial Intelligence, Asks Public To Vote - Arise News",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORWVzeEhaV0tGWHVqV0ZTemlrSkFZdFhfM0wyYkM5WVpVZGRsN2FMOUNCZDRRSWFycEZvaEJ2SXk1b09ya2tIaTdvWF9tQjJkNlhDOUJwNEJhcUNnN2tEd09qcDFkNHUyU2RudUFOQ25rWm4zX01CUHNjbVc2SHhSQkpJN3gtV3FCald6RUpBWkZkZFNZQndV?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-fd028b0af7f5fc5f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-20T20:46:17Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar - BBC",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pRURqQzlKaHhZdEF0OXJrUS0teThLUTlIU1hpV2RvdGl2by1FT1N1WjVYaDNIektwTXBMRWFKa1NqOTkzcWdiSkF0U2FKYVlxSVNrWXhpN0lzTW9PMmc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-a3a82f7c6a90b526",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-20T20:46:17Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Meta’s plans to replace workers with AI fell flat, report says - Computerworld",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnlWVUR0RHpySk1pampXS25SRFMzNGo0UVd6Z0dDV2pLRlhLN2dBRWdmemtpVUlsbmU3bnRUcDBONzlGX0NzMnVoejZ3cnoxZWd0ak1QaFBRQnZvM191MnpHREN4aWF6OEphZjJxZEd5YjRGZHBFUzdwemFPQ054MGJ2RGJqY3Vta19mdVZhbGI3eVpWNE1yaXdHcjIwR0JsRHV2T0ZFbml5d2ZVWEdNOA?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-3c747a3c103e103f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-20T20:46:17Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Two Years Ago Today in AI History: The Tale of An About-face in AI Regulation - Marcus on AI",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yZUVZRjdjS1NKMmpQcTg2ekxpa1dhRjJ5N29jS2wyMEd5NVFsX3F0NGI1UUM0WVpkeS1ZS29OV1pjR2ZuWE14TF9PVVVqSVBvZmRHSlpxNzFhbDlrN2hxZ0NxWVc3dmZmMFp0Rk51T25mM3hFMnc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-f47b65ade4538666",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-20T20:46:18Z"
     }
   ]
 }
