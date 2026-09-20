@@ -1,0 +1,20 @@
+{
+  "schemaVersion":"1.0",
+  "policy":{"canonicalAdmission":"never-from-scanner","note":"ALW discovers evidence leads. Scanner output remains research until reviewed."},
+  "officialRoots":[
+    {"id":"openai","name":"OpenAI News","url":"https://openai.com/news/","lane":"both","allowedHosts":["openai.com"]},
+    {"id":"anthropic","name":"Anthropic News","url":"https://www.anthropic.com/news","lane":"both","allowedHosts":["anthropic.com","www.anthropic.com"]},
+    {"id":"deepmind","name":"Google DeepMind Blog","url":"https://deepmind.google/discover/blog/","lane":"both","allowedHosts":["deepmind.google"]},
+    {"id":"google-ai","name":"Google AI","url":"https://blog.google/technology/ai/","lane":"both","allowedHosts":["blog.google"]},
+    {"id":"meta-ai","name":"Meta AI","url":"https://ai.meta.com/blog/","lane":"both","allowedHosts":["ai.meta.com"]},
+    {"id":"eurohpc","name":"EuroHPC","url":"https://www.eurohpc-ju.europa.eu/news_en","lane":"future","allowedHosts":["www.eurohpc-ju.europa.eu","eurohpc-ju.europa.eu"]},
+    {"id":"meti","name":"Japan METI","url":"https://www.meti.go.jp/english/press/index.html","lane":"future","allowedHosts":["www.meti.go.jp","meti.go.jp"]},
+    {"id":"dict-ph","name":"Philippines DICT","url":"https://dict.gov.ph/","lane":"future","allowedHosts":["dict.gov.ph","www.dict.gov.ph"]}
+  ],
+  "discoveryFeeds":[
+    {"id":"future-news","name":"AI future discovery feed","url":"https://news.google.com/rss/search?q=%22artificial+intelligence%22+(roadmap+OR+plans+OR+target+OR+%22will+launch%22+OR+2027+OR+2028+OR+2030)&hl=en-US&gl=US&ceid=US:en","lane":"future"},
+    {"id":"history-news","name":"AI history discovery feed","url":"https://news.google.com/rss/search?q=%22AI+history%22+OR+%22artificial+intelligence+history%22+OR+%22machine+learning+history%22&hl=en-US&gl=US&ceid=US:en","lane":"historical"}
+  ],
+  "linkKeywords":["ai","artificial intelligence","model","research","paper","release","launch","introduc","roadmap","plan","target","future","compute","data center","datacenter","robot","agent","training","infrastructure"],
+  "futureKeywords":["will","planned","plan to","target","roadmap","expected","coming","future","scheduled","to launch","will launch","will release","come online"]
+}
