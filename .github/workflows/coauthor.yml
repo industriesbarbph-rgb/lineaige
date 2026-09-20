@@ -1,0 +1,143 @@
+name: Co-Author Intake and Admission
+
+on:
+  issues:
+    types: [opened, edited, labeled, unlabeled, reopened, closed]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: lineaige-data-write
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: startsWith(github.event.issue.title, '[CO-AUTHOR]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure editorial labels exist
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "co-author-approved" --color "0E8A16" --description "Evidence-reviewed co-author contribution" --force
+          gh label create "canonical-admit" --color "1D76DB" --description "Explicit maintainer request for canonical admission" --force
+          gh label create "co-author-hold" --color "FBCA04" --description "Needs more evidence or clarification" --force
+
+      - name: Normalize submission and optionally admit
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlparse
+          from datetime import datetime,timezone,date
+          import json,re,os
+
+          ev=json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
+          issue=ev["issue"]; number=issue["number"]
+          body=issue.get("body") or ""
+          labels={x["name"] for x in issue.get("labels",[])}
+          ROOT=Path(".")
+          subdir=ROOT/"data/coauthor-submissions"; appdir=ROOT/"data/coauthor-approved"
+          subdir.mkdir(parents=True,exist_ok=True);appdir.mkdir(parents=True,exist_ok=True)
+
+          sec={};current=None;buf=[]
+          def flush():
+              global current,buf
+              if current:sec[current]="\n".join(buf).strip()
+              buf=[]
+          for line in body.splitlines():
+              if line.startswith("### "):
+                  flush();current=line[4:].strip()
+              else:buf.append(line)
+          flush()
+          def pick(name):
+              for k,v in sec.items():
+                  if k.lower()==name.lower() and v and v!="_No response_":return v.strip()
+              return None
+          def now():return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z")
+          def slug(s):return re.sub(r"[^a-z0-9]+","-",str(s or "").lower()).strip("-")[:72] or "coauthor-record"
+          def load(p):return json.loads(p.read_text())
+          def save(p,o):p.write_text(json.dumps(o,ensure_ascii=False,indent=2)+"\n")
+          def publisher(u):return urlparse(u).netloc.lower().replace("www.","") or "Submitted source"
+          def parsedate(raw):
+              raw=(raw or "").strip()
+              if re.fullmatch(r"\d{4}-\d{2}-\d{2}",raw):return {"displayDate":raw,"datePrecision":"day","eventDate":raw}
+              if re.fullmatch(r"\d{4}-\d{2}",raw):return {"displayDate":raw,"datePrecision":"month","eventMonth":raw}
+              if re.fullmatch(r"\d{4}",raw):return {"displayDate":raw,"datePrecision":"year","eventYear":raw}
+              raise SystemExit("Date must be YYYY, YYYY-MM, or YYYY-MM-DD")
+          def yr(raw):
+              m=re.match(r"^(\d{4})",raw or "");return m.group(1) if m else str(date.today().year)
+
+          title=pick("Proposed record title") or re.sub(r"^\[CO-AUTHOR\]\s*","",issue["title"],flags=re.I)
+          ctype=pick("Contribution type") or "Unclassified"
+          source_block=pick("Primary source URL(s)") or ""
+          urls=re.findall(r"https?://[^\s<>)\]]+",source_block)
+          rec={
+            "schemaVersion":"1.0","issueNumber":number,"issueUrl":issue.get("html_url"),
+            "title":title,"contributionType":ctype,"claimOrSummary":pick("Claim / summary"),
+            "eventOrTargetDate":pick("Event or target date"),"announcementDate":pick("Announcement date (future items only)"),
+            "organization":pick("Organization / provider"),"geography":pick("Geography (if relevant)"),
+            "sourceUrls":urls,"evidenceNote":pick("Evidence note"),
+            "contributor":{"name":pick("Contributor name / credit"),"creditPreference":pick("Credit preference"),"githubLogin":issue["user"]["login"],"submittedAt":issue.get("created_at")},
+            "review":{"labels":sorted(labels),"approved":"co-author-approved" in labels,"canonicalAdmissionRequested":"canonical-admit" in labels},
+            "entryOrigin":"co-author","updatedAt":now()
+          }
+          save(subdir/f"issue-{number}.json",rec)
+          if rec["review"]["approved"]:save(appdir/f"issue-{number}.json",rec)
+
+          if not {"co-author-approved","canonical-admit"}.issubset(labels):
+              raise SystemExit(0)
+
+          if not urls:raise SystemExit("Canonical admission requires at least one source URL.")
+          raw=rec["eventOrTargetDate"] or ""
+          low=ctype.lower()
+          contrib={"name":rec["contributor"]["name"] or rec["contributor"]["githubLogin"],"creditPreference":rec["contributor"]["creditPreference"],"submittedAt":rec["contributor"]["submittedAt"]}
+
+          if "announced future" in low or ("creator release" in low and int(yr(raw))>date.today().year):
+              if not rec["announcementDate"]:raise SystemExit("Future admission requires announcement date.")
+              p=ROOT/"data/future-announcements.json";obj=load(p)
+              rid=f"{slug(title)}-{yr(raw)}"; ids={x.get("id") for x in obj["records"]};base=rid;n=2
+              while rid in ids:rid=f"{base}-{n}";n+=1
+              obj["records"].append({"id":rid,"targetDate":raw,"targetPrecision":raw,"announcedOn":rec["announcementDate"],"title":title,"type":"ANNOUNCED FUTURE","category":"CO-AUTHOR ANNOUNCED FUTURE","status":"ANNOUNCED","organization":rec["organization"] or "Not specified","geography":rec["geography"] or "Not specified","summary":rec["claimOrSummary"] or title,"source":urls[0],"sourceLabel":"OPEN CO-AUTHOR EVIDENCE","evidenceQuality":"MAINTAINER-REVIEWED CO-AUTHOR","contributor":contrib,"issueUrl":rec["issueUrl"]})
+              save(p,obj)
+
+          elif "learning resource" in low:
+              p=ROOT/"data/courses.json";obj=load(p)
+              rid=slug(title);ids={x.get("id") for x in obj["items"]};base=rid;n=2
+              while rid in ids:rid=f"{base}-{n}";n+=1
+              obj["items"].append({"id":rid,"eventIds":["now"],"title":title,"provider":rec["organization"] or publisher(urls[0]),"institution":rec["organization"] or publisher(urls[0]),"providerType":"other","level":"Not specified","access":"mixed","courseUrl":urls[0],"embedUrl":None,"topics":["artificial intelligence"],"verifiedAt":now(),"entryOrigin":"co-author","contributor":contrib})
+              save(p,obj)
+
+          elif "factual historical" in low or "creator release" in low:
+              p=ROOT/"data/events.json";obj=load(p);dp=parsedate(raw)
+              rid=f"{slug(title)}-{yr(raw)}";ids={x.get("id") for x in obj["events"]};base=rid;n=2
+              while rid in ids:rid=f"{base}-{n}";n+=1
+              srcs=[{"title":f"Submitted evidence for {title}","url":u,"publisher":publisher(u),"publishedDate":None,"sourceType":"other","sourceRole":"claim-evidence" if i==0 else "corroboration","primary":i==0,"archivedUrl":None} for i,u in enumerate(urls)]
+              obj["events"].append({"id":rid,"recordType":"event","title":title,**dp,"temporalState":"recorded","status":"VERIFIED CO-AUTHOR RECORD","summary":rec["claimOrSummary"] or title,"significance":None,"people":[],"organizations":[rec["organization"]] if rec["organization"] else [],"technologies":[],"verification":{"state":"verified","factualClaim":True,"confidence":"high","note":f"Admitted from reviewed co-author submission issue #{number}. {rec['evidenceNote'] or ''}".strip(),"lastVerified":now()},"sources":srcs,"relationships":[],"corrections":[],"contributor":contrib,"entryOrigin":"co-author"})
+              save(p,obj)
+          else:
+              raise SystemExit("This contribution type stays in the approved editorial queue and is not generic-auto-admitted.")
+          PY
+
+      - name: Run validation before any public admission
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/audit_evidence_context.py
+          python3 scripts/audit_identity_collisions.py
+          python3 scripts/audit_chronology.py
+          python3 scripts/audit_global_coverage.py
+
+      - name: Commit preserved submission / admitted data
+        run: |
+          if git diff --quiet -- data; then exit 0; fi
+          git config user.name "LINEAiGE Co-Author"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "Co-author: sync issue #${{ github.event.issue.number }}"
+          git push

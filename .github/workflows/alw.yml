@@ -1,0 +1,178 @@
+name: ALW Evidence Scan
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lineaige-data-write
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan official AI sources, discovery feeds, and historical metadata
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from urllib.parse import urljoin,urlparse,quote_plus
+          from html.parser import HTMLParser
+          from datetime import datetime,timezone,date
+          import hashlib,html,json,re,xml.etree.ElementTree as ET
+
+          ROOT=Path(".")
+          OUT=ROOT/"data/alw"
+          OUT.mkdir(parents=True,exist_ok=True)
+          INBOX=OUT/"inbox.json"
+          STATE=OUT/"state.json"
+          UA="LINEAiGE-ALW/1.0 (+https://lineaige.barbph.com/methodology/)"
+
+          OFFICIAL=[
+            ("OpenAI","https://openai.com/news/","both",{"openai.com"}),
+            ("Anthropic","https://www.anthropic.com/news","both",{"anthropic.com","www.anthropic.com"}),
+            ("Google DeepMind","https://deepmind.google/discover/blog/","both",{"deepmind.google"}),
+            ("Google AI","https://blog.google/technology/ai/","both",{"blog.google"}),
+            ("Meta AI","https://ai.meta.com/blog/","both",{"ai.meta.com"}),
+            ("Microsoft AI","https://blogs.microsoft.com/ai/","both",{"blogs.microsoft.com"}),
+            ("NVIDIA AI","https://blogs.nvidia.com/blog/category/deep-learning/","both",{"blogs.nvidia.com"}),
+            ("EuroHPC","https://www.eurohpc-ju.europa.eu/news_en","future",{"eurohpc-ju.europa.eu","www.eurohpc-ju.europa.eu"}),
+            ("EU AI","https://digital-strategy.ec.europa.eu/en/policies/artificial-intelligence","future",{"digital-strategy.ec.europa.eu"}),
+            ("Japan METI","https://www.meti.go.jp/english/press/index.html","future",{"meti.go.jp","www.meti.go.jp"}),
+            ("Philippines DICT","https://dict.gov.ph/","future",{"dict.gov.ph","www.dict.gov.ph"}),
+            ("Computer History Museum","https://computerhistory.org/","historical",{"computerhistory.org","www.computerhistory.org"})
+          ]
+          FEEDS=[
+            ("Future AI discovery","https://news.google.com/rss/search?q=%22artificial+intelligence%22+(roadmap+OR+plans+OR+target+OR+%22will+launch%22+OR+2027+OR+2028+OR+2030)&hl=en-US&gl=US&ceid=US:en","future"),
+            ("AI history discovery","https://news.google.com/rss/search?q=%22AI+history%22+OR+%22artificial+intelligence+history%22+OR+%22machine+learning+history%22&hl=en-US&gl=US&ceid=US:en","historical")
+          ]
+          OPENALEX=["artificial intelligence","neural network","machine learning","language model","reinforcement learning","computer vision"]
+          LINK_WORDS=("ai","artificial intelligence","model","research","paper","release","launch","introduc","roadmap","plan","target","future","compute","data center","datacenter","robot","agent","training","infrastructure")
+          FUTURE_WORDS=("will","planned","plan to","target","roadmap","expected","coming","future","scheduled","to launch","to open","will launch","will release","will come online")
+
+          def now():
+              return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z")
+          def load(p,default):
+              try:return json.loads(p.read_text(encoding="utf-8"))
+              except:return default
+          def save(p,obj):
+              p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          def fetch(url,limit=1200000):
+              req=Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,application/xml,application/rss+xml,application/json,*/*;q=.5"})
+              with urlopen(req,timeout=18) as r:
+                  return r.geturl(),r.read(limit),getattr(r,"status",200)
+          def normurl(u):
+              p=urlparse(u); path=re.sub(r"/+$","",p.path) or "/"
+              return f"{p.scheme.lower()}://{p.netloc.lower()}{path}"+(f"?{p.query}" if p.query else "")
+          class Links(HTMLParser):
+              def __init__(self):super().__init__();self.href=None;self.buf=[];self.links=[]
+              def handle_starttag(self,t,a):
+                  if t.lower()=="a": self.href=dict(a).get("href");self.buf=[]
+              def handle_data(self,d):
+                  if self.href is not None:self.buf.append(d)
+              def handle_endtag(self,t):
+                  if t.lower()=="a" and self.href is not None:
+                      self.links.append((self.href,re.sub(r"\s+"," ",html.unescape(" ".join(self.buf))).strip()))
+                      self.href=None;self.buf=[]
+          def known():
+              out=set()
+              for p,key in [(Path("data/events.json"),"events"),(Path("data/future-announcements.json"),"records"),(Path("data/research-ledger.json"),"entries")]:
+                  obj=load(p,{})
+                  for r in obj.get(key,[]):
+                      for s in r.get("sources",[]):
+                          if s.get("url"):out.add(normurl(s["url"]))
+                      for k in ("source","primaryDocument"):
+                          if r.get(k):out.add(normurl(r[k]))
+              for p in Path("data/candidates").glob("*.json"):
+                  r=load(p,{})
+                  for s in r.get("sources",[]):
+                      if s.get("url"):out.add(normurl(s["url"]))
+              return out
+          def lane(text,forced):
+              if forced!="both":return forced
+              lo=text.lower()
+              if any(w in lo for w in FUTURE_WORDS):return "future"
+              yrs=[int(x) for x in re.findall(r"\b20\d{2}\b",lo)]
+              return "future" if any(y>date.today().year for y in yrs) else "historical-or-current"
+
+          inbox=load(INBOX,{"schemaVersion":"1.0","updatedAt":None,"records":[]})
+          state=load(STATE,{"schemaVersion":"1.0","updatedAt":None,"roots":{}})
+          seen=known()|{normurl(r["url"]) for r in inbox["records"] if r.get("url")}
+          added=0
+
+          def add(url,title,which,source,evidence,note):
+              nonlocal_dummy=None
+              global added
+              try:u=normurl(url)
+              except:return
+              if not u.startswith(("http://","https://")) or u in seen:return
+              seen.add(u); added+=1
+              inbox["records"].append({
+                "id":"alw-"+hashlib.sha1(u.encode()).hexdigest()[:16],
+                "laneHint":which,"title":title or u,"url":u,
+                "sourceName":source,"evidenceTier":evidence,
+                "status":"unreviewed","discoveredAt":now(),"note":note
+              })
+
+          for name,root,forced,hosts in OFFICIAL:
+              try:
+                  final,body,status=fetch(root)
+                  parser=Links();parser.feed(body.decode("utf-8","replace"))
+                  rs=state["roots"].setdefault(name,{"seen":[]})
+                  old=set(rs.get("seen",[]));fresh=set(old)
+                  for href,title in parser.links:
+                      u=normurl(urljoin(final,href))
+                      if urlparse(u).netloc.lower() not in hosts:continue
+                      hay=(title+" "+u).lower()
+                      if not any(w in hay for w in LINK_WORDS):continue
+                      fresh.add(u)
+                      if u not in old:
+                          add(u,title,lane(title+" "+u,forced),name,"primary-candidate","Found on configured first-party/institutional source root; claim-level review required.")
+                  rs.update({"seen":sorted(fresh)[-2500:],"checkedAt":now(),"status":status,"pageHash":hashlib.sha256(body).hexdigest()})
+              except Exception as e:
+                  state["roots"].setdefault(name,{})["error"]=f"{type(e).__name__}: {e}"[:300]
+
+          for name,url,forced in FEEDS:
+              try:
+                  _,body,_=fetch(url)
+                  root=ET.fromstring(body)
+                  for item in root.findall(".//item")[:60]:
+                      title=(item.findtext("title") or "").strip()
+                      link=(item.findtext("link") or "").strip()
+                      if link:add(link,title,forced,name,"discovery-only","Discovery lead only; locate and verify the underlying primary source before admission.")
+              except Exception:pass
+
+          for q in OPENALEX:
+              try:
+                  u="https://api.openalex.org/works?search="+quote_plus(q)+"&sort=cited_by_count:desc&per-page=20"
+                  _,body,_=fetch(u)
+                  for w in json.loads(body.decode("utf-8","replace")).get("results",[]):
+                      title=w.get("title") or ""
+                      link=((w.get("primary_location") or {}).get("landing_page_url") or w.get("doi") or w.get("id"))
+                      if link:add(link,title,"historical","OpenAlex","metadata-discovery",f"Historical discovery lead for query: {q}; verify original source before admission.")
+              except Exception:pass
+
+          inbox["records"]=inbox["records"][-1500:]
+          inbox["updatedAt"]=now();state["updatedAt"]=now()
+          save(INBOX,inbox);save(STATE,state)
+          print(json.dumps({"added":added,"inboxTotal":len(inbox["records"])},indent=2))
+          PY
+
+      - name: Commit ALW research state
+        run: |
+          if git diff --quiet -- data/alw; then exit 0; fi
+          git config user.name "LINEAiGE ALW"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/alw
+          git commit -m "ALW: refresh evidence discovery"
+          git push
