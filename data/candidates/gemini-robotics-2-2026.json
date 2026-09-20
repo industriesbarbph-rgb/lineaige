@@ -1,0 +1,42 @@
+{
+  "id": "gemini-robotics-2-2026",
+  "recordType": "event",
+  "title": "Gemini Robotics 2 Introduction",
+  "displayDate": "30 July 2026",
+  "eventDate": "2026-07-30",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google DeepMind introduced Gemini Robotics 2 on July 30, 2026 as a vision-language-action model for intelligent whole-body robot control, alongside two additional models in the Gemini Robotics 2 family.",
+  "significance": "A dated first-party AI-system release milestone in embodied AI and robotics, documenting a model family designed to connect multimodal reasoning with robot motor control.",
+  "people": ["Carolina Parada"],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["Gemini Robotics 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google DeepMind's first-party announcement is dated July 30, 2026 and explicitly says it is introducing Gemini Robotics 2. The announcement describes Gemini Robotics 2 as its most advanced vision-language-action model and says it converts vision and language input into motor control. This candidate records the dated introduction only and does not infer ancestry, influence, causality, development geography, universal priority, or relationship edges.",
+    "lastVerified": "2026-09-21T04:07:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "publisher": "Google DeepMind",
+      "publishedDate": "2026-07-30",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google DeepMind announcement directly supports the introduction milestone and the model characteristics summarized here.",
+    "nextStep": "Review for chronology-safe canonical admission as a July 30, 2026 system-introduction milestone. Do not add ancestry, causal, influence, or geography relationships without separate claim-level evidence."
+  }
+}
