@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-20T20:46:18Z",
+  "updatedAt": "2026-09-20T20:50:10Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4768,6 +4768,17 @@
       "id": "alw-f47b65ade4538666",
       "status": "unreviewed",
       "discoveredAt": "2026-09-20T20:46:18Z"
+    },
+    {
+      "id": "alw-583ae81f1ddb0ae1",
+      "laneHint": "future",
+      "title": "Mexico Artificial Intelligence in Manufacturing Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMUNSWk1IcUJEZTVKbTRZUUtfeXhUQXBoWG1HQWtaNWs0SDRQZ1VaRldjX05yVWUxd3MxT3JKRkJtZENxNVZaY3lta2RFd3pyV1lzOWZISlZ1SXlsRUlWRFVCQU8tZjRUdk9LN25IclA3OElXRDJMR1lPZGwzT21zVTRZeDRycVVjQnBZVmVlclVmdUNDSk1zbUs4SnpYVlJzNVA5U3N0M012Nk1LOU5Z?oc=5",
+      "sourceName": "Future AI discovery",
+      "evidenceTier": "discovery-only",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-20T20:50:07Z",
+      "note": "Discovery lead only; locate and verify the underlying primary source before admission."
     }
   ]
 }
