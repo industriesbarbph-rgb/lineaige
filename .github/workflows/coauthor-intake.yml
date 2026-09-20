@@ -1,0 +1,34 @@
+name: Co-Author Intake
+on:
+  issues:
+    types: [opened, edited, labeled, unlabeled, reopened, closed]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: lineaige-data-write
+  cancel-in-progress: false
+jobs:
+  intake:
+    if: startsWith(github.event.issue.title, '[CO-AUTHOR]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Ensure review labels
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "co-author-approved" --color "0E8A16" --description "Evidence-reviewed co-author contribution" --force
+          gh label create "co-author-hold" --color "FBCA04" --description "Needs more evidence or clarification" --force
+      - name: Normalize submission
+        run: python3 scripts/coauthor_intake.py --event "$GITHUB_EVENT_PATH"
+      - name: Commit intake state
+        run: |
+          if git diff --quiet -- data/coauthor-submissions data/coauthor-approved; then exit 0; fi
+          git config user.name "LINEAiGE Co-Author Intake"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/coauthor-submissions data/coauthor-approved
+          git commit -m "Co-author: sync issue #${{ github.event.issue.number }}"
+          git push
