@@ -1,12 +1,11 @@
 name: LINEAiGE Co-Author Submission
-description: Propose a factual addition, correction, context, learning resource, research lead, creator release, or announced future item.
+description: Propose an evidence-backed addition, correction, learning resource, creator release, or announced future item.
 title: "[CO-AUTHOR] "
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for contributing to LINEAiGE. Submissions preserve authorship provenance and are reviewed before public admission. Submission alone never makes a claim historical fact.
-
+        Submissions are reviewed before public admission. Authorship provenance is preserved. Submission is not automatic acceptance as historical fact.
   - type: dropdown
     id: contribution_type
     attributes:
@@ -19,71 +18,53 @@ body:
         - Learning resource / program
         - Creator release / AI-built product
         - Research lead / question
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: input
     id: record_title
     attributes:
       label: Proposed record title
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: textarea
     id: claim
     attributes:
       label: Claim / summary
-      description: State exactly what should be added or changed. Separate fact from interpretation.
-    validations:
-      required: true
-
+      description: State exactly what LINEAiGE should add or change. Separate fact from interpretation.
+    validations: {required: true}
   - type: input
     id: date
     attributes:
       label: Event or target date
-      description: Use only supported precision — YYYY, YYYY-MM, or YYYY-MM-DD.
-    validations:
-      required: true
-
+      description: "Use only supported precision: YYYY, YYYY-MM, or YYYY-MM-DD."
+    validations: {required: true}
   - type: input
     id: announcement_date
     attributes:
       label: Announcement date (future items only)
-      placeholder: YYYY-MM-DD
-
   - type: input
     id: organization
     attributes:
       label: Organization / provider
-
   - type: input
     id: geography
     attributes:
       label: Geography (if relevant)
-
   - type: textarea
     id: sources
     attributes:
       label: Primary source URL(s)
       description: Prefer original papers, official announcements, government records, institutional archives, or first-party documentation. One URL per line.
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: textarea
     id: evidence_note
     attributes:
       label: Evidence note
       description: Explain what the source proves and any limits on precision, geography, causality, or availability.
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: input
     id: contributor
     attributes:
       label: Contributor name / credit
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: dropdown
     id: credit
     attributes:
@@ -91,13 +72,11 @@ body:
       options:
         - Public credit requested
         - Anonymous public credit
-    validations:
-      required: true
-
+    validations: {required: true}
   - type: checkboxes
     id: declaration
     attributes:
       label: Submission declaration
       options:
-        - label: I understand that submission does not guarantee admission and may be held for more evidence or rejected.
+        - label: I understand that submission does not guarantee admission and may be held for clarification or further evidence.
           required: true
