@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 UA='LINEAiGE-ALW/1.0 (+https://lineaige.barbph.com/methodology/)'
+NAV_LABELS={'skip to main content','skip to content','main content','home','menu','search','next','previous','back to top'}
 
 def now(): return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
 def load(p,d):
@@ -24,6 +25,9 @@ def fetch(u,limit=1200000):
 def canon(u):
     p=urlparse(u)
     return f'{p.scheme.lower()}://{p.netloc.lower()}{re.sub(r"/+$","",p.path) or "/"}'+(('?'+p.query) if p.query else '')
+def navigation_only(label):
+    clean=re.sub(r'\s+',' ',html.unescape(label or '')).strip().lower()
+    return clean in NAV_LABELS or clean.startswith('skip to ')
 class L(HTMLParser):
     def __init__(self):super().__init__();self.h=None;self.t=[];self.links=[]
     def handle_starttag(self,tag,attrs):
@@ -78,6 +82,7 @@ def main():
             allowed=set(src.get('allowedHosts') or [urlparse(src['url']).netloc])
             for href,label in parser.links:
                 u=canon(urljoin(final,href));p=urlparse(u);hay=(label+' '+u).lower()
+                if navigation_only(label):continue
                 if p.scheme not in ('http','https') or p.netloc.lower() not in allowed or not any(k in hay for k in kws):continue
                 new.add(u)
                 if u in old:continue
