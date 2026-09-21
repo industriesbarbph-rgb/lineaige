@@ -100,6 +100,20 @@
       "embedUrl": null,
       "topics": ["artificial intelligence", "machine learning", "neural networks", "AI concepts", "AI limitations"],
       "verifiedAt": "2026-09-07T17:48:00+08:00"
+    },
+    {
+      "id": "google-ai-professional-certificate-2026",
+      "eventIds": ["now"],
+      "title": "Google AI Professional Certificate",
+      "provider": "Grow with Google",
+      "institution": "Google",
+      "providerType": "technology-provider",
+      "level": "Beginner",
+      "access": "paid-certificate",
+      "courseUrl": "https://grow.google/intl/en_ph/ai-professional/",
+      "embedUrl": null,
+      "topics": ["artificial intelligence", "generative AI", "prompting", "responsible AI", "research", "data analysis", "vibe coding"],
+      "verifiedAt": "2026-09-22T06:06:00+08:00"
     }
   ]
 }
