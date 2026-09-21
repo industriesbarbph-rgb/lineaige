@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T21:56:50Z",
+  "updatedAt": "2026-09-21T21:59:27Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5018,6 +5018,72 @@
       "id": "alw-3e858c3c56cfceeb",
       "status": "unreviewed",
       "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "id": "alw-8bbe89e1845b8123",
+      "laneHint": "historical-or-current",
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-8b64befa04990cc1",
+      "laneHint": "historical-or-current",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-40cbc61ecf354484",
+      "laneHint": "historical-or-current",
+      "title": "Robotics",
+      "url": "https://blogs.nvidia.com/blog/category/robotics",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-1bb9769be8b378da",
+      "laneHint": "historical-or-current",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-7755df424d41324f",
+      "laneHint": "historical-or-current",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-1ca691988404841d",
+      "laneHint": "historical-or-current",
+      "title": "5 Companies Using NVIDIA AI for Clean Energy",
+      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:59:09Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
     }
   ]
 }

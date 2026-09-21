@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T12:49:38Z",
+  "updatedAt": "2026-09-21T21:59:27Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -22,7 +22,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-21T12:49:24Z",
+      "checkedAt": "2026-09-21T21:59:06Z",
       "status": 200,
       "pageHash": "21dac042127004bdb030230877797939e464819364b85d73f3557d999ba5d0cf"
     },
@@ -61,7 +61,7 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-21T12:49:25Z",
+      "checkedAt": "2026-09-21T21:59:07Z",
       "status": 200,
       "pageHash": "40d6bf7df74a17d85b8bb2f3d5e6bad6dfc0022d035b6eec6c7ec3550e0fccfd"
     },
@@ -100,9 +100,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-21T12:49:25Z",
+      "checkedAt": "2026-09-21T21:59:07Z",
       "status": 200,
-      "pageHash": "a13aafc929627499c3dab2eaf769488ee0b0bc220430eef99efcf8a71b015f94"
+      "pageHash": "c5aa5cf496f3b9dc9d8edf345af2490059f101177c71594b08e1b4351df2dd2d"
     },
     "Meta AI": {
       "seen": [
@@ -133,25 +133,30 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-21T12:49:27Z",
+      "checkedAt": "2026-09-21T21:59:09Z",
       "status": 200,
-      "pageHash": "757e0df12f2a129c00250fa231788002b9efc34c0b961b7a07c79e52ad1b2ae4"
+      "pageHash": "b681901244969bdefda1fa61f143584add0e15a4eb815579d40b6d1fa81398af"
     },
     "Microsoft AI": {
       "seen": [],
-      "checkedAt": "2026-09-21T12:49:28Z",
+      "checkedAt": "2026-09-21T21:59:09Z",
       "status": 200,
-      "pageHash": "c953e81fbc4c63efae784c05e924c67878f8c7e06d8ea4812a2c8ef5fa306f81"
+      "pageHash": "f2f7bc3f10cea0f01c5e064197fd6cdf864a6e2c0bfb7940e39d7f18a9bd07cd"
     },
     "NVIDIA AI": {
       "seen": [
         "https://blogs.nvidia.com/blog/2026-ces-special-presentation",
         "https://blogs.nvidia.com/blog/ai-energy-management-alliance",
+        "https://blogs.nvidia.com/blog/ai-security-agent-stack",
         "https://blogs.nvidia.com/blog/ai-sign-language",
         "https://blogs.nvidia.com/blog/autonomous-vehicle-ecosystem-ai-models-developer-tools",
         "https://blogs.nvidia.com/blog/category/enterprise",
         "https://blogs.nvidia.com/blog/category/generative-ai",
+        "https://blogs.nvidia.com/blog/category/robotics",
         "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care",
+        "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai",
+        "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
+        "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem",
         "https://blogs.nvidia.com/blog/evo-2-biomolecular-ai",
         "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production",
         "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo",
@@ -161,13 +166,14 @@
         "https://blogs.nvidia.com/blog/leading-models-nvidia",
         "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
         "https://blogs.nvidia.com/blog/nvidia-research-ai-graphics",
+        "https://blogs.nvidia.com/blog/physical-ai-halos-safety",
         "https://blogs.nvidia.com/blog/physical-ai-research-siggraph-2025",
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-21T12:49:28Z",
+      "checkedAt": "2026-09-21T21:59:09Z",
       "status": 200,
-      "pageHash": "482f6b7d809165cc9ac1c11c3df9185d0712a6f3948c62be425063b80495259e"
+      "pageHash": "087bb96bb7a4002d37e97ece467f53242691f00db673c750cf3a6bdffdc59d91"
     },
     "EuroHPC": {
       "seen": [
@@ -209,7 +215,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-21T12:49:29Z",
+      "checkedAt": "2026-09-21T21:59:09Z",
       "status": 200,
       "pageHash": "d019b32c25340d462bc80b0a083357ba91e4202cfa6c0904ec118289a4fbee72"
     },
@@ -236,9 +242,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-21T12:49:32Z",
+      "checkedAt": "2026-09-21T21:59:10Z",
       "status": 200,
-      "pageHash": "0d7e7826fd68f599e7c7b24d5e29fbc06738a56c4748253acf8bb7463a53f133"
+      "pageHash": "fc2c56aabc02d9db8dd6c70be33d265dd36384f0810f78bcdf72ecb2365cca58"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -296,9 +302,9 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-21T12:49:33Z",
+      "checkedAt": "2026-09-21T21:59:10Z",
       "status": 200,
-      "pageHash": "f356909ecdd929744a6d9499c9936e1aad9581eaa1ecaf46b515121092db6873"
+      "pageHash": "d79110a32d7c5413f7236e88ce61108179df5a35998ceb00c223b3dcafdac0ae"
     }
   }
 }
