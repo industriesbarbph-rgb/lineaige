@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T12:42:34Z",
+  "updatedAt": "2026-09-21T12:49:38Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4887,6 +4887,17 @@
       "id": "alw-19f9eea93ea8ca8a",
       "status": "unreviewed",
       "discoveredAt": "2026-09-21T12:42:34Z"
+    },
+    {
+      "id": "alw-bd0cf513d7dbc5e7",
+      "laneHint": "historical",
+      "title": "AI or Not-AI, 2026 Sundance Film Festival films discuss AI’s history and where it is headed - TownLift, Park City News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOelZ6OHlVU243LU0tNHpaMWYwQmJvUXZOaEtlbE5uZGxUcTZ6WkRPQXZzcFc2Tk9GNG0xOGl5Rk9QVUxuV2ZNTE5wTlFGWEtvRVNZOFY0ZFN6cVBXMFQxNU9YamZ3a1k1Z1EzR0R1UGpONjF6RDB4Skw5R3I2a0hYNE1qSFNwQi1aMnktNUtLUTVYYkhXSVBHWkdJUHJiM1FYMU50bDhQWngzdmZMR3hCV1hiVU11dC1NXzlF?oc=5",
+      "sourceName": "AI history discovery",
+      "evidenceTier": "discovery-only",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:49:34Z",
+      "note": "Discovery lead only; locate and verify the underlying primary source before admission."
     }
   ]
 }
