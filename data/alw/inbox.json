@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T04:57:10Z",
+  "updatedAt": "2026-09-21T12:42:34Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4827,6 +4827,66 @@
       "id": "alw-c520c7e8f0ad9b88",
       "status": "unreviewed",
       "discoveredAt": "2026-09-21T04:50:37Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "The Access Resource Committee Bureau holds inaugural meeting to strengthen access to EuroHPC JU supercomputing infrastructure",
+      "sourceName": "EuroHPC",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://www.eurohpc-ju.europa.eu/access-resource-committee-bureau-holds-inaugural-meeting-strengthen-access-eurohpc-ju-supercomputing-2026-09-21_en",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-4a1e320ec8ac9407",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:42:32Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030 | AI (artificial intelligence) - The Guardian",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR29qZDY0OGh1R2hYREF3UHBXR0xjUTFCaU5MWUxzZGNKX1NBeHVrQTVseURCRUlBX3d4RXFEZklnUVNFX3hsdVNMd0FKcDI4S2dOc3plZXdlSHZqbWdQLXk2Q1dKSE9TRUEwVmVjYXozenFVUU5SVVc3cThEVmZ6WVlnVG5VOWVtV3BiMnVqdGpWajhxTU9iMGxZTGtyNC1sQThfcUNkMGhSVGNvVGNaazBmRExMRXU5TVFHTkpOTQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-013188b22edea810",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:42:34Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "AI Roadmap designed for 5-year period to track tech change: Patria - ANTARA News",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVktmREdMZ3pDWldNMDRUWG5WeFBUVFFqaW43ODVPaHBPcDZHRWF6NHBfWm55V05UV0JNRXdkRkVlckNkdXZmMzlrN3BwSHk5dF9CMkRHYmtNR3lldHNpWU50akN5VFZDOWRGWEJoc01qSjVITGdteENOYVFaRE1FWWZ1eEtHMUlZa1F6NHdUMmxNOTZsbnctSFUxQmxNNERsS1pfYWZR0gGrAUFVX3lxTE9nWmJaa1dVMjRBcTRSbkM3YzQ2UmYtRW9vOXpJYzhFckRXREM5RDNvYU03T2RIM0dRN09rbDRKR0RlU1BWZUhIWG83VU1jVUxWNW5qQXlVM2JMakYtSW1ad1BMUDJROXJ0VE9xbzlvd3V3blNQWV9KVGZKZ01qZTFpSGNROURuVDRkeFV2STk4Uzh6cF9YV0FQdUFFaFRTSnluTHk0MXV3SDlnMA?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-9a9dfeea638267d6",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:42:34Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "AI to kill all humans by 2030? Expert calls warning '100% marketing' - KTXS",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNWFQMmluUzdIaEp1Sk9SeUh1ejlwazJneHFtSnB1ZnBxR01MZWkzaTctVmUzNnRWR3hKQWFMQkJmX05KNmNPSm5lSHJQcmE4WFktVHBFV21Bbk53dUtnYTVMNFVpNzUzUXNjVmpxLUdvUXRnelBqNVZwemx4TkFWWGVuYnhQNjBxUGxBcklfRUNTUmdxYTVr?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-1dec81d2c220a317",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:42:34Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Moonshot AI: China’s Key Artificial Intelligence Project Exceeds Funding Target - The European Conservative",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQN0FSU0txSmVqd2N6ZDVZbWZhR2pha3ZEY0lROGQzTHV4OEhQSXhuN0VfNHNZbWZOTDdaZ3NlbDRlb3NRdmN1V0JOZTk5SzBfUi0tbllueDJZVTIxMWllbWc0c0RYZ1l6X1JrbVJ1VzhGdHpQR0g3bldQbm5WZlpwcUIxcXotbkRwOVZ1U1JpcTBSZlM4TWVVRUxWaW9YVnNHTlJwNE1vTGJsbzNvV24tdGNCSHNLQWxZVjdxUWNoVDBobWhhdXhPWDduNlQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-19f9eea93ea8ca8a",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T12:42:34Z"
     }
   ]
 }
