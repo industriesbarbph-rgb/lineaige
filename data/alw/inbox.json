@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-20T20:50:10Z",
+  "updatedAt": "2026-09-21T04:50:37Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4779,6 +4779,54 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-20T20:50:07Z",
       "note": "Discovery lead only; locate and verify the underlying primary source before admission."
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump Announces Plans to Create ‘AI Force’ and Name AI Czar - NBC Palm Springs",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcXhnUUNjVFAxZGpxY1prcllaLTZaZjdQb3hrR1ktU1llcjV1aHJIcTBLZjFRQXp4aW9nZXUwVmtqMTJZOWVJSEpPTkxWRU12RHdDNVBDSlpFMGU2RnhIMWdtYkVTM01ocFNSMGxWbGtuZTFacUhxR2ZSaFhCbHhkOHZmMTBvZEJ6M2RSLVZiTGdOdVBnOXlwc0FpZDlDUW5BV3BpODVCM1JxSHVKTTZtRGZUV2tOcE5IYUF3cXJGdlp6ZlU?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-4b73bd2642036d2f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T04:50:37Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Nvidia CEO Claims There's A '0% Chance' World Will End From A.I. by 2030 - tmz.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjBTRF9ndVFIS2RPb29IRDV4U3dLbVRCNkJvT1lyZk0xUnJrVlRnZGtaNTdENDdXRW9tT0xaS1BNUUdCYXBmNFNkMkl3TTBMSG00eVN2UmFRVkNVOUxZYmlzUUtzbGV0U21rZFI3dXVwUDFFb3lTa0VYLUVJU25MMVVNZmJBRFlOX0YxQXNLdUNzVml1MElqRTgxbkFXU28taHZDWjV4VQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-60853e232506a4c4",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T04:50:37Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "How DraftKings Uses A.I. to Target the Gamblers Likeliest to Lose - The New York Times",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzUFZ1NmVuRDZ0WGhvT1BiZUdldFg3ZkpIS1VLOHg0RTdDc0pCQnFKc25tZUNnQnJzcVgyaHNzX3JLdFZqa1h4RjFJT0NGaC1JN1pXZWpPNEZtdlprQlhMdk9YVDBEX01BYkNxYzNQaw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-44d90c548286f7a9",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T04:50:37Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Visual AI—History Breakthroughs Myths and Promises – I - Samsung SDS America",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wZ3BFUTlUVG1tOW5ELUJDMEZFeDZuMEhSWjE4VW5LN1hqNTg4R1N4ZUxfV0lFeUZTYVFmWUktT3AzXzFwbzI2NjN2YmhFdmFqNmZIalNDT0JNbFhtRUN1aFpNek1va0N1TFE?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-c520c7e8f0ad9b88",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T04:50:37Z"
     }
   ]
 }
