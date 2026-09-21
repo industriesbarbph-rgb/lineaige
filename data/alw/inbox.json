@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T12:49:38Z",
+  "updatedAt": "2026-09-21T21:56:50Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -4898,6 +4898,126 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-21T12:49:34Z",
       "note": "Discovery lead only; locate and verify the underlying primary source before admission."
+    },
+    {
+      "laneHint": "future",
+      "title": "A.I. Ethics Conference Returning to Scranton in 2027 - University of Scranton",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjJyRzgyWUM4d0JvTDFHWkxCbTdPY0NSQ0h1NDhubU9CMF9TQXdSRGZZRWNlajJEUFZvVTBPTHd0WWZreGdSZFdPNWpRU1Z5UzVMaGZ1UWJtSUFmczVIRVotT0NnNGx2dUZWajk2X1ZOWlJMdzMzRjU0LVVGZmh4VTdQNm8?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-38f91e4211a47bc5",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Artificial intelligence data centers could reach one percent of global electricity demand by 2030 - Nature",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52LWVBcEJFVm5Dcm80UWNfaVNhRy04Qmt0OGhyNklYcGxGYVpCaE1NWFFGak0wWndxWW5FS0RZZU1HaTNKSmdjWnZDbGZKZWZWMkNRN2RBSG9QMmhQWVFj?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-9786320738331f45",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Tech Bytes: Plans for an \"Artificial Intelligence Advisor\" - wdio.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFRVa0RPM2lfSmVPRUpQSURvQW4wQS1iRklqVG4tYms3VVVJbjRORmxGZHl0SldnbW5zQkNseDgxd1U1VEJ3eVgzUnd3SWc4MThYOEk0YVZsclZ6NzZuajZ0NEtIVG5MVHJJTFc5ZWtWQ3pNYTlqanItZndwMEN3cVlQekxSVGNiR29kTnZxYk9vZmxRM1RkVkFfYXhNVW5hQlE?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-c57886d4dcfc3f89",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Democrats tied to 2028 pivot toward data center regulation as Trump pushes for progress - wcti12.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNV2M0VnNXcUlNWlpDeHZqdnJhVFNUVE5lNHVkRzVuRXBDMXFPOTFXN0ZMQ2g4V3AyOE1BYUhvMVFhcWQtN1ZKVVJDWUo2cF9HNzdwU09Ia0JCRzJTdzRUdXlucW5waHJkREQwZ1NTX0w0M1FaWC1DSDJhdVI4bXBkTllWM01FMzFuQ1Y4QXNSUnhGY0s1cFd5MWVhZ3dmWW50WHVNRkZoNUFWdjdwOVNic0RzY3JtVFczNWRMNzdhSTRCTVJ4OTg5MFdpUVA3X0xXVG5OSElBVTNZMDVBbGhmRzFWSmNZVm9uTHNlODh6ejQxb3VYbUxrOFI3Rkk4MzBwR05WQ1R0MFg3VElaMl92VmhVQmU3UXZ5aWdXWFlQX0tYSWlmd3owUXcyU1FBOE9SdEtLZk9xV0NLUkZuUDIxbnhTcEp4V2p4X21kS05oRHFJTlZlMksyWEgzMDhPdw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-4ccb941d81a4ea3e",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "President Trump has announced plans for new 'AI Force' and 'AI Czar' amid growing AI safety concerns — new unit will 'cherish' AI and not 'stifle' it, Trump clarifies, while dismissing safety warnings as hoaxes - Tom's Hardware",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNQTRKbTRKQXRkWWh1amRrY2t0S0NhYzE2WF9Wem9KSkM0QUV1c0I1NEM0Y3lKRlFuMjI4V2F3amZGWTVNTzIzaTZWNVpIVE1zdWQxSmxpNi1hTXJzVVFkUG1PZ0lEQTFaUE1xZEtyS3VtYjVTVmtCSFRvTTlXMW1sZVFOVG9iY0ZCUklUd2pQVHZWOTRTRS0zdm5QMlNLcl9oUlo2WjZhWXFXbDRYYWtBSDRWSloybUEtMU95c3YyN0Q1Y0t6U2NwZ3c5emJqVHlsQUJNcGQzQTNRZDhaZG1DWE1DVEoyb29yeFhqWmRsV29iUWZuU0Nvd01WcGE0UHpyY1NvRTViUnVkX3otM3RFRTFSa0VEV3VIcGt1cGN5ZWRiY0h1VGQ2WFp6S3dJNjRfS0FxZDM3SHV1b2RjWlhjRWdWLWpUam0yUzZTekFaaGMtVVNSZU9BWmloc2MzUklTX1NXYWN3TmVjNTVPVHlQZk10R2VtN21pbFpkV213?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-a107c9fd609d0d25",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Japan plans AI robot contest on International Space Station - Nikkei Asia",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOGtZTWdOamxlX1pYSVFObm51LU1TZU44S0RXTVN1Vzk0dEd6YW1VY0FPZF9BWHdienFtY3lpU1FHYmZZM0FyWTJHbDBVNkZXa2RHYkFxS0pOZGhQdFJ3bWpNUkdTRHBkTkNGZmp6T0hmZ0NxTWJwNXVHQTJXZDFTa3Z5TXZiOVN4Znhib090aHlOWm5leTZMeDctbkpzYW81djZMUWg3QlVSQ25VYWNUMnlCZnNmeGNWcFNiY0JsQ21LX0FlWlE?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-20593576242e065a",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump Plans New Government Structure to Oversee Artificial Intelligence - logos-pres.md",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGFMY2ZwcGZ3MVY1NjJzSk4tRUJjMjR3Z0p6a0lteDROZTRrZHBWU09JcXNMX0JoNHVYREpCVWZzS2o0clM1NHg1bzJmeGQ1V3pJa3hMajM5RGJqSkpVUU5KOGVTMC1sVm9ReHl3cExjM21sVmhmSzlQaGplVE50cGcwbDVabk5Kd2NiMkNNVWpEek1hWjh4TTJfWUEwUmVkUWFRdGtoSE5pY0IwRmZZSWJ3SlpGZHhyRmc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-db7c84c40df64ed9",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "There’s a ‘0% chance’ AI will end the world by 2030, Nvidia CEO Jensen Huang assures - New York Post",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnFqYmViLXQyci1hNXRsMVJtY2p2TlNOVWY4YlVGOC1HUFNOX0RFc0ZtcldtY0RLdllERXoxS1BTY2RZTGRwaHZfRlFGaVNRS1VwQ0JfRnREUENISEJORjlNOEVXWGxJM2plTHlKUWhwMWZpUHJoa2JfZXYyNTFDeVJ2MnZUT1Z0LTVyM2F4ZzhJOVNaOEdkQlpER09ZSWo1bldLUE1wMG5ZMEctbGhFNUdZZ1Z5NGVXYXc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-0d120de29940a4fc",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "SciSparc Announces Decision to Target the Agentic AI Market; Forms Scientific Advisory Board for Artificial Intelligence and Cybersecurity - Yahoo Finance",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0NqRnp5V3FPSWNyb0lJQWp6NjR3UklNYlVvX19iaFpGRGM0U2FEQTZhUDkxeGlFU0VvalNEQjBsenZxV0dGb0hsVFlwQk5pU0VBdkp5WWFQcU96aEZmLUNmM0VYb08yOEw0aXZKZ3kwX1ljS21nbEo4eVFvaTJhNGxublBCTEdBSTZFMEtXc1JMMTFfOWpEZmNJYnpDMHVSbHZJTlczTEExUQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-e296ebd57a001c6e",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "No escape: Gemini history helps to track down Israelis who fled to Argentina - Cybernews",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2eDRuZXVPc1Zyb19oTnZpS1p4b1Fkdm54cjJHSDdwdG9hUk1Kd19FTFpoN25sY3o5b1ZkR1pXUDdPV1MzREZMVEo2cXp1a0hRczY5YXB6b0NMM29CeW1NRWVxcjM?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-3e858c3c56cfceeb",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-21T21:56:50Z"
     }
   ]
 }
