@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-22T11:39:39Z",
+  "updatedAt": "2026-09-22T16:54:07Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5168,6 +5168,54 @@
       "id": "alw-9ebed08380038f70",
       "status": "unreviewed",
       "discoveredAt": "2026-09-22T11:33:04Z"
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "Introducing Claude Opus 5.5 Announcements Sep 22, 2026 Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.",
+      "sourceName": "Anthropic News",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-0c90c73c08cf2835",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:54:01Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "SpaceX's AI Business Is Booming. Here's How Much Analysts Expect It to Generate by 2030 - The Motley Fool",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTHRqb1dxaklrYnJmRUp4ZElKRHlMd0VROVlVdmtnbFY2VVVVTWthU2w4cjBJNHl5TTkyNnFELWtWSUpzYm5JOVJrSWhUMThiV18wRzdrTURVYUVuSzBKTUU1VjlWS3Q3cEQ1YVZBb0kyREI4YTVuTG1JMFhVUnVHT2pYVnZnV3lQaUl1ajFrNWMtT2d0UkNnZjZTU0sxcHExbFZuSExMTXN2NHJTeWdhQjFHS2xIQUI1N1JvRkVOTDByS1NoTG9mQg?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-bbc2aaa8d4795a9e",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:54:07Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "How Potential 2028 Presidential Candidates Are Talking About A.I. - nytimes.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM0VrMVYtV3hRS1lZYktGcWpGOUxSaWVYcWROT0dyeGhfc0s3eThPY2s3TzFGRkZGcGtVNmFuUV9kVnVPRFhlLWlnVktadzA0a3lEa2ctc2M1RnN1c3BBd0ZRQy1qSzZoczF6VjlWdWFlSWdUcGxUbndoZlhXS1lrVmYyYmprZENrM3VxRDFuUmVZaENNTTRoSWhBcUIxZHc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-85ae5b9d46294229",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:54:07Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump Wants To Rename AI 'Super Intelligence', Calling 'Artificial' Inaccurate as He Plans AI Force and Czar - inkl",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeDdneEFqWEVlcmprQVhzYV9rbXozb3V6VWtJdFpTcHZ2WTR0eWpXRnIybms0UnI0QmYxQWk4bTdwRlFvZFZ1aWMtbnRXM3BYaVFjenVlMzQwaExjYVVzZExUS2IxOXlrSUxQUUltb2hPdk1XRldrTWNzS0xwejBjbklmdHpUMFlZUF9iMl9tRllBWVFFck1TUWpEX3JfNU96T0poUFpIeDNVUUJDdG5Uand0NjFETUNHZlV4U0Zhd0dlZlVldkQ4MQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-ef35dbfae73f4c23",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:54:07Z"
     }
   ]
 }

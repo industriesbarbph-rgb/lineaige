@@ -1,15 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "lastRun": "2026-09-22T11:33:04Z",
+  "lastRun": "2026-09-22T16:54:07Z",
   "sources": {
     "openai": {
       "seenUrls": [],
-      "lastChecked": "2026-09-22T11:32:55Z",
+      "lastChecked": "2026-09-22T16:54:01Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "anthropic": {
       "seenUrls": [
         "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://www.anthropic.com/claude-opus-5-5",
         "https://www.anthropic.com/claude/haiku",
         "https://www.anthropic.com/economic-futures",
         "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
@@ -23,9 +24,9 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "lastChecked": "2026-09-22T11:32:56Z",
+      "lastChecked": "2026-09-22T16:54:01Z",
       "lastStatus": 200,
-      "pageHash": "835b8252527769b37e371081da53717846d3e1c1f31f4d6e5ebc760af5195f3b"
+      "pageHash": "2637f56d27e6cb7afce5afa9ddb8ef2905d036e57090cf4d052829a2fb5408f9"
     },
     "deepmind": {
       "seenUrls": [
@@ -62,7 +63,7 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "lastChecked": "2026-09-22T11:32:56Z",
+      "lastChecked": "2026-09-22T16:54:01Z",
       "lastStatus": 200,
       "pageHash": "7934e76d4fd98b222c8b4369cc6ff69fe72f53861bcd3839a015805cdb3a3e07"
     },
@@ -101,9 +102,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "lastChecked": "2026-09-22T11:32:57Z",
+      "lastChecked": "2026-09-22T16:54:02Z",
       "lastStatus": 200,
-      "pageHash": "aa538dae67055926eca5a506d74268ad630b8c0c5bbcd32b153424c470600786"
+      "pageHash": "f15c08174bcbcfb5cb1071956d1163290309a67a5adae556fae1ac21a7f15e16"
     },
     "meta-ai": {
       "seenUrls": [
@@ -133,9 +134,9 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "lastChecked": "2026-09-22T11:33:00Z",
+      "lastChecked": "2026-09-22T16:54:04Z",
       "lastStatus": 200,
-      "pageHash": "6a4fd6cc687c44723f3b8a00fc547592f6e6ca7ff6eb3cf77951a0a35c2b556c"
+      "pageHash": "86b154ace815b2d2a14ed00ce744c445a58995cf40087608f28840681c3abfe8"
     },
     "eurohpc": {
       "seenUrls": [
@@ -177,18 +178,18 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "lastChecked": "2026-09-22T11:33:02Z",
+      "lastChecked": "2026-09-22T16:54:05Z",
       "lastStatus": 200,
       "pageHash": "d019b32c25340d462bc80b0a083357ba91e4202cfa6c0904ec118289a4fbee72"
     },
     "meti": {
       "seenUrls": [],
-      "lastChecked": "2026-09-22T11:33:02Z",
+      "lastChecked": "2026-09-22T16:54:05Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "dict-ph": {
       "seenUrls": [],
-      "lastChecked": "2026-09-22T11:33:02Z",
+      "lastChecked": "2026-09-22T16:54:06Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     }
   }
