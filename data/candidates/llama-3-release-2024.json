@@ -1,0 +1,52 @@
+{
+  "id": "llama-3-release-2024",
+  "recordType": "event",
+  "title": "Meta Llama 3 Release",
+  "displayDate": "18 April 2024",
+  "eventDate": "2024-04-18",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta released the initial Llama 3 models on April 18, 2024. The release included pretrained and instruction-fine-tuned 8B and 70B language models made available for broad use.",
+  "significance": "A dated release milestone in the Llama model family establishing the initial public Llama 3 release before the later Llama 3.1 and 3.2 releases.",
+  "people": [],
+  "organizations": ["Meta"],
+  "technologies": ["Llama 3"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's first-party announcement is dated April 18, 2024 and states that the first two Llama 3 models were being made available for broad use that day, identifying pretrained and instruction-fine-tuned 8B and 70B models. A separate Meta responsibility post dated the same day states that Meta released Meta Llama 3 that day. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-23T05:06:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Meta Llama 3: The most capable openly available LLM to date",
+      "url": "https://ai.meta.com/blog/meta-llama-3/",
+      "publisher": "Meta AI",
+      "publishedDate": "2024-04-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Our responsible approach to Meta AI and Meta Llama 3",
+      "url": "https://ai.meta.com/blog/meta-llama-3-meta-ai-responsibility/",
+      "publisher": "Meta AI",
+      "publishedDate": "2024-04-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two dated first-party Meta sources directly support the April 18, 2024 release boundary; the principal announcement identifies the initial 8B and 70B pretrained and instruction-fine-tuned models and broad-use availability.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from model-family naming or release sequence."
+  }
+}
