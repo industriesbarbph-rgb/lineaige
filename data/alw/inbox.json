@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-22T16:54:07Z",
+  "updatedAt": "2026-09-22T16:58:10Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5216,6 +5216,39 @@
       "id": "alw-ef35dbfae73f4c23",
       "status": "unreviewed",
       "discoveredAt": "2026-09-22T16:54:07Z"
+    },
+    {
+      "id": "alw-cf5140273af6f91a",
+      "laneHint": "historical-or-current",
+      "title": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd",
+      "url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd",
+      "sourceName": "Microsoft AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:58:02Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-81bdeb67aab163b2",
+      "laneHint": "historical-or-current",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics",
+      "sourceName": "NVIDIA AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:58:02Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-7a389e05d0b1c019",
+      "laneHint": "future",
+      "title": "Two Commission reports show impact of artificial intelligence and digital technologies on teaching and learning in Europe",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/two-commission-reports-show-impact-artificial-intelligence-and-digital-technologies-teaching-and",
+      "sourceName": "EU AI",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T16:58:04Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
     }
   ]
 }
