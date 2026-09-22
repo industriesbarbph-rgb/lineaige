@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T21:59:27Z",
+  "updatedAt": "2026-09-22T04:57:14Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -22,9 +22,9 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-21T21:59:06Z",
+      "checkedAt": "2026-09-22T04:57:02Z",
       "status": 200,
-      "pageHash": "21dac042127004bdb030230877797939e464819364b85d73f3557d999ba5d0cf"
+      "pageHash": "c9c7ccc34b48ec976034078e9a1ad3b18906aded5e41d0de034f9cca0e73c765"
     },
     "Google DeepMind": {
       "seen": [
@@ -61,9 +61,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-21T21:59:07Z",
+      "checkedAt": "2026-09-22T04:57:02Z",
       "status": 200,
-      "pageHash": "40d6bf7df74a17d85b8bb2f3d5e6bad6dfc0022d035b6eec6c7ec3550e0fccfd"
+      "pageHash": "7934e76d4fd98b222c8b4369cc6ff69fe72f53861bcd3839a015805cdb3a3e07"
     },
     "Google AI": {
       "seen": [
@@ -100,9 +100,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-21T21:59:07Z",
+      "checkedAt": "2026-09-22T04:57:03Z",
       "status": 200,
-      "pageHash": "c5aa5cf496f3b9dc9d8edf345af2490059f101177c71594b08e1b4351df2dd2d"
+      "pageHash": "2d7ce8c6395a5b030b5ebaf97e3fb37605e38139d525164aa73819fc8583b6d3"
     },
     "Meta AI": {
       "seen": [
@@ -133,13 +133,13 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-21T21:59:09Z",
+      "checkedAt": "2026-09-22T04:57:05Z",
       "status": 200,
-      "pageHash": "b681901244969bdefda1fa61f143584add0e15a4eb815579d40b6d1fa81398af"
+      "pageHash": "bc2c37aa4c5c5e4e4edbc379bc936943c9d5eb67aa3c8659645292146476b91a"
     },
     "Microsoft AI": {
       "seen": [],
-      "checkedAt": "2026-09-21T21:59:09Z",
+      "checkedAt": "2026-09-22T04:57:05Z",
       "status": 200,
       "pageHash": "f2f7bc3f10cea0f01c5e064197fd6cdf864a6e2c0bfb7940e39d7f18a9bd07cd"
     },
@@ -171,7 +171,7 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-21T21:59:09Z",
+      "checkedAt": "2026-09-22T04:57:05Z",
       "status": 200,
       "pageHash": "087bb96bb7a4002d37e97ece467f53242691f00db673c750cf3a6bdffdc59d91"
     },
@@ -215,7 +215,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-21T21:59:09Z",
+      "checkedAt": "2026-09-22T04:57:07Z",
       "status": 200,
       "pageHash": "d019b32c25340d462bc80b0a083357ba91e4202cfa6c0904ec118289a4fbee72"
     },
@@ -242,9 +242,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-21T21:59:10Z",
+      "checkedAt": "2026-09-22T04:57:07Z",
       "status": 200,
-      "pageHash": "fc2c56aabc02d9db8dd6c70be33d265dd36384f0810f78bcdf72ecb2365cca58"
+      "pageHash": "f627d6374f2be939c325fa69c913c4e2513e350f92f9f536c00fe5078a427efb"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -302,9 +302,9 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-21T21:59:10Z",
+      "checkedAt": "2026-09-22T04:57:08Z",
       "status": 200,
-      "pageHash": "d79110a32d7c5413f7236e88ce61108179df5a35998ceb00c223b3dcafdac0ae"
+      "pageHash": "48b9469f73a0b0d8cdc5ec125e4797f6bb69697e0846fe1657c9fd554ecf7458"
     }
   }
 }
