@@ -1,0 +1,42 @@
+{
+  "id": "llama-3-2-release-2024",
+  "recordType": "event",
+  "title": "Llama 3.2 Release",
+  "displayDate": "25 September 2024",
+  "eventDate": "2024-09-25",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta released Llama 3.2 on September 25, 2024. The release included 11B and 90B vision models and lightweight 1B and 3B text-only models; Meta stated that the models were available for download and for immediate development through partner platforms.",
+  "significance": "A dated release milestone in the Llama model family that introduced Llama vision models alongside lightweight text-only models intended for edge and mobile use.",
+  "people": [],
+  "organizations": ["Meta"],
+  "technologies": ["Llama 3.2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's first-party announcement is dated September 25, 2024 and explicitly states that Llama 3.2 was being released that day, identifies the 11B and 90B vision models and 1B and 3B text-only models, and states availability for download and immediate development on partner platforms. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-23T02:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "publisher": "Meta AI",
+      "publishedDate": "2024-09-25",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party release announcement directly supports the September 25, 2024 release milestone, model sizes and modalities, and immediate availability claims recorded here.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from model-family naming or release sequence."
+  }
+}
