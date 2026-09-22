@@ -1,0 +1,51 @@
+{
+  "id": "claude-3-5-haiku-release-date-review-2024",
+  "subject": "Claude 3.5 Haiku release-date precision",
+  "status": "held-back",
+  "canonicalAdmission": "withheld",
+  "claimUnderReview": "Determine the exact defensible public-availability date for Anthropic's Claude 3.5 Haiku.",
+  "verifiedFacts": [
+    {
+      "date": "2024-10-22",
+      "precision": "day",
+      "fact": "Anthropic announced Claude 3.5 Haiku on October 22, 2024.",
+      "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "date": "2024-10-22",
+      "precision": "day",
+      "fact": "Anthropic explicitly stated on October 22 that Claude 3.5 Haiku would be released later that month, so October 22 is not defensible as its public-release date from this announcement.",
+      "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "date": null,
+      "precision": "unknown",
+      "fact": "Anthropic's current Claude 3.5 Haiku product page states that the model is available across Claude.ai, Anthropic's first-party API, Amazon Bedrock, and Google Cloud Vertex AI, but the reviewed page does not establish the original availability day.",
+      "sourceUrl": "https://www.anthropic.com/claude/haiku"
+    }
+  ],
+  "withholdingReason": "The reviewed first-party evidence establishes an October 22 announcement and explicitly places release later in October, but does not establish the exact later public-availability day. No exact release date is inferred from the model identifier, model-card addendum, announcement date, or current availability page.",
+  "sources": [
+    {
+      "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "publishedDate": "2024-10-22",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true
+    },
+    {
+      "title": "Claude 3.5 Haiku",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/claude/haiku",
+      "publishedDate": null,
+      "sourceType": "official-product-page",
+      "sourceRole": "current-availability-context",
+      "primary": true
+    }
+  ],
+  "relationships": [],
+  "geography": null,
+  "reviewedAt": "2026-09-22T20:07:00+08:00"
+}
