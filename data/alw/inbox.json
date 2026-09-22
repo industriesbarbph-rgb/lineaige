@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T21:59:27Z",
+  "updatedAt": "2026-09-22T04:49:44Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5084,6 +5084,30 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-21T21:59:09Z",
       "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "laneHint": "future",
+      "title": "Democrats tied to 2028 pivot toward data center regulation as Trump pushes for progress - foxbaltimore.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQNXVhcW51ejhVUkhnWlBuSU00WDJCaDhMaGZGeGNoTUhUbGlqZkt1ai1USFhXUGNIYUQzS3dZV2RQNTJiNDFubWZOdmhXUmthQzI1RWR2MlpGZXdGWFVmRUJkQ2VUYk9Gd2FRdnVyNHlFaFQySEZVS1FBWmw3UVpEdlRJZmJXQklZT1dTR1NWVFlaU0dKazMyMmpBZWtaOXBXbVlmYWcxZXdObzNUbjM4NWtCQlVVYVR4NG9Wd0lCUERXalFtNDRhd0htT3RFMTBmZ2JleHNHUEZzMVZndWJORHdMM3N4SXFhOTNKOWhTVk9BTkNDMkdlaHZFRmVVTVFFdXpSaHdSR09OYm9CTkNFQW90N3dDRXNXeWVUQmRUQkF2eE5hS1JqMzJQV2kwb3dPVnFlcUZzZTN6TzV0WGVwal9wR0RtMHJNVlFOZ3lTT0ljUnlhODNiREhQbWVjUEVxN3hlUDNR?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-46b8a41bf2c509f7",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T04:49:43Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "How to target the different layers of the artificial intelligence buildout - The Motley Fool Australia",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGtxdFY4YUlNYjVBb1FkcFNKcjB1SXdtdTIzakFsS2lTNlJnZHNVSkNxRXdmSXNJczVIY0psOTA4SGVsWFVkT0wyUnZ4UmNTSnlwcExoNXhaZWdxai1oaWlGWkdPRWI0WDVoN3A4eXZGRkcxbWg1cF9NTEtSQ3RFTS14Y0tSMVlidzMzMjU4dGl3M2JKY0hFUTBCUlJ0Q2FEN2JIVVgxd3BaREJLMWpr?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-15bfc541b7027beb",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T04:49:43Z"
     }
   ]
 }
