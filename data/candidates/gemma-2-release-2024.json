@@ -1,0 +1,52 @@
+{
+  "id": "gemma-2-release-2024",
+  "recordType": "event",
+  "title": "Gemma 2 Initial Release",
+  "displayDate": "27 June 2024",
+  "eventDate": "2024-06-27",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google officially released Gemma 2 on June 27, 2024 to researchers and developers in 9B and 27B parameter sizes.",
+  "significance": "A dated release milestone in Google's Gemma open-model family, establishing the initial Gemma 2 release boundary before later Gemma 2 variants.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party June 27, 2024 announcement explicitly states that Gemma 2 was officially being released to researchers and developers globally in 9B and 27B sizes. Google's Gemma release ledger independently records June 27, 2024 as the initial release of Gemma 2 in 9B and 27B sizes. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-23T06:03:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma 2 is now available to researchers and developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+      "publisher": "Google",
+      "publishedDate": "2024-06-27",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-release-ledger",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google sources directly support the June 27, 2024 initial release boundary and the 9B/27B model sizes.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from family naming or release sequence."
+  }
+}
