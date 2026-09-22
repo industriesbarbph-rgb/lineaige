@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-22T16:58:10Z",
+  "updatedAt": "2026-09-22T21:15:48Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5249,6 +5249,42 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-22T16:58:04Z",
       "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "laneHint": "future",
+      "title": "Democrats tied to 2028 pivot toward data center regulation as Trump pushes for progress - KATU",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNU3AzaUZxY19HakJTaFZFNzVtZWViam85a3ZpNmtVVWd3MDdvU2pzY240R2hKRXdXRVUzMDhtNGM3MWxVYVBhVjhMcFVlV3kycmxES3JWdlVINlhfWjEzTnMwOU5uOUhSUVl2Vmw5anFodnI3cUU0UzQ2ZDlSa0pMSnIyYkJHMjNhZ0hDbGdlQ29SWmwxS2dodjlzejdBaERtY3o2Vy11NGlCb2dqUm9XbG1WOFhMbTZCQWllRUpaOXh1TE12S2dmUnlMNkgwRzNQOHlXVjlEd3BXb3lFYVpaSWRRMjNWZE91SEo0b0VsV0hfM3NjV2taZ1lDUmRwdkNYLURWTkVTTHNPNXh5WnBuajRka1ZLWVllSGFzM2Q1NGlBaDZCT3hWamhGVVUxUkdHQjZULUh0WHRNVGtyNUFRTWIwaHJ6TjlBT3RuRWs5cnZGWTlCTUhOQ08yZw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-d88d8634d6fed0df",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T21:15:48Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump says US will replace ‘Artificial Intelligence’ with ‘Super Intelligence’ - Pulse Ghana",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVkhxZmlVdzB1bUNNWXRMY0RTcmRiaDdVRkpIRDFNRllmVVhkY1lVQVRRNG9oalY0dUlTZnJlUnFDN0JEUlJVR0syT1Itb0pucExSM09PV0xxOWM1VVZ2cF81bmZNQ3JKN3lKenFIYUZhUGN4VGVSY3M2ZnlxTzlMeVRnUlhwUE10NGd3TTZBOA?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-32498a62882e1d48",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T21:15:48Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Prediction: 3 Unstoppable Artificial Intelligence Stocks That Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club by 2028 - The Motley Fool",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX19zTXB5QlJ0WE5qU2RnUk5nTXpkU1I3Q3RLNGVyOEo4VnIzRlhHTkxvNV9uOG1kcThzRlYxSkVHMjhPdVBwc25xdnl2RndEWVpzUnJBUFN3V0ExWHYwQ1RMUVU3a1FtazQ4c1FzTG9aMDRvckxxS2l3bjlkUmlmZVdXV1BLN3JuMHJ2Ymo3Qy1wWDRDb0hDNg?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-d428f766635bdc19",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T21:15:48Z"
     }
   ]
 }
