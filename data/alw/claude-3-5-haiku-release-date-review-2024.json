@@ -22,9 +22,15 @@
       "precision": "unknown",
       "fact": "Anthropic's current Claude 3.5 Haiku product page states that the model is available across Claude.ai, Anthropic's first-party API, Amazon Bedrock, and Google Cloud Vertex AI, but the reviewed page does not establish the original availability day.",
       "sourceUrl": "https://www.anthropic.com/claude/haiku"
+    },
+    {
+      "date": "2024-10-22",
+      "precision": "day",
+      "fact": "Anthropic's Claude 3 model-family system card records an October 22, 2024 addendum covering Claude 3.5 Haiku. This establishes documentation/evaluation context on that date, not public availability.",
+      "sourceUrl": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf"
     }
   ],
-  "withholdingReason": "The reviewed first-party evidence establishes an October 22 announcement and explicitly places release later in October, but does not establish the exact later public-availability day. No exact release date is inferred from the model identifier, model-card addendum, announcement date, or current availability page.",
+  "withholdingReason": "The reviewed first-party evidence establishes an October 22 announcement and system-card addendum and explicitly places release later in October, but does not establish the exact later public-availability day. No exact release date is inferred from the model identifier, model-card addendum, announcement date, or current availability page.",
   "sources": [
     {
       "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
@@ -43,9 +49,19 @@
       "sourceType": "official-product-page",
       "sourceRole": "current-availability-context",
       "primary": true
+    },
+    {
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "publisher": "Anthropic",
+      "url": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf",
+      "publishedDate": null,
+      "sourceType": "official-system-card",
+      "sourceRole": "documentation-date-context",
+      "primary": true,
+      "temporalNote": "The document records an October 22, 2024 addendum covering Claude 3.5 Haiku; this is not treated as proof of public availability on that date."
     }
   ],
   "relationships": [],
   "geography": null,
-  "reviewedAt": "2026-09-22T20:07:00+08:00"
+  "reviewedAt": "2026-09-22T22:07:00+08:00"
 }
