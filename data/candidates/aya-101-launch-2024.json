@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Cohere For AI's first-party launch announcement is dated February 13, 2024 and explicitly announces Aya. The authors' primary technical paper, submitted February 12, 2024, documents Aya as an instruction-following multilingual generative language model covering 101 languages and states that the instruction datasets and model were openly released. This candidate records the February 13 public-launch milestone only; it does not treat the February 12 paper-submission date as the model's birth date and does not infer development geography, universal priority, ancestry, influence, causality, or relationship edges.",
-    "lastVerified": "2026-09-13T04:06:42+08:00"
+    "note": "Reverified 2026-09-22 against Cohere's first-party launch announcement dated February 13, 2024, which explicitly announces Aya, and Cohere Labs' Aya research page, which lists the Aya Model release on February 13, 2024. The authors' primary technical paper, submitted February 12, 2024, documents Aya as an instruction-following multilingual generative language model covering 101 languages and states that the instruction datasets and model were openly released. This candidate records the February 13 public-launch milestone only; it does not treat the February 12 paper-submission date as the model's birth date and does not infer development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-22T10:04:17+08:00"
   },
   "sources": [
     {
