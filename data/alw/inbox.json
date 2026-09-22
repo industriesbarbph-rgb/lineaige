@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-22T04:57:14Z",
+  "updatedAt": "2026-09-22T11:33:04Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5108,6 +5108,66 @@
       "id": "alw-15bfc541b7027beb",
       "status": "unreviewed",
       "discoveredAt": "2026-09-22T04:49:43Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans - BNN Bloomberg",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTWQxZXpoTUd4c3h1SlBvdmJMb0hMcWs1blpYQnloWjNNQmNraGlqajRkMkhoRnRfd0FkMXJhZGVwdkFNR1FVQ2FVUmhJMDJKUk9KTjNBaWJWTDV6UmRSVVlrWUd4WUFPdnZnQTFfdzFtc3M1QjFSWXlSdElpYmgtNTJiQW1JendLMjlncENSNDBXR1F3MXRuYXRzNEFiWklnZFY4T2I0ZWRtdUM4M01kR1NySnY2RDRWZDFSUVk0Nk51LXJIYl9hSG53ODNrem1EalN5dHpIb0k2dw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-dfe76afa98ad0ccc",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T11:33:03Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "President Trump Plans Formation of “AI Force“ - The Presidential Prayer Team",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdTA1UUtqalo5YmVyMWNwZHA3QWtvSkRnX1EwcGJMT2FVdW5fcEFQYlp2VmIzWTlLME11NXFlcndPdzZMOU1VQzFPMW1qVENvMC11TFQyY3JyYjhpc3N4QXBMMXZJRWRqVk9PVG5lckZLODNRdU9KNFc2WS1TeWczUC11dXRsQkRmeUs5UW9IalpxNHZVR0RYVTR3?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-b205770161839064",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T11:33:03Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Nvidia CEO Jensen Huang says there is a “0% chance AI will end the world by 2030” - Business Today",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPckVvNmlXek9rZWZObVZ2UzJnNlNXSlB4a2swS3JSRkNRWnl2VW1fYzhlbnlwWnNkZndMbTBWbnNfWjdJOVV3b3E4Zm5ndlM2aHdpdS1ScktSeE5jMVZwZWlmYmFZOGZ2azk4NkhRLUI3SjZxM2F1Uk9jVXRSbi12cFdHS3lhOWg1dzQtczZHbHJ2MHdXOFN0RFI5djRlbzVBSTYxSXVGbWJQdzR1M2Y4b2tmc3dFalBMbC1uelJvdlFsNFJKUFlzN2piTEh3WVpYb3o1U19FU1BmZDN6LVBXNkg3bkRCUjNQMWQxeF9fdU50SmxxUGlzcDJn0gH_AUFVX3lxTE5hRFFFXzV3VEVhdEhwMm00dmg4VEFfaVgzQnM0RUdDdklVX1kzR293S2RzUGlYR1pwOW9ES08yZDRQMVNUSWw0TERLbXY2X0ZpS05jcHRrWi1jNGZ5WDBWVDlLUE5OV3oydFNmbHJka1l4Skc2bFl0QzY3VmxjRDBaMk5sVmI3QklLazd1ZU1LZmo4NjJjMXZ5cTYyQmNfNFQzZzh3VzRaeFQzd2xUc05FbFh1cFd3MmN5Tk5ybzhQN1o0VmJwbFhoZlVUaW5jXy00aEVBWHk5TEl3ZC02cVNWQ0ZvOTBDRmpKdXRUOVM2cmN2OVpmQ3dfMkQzSUtVQQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-758c1e63bdac0a0b",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T11:33:03Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Jennifer Aniston Is on the Right Side of AI History - jezebel.com",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd3doelZfNDlEQU9FQmZ6SWlnWElOaDREZU1rWHp3S2Z1ek93MFBFY2JuNTBzTHpSQUVLS0pyOWxpUnpkbXdfdTRlTXJjWlNicXMzV2ExMG1HVEdmcTJrZ2k3S3FmcUlmaEJCZk5fNk5sODRkdGY0akpiRzJwVnFleQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-f4f16d2a4676ea14",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T11:33:04Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Fake AI history photos cloud the past - macaubusiness.com",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zRWFma0FQcmc1dGZIN1czVTZ4ZGNtVVc1RkVBZzRUT1AxQzZBOXJFcHVmQy0yR2swWXpkWmZ2N3R6cWZoaTNOZS1PLXR5VTdDejVZLXdFbHdBVXNMUDNIdlNsWUZyZGFUTlhfeTIxY0hMQQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-9ebed08380038f70",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-22T11:33:04Z"
     }
   ]
 }
