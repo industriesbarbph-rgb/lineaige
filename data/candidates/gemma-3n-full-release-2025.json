@@ -1,0 +1,42 @@
+{
+  "id": "gemma-3n-full-release-2025",
+  "recordType": "event",
+  "title": "Gemma 3n Full Release",
+  "displayDate": "26 June 2025",
+  "eventDate": "2025-06-26",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced the full release of Gemma 3n on June 26, 2025, following its May preview, with downloadable model weights and support across multiple developer tools and deployment options.",
+  "significance": "A dated full-release milestone for Google's mobile-first Gemma 3n family, kept distinct from the May 20 preview boundary.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 3n"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google Developers Blog's first-party developer guide is dated June 26, 2025 and explicitly announces the full release of Gemma 3n after the prior month's preview. It states that E2B and E4B sizes are available and provides download and deployment routes. This record preserves the full-release boundary separately from the May 20 preview. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T05:02:25+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Gemma 3n: The developer guide",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-06-26",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement explicitly establishes a full-release boundary for Gemma 3n after its May preview.",
+    "nextStep": "Review for chronology-safe canonical admission while preserving the May 20 preview as a separate event. Add corroboration only when another first-party source directly supports the June 26 full-release boundary."
+  }
+}
