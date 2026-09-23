@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Google Developers Blog's first-party announcement is dated August 14, 2025 and explicitly introduces Gemma 3 270M. It states that the model has 270 million total parameters and that both pretrained and instruction-tuned checkpoints are released. No development geography, ancestry beyond Google's explicit Gemma 3-family framing, downstream influence, causality, priority claim, or relationship edge is inferred.",
-    "lastVerified": "2026-09-24T06:02:38+08:00"
+    "note": "Google Developers Blog's first-party announcement is dated August 14, 2025 and explicitly introduces Gemma 3 270M. Google's first-party Gemma release ledger independently records August 14, 2025 as the release of Gemma 3 in 270M size. Google's Gemma 3 model card corroborates the 270M variant and its 32K context. No development geography, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T07:05:35+08:00"
   },
   "sources": [
     {
@@ -29,6 +29,26 @@
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma 3 model card",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_3",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-model-card",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -36,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A dated first-party Google announcement explicitly establishes the Gemma 3 270M release boundary and model identity.",
-    "nextStep": "Review for chronology-safe canonical admission. Add corroboration only when another first-party source directly supports the August 14 release boundary."
+    "admissionReason": "A dated first-party Google announcement and Google's first-party release ledger independently establish the August 14, 2025 Gemma 3 270M release boundary; the official model card corroborates the 270M variant.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep release chronology separate from any unsupported ancestry, influence, geography, or causal claims."
   }
 }
