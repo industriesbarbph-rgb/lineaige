@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T17:00:02Z",
+  "updatedAt": "2026-09-23T21:28:12Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5511,6 +5511,42 @@
       "id": "alw-f135b895d0d1fec6",
       "status": "unreviewed",
       "discoveredAt": "2026-09-23T16:53:36Z"
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "sourceName": "Google AI",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-e896566878a9d4f0",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T21:28:08Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "NestAI opens Tallinn AI centre, plans more than 25 specialists to build adaptive battlefield systems for NATO’s eastern flank - Defence Industry Europe",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObVFzdnh1aDlacGdlZkN2VHdnZzJqOFN6djdpdDVtVzluUmVBWGgyU2xCLWNvM3g1OHp3Zm54cHhnMG9tZEFleWFCaWZhMm1vdG9JZjMtLVhqT09jNlVmblN4SXR0RHFLZENxOVdBUlVJYkFXMG9tbWNNNmxKOUhBb3QzTm9Fa3ZoVnoxNlRQSkhTTkYwQ2lsZFZpWnpfQ2t6eXVVNUZ1X0V3dlpnUzlNaDhaeGpKQ2JTcV9obl9pUEVTQjlnT0tLWjVDOUNjdVJPOUdJb01zMlhGLWRfRnR5aDYzRjZYcTQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-46779c237e5a9147",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T21:28:12Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "The University of Buckingham named number one in the UK for AI education - Milton Keynes Citizen",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPb2REQUFJbDcxLXJvY0VvVXo4Q0Y4bVFNWkVDdURLYWRvajFLVWVfOWd2Zi00RXJwNnQ3azdwdVFqVy11Mll6ZHFyTV9kUkZxOE9BQlBWempMQllVZk9tSEVObExQWEV2cklQYWFoaU5pZlNQTW9rMkJSbWZrdDdwQnF5UkY2dElHQUdlVHpOYWFfTDRocmpJY2xMY1ZURXNxa1Uwd2lVaU9VSDlzRkh2eU1MODU3U1VPSmhpeldHVU5DT25TUHVabGg4Z1JDMGl2ZXI2N3kzZThPN1E?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-02b2a9d1db2b0abb",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T21:28:12Z"
     }
   ]
 }
