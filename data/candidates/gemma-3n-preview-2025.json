@@ -1,0 +1,42 @@
+{
+  "id": "gemma-3n-preview-2025",
+  "recordType": "event",
+  "title": "Gemma 3n Preview",
+  "displayDate": "20 May 2025",
+  "eventDate": "2025-05-20",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced the preview of Gemma 3n on May 20, 2025 as a mobile-first open model architecture intended for efficient multimodal AI on phones, tablets, and laptops.",
+  "significance": "A dated preview milestone in Google's Gemma family focused on efficient on-device multimodal AI.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 3n"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google Developers Blog's first-party announcement is dated May 20, 2025 and explicitly labels Gemma 3n a preview, describes it as mobile-first, and states that it targets real-time AI on phones, tablets, and laptops. This record preserves preview status and does not treat the preview as a later general-release boundary. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T04:04:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Announcing Gemma 3n preview: powerful, efficient, mobile-first AI",
+      "url": "https://developers.googleblog.com/introducing-gemma-3n/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-05-20",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement directly establishes the Gemma 3n preview boundary and its mobile-first, on-device multimodal positioning.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep this May 20 preview distinct from any later Gemma 3n release boundary, and add corroboration only when an independent first-party source directly supports this preview event."
+  }
+}
