@@ -1,0 +1,42 @@
+{
+  "id": "gemma-2-2b-release-2024",
+  "recordType": "event",
+  "title": "Gemma 2 2B Release",
+  "displayDate": "31 July 2024",
+  "eventDate": "2024-07-31",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google released the Gemma 2 2B model on July 31, 2024, making its model weights available through Kaggle, Hugging Face, and Vertex AI Model Garden and making the model available to try in Google AI Studio.",
+  "significance": "A dated expansion milestone in the Gemma 2 family, following the initial June 27, 2024 release of the 9B and 27B models.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["Gemma 2 2B", "Gemma 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google Developers Blog records July 31, 2024 and states that the Gemma 2 2B model was being introduced, with model weights available starting that day from Kaggle, Hugging Face, and Vertex AI Model Garden and the model available to try in Google AI Studio. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-23T11:04:57+08:00"
+  },
+  "sources": [
+    {
+      "title": "Smaller, Safer, More Transparent: Advancing Responsible AI with Gemma",
+      "url": "https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2024-07-31",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement directly supports the July 31, 2024 Gemma 2 2B release boundary and same-day availability channels.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep this later 2B expansion distinct from the June 27, 2024 initial Gemma 2 9B/27B release. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from family naming or release sequence."
+  }
+}
