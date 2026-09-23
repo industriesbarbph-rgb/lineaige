@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T17:00:02Z",
+  "updatedAt": "2026-09-23T21:30:41Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -24,9 +24,9 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-23T16:59:51Z",
+      "checkedAt": "2026-09-23T21:30:31Z",
       "status": 200,
-      "pageHash": "e9a9ddc87ce584480719a0177f4c1b1360bdde81ba8c28a5c125eb14f07e9e69"
+      "pageHash": "830f1deeee7c5a84363ce53210516ddaa567ae97b6809891ec6ae3cf28e777fe"
     },
     "Google DeepMind": {
       "seen": [
@@ -64,9 +64,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-23T16:59:52Z",
+      "checkedAt": "2026-09-23T21:30:32Z",
       "status": 200,
-      "pageHash": "e1bc94e34a20057dd7e54bbc7a5bc1ccf2b3f5120915732ab85755c6fb955d42"
+      "pageHash": "dcb203ee4a54146590d73e910e338073d91c83a48b96b557a854746115ec975c"
     },
     "Google AI": {
       "seen": [
@@ -102,11 +102,12 @@
         "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
         "https://blog.google/innovation-and-ai/technology/health",
         "https://blog.google/innovation-and-ai/technology/research",
+        "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-23T16:59:52Z",
+      "checkedAt": "2026-09-23T21:30:32Z",
       "status": 200,
-      "pageHash": "7b43d12ecd77e0fab424526189053f3321e2f508f04f8bdb6c4a3a4502130bc6"
+      "pageHash": "7312c258a40a499d89ab16b8afecab6cc4e823163af49d0a3d5af67eca195720"
     },
     "Meta AI": {
       "seen": [
@@ -137,15 +138,15 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-23T16:59:53Z",
+      "checkedAt": "2026-09-23T21:30:34Z",
       "status": 200,
-      "pageHash": "e50cf475c7be3418e50c326f751ebe889c7efd5a2ae75ce245e07c04f08d5274"
+      "pageHash": "ecc1934205236c5801bdd1f62967e7ed9e0f53d37a5b57de8fc326cc45618dab"
     },
     "Microsoft AI": {
       "seen": [
         "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd"
       ],
-      "checkedAt": "2026-09-23T16:59:54Z",
+      "checkedAt": "2026-09-23T21:30:34Z",
       "status": 200,
       "pageHash": "3b3428e1f564cdadcf8b88794704c39f6e1dd89fbf101b9e535eb6e3444eab00"
     },
@@ -179,9 +180,9 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-23T16:59:54Z",
+      "checkedAt": "2026-09-23T21:30:34Z",
       "status": 200,
-      "pageHash": "b2927d330b42fc2213a58d16ab97279432be595f3c63e2ac224d63c79220277d"
+      "pageHash": "fab5a703a922fc78597129765026be57b45e7a9bcd9cba65c5230a1ec48fcf66"
     },
     "EuroHPC": {
       "seen": [
@@ -224,7 +225,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-23T16:59:55Z",
+      "checkedAt": "2026-09-23T21:30:35Z",
       "status": 200,
       "pageHash": "3f28df8907f860a052fea643d3358dd6d4b2f8c09b3857c1877ebaf76e8e9a07"
     },
@@ -252,9 +253,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-23T16:59:55Z",
+      "checkedAt": "2026-09-23T21:30:35Z",
       "status": 200,
-      "pageHash": "5494c74a4f0993046064ef4553259dbc73f782576b6e83463dc0ec97825e185c"
+      "pageHash": "f09e2d4612eb0ca36e70b0de064c2d61594b56117a7266bea210c13bef351b92"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -312,7 +313,7 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-23T16:59:56Z",
+      "checkedAt": "2026-09-23T21:30:36Z",
       "status": 200,
       "pageHash": "bb8d2dc5a15ffc1a122bbc90deb241686fdfcdb322a41f791b38f3d0e21ed475"
     }
