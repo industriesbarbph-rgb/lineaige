@@ -1,0 +1,52 @@
+{
+  "id": "paligemma-2-mix-release-2025",
+  "recordType": "event",
+  "title": "PaliGemma 2 mix Release",
+  "displayDate": "19 February 2025",
+  "eventDate": "2025-02-19",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's Gemma release documentation records the release of PaliGemma 2 mix on February 19, 2025, in 3B, 10B, and 28B parameter sizes.",
+  "significance": "A dated release milestone for PaliGemma 2 checkpoints tuned across a mixture of vision-language tasks for direct exploration and common out-of-the-box uses.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["PaliGemma 2 mix", "PaliGemma 2 mix 3B", "PaliGemma 2 mix 10B", "PaliGemma 2 mix 28B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google AI for Developers' first-party Gemma release ledger explicitly records February 19, 2025 as the PaliGemma 2 mix release date and lists 3B, 10B, and 28B parameter sizes. Google's same-day Developers Blog announcement independently identifies the launch and describes the mix checkpoints as tuned to a mixture of tasks for direct exploration and common out-of-the-box uses. This boundary is kept separate from the December 5, 2024 PaliGemma 2 release. No development geography, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T01:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Introducing PaliGemma 2 mix: A vision-language model for multiple tasks",
+      "url": "https://developers.googleblog.com/introducing-paligemma-2-mix/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-02-19",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's first-party release ledger directly supports the February 19, 2025 PaliGemma 2 mix release boundary and model sizes, while Google's same-day first-party announcement independently corroborates the launch and task-mixture positioning.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep this February 2025 mix-checkpoint release distinct from the December 2024 PaliGemma 2 release, and do not infer geography, influence, causality, or relationship edges without separate evidence."
+  }
+}
