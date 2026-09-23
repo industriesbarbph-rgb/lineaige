@@ -1,0 +1,52 @@
+{
+  "id": "command-r-release-2024",
+  "recordType": "event",
+  "title": "Command R Release",
+  "displayDate": "11 March 2024",
+  "eventDate": "2024-03-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere introduced Command R on March 11, 2024 as a generative model aimed at scalable production workloads, with emphasis on retrieval-augmented generation, tool use, and long-context tasks.",
+  "significance": "A dated launch milestone in Cohere's Command R model family, establishing the initial Command R announcement boundary without inferring ancestry or causal relationships.",
+  "people": [],
+  "organizations": ["Cohere"],
+  "technologies": ["Command R"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere's first-party blog is dated March 11, 2024 and identifies the post as a Product Launch for Command R. Cohere's first-party release notes independently describe Command R as a new LLM for large-scale production workloads and document a 128K context window, RAG/tool-use focus, multilingual capabilities, and research/evaluation weights on Hugging Face. The release-notes page currently displays March 24, 2024, so it is used as corroborating evidence rather than to override the March 11 launch boundary. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or relationship edges.",
+    "lastVerified": "2026-09-23T16:05:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Command R: RAG at Production Scale",
+      "url": "https://cohere.com/blog/command-r",
+      "publisher": "Cohere",
+      "publishedDate": "2024-03-11",
+      "sourceType": "official-release-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Command R: Retrieval-Augmented Generation at Scale",
+      "url": "https://docs.cohere.com/changelog/command-r-retrieval-augmented-generation-at-production-scale",
+      "publisher": "Cohere",
+      "publishedDate": "2024-03-24",
+      "sourceType": "official-release-note",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Cohere launch post directly establishes the March 11, 2024 Command R launch boundary, while first-party release notes independently corroborate model identity and core capabilities.",
+    "nextStep": "Review for chronology-safe canonical admission. Preserve the March 11 launch boundary separately from later platform availability, model refreshes, and release-note dates; add relationships only if separately evidenced."
+  }
+}
