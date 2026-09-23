@@ -1,0 +1,42 @@
+{
+  "id": "gemini-1-5-pro-gemini-advanced-2024",
+  "recordType": "event",
+  "title": "Gemini 1.5 Pro Comes to Gemini Advanced",
+  "displayDate": "14 May 2024",
+  "eventDate": "2024-05-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced on May 14, 2024 that Gemini 1.5 Pro was being brought to Gemini Advanced subscribers, with availability stated for more than 150 countries and over 35 languages.",
+  "significance": "A separately evidenced consumer-product availability boundary for Gemini 1.5 Pro, kept distinct from its February limited developer and enterprise preview and its developer-platform preview milestones.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["Gemini 1.5", "Gemini 1.5 Pro", "Gemini Advanced"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party May 14, 2024 Gemini product announcement states that Gemini 1.5 Pro was being brought to Gemini Advanced subscribers and states availability in more than 150 countries and over 35 languages. This record treats May 14 only as the evidenced Gemini Advanced consumer-product boundary. The stated countries/languages describe service availability, not model-development geography. No ancestry, influence, causality, universal priority, or relationship edges are inferred.",
+    "lastVerified": "2026-09-23T09:07:55+08:00"
+  },
+  "sources": [
+    {
+      "title": "Get more done with Gemini: Try 1.5 Pro and more intelligent features",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-update-may-2024/",
+      "publisher": "Google",
+      "publishedDate": "2024-05-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party Google product announcement directly supports the May 14, 2024 Gemini Advanced availability boundary for Gemini 1.5 Pro.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep this consumer-product boundary distinct from developer-platform preview and later general-availability boundaries. Add relationships only if separately evidenced."
+  }
+}
