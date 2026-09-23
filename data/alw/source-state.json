@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastRun": "2026-09-23T04:41:12Z",
+  "lastRun": "2026-09-23T11:29:43Z",
   "sources": {
     "openai": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T04:41:07Z",
+      "lastChecked": "2026-09-23T11:29:37Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "anthropic": {
@@ -24,7 +24,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "lastChecked": "2026-09-23T04:41:07Z",
+      "lastChecked": "2026-09-23T11:29:38Z",
       "lastStatus": 200,
       "pageHash": "fb325ade2f27b30548c6a823a7a48285e2f5035b6a67a176fc42bca8e3f97d41"
     },
@@ -63,7 +63,7 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "lastChecked": "2026-09-23T04:41:08Z",
+      "lastChecked": "2026-09-23T11:29:38Z",
       "lastStatus": 200,
       "pageHash": "45b8cbc1a057798f4b973dded72ccf8de11d71a262d5e63a58960ee19bbdc754"
     },
@@ -102,9 +102,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "lastChecked": "2026-09-23T04:41:08Z",
+      "lastChecked": "2026-09-23T11:29:38Z",
       "lastStatus": 200,
-      "pageHash": "00dbcec552b9da3223c768d2f5bef37f4ea947a53a316ebdc416594753fc9470"
+      "pageHash": "f7c073f36664e5443cc93d0b6b819b9b21d1ab21cc93c93e0b08e2f39227bbcd"
     },
     "meta-ai": {
       "seenUrls": [
@@ -134,9 +134,9 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "lastChecked": "2026-09-23T04:41:10Z",
+      "lastChecked": "2026-09-23T11:29:40Z",
       "lastStatus": 200,
-      "pageHash": "2c9ee8791710ccefb6d66afa0b17f6a1746e91e6be56062c05eb1acdb24bfd81"
+      "pageHash": "7ad14a4fe804892f03327812458264c6cf6353c696f6337b8c1d214f7b31f177"
     },
     "eurohpc": {
       "seenUrls": [
@@ -163,6 +163,7 @@
         "https://www.eurohpc-ju.europa.eu/eurohpc-ju-launches-q-neko-project-strengthen-eu-japan-collaboration-quantum-computing-2026-07-06_en",
         "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
         "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-meluxina-ai-new-ai-optimised-supercomputer-luxembourg-ai-factory-2026-07-22_en",
+        "https://www.eurohpc-ju.europa.eu/europe-and-latin-america-strengthen-digital-ties-high-performance-computing-and-ai-2026-09-23_en",
         "https://www.eurohpc-ju.europa.eu/media-events/press-releases_en",
         "https://www.eurohpc-ju.europa.eu/media-events/press-releases_en?page=1",
         "https://www.eurohpc-ju.europa.eu/media-events/press-releases_en?page=2",
@@ -178,18 +179,18 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "lastChecked": "2026-09-23T04:41:11Z",
+      "lastChecked": "2026-09-23T11:29:41Z",
       "lastStatus": 200,
-      "pageHash": "d019b32c25340d462bc80b0a083357ba91e4202cfa6c0904ec118289a4fbee72"
+      "pageHash": "3f28df8907f860a052fea643d3358dd6d4b2f8c09b3857c1877ebaf76e8e9a07"
     },
     "meti": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T04:41:11Z",
+      "lastChecked": "2026-09-23T11:29:41Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "dict-ph": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T04:41:11Z",
+      "lastChecked": "2026-09-23T11:29:42Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     }
   }

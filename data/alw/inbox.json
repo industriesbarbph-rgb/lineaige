@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T04:46:17Z",
+  "updatedAt": "2026-09-23T11:29:43Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5344,6 +5344,90 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-23T04:46:09Z",
       "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "laneHint": "future",
+      "title": "Europe and Latin America strengthen digital ties with High-Performance Computing and AI",
+      "sourceName": "EuroHPC",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://www.eurohpc-ju.europa.eu/europe-and-latin-america-strengthen-digital-ties-high-performance-computing-and-ai-2026-09-23_en",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-28716db6fc57fc38",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:41Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump wants to rebrand artificial intelligence. It was almost called these 3 names - AOL.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdmxaNVhBazg5SjBYczUwWklvX1VfV3lDYnZTNUxoNTJvcEIxWl9ES19oMU9QTGF5dU5URi02U3lGZmpuNHhxR29KOERXTVRKNFlRbERLTUJjR3pFUjhxdWRtbGNIZ01HQzh1ZU53SlItMG5sWVlISVJ4YkVRX3FnT2hvcW1SSlBVQjU4c2JKM2I?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-33620e721a12364d",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:42Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Donald Trump proposes AI Force and artificial intelligence czar - Mjengo Hub",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTc5NUZZOHc1WWZ5Y2h1TWR1Qm0waFdGWkZpc2JJVWNEeUh1NGVDTlU2N0E0YVE5OFBoeWtsSUdOVG5EMUNWb3U0YzktN1pYNGxxNmIxZV9qOG9HNGt4bnc2b0lYckNrOTVfMmZsbmluZV9UbEVtcm4zRzZYb1U5elZiV2doUURhOFdhclVLRlM2Y0ZwQUVMaGNFLXB0UWtmMEZ4enEtNFp6Rlk?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-76bc8f834182c3c4",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:42Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Trump Announces 'AI Force' to Regulate Artificial Intelligence, Plans to Name AI Czar - AOL.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYjg3WE00QU9raVNQM2thVkJOd3Q5ZUNET3dGWXZIOUR6aHJvZTdteGVGR3lBSG9RY3JsQmJIem1wMnNPdjJBdVZGWkNlUm1Kdmppd3BwS0U0dVlBa2dnVXlwZFRHMGRQS3BBNkk0XzZVUUNrRFBnMDR0bXp5NExRMlhBcw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-56edfb0a83d00a58",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:42Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Are Africa’s power grids ready for the AI data centre boom? - The World Economic Forum",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVl90by0tYzdlaG9jS2ZjNTV2VF9LQmN4c0ttV1pRdGNWeVdjU2d2aGh0aEgySV9tbTVfVzlFVElQQlJKc2lRUHVHd2Rzb2lrN203ZVJreVhSUkQ2bVFIdEstSzhyelFOdUt0QUdBVHBDUVFTLXI2OENDMmhiSC1YVWNwZHdkMXBfQ1htMTE1NHctSmdMSlFNbnN2VQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-df0824df9b954814",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:42Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "A Peek Into AI History: The First AI Program - jrodthoughts.medium.com",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeS1rbFNVLXFFSlBGM19hT1d2OFI4X2ZoeVJsOXJHc2dvZUozNnBSdXJkU2ZNNVAyelV1eEoyZktTbkRid3hsMVZxZXYwaG0xYUZHLS1qRHlZT3ZST3JvTTJCVFRTdWFFVURqWXJTa3NDb0xKc2EzWWw3clBMdFRlcFhEVVIteVpFYThVdzdGdDFBQQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-821fbb8d8fba9196",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:43Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "TikTok’s viral AI history POV trend lets you go back in time in first-person – sort of - Dexerto",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNWIzdHhMTl9yYktjLW1PcDVnZ3ZQSHpIZ3FaX3cyczczdE1VbkREVDJKRTJlYVA2V28xbnNmVVdzR0YzVjh3Tnp2RHp4XzNfREFRMzFxc0RTUnpGb3ZyU0hWTC1mN2ZicExNbldYTFBZZm5FLW1uei1TeTBNU0VFTE5ROWNwVkdRWG5lcmExaUpaSm5mYjdlMV8ySWcxbzhEYnJwTmxKM29veVV0ZFR3N0JXSEVFOG5kSUY2TDFna0g?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-e0d51bfbcd66ebb4",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T11:29:43Z"
     }
   ]
 }
