@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-22T21:20:06Z",
+  "updatedAt": "2026-09-23T04:41:12Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5285,6 +5285,54 @@
       "id": "alw-d428f766635bdc19",
       "status": "unreviewed",
       "discoveredAt": "2026-09-22T21:15:48Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Kini AI targets 1m Nigerians for training by 2030 - The Guardian Nigeria News",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ3RiMkNINFdnYmFVYVVZRDFBcFY2NXNWY3VEQXRyYUoyYXdXN29zdk5SMmF6NDhqaXlmdEVSVnZpRlFGOEwyX1dUWUloWm9HUWFNWVZLc1k5TklwRE92OGIzc0tiNGx6X0UzV2RnSmNxSElNa2NFc0hvSlRRX3FMV2FNRFFubE9TTXhKcEc5Yw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-0abec7a148d279c1",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T04:41:12Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "AI could kill all humans in next decade, warn experts: but how seriously should we take them? | AI (artificial intelligence) - The Guardian",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUNtV20wYXJQU1RyZGpkOVh6LUFqTDRPY1hDTDhoQzlVZWduQjB2aVR0QzZmYkozX3BLZHVYMDdaV1c5UHhaNktCX0o1UnZCWm81Wjl3TUs0c1I3QXB3Z3NRQW1EZFduejZTLWk3OFBqMFhQNFhTM1d1NEVvbkM4czhqNlhUWlNqRnVvV2FvamxYRTRPTDlPQ2xGOXpac1V2NjkzdUh5U0s5NW9fLUE?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-ffa595acb9929033",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T04:41:12Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans' - BBC",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6WDZoOFRnTjQ5WW5vMUJKeThhbUUyUTlaeXdKbUhoNE5WNDhnVjhmM080N3p3ZFJfSm9ncUZtblZDRm1YU1hYbjBZZ3ZXNkRjSmNBUmdTa0tCZw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-5b9056191b315293",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T04:41:12Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "French burglar used ChatGPT to locate Canberra home with luxury goods - ABC News & Headlines – Australian Broadcasting Corporation",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc3RRQ2twMW9fWktaQ19RSF82cFJqeGViN0pvd1FyS1ZaMzlLSFVtNnE0ZGhKUWdUT3ZDVm5Za1BJdDNxX1plYkhuTjhpeElUSVdpbEtsMEpHbDNYcko5eWFIQV9xdzBfc1dablNraEFpdnRVM24waTY0aW1fNk5VUXNhTjdYTHFHenExakh0TUVZdXlKU3BuQkZqaDRudzhKTkdR?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-6a2002f3c13167df",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T04:41:12Z"
     }
   ]
 }
