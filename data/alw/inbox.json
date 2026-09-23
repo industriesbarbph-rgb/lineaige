@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T11:37:59Z",
+  "updatedAt": "2026-09-23T16:53:36Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5439,6 +5439,78 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-23T11:37:56Z",
       "note": "Discovery lead only; locate and verify the underlying primary source before admission."
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "Features Sep 22, 2026 The Situation Report A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.",
+      "sourceName": "Anthropic News",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://www.anthropic.com/features/ebola-response",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-65dfdba941285b10",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:30Z"
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "advancing-private-ai-compute-with-secure-server-side-memory",
+      "sourceName": "Google DeepMind Blog",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-cd8117c6d35f983b",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:31Z"
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "A new wave of Connected Apps is rolling out to Gemini.",
+      "sourceName": "Google AI",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-92e8747654159e7f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:32Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "AACR Data Science and Artificial Intelligence in Oncology Conference 2027 - Oncodaily",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xa3N4QzI4ejctZDFhNkxFY2NLM095MkZrWFlNRnA0S0JyUFNqMldSNVp3V2c1N05VZFlPVlFYZWdWa0VUVjY4cVFrZTlmSVJJZFNQWi1Hd3E1d29Nbldwd2Z5YWtGOERBS0E?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-f91f28f1d0f9adb7",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:36Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Alibaba unveils Zhenwu V900 AI accelerator, claims it's 'the most powerful AI chip in China' — accelerator supports 500,000 chip supercluster with a 10T-parameter Qwen model on the roadmap - Tom's Hardware",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNZXdKRTNKSWxHZEFza3k0bHV2Tng3RnNuY3pjWmtCZWQwaEF5Si1IblRzRnpoamRwRV9UbmF6NFlTV1AzNXZkOGxBNVFZalQtU3RCZTJqbERuRHEyMlVEdU5SY2V6d0xQRzEtRHZJbmVLZUc1MnlvdVM5VTQxLTJaWWRjTUQwdXJRaHplMkVicHZ4SkZlbzhYcHhLS2Y4WklOam5FcnZMSURnV0Fnc0M2a1p1UTZwa0F2WW5WaklNZXBNSzFIXzZMaU9NeUFvZjdzNldwV0plWTNCcy1SLW9yNHhEREN5R2tra2hreTNXSDF5V3hXcy1EYmNhUDNBSUF2VkpyNTRKbVlGbGh4Wmt2MVJDc2hDOTFBNC1GNlRETmlObjBmSzlmbF9hYmxuZ0NSVjQwRHd2YWhUTXBJZUdjWENrUEZCTVM4UmtBYWlSdXBYaVY0YmMtV2V3ak1TVmpjTmxiR0FJSXM?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-c43474759085873b",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:36Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "How China’s Leader Plans to Win the Future With A.I. - The New York Times",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnRkSHptSENpRmdDVVlQQUprQXNWLVA5NThoakIwRE5fY3k2T29BaXFrMXJlelFqTzgyc2FmcVRNX0dyUFhPTmJUNEFzc2xVSzRBTmxULTBWU01xZXU2M3NranZSc2drWWJOYTN4Q2did0h6VzNnakhNNzFETlpLQWg2RXg?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-f135b895d0d1fec6",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-23T16:53:36Z"
     }
   ]
 }

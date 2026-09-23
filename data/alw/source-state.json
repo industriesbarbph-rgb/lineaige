@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastRun": "2026-09-23T11:29:43Z",
+  "lastRun": "2026-09-23T16:53:36Z",
   "sources": {
     "openai": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T11:29:37Z",
+      "lastChecked": "2026-09-23T16:53:30Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "anthropic": {
@@ -13,6 +13,7 @@
         "https://www.anthropic.com/claude-opus-5-5",
         "https://www.anthropic.com/claude/haiku",
         "https://www.anthropic.com/economic-futures",
+        "https://www.anthropic.com/features/ebola-response",
         "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "https://www.anthropic.com/news/improving-alignment-security-efforts",
         "https://www.anthropic.com/news/life-sciences-verification-program",
@@ -24,14 +25,15 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "lastChecked": "2026-09-23T11:29:38Z",
+      "lastChecked": "2026-09-23T16:53:30Z",
       "lastStatus": 200,
-      "pageHash": "fb325ade2f27b30548c6a823a7a48285e2f5035b6a67a176fc42bca8e3f97d41"
+      "pageHash": "e9a9ddc87ce584480719a0177f4c1b1360bdde81ba8c28a5c125eb14f07e9e69"
     },
     "deepmind": {
       "seenUrls": [
         "https://deepmind.google/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
         "https://deepmind.google/blog",
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
         "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail",
         "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms",
         "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -63,9 +65,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "lastChecked": "2026-09-23T11:29:38Z",
+      "lastChecked": "2026-09-23T16:53:31Z",
       "lastStatus": 200,
-      "pageHash": "45b8cbc1a057798f4b973dded72ccf8de11d71a262d5e63a58960ee19bbdc754"
+      "pageHash": "e1bc94e34a20057dd7e54bbc7a5bc1ccf2b3f5120915732ab85755c6fb955d42"
     },
     "google-ai": {
       "seenUrls": [
@@ -89,6 +91,7 @@
         "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini",
         "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
         "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips",
+        "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini",
         "https://blog.google/innovation-and-ai/products/gemini-notebook",
         "https://blog.google/innovation-and-ai/technology",
         "https://blog.google/innovation-and-ai/technology/ai",
@@ -102,9 +105,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "lastChecked": "2026-09-23T11:29:38Z",
+      "lastChecked": "2026-09-23T16:53:32Z",
       "lastStatus": 200,
-      "pageHash": "f7c073f36664e5443cc93d0b6b819b9b21d1ab21cc93c93e0b08e2f39227bbcd"
+      "pageHash": "7b43d12ecd77e0fab424526189053f3321e2f508f04f8bdb6c4a3a4502130bc6"
     },
     "meta-ai": {
       "seenUrls": [
@@ -134,9 +137,9 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "lastChecked": "2026-09-23T11:29:40Z",
+      "lastChecked": "2026-09-23T16:53:33Z",
       "lastStatus": 200,
-      "pageHash": "7ad14a4fe804892f03327812458264c6cf6353c696f6337b8c1d214f7b31f177"
+      "pageHash": "248f18bd5446ede22ac7e48f196ad97fbf9fc2668783783cf4b221399ba5327a"
     },
     "eurohpc": {
       "seenUrls": [
@@ -179,18 +182,18 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "lastChecked": "2026-09-23T11:29:41Z",
+      "lastChecked": "2026-09-23T16:53:35Z",
       "lastStatus": 200,
       "pageHash": "3f28df8907f860a052fea643d3358dd6d4b2f8c09b3857c1877ebaf76e8e9a07"
     },
     "meti": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T11:29:41Z",
+      "lastChecked": "2026-09-23T16:53:35Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "dict-ph": {
       "seenUrls": [],
-      "lastChecked": "2026-09-23T11:29:42Z",
+      "lastChecked": "2026-09-23T16:53:35Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     }
   }
