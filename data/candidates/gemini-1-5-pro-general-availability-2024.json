@@ -1,0 +1,42 @@
+{
+  "id": "gemini-1-5-pro-general-availability-2024",
+  "recordType": "event",
+  "title": "Gemini 1.5 Pro General Availability on Vertex AI",
+  "displayDate": "24 May 2024",
+  "eventDate": "2024-05-24",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google Cloud's Vertex AI release notes record Gemini 1.5 Pro (gemini-1.5-pro-001) as generally available on May 24, 2024, alongside Gemini 1.5 Flash (gemini-1.5-flash-001).",
+  "significance": "A dated production-availability boundary for Gemini 1.5 Pro on Vertex AI, kept distinct from its earlier private/public preview milestones and consumer availability in Gemini Advanced.",
+  "people": [],
+  "organizations": ["Google", "Google Cloud"],
+  "technologies": ["Gemini 1.5", "Gemini 1.5 Pro", "Vertex AI"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google Cloud's first-party Vertex AI release notes explicitly date general availability of gemini-1.5-pro-001 and gemini-1.5-flash-001 to May 24, 2024. This corrects the open research expectation that GA would occur in June: Google's May 14 announcement said GA would follow in June, but the authoritative dated release ledger records GA on May 24. This record is scoped to Vertex AI general availability and does not infer a universal cross-product release boundary. No development geography, ancestry, influence, causality, universal priority, or relationship edges are inferred.",
+    "lastVerified": "2026-09-23T10:04:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Vertex AI release notes — May 24, 2024",
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes",
+      "publisher": "Google Cloud",
+      "publishedDate": "2024-05-24",
+      "sourceType": "official-release-notes",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google Cloud's first-party dated release ledger explicitly establishes May 24, 2024 as the Vertex AI GA boundary for Gemini 1.5 Pro 001.",
+    "nextStep": "Review for chronology-safe canonical admission. Preserve product-scope semantics: this establishes Vertex AI GA, not a universal Gemini 1.5 Pro release date. Reconcile earlier candidate notes that anticipated June GA without rewriting their historically accurate account of what Google said on May 14. Add relationships only if separately evidenced."
+  }
+}
