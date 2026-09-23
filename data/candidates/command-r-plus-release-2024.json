@@ -1,0 +1,52 @@
+{
+  "id": "command-r-plus-release-2024",
+  "recordType": "event",
+  "title": "Command R+ Release",
+  "displayDate": "4 April 2024",
+  "eventDate": "2024-04-04",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere introduced Command R+ on April 4, 2024 as a RAG-optimized model for enterprise-grade workloads and stated that it was available first on Microsoft Azure.",
+  "significance": "A dated launch milestone in Cohere's Command model family, recorded as a product-release boundary without inferring ancestry, influence, or causal relationships.",
+  "people": [],
+  "organizations": ["Cohere", "Microsoft"],
+  "technologies": ["Command R+", "Microsoft Azure"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere's first-party launch post is dated April 4, 2024, identifies the post as a Product Launch, introduces Command R+, and states that it was available first on Microsoft Azure. Cohere's current first-party model documentation independently identifies command-r-plus-04-2024 as the April 2024 Command R+ model and documents its 128K context and complex RAG/multi-step tool-use positioning. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or relationship edges.",
+    "lastVerified": "2026-09-23T17:06:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Command R+: A Scalable LLM Built for Business",
+      "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+      "publisher": "Cohere",
+      "publishedDate": "2024-04-04",
+      "sourceType": "official-release-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Cohere's Command R+ Model (Details and Application)",
+      "url": "https://docs.cohere.com/v1/docs/command-r-plus",
+      "publisher": "Cohere",
+      "publishedDate": null,
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Cohere launch post directly establishes the April 4, 2024 Command R+ launch boundary, with current first-party model documentation corroborating the April 2024 model identity and core specifications.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep this launch boundary separate from later platform availability and the August 2024 Command R+ refresh; add relationships only if separately evidenced."
+  }
+}
