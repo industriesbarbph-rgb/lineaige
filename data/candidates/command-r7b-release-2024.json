@@ -1,0 +1,52 @@
+{
+  "id": "command-r7b-release-2024",
+  "recordType": "event",
+  "title": "Command R7B Release",
+  "displayDate": "13 December 2024",
+  "eventDate": "2024-12-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere announced Command R7B on December 13, 2024 as the smallest and fastest model in its R family of enterprise-focused large language models, with a 128K context window.",
+  "significance": "A dated release milestone in Cohere's Command R model family, establishing the release and availability boundary for Command R7B.",
+  "people": [],
+  "organizations": ["Cohere"],
+  "technologies": ["Command R7B", "command-r7b-12-2024"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere's first-party release note is dated December 13, 2024 and explicitly announces the release of Command R7B, identifies a 128K context window, and states that it was available that day on the Cohere Platform and Hugging Face and through the SDK as command-r7b-12-2024. Cohere's current first-party model documentation independently corroborates the model identity, R-family positioning, 128K context window, model ID, and availability. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or relationship edges.",
+    "lastVerified": "2026-09-23T15:04:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Announcing Command R7b",
+      "url": "https://docs.cohere.com/changelog/command-r-7b/",
+      "publisher": "Cohere",
+      "publishedDate": "2024-12-13",
+      "sourceType": "official-release-note",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Cohere's Command R7B Model",
+      "url": "https://docs.cohere.com/docs/command-r7b",
+      "publisher": "Cohere",
+      "publishedDate": null,
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Cohere release note directly supports the December 13, 2024 release and availability boundary, while current first-party model documentation independently corroborates the model identity and core specifications.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from R-family naming or release sequence."
+  }
+}
