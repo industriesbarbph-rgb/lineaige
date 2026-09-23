@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Meta's first-party announcement is dated July 23, 2024 and explicitly states that Meta was publicly releasing Llama 3.1 405B, describes upgraded 8B and 70B models, and states that starting that day the models were available for download and immediate development on partner platforms. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
-    "lastVerified": "2026-09-23T03:04:00+08:00"
+    "note": "Meta's first-party release announcement is dated July 23, 2024 and explicitly states that Meta was publicly releasing Llama 3.1 405B, describes upgraded 8B and 70B models, and states that starting that day the models were available for download and immediate development on partner platforms. A separate same-day Meta responsibility post independently identifies the introduction of the Llama 3.1 collection and its 128K context, eight-language support, and 405B model. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-23T14:05:00+08:00"
   },
   "sources": [
     {
@@ -29,6 +29,16 @@
       "sourceRole": "claim-evidence",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Expanding our open source large language models responsibly",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility/",
+      "publisher": "Meta AI",
+      "publishedDate": "2024-07-23",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -36,7 +46,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A dated first-party release announcement directly supports the July 23, 2024 release milestone, model sizes, context length, multilingual support, and same-day availability claims recorded here.",
+    "admissionReason": "Two dated first-party Meta sources directly support the July 23, 2024 release boundary and core model-family facts; the principal release announcement supports same-day availability, while the responsibility post independently corroborates the collection identity and core specifications.",
     "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from model-family naming or release sequence."
   }
 }
