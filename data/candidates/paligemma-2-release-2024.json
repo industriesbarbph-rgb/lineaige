@@ -1,0 +1,52 @@
+{
+  "id": "paligemma-2-release-2024",
+  "recordType": "event",
+  "title": "PaliGemma 2 Release",
+  "displayDate": "5 December 2024",
+  "eventDate": "2024-12-05",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's Gemma release documentation records the release of PaliGemma 2 on December 5, 2024, in 3B, 10B, and 28B parameter sizes.",
+  "significance": "A dated release milestone for Google's PaliGemma vision-language model family.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["PaliGemma 2", "PaliGemma 2 3B", "PaliGemma 2 10B", "PaliGemma 2 28B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google AI for Developers' first-party Gemma release ledger explicitly records December 5, 2024 as the PaliGemma 2 release date and lists 3B, 10B, and 28B parameter sizes. Google's first-party PaliGemma 2 model card independently corroborates the model identity and sizes and describes it as an update of PaliGemma incorporating Gemma 2 capabilities. No development geography, ancestry beyond Google's explicit model description, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-23T23:06:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "PaliGemma 2 model card",
+      "url": "https://ai.google.dev/gemma/docs/paligemma/model-card-2",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's dedicated first-party release ledger directly supports the December 5, 2024 PaliGemma 2 release boundary and model sizes, while the first-party model card independently corroborates product identity and technical context.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the December 5 release boundary distinct from later PaliGemma 2 mix releases, and do not infer geography, influence, causality, or relationship edges without separate evidence."
+  }
+}
