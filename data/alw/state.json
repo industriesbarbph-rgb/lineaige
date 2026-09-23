@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T11:37:59Z",
+  "updatedAt": "2026-09-23T17:00:02Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -11,6 +11,7 @@
         "https://www.anthropic.com/claude-opus-5-5",
         "https://www.anthropic.com/claude/haiku",
         "https://www.anthropic.com/economic-futures",
+        "https://www.anthropic.com/features/ebola-response",
         "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "https://www.anthropic.com/news",
         "https://www.anthropic.com/news/improving-alignment-security-efforts",
@@ -23,14 +24,15 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-23T11:37:49Z",
+      "checkedAt": "2026-09-23T16:59:51Z",
       "status": 200,
-      "pageHash": "fb325ade2f27b30548c6a823a7a48285e2f5035b6a67a176fc42bca8e3f97d41"
+      "pageHash": "e9a9ddc87ce584480719a0177f4c1b1360bdde81ba8c28a5c125eb14f07e9e69"
     },
     "Google DeepMind": {
       "seen": [
         "https://deepmind.google/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
         "https://deepmind.google/blog",
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
         "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail",
         "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms",
         "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -62,9 +64,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-23T11:37:50Z",
+      "checkedAt": "2026-09-23T16:59:52Z",
       "status": 200,
-      "pageHash": "45b8cbc1a057798f4b973dded72ccf8de11d71a262d5e63a58960ee19bbdc754"
+      "pageHash": "e1bc94e34a20057dd7e54bbc7a5bc1ccf2b3f5120915732ab85755c6fb955d42"
     },
     "Google AI": {
       "seen": [
@@ -88,6 +90,7 @@
         "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini",
         "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
         "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips",
+        "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini",
         "https://blog.google/innovation-and-ai/products/gemini-notebook",
         "https://blog.google/innovation-and-ai/technology",
         "https://blog.google/innovation-and-ai/technology/ai",
@@ -101,9 +104,9 @@
         "https://blog.google/innovation-and-ai/technology/research",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-23T11:37:50Z",
+      "checkedAt": "2026-09-23T16:59:52Z",
       "status": 200,
-      "pageHash": "f7c073f36664e5443cc93d0b6b819b9b21d1ab21cc93c93e0b08e2f39227bbcd"
+      "pageHash": "7b43d12ecd77e0fab424526189053f3321e2f508f04f8bdb6c4a3a4502130bc6"
     },
     "Meta AI": {
       "seen": [
@@ -134,15 +137,15 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-23T11:37:52Z",
+      "checkedAt": "2026-09-23T16:59:53Z",
       "status": 200,
-      "pageHash": "df9725fbbcd8be4a25338e4116be95ec857e421c9da6acd82bc3d64ad65fcf47"
+      "pageHash": "e50cf475c7be3418e50c326f751ebe889c7efd5a2ae75ce245e07c04f08d5274"
     },
     "Microsoft AI": {
       "seen": [
         "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd"
       ],
-      "checkedAt": "2026-09-23T11:37:52Z",
+      "checkedAt": "2026-09-23T16:59:54Z",
       "status": 200,
       "pageHash": "3b3428e1f564cdadcf8b88794704c39f6e1dd89fbf101b9e535eb6e3444eab00"
     },
@@ -176,7 +179,7 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-23T11:37:53Z",
+      "checkedAt": "2026-09-23T16:59:54Z",
       "status": 200,
       "pageHash": "b2927d330b42fc2213a58d16ab97279432be595f3c63e2ac224d63c79220277d"
     },
@@ -221,7 +224,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-23T11:37:54Z",
+      "checkedAt": "2026-09-23T16:59:55Z",
       "status": 200,
       "pageHash": "3f28df8907f860a052fea643d3358dd6d4b2f8c09b3857c1877ebaf76e8e9a07"
     },
@@ -249,9 +252,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-23T11:37:54Z",
+      "checkedAt": "2026-09-23T16:59:55Z",
       "status": 200,
-      "pageHash": "931ea175004edc4d7c7cbfec7b374177b1ef4749d8fefd6550bf3bab14cf2fac"
+      "pageHash": "5494c74a4f0993046064ef4553259dbc73f782576b6e83463dc0ec97825e185c"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -309,7 +312,7 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-23T11:37:55Z",
+      "checkedAt": "2026-09-23T16:59:56Z",
       "status": 200,
       "pageHash": "bb8d2dc5a15ffc1a122bbc90deb241686fdfcdb322a41f791b38f3d0e21ed475"
     }
