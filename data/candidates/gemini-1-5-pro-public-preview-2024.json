@@ -1,0 +1,52 @@
+{
+  "id": "gemini-1-5-pro-public-preview-2024",
+  "recordType": "event",
+  "title": "Gemini 1.5 Pro Public Preview",
+  "displayDate": "14 May 2024",
+  "eventDate": "2024-05-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced on May 14, 2024 that Gemini 1.5 Pro was available in public preview in Google AI Studio and Vertex AI, alongside Gemini 1.5 Flash, across more than 200 countries and territories.",
+  "significance": "A separately dated public-preview availability boundary for Gemini 1.5 Pro, kept distinct from the February limited early preview, same-day consumer availability in Gemini Advanced, and later general availability.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemini 1.5", "Gemini 1.5 Pro"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party May 14, 2024 developer announcement states that Gemini 1.5 Pro and Gemini 1.5 Flash were available that day in more than 200 countries and territories in preview and would be generally available in June. A separate first-party Google Gemini-family announcement explicitly calls both models available in public preview in Google AI Studio and Vertex AI. This record therefore uses May 14 only for the public-preview boundary; it does not treat that date as general availability. Geography here describes service availability stated by Google, not development origin. No ancestry, influence, causality, universal priority, or relationship edges are inferred.",
+    "lastVerified": "2026-09-23T08:02:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemini 1.5 Pro updates, 1.5 Flash debut and 2 new Gemma models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-gemma-developer-updates-may-2024/",
+      "publisher": "Google",
+      "publishedDate": "2024-05-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemini breaks new ground with a faster model, longer context, AI agents and more",
+      "url": "https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/",
+      "publisher": "Google",
+      "publishedDate": "2024-05-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroborating-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google announcements directly support the May 14, 2024 public-preview availability boundary while distinguishing it from later general availability.",
+    "nextStep": "Review for chronology-safe canonical admission. Separately establish the consumer Gemini Advanced boundary and June general-availability boundary from first-party evidence; do not collapse early preview, public preview, consumer availability, and general availability. Add relationships only if separately evidenced."
+  }
+}
