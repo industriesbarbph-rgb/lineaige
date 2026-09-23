@@ -1,0 +1,42 @@
+{
+  "id": "gemma-3-270m-release-2025",
+  "recordType": "event",
+  "title": "Gemma 3 270M Release",
+  "displayDate": "14 August 2025",
+  "eventDate": "2025-08-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google introduced Gemma 3 270M on August 14, 2025 as a compact 270-million-parameter model designed for task-specific fine-tuning and efficient on-device use.",
+  "significance": "A dated release milestone adding a compact 270M member to the Gemma 3 family, distinct from the March Gemma 3 family release and the Gemma 3n release sequence.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 3 270M"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google Developers Blog's first-party announcement is dated August 14, 2025 and explicitly introduces Gemma 3 270M. It states that the model has 270 million total parameters and that both pretrained and instruction-tuned checkpoints are released. No development geography, ancestry beyond Google's explicit Gemma 3-family framing, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T06:02:38+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-3-270m/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-08-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement explicitly establishes the Gemma 3 270M release boundary and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Add corroboration only when another first-party source directly supports the August 14 release boundary."
+  }
+}
