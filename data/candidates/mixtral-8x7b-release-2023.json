@@ -1,0 +1,52 @@
+{
+  "id": "mixtral-8x7b-release-2023",
+  "recordType": "event",
+  "title": "Mixtral 8x7B Release",
+  "displayDate": "11 December 2023",
+  "eventDate": "2023-12-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI released Mixtral 8x7B on December 11, 2023, describing it as a sparse mixture-of-experts model with open weights and licensing it under Apache 2.0.",
+  "significance": "A dated release milestone for Mistral AI's first open mixture-of-experts model.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Mixtral 8x7B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party release announcement is dated December 11, 2023 and explicitly states that the team is releasing Mixtral 8x7B with open weights under Apache 2.0. Mistral's official model documentation independently records December 11, 2023 and describes it as the company's first open MoE model. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T23:05:05+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mixtral of experts",
+      "url": "https://mistral.ai/news/mixtral-of-experts/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2023-12-11",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mixtral 8x7B - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
+      "publisher": "Mistral AI",
+      "publishedDate": "2023-12-11",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the December 11, 2023 release boundary, open-weight sparse mixture-of-experts description, and Apache 2.0 licensing; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
