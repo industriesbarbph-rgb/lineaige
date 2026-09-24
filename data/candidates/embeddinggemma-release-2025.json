@@ -1,0 +1,52 @@
+{
+  "id": "embeddinggemma-release-2025",
+  "recordType": "event",
+  "title": "EmbeddingGemma Release",
+  "displayDate": "4 September 2025",
+  "eventDate": "2025-09-04",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google introduced EmbeddingGemma on September 4, 2025 as an open 308-million-parameter embedding model designed for efficient on-device text embeddings.",
+  "significance": "A dated release milestone for a compact Gemma-family embedding model intended for on-device retrieval and semantic-search workflows.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["EmbeddingGemma"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party Gemma release ledger records September 4, 2025 as the release of EmbeddingGemma in 308M parameter size. Google's same-day Developers Blog announcement independently introduces EmbeddingGemma as a new open embedding model with a 308M-parameter design. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T08:02:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing EmbeddingGemma: The best-in-class open model for on-device embeddings",
+      "url": "https://developers.googleblog.com/en/introducing-embeddinggemma/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-09-04",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement and Google's first-party release ledger independently establish the September 4, 2025 EmbeddingGemma release boundary and 308M parameter size.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported ancestry, influence, geography, or causal claims."
+  }
+}
