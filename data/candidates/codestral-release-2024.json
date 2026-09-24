@@ -1,0 +1,62 @@
+{
+  "id": "codestral-release-2024",
+  "recordType": "event",
+  "title": "Codestral Release",
+  "displayDate": "29 May 2024",
+  "eventDate": "2024-05-29",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI introduced Codestral on May 29, 2024 as its first code model, an open-weight 22-billion-parameter model designed for code generation and fill-in-the-middle tasks.",
+  "significance": "A dated release milestone for Mistral AI's specialized code-model family, with the original Codestral 2405 release documented under the Mistral AI Non-Production License.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Codestral", "Codestral 2405"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party announcement is dated May 29, 2024 and introduces Codestral as its first code model, a 22B open-weight model for code generation. Mistral's official model documentation independently records May 29, 2024, the codestral-2405 identifier, 22B parameters, 32k context, and MNPL license. Mistral's same-day MNPL announcement states that Codestral was released that day under the new license. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-25T02:05:29+08:00"
+  },
+  "sources": [
+    {
+      "title": "Codestral",
+      "url": "https://mistral.ai/news/codestral/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-05-29",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Codestral - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/codestral-24-05",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-05-29",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The Mistral AI Non-Production License",
+      "url": "https://mistral.ai/news/mistral-ai-non-production-license-mnpl/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-05-29",
+      "sourceType": "official-announcement",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the May 29, 2024 release boundary, model purpose, parameter count, and MNPL availability; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
