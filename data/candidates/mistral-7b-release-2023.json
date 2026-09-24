@@ -1,0 +1,52 @@
+{
+  "id": "mistral-7b-release-2023",
+  "recordType": "event",
+  "title": "Mistral 7B Release",
+  "displayDate": "27 September 2023",
+  "eventDate": "2023-09-27",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI released Mistral 7B on September 27, 2023, describing it as a 7.3-billion-parameter language model and releasing it under the Apache 2.0 license.",
+  "significance": "A dated release milestone for Mistral AI's first open model, with base and instruction-tuned weights documented by Mistral AI.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Mistral 7B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party release announcement is dated September 27, 2023 and explicitly states that the team is releasing Mistral 7B, a 7.3B-parameter model, under Apache 2.0. Mistral's official model documentation independently records September 27, 2023 for Mistral 7B v0.1 and identifies it as the company's first open model. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T22:07:05+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mistral 7B",
+      "url": "https://mistral.ai/news/announcing-mistral-7b/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2023-09-27",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mistral 7B - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-7b-0-1",
+      "publisher": "Mistral AI",
+      "publishedDate": "2023-09-27",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the September 27, 2023 release boundary, parameter count, and Apache 2.0 release; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
