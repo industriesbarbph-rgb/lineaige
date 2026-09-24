@@ -1,0 +1,52 @@
+{
+  "id": "mistral-small-3-release-2025",
+  "recordType": "event",
+  "title": "Mistral Small 3 Release",
+  "displayDate": "30 January 2025",
+  "eventDate": "2025-01-30",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI introduced Mistral Small 3 on January 30, 2025 as a latency-optimized 24B-parameter model released under the Apache 2.0 license.",
+  "significance": "A dated release milestone for Mistral AI's open-weight model line, with pretrained and instruction-tuned checkpoints made available under Apache 2.0.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Mistral Small 3"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party announcement is dated January 30, 2025 and states that Mistral Small 3 is a latency-optimized 24B-parameter model released under Apache 2.0, with pretrained and instruction-tuned checkpoints. Mistral's official model documentation independently records January 30, 2025 and model identifier mistral-small-2501. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T21:04:03+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mistral Small 3",
+      "url": "https://mistral.ai/news/mistral-small-3/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2025-01-30",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mistral Small 3.0 - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
+      "publisher": "Mistral AI",
+      "publishedDate": "2025-01-30",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the January 30, 2025 release boundary, model size, and Apache 2.0 availability; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
