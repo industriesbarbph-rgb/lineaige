@@ -1,0 +1,52 @@
+{
+  "id": "aya-vision-launch-2025",
+  "recordType": "event",
+  "title": "Aya Vision Public Launch",
+  "displayDate": "4 March 2025",
+  "eventDate": "2025-03-04",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Cohere Labs announced Aya Vision on March 4, 2025 as a multilingual multimodal model supporting text-and-image tasks across 23 languages.",
+  "significance": "A dated public-launch milestone in the Aya research program, extending the program into multilingual multimodal text-and-image capabilities.",
+  "people": [],
+  "organizations": ["Cohere Labs"],
+  "technologies": ["Aya Vision", "Aya Vision 32B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Cohere Labs' first-party launch post is dated March 4, 2025 and announces Aya Vision as an open-weights multilingual multimodal model. Cohere's first-party model documentation independently corroborates the Aya Vision 32B model, text-and-image modality, 23-language scope, and open-weight availability. This candidate records the dated public-launch milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-24T12:04:36+08:00"
+  },
+  "sources": [
+    {
+      "title": "Aya Vision: Expanding the worlds AI can see",
+      "url": "https://cohere.com/blog/aya-vision",
+      "publisher": "Cohere Labs",
+      "publishedDate": "2025-03-04",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Aya Vision",
+      "url": "https://docs.cohere.com/docs/aya-vision",
+      "publisher": "Cohere",
+      "publishedDate": null,
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A first-party dated launch announcement directly supports the March 4, 2025 public-launch milestone and multilingual multimodal scope; Cohere's first-party model documentation independently corroborates the 32B model identity, text-and-image modality, 23-language scope, and open-weight availability.",
+    "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Do not infer development geography, ancestry, influence, or causal relationships without separate evidence."
+  }
+}
