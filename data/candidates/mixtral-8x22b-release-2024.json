@@ -1,0 +1,62 @@
+{
+  "id": "mixtral-8x22b-release-2024",
+  "recordType": "event",
+  "title": "Mixtral 8x22B Release",
+  "displayDate": "17 April 2024",
+  "eventDate": "2024-04-17",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI released Mixtral 8x22B on April 17, 2024, describing it as a sparse mixture-of-experts model with 141 billion total parameters, 39 billion active parameters, and a 64K-token context window, released under Apache 2.0.",
+  "significance": "A dated release milestone in Mistral AI's open model family, with the release boundary and core model characteristics documented by first-party sources.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Mixtral 8x22B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party release announcement is dated April 17, 2024 and explicitly states that Mixtral 8x22B is being released under Apache 2.0, with 39B active parameters out of 141B and a 64K-token context window. Mistral's official model documentation independently records April 17, 2024 and the same parameter, context, and license characteristics. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-25T00:04:58+08:00"
+  },
+  "sources": [
+    {
+      "title": "Cheaper, Better, Faster, Stronger",
+      "url": "https://mistral.ai/news/mixtral-8x22b/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-04-17",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mixtral 8x22B - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-04-17",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Changelog | Mistral Docs",
+      "url": "https://docs.mistral.ai/resources/changelogs",
+      "publisher": "Mistral AI",
+      "publishedDate": null,
+      "sourceType": "official-changelog",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the April 17, 2024 release boundary, Apache 2.0 release, parameter counts, and context window; official model documentation independently corroborates those facts, while the official changelog supplies additional chronology context.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
