@@ -1,0 +1,62 @@
+{
+  "id": "vaultgemma-release-2025",
+  "recordType": "event",
+  "title": "VaultGemma Release",
+  "displayDate": "13 September 2025",
+  "eventDate": "2025-09-13",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's Gemma release ledger records September 13, 2025 as the release of VaultGemma in 1B parameter size. A Google Research post published September 12, 2025 introduced VaultGemma and stated that model weights were being released on Hugging Face and Kaggle alongside a technical report.",
+  "significance": "A dated release milestone for a 1B-parameter Gemma-family language model trained from scratch with differential privacy.",
+  "people": [],
+  "organizations": ["Google Research", "Google DeepMind"],
+  "technologies": ["VaultGemma"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "The release date follows Google's first-party Gemma release ledger. The separate September 12 Google Research publication is retained as an announcement/evidence boundary rather than substituted for the ledger's September 13 release date. No development geography, downstream influence, priority claim, or causal relationship is inferred.",
+    "lastVerified": "2026-09-24T09:03:03+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "release-date-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "VaultGemma: The world's most capable differentially private LLM",
+      "url": "https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
+      "publisher": "Google Research",
+      "publishedDate": "2025-09-12",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "VaultGemma",
+      "url": "https://research.google/pubs/vaultgemma/",
+      "publisher": "Google Research",
+      "publishedDate": null,
+      "sourceType": "official-research-publication",
+      "sourceRole": "technical-corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's first-party release ledger establishes a September 13, 2025 VaultGemma 1B release, while Google Research independently documents the model and its differential-privacy training properties.",
+    "nextStep": "Review for chronology-safe canonical admission. Preserve the September 12 announcement/publication boundary separately from the September 13 release-ledger date."
+  }
+}
