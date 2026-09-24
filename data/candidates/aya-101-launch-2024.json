@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Reverified 2026-09-22 against Cohere's first-party launch announcement dated February 13, 2024, which explicitly announces Aya, and Cohere Labs' Aya research page, which lists the Aya Model release on February 13, 2024. The authors' primary technical paper, submitted February 12, 2024, documents Aya as an instruction-following multilingual generative language model covering 101 languages and states that the instruction datasets and model were openly released. This candidate records the February 13 public-launch milestone only; it does not treat the February 12 paper-submission date as the model's birth date and does not infer development geography, universal priority, ancestry, influence, causality, or relationship edges.",
-    "lastVerified": "2026-09-22T10:04:17+08:00"
+    "note": "Reverified 2026-09-24 against Cohere's first-party launch announcement dated February 13, 2024, Cohere Labs' Aya research page, which lists the Aya Model paper on February 13, 2024, and the authors' primary technical paper submitted February 12, 2024. The launch announcement establishes the February 13 public-launch boundary; the research page independently corroborates the February 13 research-program chronology; and the technical paper documents Aya as an instruction-following multilingual generative language model covering 101 languages and states that the instruction datasets and model were openly released. This candidate records the February 13 public-launch milestone only; it does not treat the February 12 paper-submission date as the model's birth date and does not infer development geography, universal priority, ancestry, influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-24T16:06:31+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Aya",
+      "url": "https://cohere.com/research/aya",
+      "publisher": "Cohere Labs",
+      "publishedDate": null,
+      "sourceType": "official-research-page",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A first-party dated launch announcement and the authors' primary technical paper directly support the public-release milestone and the model characteristics summarized here.",
+    "admissionReason": "A first-party dated launch announcement, the authors' primary technical paper, and Cohere Labs' official Aya research page support the public-release milestone, model characteristics, and chronology boundaries summarized here.",
     "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Preserve the distinction between the February 12 paper submission and February 13 launch announcement, and do not infer development geography or causal/ancestry relationships without separate evidence."
   }
 }
