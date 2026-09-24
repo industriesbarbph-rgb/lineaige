@@ -1,0 +1,52 @@
+{
+  "id": "gemma-3n-release-2025",
+  "recordType": "event",
+  "title": "Gemma 3n Release",
+  "displayDate": "26 June 2025",
+  "eventDate": "2025-06-26",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's Gemma release ledger records June 26, 2025 as the release of Gemma 3n in E2B and E4B sizes.",
+  "significance": "A dated release milestone for Gemma 3n, an open-weight multimodal model family designed for efficient execution on resource-constrained devices.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemma 3n", "Gemma 3n E2B", "Gemma 3n E4B"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party Gemma release ledger records June 26, 2025 as the release of Gemma 3n in E2B and E4B sizes. Google's first-party Gemma 3n model card independently documents E2B/E4B effective sizes, multimodal text/image/video/audio input, open weights, and design for efficient execution on low-resource devices. The model card does not replace the release ledger as evidence for the exact release date. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T18:04:08+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-documentation",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma 3n model card",
+      "url": "https://ai.google.dev/gemma/docs/gemma-3n/model_card",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Google's first-party release ledger directly establishes the June 26, 2025 release boundary and E2B/E4B sizes; Google's first-party model card independently corroborates the model identity, effective sizes, multimodal capabilities, open weights, and low-resource-device design.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported development geography, ancestry, influence, priority, or causal claims."
+  }
+}
