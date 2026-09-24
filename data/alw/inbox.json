@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-24T17:12:08Z",
+  "updatedAt": "2026-09-24T21:28:39Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5595,6 +5595,42 @@
       "id": "alw-97508aad7fb01a25",
       "status": "unreviewed",
       "discoveredAt": "2026-09-24T17:06:54Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Rice University to offer Master of Artificial Intelligence degree program in 2027 - Houston Public Media",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNakNpSWY4VDVyWDQ1QWlZR2lZWkExY3dlMGJMNTdQWEFJOVFWYXAzSDVlQWdaZmp0a0tOcjEzcW9YZDEzNXFVam93UWFkZWV5bFBxcXh0MkNyZTVNMkUyTkpLWDMtNGl3OUdZWVNKNjh2bkx5ajFCMjVUMkI5N3dELUZhT21oSFpaM1ZxbTIzQ2FaaW9IcGM3QW1MUFcySXRtZXlfelhUYk00Q0U1ZUExem1lS1FMRE0zdDZ3TUlibnhPX2V5RGZ0LUNTTnFCVzc2b1ZhSGMtdVpTRGxTY0HSAeYBQVVfeXFMTzlKbi1DbVE5TGkyU1E2VnJ4TjBBLWdxelRnR2FNNFExbWllUy0wQWhfUUlNMjhWM0xzRnB3bHdacFlNOGcyaS1xYnlwUUsxcnF1bXhReXA5cnpnLWM0cU1Bc25DZkoxY05XbzdtZkN4ZzJ2ZzFib3NjSFFseFFUQXJCeS10RWN0VlZ4LTB5bkpqclRDWHNNUzNibWFHZDg1blBWMHFEanhlaHpGOS1VRXpiN3Exa1Ezb2NjOEdBNGxNZ3QwZlBYcjlrOUVzdzQ1XzJfREg0NlhqUjFsQnBXZzZOT1NxMnc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-1f1dc5f59e381616",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T21:28:39Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge - Reuters",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-f8aafe7411c625fa",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T21:28:39Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Chrome using AI to let you naturally search browsing history, adds Google Lens - 9to5Google",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9acE14SmJLTDFyS29EbHMyRFE0S2dTazViMXRSOGswSEhPVWFFbHZXSmlMQVY0OUpycjNFbHR1eDdEb0o2X2RjMU1XMUJFc2hydjMtZnJWMWdXdm1SMTAwUTRvVUotZkhaWmtn?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-e5418f96c6e1b237",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T21:28:39Z"
     }
   ]
 }
