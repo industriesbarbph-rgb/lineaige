@@ -1,0 +1,52 @@
+{
+  "id": "mistral-nemo-release-2024",
+  "recordType": "event",
+  "title": "Mistral NeMo Release",
+  "displayDate": "18 July 2024",
+  "eventDate": "2024-07-18",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI announced the release of Mistral NeMo on July 18, 2024, a 12B model built in collaboration with NVIDIA, and released base and instruction-tuned checkpoints under the Apache 2.0 license.",
+  "significance": "A dated release milestone for an open multilingual Mistral model with a context window of up to 128k tokens.",
+  "people": [],
+  "organizations": ["Mistral AI", "NVIDIA"],
+  "technologies": ["Mistral NeMo"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party announcement is dated July 18, 2024 and explicitly says it is releasing Mistral NeMo, a 12B model built in collaboration with NVIDIA, with base and instruction-tuned checkpoints under Apache 2.0 and up to 128k context. Mistral's official model documentation independently records July 18, 2024 and identifier open-mistral-nemo-2407. No development geography, downstream influence, priority claim, unsupported ancestry, causality, or relationship edge is inferred.",
+    "lastVerified": "2026-09-24T20:07:03+08:00"
+  },
+  "sources": [
+    {
+      "title": "Mistral NeMo",
+      "url": "https://mistral.ai/news/mistral-nemo/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-07-18",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mistral Nemo 12B - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-07-18",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the July 18, 2024 release boundary, collaboration with NVIDIA, model size, Apache 2.0 checkpoint availability, and 128k context; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, downstream influence, priority, ancestry, or causal claims."
+  }
+}
