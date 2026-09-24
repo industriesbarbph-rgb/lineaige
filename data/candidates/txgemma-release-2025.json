@@ -1,0 +1,42 @@
+{
+  "id": "txgemma-release-2025",
+  "recordType": "event",
+  "title": "TxGemma Release",
+  "displayDate": "25 March 2025",
+  "eventDate": "2025-03-25",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google introduced TxGemma on March 25, 2025 as a collection of open models designed to support therapeutic-development tasks.",
+  "significance": "A dated release milestone for a Gemma-based collection specialized for therapeutic-development research tasks.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["TxGemma"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party Developers Blog announcement dated March 25, 2025 explicitly says it is releasing TxGemma, a collection of open models designed to improve therapeutic development. The announcement states that TxGemma builds on Google DeepMind's Gemma. This record does not infer development geography, downstream influence, priority, or causal relationships beyond that explicit first-party statement.",
+    "lastVerified": "2026-09-24T10:02:34+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing TxGemma: Open models to improve therapeutics development",
+      "url": "https://developers.googleblog.com/en/introducing-txgemma-open-models-improving-therapeutics-development/",
+      "publisher": "Google Developers Blog",
+      "publishedDate": "2025-03-25",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement explicitly establishes the March 25, 2025 TxGemma release boundary and its therapeutic-development specialization.",
+    "nextStep": "Review for chronology-safe canonical admission and seek an additional first-party corroborating source before adding any relationship edge beyond explicit source language."
+  }
+}
