@@ -1,0 +1,42 @@
+{
+  "id": "dolphingemma-announcement-2025",
+  "recordType": "event",
+  "title": "DolphinGemma Announcement",
+  "displayDate": "14 April 2025",
+  "eventDate": "2025-04-14",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced progress on DolphinGemma on April 14, 2025, describing it as a foundational AI model trained to learn the structure of dolphin vocalizations and generate novel dolphin-like sound sequences.",
+  "significance": "A dated first-party announcement of a specialized approximately 400M-parameter audio-in, audio-out model for research on dolphin vocalizations.",
+  "people": [],
+  "organizations": ["Google", "Georgia Tech", "Wild Dolphin Project"],
+  "technologies": ["DolphinGemma"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's first-party announcement dated April 14, 2025 explicitly announces progress on DolphinGemma, describes the model as approximately 400M parameters, and states that it was trained on the Wild Dolphin Project's acoustic database of wild Atlantic spotted dolphins. The source says Google collaborated with researchers at Georgia Tech and the field research of the Wild Dolphin Project. This record preserves the boundary as an announcement of progress; it does not infer a public model release, development geography, priority, downstream influence, ancestry beyond explicit source language, or causal relationships.",
+    "lastVerified": "2026-09-24T11:06:08+08:00"
+  },
+  "sources": [
+    {
+      "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+      "url": "https://blog.google/innovation-and-ai/products/dolphingemma/",
+      "publisher": "Google",
+      "publishedDate": "2025-04-14",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "A dated first-party Google announcement explicitly establishes the April 14, 2025 DolphinGemma announcement boundary and core model description.",
+    "nextStep": "Review for chronology-safe canonical admission and seek a second first-party or primary technical source before adding any relationship edge or asserting a separate public-release boundary."
+  }
+}
