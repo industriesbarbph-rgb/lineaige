@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastRun": "2026-09-24T11:40:32Z",
+  "lastRun": "2026-09-24T17:06:55Z",
   "sources": {
     "openai": {
       "seenUrls": [],
-      "lastChecked": "2026-09-24T11:40:27Z",
+      "lastChecked": "2026-09-24T17:06:47Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "anthropic": {
@@ -25,7 +25,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "lastChecked": "2026-09-24T11:40:27Z",
+      "lastChecked": "2026-09-24T17:06:47Z",
       "lastStatus": 200,
       "pageHash": "830f1deeee7c5a84363ce53210516ddaa567ae97b6809891ec6ae3cf28e777fe"
     },
@@ -65,9 +65,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "lastChecked": "2026-09-24T11:40:27Z",
+      "lastChecked": "2026-09-24T17:06:48Z",
       "lastStatus": 200,
-      "pageHash": "dcb203ee4a54146590d73e910e338073d91c83a48b96b557a854746115ec975c"
+      "pageHash": "77d125c4942e302953f59b8fa6aaee51e41d533a4c9a8bcca19ee60499e941e5"
     },
     "google-ai": {
       "seenUrls": [
@@ -83,6 +83,7 @@
         "https://blog.google/innovation-and-ai/models-and-research/google-labs",
         "https://blog.google/innovation-and-ai/models-and-research/google-research",
         "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights",
+        "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
         "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space",
         "https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai",
         "https://blog.google/innovation-and-ai/models-and-research/quantum-computing",
@@ -106,9 +107,9 @@
         "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "lastChecked": "2026-09-24T11:40:28Z",
+      "lastChecked": "2026-09-24T17:06:49Z",
       "lastStatus": 200,
-      "pageHash": "01a7c79bfa0ff86ae350c28c471793f110dc7e1138f0eb48d273e0b797526f41"
+      "pageHash": "16802247cf4314b79d9f531739caedf09ad5f1ccfda3b0c3d73ec729101a0ad4"
     },
     "meta-ai": {
       "seenUrls": [
@@ -138,9 +139,9 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "lastChecked": "2026-09-24T11:40:29Z",
+      "lastChecked": "2026-09-24T17:06:50Z",
       "lastStatus": 200,
-      "pageHash": "17f26971037da9ed7cfcaf3c1da245e6d3e6ec1c459e48f5937e5d1b3b159817"
+      "pageHash": "156e59620c085ac778abd89d95b8667284af21f34238fc7ae28aedbc078341ea"
     },
     "eurohpc": {
       "seenUrls": [
@@ -183,18 +184,18 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "lastChecked": "2026-09-24T11:40:30Z",
+      "lastChecked": "2026-09-24T17:06:52Z",
       "lastStatus": 200,
       "pageHash": "f71a6222ce0e55044efa764cd312812f57df42068c2b36a46f0a4415d96a1efb"
     },
     "meti": {
       "seenUrls": [],
-      "lastChecked": "2026-09-24T11:40:30Z",
+      "lastChecked": "2026-09-24T17:06:53Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "dict-ph": {
       "seenUrls": [],
-      "lastChecked": "2026-09-24T11:40:31Z",
+      "lastChecked": "2026-09-24T17:06:53Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     }
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-24T11:47:05Z",
+  "updatedAt": "2026-09-24T17:06:55Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5559,6 +5559,42 @@
       "id": "alw-33576896852c4a1e",
       "status": "unreviewed",
       "discoveredAt": "2026-09-24T04:44:01Z"
+    },
+    {
+      "laneHint": "historical-or-current",
+      "title": "Behind Project Suncatcher, our moonshot to put AI in space",
+      "sourceName": "Google AI",
+      "sourceClass": "official-root",
+      "evidenceTier": "primary-candidate",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
+      "note": "Discovery only; claim-level review required before canonical admission.",
+      "id": "alw-3a94dd6391c9254f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T17:06:49Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Nvidia chief: The world isn’t ending in 2030 - Daily Tribune",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPem5hODdNZ1pMdUFIQkhHRVU2SzJnUm11R19ORU1EV3BOa2JVbHh4WC1ZRmExd3lvX3RMSHN6MTZsQ0ZUb05qblo4R0RUZ1pYX2NfT1lxMGlZUFZXbWZPTHdtSU9kM19GeWRhaW90dkI3VVFKRDZSTG95YndmaE8yR2hB?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-77af899107e95a4f",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T17:06:54Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Analysis: Will artificial intelligence kill us all by 2030? - TheBusinessDesk.com",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQckN4Mk5OUUdGZ1NRTUh0dTR2Ykh6QUhQQzJWT1NCS0JHcENWMlVWM1VFRWtjUzl6dEhLaEdXQm1xclhGZk9xX2FBRFJKTWtOVHVXa2FkWTdlclB5djlDSkQySmR1Q2htSlhaWVhlQ3VzQVduRzJMUjZELU1VLVlvWHFjMWFRVGNtcEhxa0Jxa3JDbEVCVzJsRUplaUN3Zk1sckNTUWo0c0hBLWN4aGtabmR2NTZVdw?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-97508aad7fb01a25",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T17:06:54Z"
     }
   ]
 }
