@@ -1,0 +1,62 @@
+{
+  "id": "llama-3-3-release-2024",
+  "recordType": "event",
+  "title": "Llama 3.3 Release",
+  "displayDate": "6 December 2024",
+  "eventDate": "2024-12-06",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Meta released Llama 3.3 70B Instruct on December 6, 2024. Meta's official model card records that release date and identifies Llama 3.3 as a multilingual, text-only model.",
+  "significance": "A dated release milestone in the Llama model family for the 70B Llama 3.3 model.",
+  "people": [],
+  "organizations": ["Meta"],
+  "technologies": ["Llama 3.3"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Meta's official Llama 3.3 model card records the 70B Instruct model release date as December 6, 2024. Meta's official Llama 3.3 Community License independently states the Llama 3.3 version release date as December 6, 2024. A later Meta retrospective confirms that Llama 3.3 70B was released in 2024 and describes it as a text-only model. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-25T05:02:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Llama 3.3 Model Card",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publishedDate": null,
+      "sourceType": "official-model-card",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Llama 3.3 Community License Agreement",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
+      "publisher": "Meta",
+      "publishedDate": null,
+      "sourceType": "official-license",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "The future of AI: Built with Llama",
+      "url": "https://ai.meta.com/blog/future-of-ai-built-with-llama/",
+      "publisher": "Meta AI",
+      "publishedDate": "2024-12-19",
+      "sourceType": "official-retrospective",
+      "sourceRole": "context",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Meta repository documents directly establish the December 6, 2024 release boundary; a later first-party Meta retrospective corroborates the release and text-only 70B identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships only if separately evidenced; do not infer ancestry, influence, causality, or development geography from model-family naming or release sequence."
+  }
+}
