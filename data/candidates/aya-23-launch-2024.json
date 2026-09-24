@@ -7,7 +7,7 @@
   "datePrecision": "day",
   "temporalState": "recorded",
   "status": "VERIFIED CANDIDATE",
-  "summary": "Cohere For AI announced Aya 23 on May 23, 2024 as a family of multilingual generative language models covering 23 languages, with 8B and 35B parameter open-weight models. The accompanying primary technical report's arXiv record was submitted the same day and describes the Aya 23 family and release of both models' open weights.",
+  "summary": "Cohere For AI announced Aya 23 on May 23, 2024 as a family of multilingual generative language models covering 23 languages, with 8B and 35B parameter open-weight models. The accompanying primary technical report documents the Aya 23 family and release of both models' open weights.",
   "significance": "A dated public-release milestone in the Aya multilingual model family, documenting a deliberate depth-over-breadth experiment across 23 languages and release of 8B and 35B open-weight models.",
   "people": ["Viraat Aryabumi", "John Dang", "Dwarak Talupuru", "Saurabh Dash", "David Cairuz", "Hangyu Lin", "Bharat Venkitesh", "Madeline Smith", "Jon Ander Campos", "Yi Chern Tan", "Kelly Marchisio", "Max Bartolo", "Sebastian Ruder", "Acyr Locatelli", "Julia Kreutzer", "Nick Frosst", "Aidan Gomez", "Phil Blunsom", "Marzieh Fadaee", "Ahmet Üstün", "Sara Hooker"],
   "organizations": ["Cohere For AI"],
@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Cohere For AI's first-party launch announcement is dated May 23, 2024 and explicitly announces Aya 23 as 8B and 35B parameter open-weight multilingual models covering 23 languages. The authors' primary technical report has an arXiv submission timestamp on May 23, 2024 and independently documents release of both models' open weights. The PDF itself states that it was released as a preprint on May 22, 2024; that document-level date is preserved as distinct from the May 23 public-launch milestone and is not silently substituted for the launch date. This candidate does not infer development geography, universal priority, ancestry, downstream influence, causality, or relationship edges.",
-    "lastVerified": "2026-09-19T14:08:00+08:00"
+    "note": "Cohere For AI's first-party launch announcement is dated May 23, 2024 and explicitly announces Aya 23 as 8B and 35B parameter open-weight multilingual models covering 23 languages. The authors' primary technical report independently documents the family, 23-language scope, and release of both models' open weights. The technical-report PDF states 'Released as a preprint on May 22, 2024'; that document-level chronology is preserved separately from the May 23 public-launch milestone and is not silently substituted for it. This candidate does not infer development geography, universal priority, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-24T14:02:00+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Aya 23: Open Weight Releases to Further Multilingual Progress (technical report PDF)",
+      "url": "https://cohere.com/research/aya/aya-23-technical-report.pdf",
+      "publisher": "Cohere For AI / Cohere",
+      "publishedDate": "2024-05-22",
+      "sourceType": "paper",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A first-party dated launch announcement directly supports the May 23, 2024 public-launch milestone, model sizes, multilingual scope, and open-weight release. The authors' primary technical report corroborates the model facts and open-weight release; its PDF's May 22 preprint notation is treated as document chronology rather than evidence that the public launch occurred a day earlier.",
-    "nextStep": "Review for chronology-safe canonical admission as a May 23 public-launch milestone. Preserve the distinction between the PDF's May 22 preprint notation and the May 23 announcement/arXiv submission; do not infer development geography or causal/ancestry relationships without separate evidence."
+    "admissionReason": "A first-party dated launch announcement directly supports the May 23, 2024 public-launch milestone, model sizes, multilingual scope, and open-weight release. The authors' primary technical report corroborates the model facts and open-weight release; its PDF's May 22 preprint notation is preserved explicitly as document chronology rather than evidence that the public launch occurred a day earlier.",
+    "nextStep": "Review for chronology-safe canonical admission as a May 23 public-launch milestone. Preserve the distinction between the technical report's May 22 preprint notation and the May 23 public announcement; do not infer development geography or causal/ancestry relationships without separate evidence."
   }
 }
