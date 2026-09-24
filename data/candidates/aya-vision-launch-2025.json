@@ -16,8 +16,8 @@
     "state": "verified",
     "factualClaim": true,
     "confidence": "high",
-    "note": "Cohere Labs' first-party launch post is dated March 4, 2025 and announces Aya Vision as an open-weights multilingual multimodal model. Cohere's first-party model documentation independently corroborates the Aya Vision 32B model, text-and-image modality, 23-language scope, and open-weight availability. This candidate records the dated public-launch milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
-    "lastVerified": "2026-09-24T12:04:36+08:00"
+    "note": "Cohere Labs' first-party launch post is dated March 4, 2025 and announces Aya Vision as an open-weights multilingual multimodal model. Cohere's first-party model documentation independently corroborates the Aya Vision 32B model, text-and-image modality, 23-language scope, and open-weight availability. The later primary technical report, submitted May 13, 2025, documents Aya Vision 8B and 32B and is retained as chronology context rather than evidence for the March launch date. This candidate records the dated public-launch milestone only and does not infer development geography, ancestry, downstream influence, causality, or relationship edges.",
+    "lastVerified": "2026-09-24T17:06:18+08:00"
   },
   "sources": [
     {
@@ -39,6 +39,16 @@
       "sourceRole": "corroboration",
       "primary": true,
       "archivedUrl": null
+    },
+    {
+      "title": "Aya Vision: Advancing the Frontier of Multilingual Multimodality",
+      "url": "https://arxiv.org/abs/2505.08751",
+      "publisher": "arXiv",
+      "publishedDate": "2025-05-13",
+      "sourceType": "primary-technical-paper",
+      "sourceRole": "chronology-context",
+      "primary": true,
+      "archivedUrl": null
     }
   ],
   "relationships": [],
@@ -46,7 +56,7 @@
   "contributor": null,
   "candidateMeta": {
     "canonicalAdmission": "pending-canonical-admission",
-    "admissionReason": "A first-party dated launch announcement directly supports the March 4, 2025 public-launch milestone and multilingual multimodal scope; Cohere's first-party model documentation independently corroborates the 32B model identity, text-and-image modality, 23-language scope, and open-weight availability.",
+    "admissionReason": "A first-party dated launch announcement directly supports the March 4, 2025 public-launch milestone and multilingual multimodal scope; Cohere's first-party model documentation independently corroborates the 32B model identity, text-and-image modality, 23-language scope, and open-weight availability. A later primary technical report documents Aya Vision 8B and 32B but is explicitly separated from the launch chronology.",
     "nextStep": "Review for chronology-safe canonical admission as a public-launch milestone. Do not infer development geography, ancestry, influence, or causal relationships without separate evidence."
   }
 }
