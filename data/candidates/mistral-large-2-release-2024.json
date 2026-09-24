@@ -1,0 +1,52 @@
+{
+  "id": "mistral-large-2-release-2024",
+  "recordType": "event",
+  "title": "Mistral Large 2 Release",
+  "displayDate": "24 July 2024",
+  "eventDate": "2024-07-24",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Mistral AI released Mistral Large 2 on July 24, 2024, a 123B-parameter model with a 128k context window and open weights under the Mistral Research License.",
+  "significance": "A dated release milestone in Mistral AI's large-model line, with first-party release evidence and independently maintained official model documentation.",
+  "people": [],
+  "organizations": ["Mistral AI"],
+  "technologies": ["Mistral Large 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Mistral AI's first-party announcement is dated July 24, 2024 and states that Mistral Large 2 has 123B parameters, a 128k context window, and is released under the Mistral Research License. Official Mistral model documentation independently records July 24, 2024, model identifier mistral-large-2407, 123B parameters, 128k context, and MRL. No development geography, ancestry, downstream influence, causality, priority claim, or relationship edge is inferred.",
+    "lastVerified": "2026-09-25T03:07:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Large Enough",
+      "url": "https://mistral.ai/news/mistral-large-2407/",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-07-24",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Mistral Large 2.0 - Mistral AI | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
+      "publisher": "Mistral AI",
+      "publishedDate": "2024-07-24",
+      "sourceType": "official-model-documentation",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Mistral AI's first-party announcement directly establishes the July 24, 2024 release boundary and model characteristics; official model documentation independently corroborates the date and model identity.",
+    "nextStep": "Review for chronology-safe canonical admission. Keep the release record separate from unsupported geography, ancestry, downstream influence, priority, or causal claims."
+  }
+}
