@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-23T21:30:41Z",
+  "updatedAt": "2026-09-24T04:44:02Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5547,6 +5547,18 @@
       "id": "alw-02b2a9d1db2b0abb",
       "status": "unreviewed",
       "discoveredAt": "2026-09-23T21:28:12Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "OpenAI projections point to a massive $278 billion cash burn through 2030 that exceeds the national budgets of Indonesia and Norway — $856 billion compute tab outpaces tenfold revenue surge - Tom's Hardware",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPZ29QOGV4Q29oalN4OXg1OVFMZW1kY2Vhc2pHNUV6bTNrYXEwVkxlb0hHN1JQWDRfZTV5OHg5cmg5OGN1OE9ERmlZM2NEWFAyNjNmamdMVkJMVjlhZmRzdEdVNWY0eVVTYm1hc05rZ25mMnlxT0tKcmZkamhDYWlsVWhYa0ZHQkRrbXgtamdOeVNobkt5T3d4Tk9ydkk5cXNTMTFlZFVNQi1UeDlvb0NteXhYVXktbnVMRmdzQWt3c2NEMjZBUVlnRER5d1czSHFPMFFYSmIxd1FFRC02dm5JSTJtTTFwM3l5a1FGbnMzb3JEVUVqc2xmVFZadFFtMTQyY25DYWNtWlFCa3pfbVM0OGxGaHFJOFN1MEFpT2YzQ3FITzdwUGxyU1QtNk40OUNZTFM1YlhkVUVfTzNQMUNRR2tRRTVjX2JFbkVkYmsyUG50U1RMVkF4WUlKWFB0OThfTFR1TEhrYzU3NG9yTVRneDlzMkQ?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-33576896852c4a1e",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-24T04:44:01Z"
     }
   ]
 }
