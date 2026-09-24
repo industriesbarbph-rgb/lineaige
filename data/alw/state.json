@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-24T04:52:07Z",
+  "updatedAt": "2026-09-24T11:47:05Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -24,7 +24,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-24T04:51:57Z",
+      "checkedAt": "2026-09-24T11:46:53Z",
       "status": 200,
       "pageHash": "830f1deeee7c5a84363ce53210516ddaa567ae97b6809891ec6ae3cf28e777fe"
     },
@@ -64,9 +64,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-24T04:51:58Z",
+      "checkedAt": "2026-09-24T11:46:54Z",
       "status": 200,
-      "pageHash": "dcb203ee4a54146590d73e910e338073d91c83a48b96b557a854746115ec975c"
+      "pageHash": "e1bc94e34a20057dd7e54bbc7a5bc1ccf2b3f5120915732ab85755c6fb955d42"
     },
     "Google AI": {
       "seen": [
@@ -105,7 +105,7 @@
         "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-24T04:51:58Z",
+      "checkedAt": "2026-09-24T11:46:54Z",
       "status": 200,
       "pageHash": "01a7c79bfa0ff86ae350c28c471793f110dc7e1138f0eb48d273e0b797526f41"
     },
@@ -138,15 +138,15 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-24T04:52:00Z",
+      "checkedAt": "2026-09-24T11:46:56Z",
       "status": 200,
-      "pageHash": "4cad3ba24d6ce15b2184c0705703444856551c9ddab2a475ea1a889ce4fc6e49"
+      "pageHash": "7519acc80d059497ef416d96b6bd2637f8ddb6c38f926c0e888dbf541c73c30a"
     },
     "Microsoft AI": {
       "seen": [
         "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd"
       ],
-      "checkedAt": "2026-09-24T04:52:00Z",
+      "checkedAt": "2026-09-24T11:46:56Z",
       "status": 200,
       "pageHash": "3b3428e1f564cdadcf8b88794704c39f6e1dd89fbf101b9e535eb6e3444eab00"
     },
@@ -180,7 +180,7 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-24T04:52:00Z",
+      "checkedAt": "2026-09-24T11:46:56Z",
       "status": 200,
       "pageHash": "b2927d330b42fc2213a58d16ab97279432be595f3c63e2ac224d63c79220277d"
     },
@@ -225,9 +225,9 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-24T04:52:01Z",
+      "checkedAt": "2026-09-24T11:46:57Z",
       "status": 200,
-      "pageHash": "3f28df8907f860a052fea643d3358dd6d4b2f8c09b3857c1877ebaf76e8e9a07"
+      "pageHash": "f71a6222ce0e55044efa764cd312812f57df42068c2b36a46f0a4415d96a1efb"
     },
     "EU AI": {
       "seen": [
@@ -253,9 +253,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-24T04:52:02Z",
+      "checkedAt": "2026-09-24T11:46:57Z",
       "status": 200,
-      "pageHash": "7edb138a7d88f0fd5dd8805451e6c8414d18189d4cac70e7b6b60cb6f962884a"
+      "pageHash": "2f8ab79732abe4dd1371f094a367d51d50b92c4eef6f0cb545d3a3d7d43ba04a"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -313,7 +313,7 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-24T04:52:03Z",
+      "checkedAt": "2026-09-24T11:46:58Z",
       "status": 200,
       "pageHash": "d18d70dc354c6d436e8d99e15f2e1855f08355d010b9f9c9510e41c0aedf1f31"
     }
