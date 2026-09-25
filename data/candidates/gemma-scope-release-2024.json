@@ -1,0 +1,52 @@
+{
+  "id": "gemma-scope-release-2024",
+  "recordType": "event",
+  "title": "Gemma Scope Release",
+  "displayDate": "31 July 2024",
+  "eventDate": "2024-07-31",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google DeepMind announced Gemma Scope on July 31, 2024 as an open suite of sparse autoencoders for language-model interpretability, providing hundreds of freely available sparse autoencoders for Gemma 2 9B and 2B.",
+  "significance": "A dated release milestone for an open interpretability toolset built for layer-level study of Gemma 2 models.",
+  "people": [],
+  "organizations": ["Google DeepMind"],
+  "technologies": ["Gemma Scope", "Gemma 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google DeepMind's dated announcement directly states that on July 31, 2024 it was announcing Gemma Scope and describes it as hundreds of freely available open sparse autoencoders for Gemma 2 9B and 2B. The current official Gemma Scope product page independently describes Gemma Scope as interpretability tools for Gemma models and says the original Gemma Scope enables layer-level analysis of Gemma 2. No development geography, ancestry, influence, causality, universal priority, or unsupported relationship edge is inferred.",
+    "lastVerified": "2026-09-25T21:02:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma Scope: helping the safety community shed light on the inner workings of language models",
+      "url": "https://deepmind.google/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/",
+      "publisher": "Google DeepMind",
+      "publishedDate": "2024-07-31",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma Scope",
+      "url": "https://deepmind.google/models/gemma/gemma-scope/",
+      "publisher": "Google DeepMind",
+      "publishedDate": null,
+      "sourceType": "official-product-page",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "First-party Google DeepMind sources establish the dated release and Gemma 2 interpretability scope without requiring inferred chronology, geography, or relationships.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships or geography only if separately evidenced; do not infer ancestry, influence, causality, or development location."
+  }
+}
