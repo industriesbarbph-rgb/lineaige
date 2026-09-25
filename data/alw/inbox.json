@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T11:51:52Z",
+  "updatedAt": "2026-09-25T17:07:08Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5713,6 +5713,18 @@
       "id": "alw-c9d2d5eb0825de01",
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T11:46:34Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Google plans Gemini 4 release before year-end - Computerworld",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTEZXazc2SGtVdWVzaFoxTG15WlVCOXI5X19MLVpmUWFNYllmU1FYcGdZZDd0TGtOQk0wdDZiZ3dBeW43UF9adjhVVTNkVDdfR21paVRRUzh4V014aEZDbXp3cW1vVWtHQzlPMXhqSGUxcGNkLVJSNmVEcWlHd2otZHJocTdBSTcxR3pEcV9mQUdSSUpGSm5Dc1RMRzc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-aa42c6dbc79971a6",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T17:07:08Z"
     }
   ]
 }
