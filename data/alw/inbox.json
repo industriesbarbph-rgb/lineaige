@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T17:12:12Z",
+  "updatedAt": "2026-09-25T21:31:53Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5747,6 +5747,42 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T17:12:08Z",
       "note": "Historical discovery lead for query: neural network; verify original source before admission."
+    },
+    {
+      "laneHint": "future",
+      "title": "Rice University launches AI master's degree - Axios",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPakF6RUNNVUp0UXZMTkk0WVRISkxWckJVUThoZi1ydlVkT3VoUkRUSFFSa0g0NHBnOERlUnczYjVhRHBrd0Zyb1U2Mm9fdDl2VmJLUWVUb2JWcy1tUUNCaDlVLV9kQnR3NXNrRjYwTjBMNWhpMmtPb0tJWVREWVRxS0xBQjRkdFJhbjJEdlNaRWtjaU9DUm96Q3dNX3BvTU5sSFNz?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-9f4b3e4bc5fa6fc5",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T21:31:52Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Prediction: This Artificial Intelligence (AI) Stock Is Going to Double by 2027 - Yahoo Finance",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR2xoUkJmdU84akNyOEE5UlFzczlVNkxfcmNSNUpxYjVleGUycnpySXJYelhwTE9hZGtEUjVDNU5QUjFmSUpfSzQyOVlhRXhxZkZBSEE0Sk1QT3BPbWNySVYydlA0akl5NExsTUs5emNXVldlRnZkelNTWjlZN2d3UnFGVXZpQ2pfT2t5SmhTQUI2ZTdzMHJGaGlMdWNqaDlUZjdJZzFDdUJlTGFU?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-d11fd42d95319075",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T21:31:52Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Why I Read: Between AI, History And Languages - Kashmir Reader",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUEJlUzBjQ21aeHpPRExPZ2c3eXg5ODZvbkp0aVpqcmhjWFh6akxPMjZHX3lFVG5jMlQ4T1FqSldMeWMxS0FMU2FQUkFtT1JlVlVPZm9jVGlLWG1iU1Z5LTNDT1dYYy1wVjBMaHBkdjRib1M4cW5NUEZGNDRzUHRCcm1SR2VZUHZi?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-dcef6a3c51ad5a20",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T21:31:53Z"
     }
   ]
 }
