@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T17:07:08Z",
+  "updatedAt": "2026-09-25T17:12:12Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5725,6 +5725,28 @@
       "id": "alw-aa42c6dbc79971a6",
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T17:07:08Z"
+    },
+    {
+      "id": "alw-449d0d3dc2379af4",
+      "laneHint": "historical",
+      "title": "DeepMind Makes AI History By Solving \"Protein Folding Problem\" - thedebrief.org",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1E4ejE2LVpTRW1jN29TMXRMcW5INloxYXlzdzhSS1RzTEg4V2ZhTmlqVU5UNmdkcWJvVkY2WUNMRDQ2Z09kMk1ORldua3kteVZlTVF2UGJLRjB4TnJIZXk0UjhqQzBfUG1wczlYcVMwLVg3ay1aN1hzQklxSnZwdmxJeXY3dkhCT01YVXhn?oc=5",
+      "sourceName": "AI history discovery",
+      "evidenceTier": "discovery-only",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T17:12:06Z",
+      "note": "Discovery lead only; locate and verify the underlying primary source before admission."
+    },
+    {
+      "id": "alw-4ba87fff85b5949c",
+      "laneHint": "historical",
+      "title": "You Only Look Once: Unified, Real-Time Object Detection",
+      "url": "https://doi.org/10.1109/cvpr.2016.91",
+      "sourceName": "OpenAlex",
+      "evidenceTier": "metadata-discovery",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T17:12:08Z",
+      "note": "Historical discovery lead for query: neural network; verify original source before admission."
     }
   ]
 }
