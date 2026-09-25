@@ -1,0 +1,52 @@
+{
+  "id": "gemini-2-0-flash-release-2024",
+  "recordType": "event",
+  "title": "Gemini 2.0 Flash Experimental Release",
+  "displayDate": "11 December 2024",
+  "eventDate": "2024-12-11",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google announced Gemini 2.0 on December 11, 2024 and released an experimental version of Gemini 2.0 Flash, the first model in the Gemini 2.0 family. Google also made a chat-optimized version of Gemini 2.0 Flash Experimental available to Gemini users that day.",
+  "significance": "A dated release milestone for the first model in Google's Gemini 2.0 family.",
+  "people": [],
+  "organizations": ["Google", "Google DeepMind"],
+  "technologies": ["Gemini 2.0 Flash"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's official launch announcement directly states that on December 11, 2024 it was releasing the first model in the Gemini 2.0 family, an experimental Gemini 2.0 Flash, and documents developer availability through the Gemini API in Google AI Studio and Vertex AI. A separate official Gemini product announcement corroborates same-day access to a chat-optimized Gemini 2.0 Flash Experimental model. No development geography, ancestry, influence, causality, universal priority, or unsupported relationship edge is inferred.",
+    "lastVerified": "2026-09-25T19:02:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Introducing Gemini 2.0: our new AI model for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+      "publisher": "Google",
+      "publishedDate": "2024-12-11",
+      "sourceType": "official-announcement",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Try Deep Research and our new experimental model in Gemini, your AI assistant",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-deep-research/",
+      "publisher": "Google",
+      "publishedDate": "2024-12-11",
+      "sourceType": "official-announcement",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google announcements establish the release date, first-model boundary, and same-day experimental availability without requiring inferred chronology or relationships.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships or geography only if separately evidenced; do not infer ancestry, influence, causality, or development location from model-family naming."
+  }
+}
