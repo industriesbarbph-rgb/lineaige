@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T04:58:32Z",
+  "updatedAt": "2026-09-25T11:46:35Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5701,6 +5701,18 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T04:58:29Z",
       "note": "Discovery lead only; locate and verify the underlying primary source before admission."
+    },
+    {
+      "laneHint": "future",
+      "title": "This is how Google plans to send artificial intelligence chips into orbit - Il Sole 24 ORE",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVVtOXFucFVSZUpVeEczd2E4aUI0Vm0tMXRSbkRFNGttRlZKS3lHTGx3bHJZZ19oWUpUWUI4Vk5pVUNweGtzMUFKdE9KT2VIeEM3YVZsLU1MOHZFQ1NKdHNmcENmbVp6TjVZY1NHY1MyM1ZDMUtXTFpXOHNYT2FQejdzUjRjOU1NdDVQdkFYbFZJaENRa1lxai1Nb1M1a1RRS1ViWTdR?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-c9d2d5eb0825de01",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T11:46:34Z"
     }
   ]
 }
