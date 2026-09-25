@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T04:53:05Z",
+  "updatedAt": "2026-09-25T04:58:32Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5679,6 +5679,28 @@
       "id": "alw-2454d4d877fd6702",
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T04:53:05Z"
+    },
+    {
+      "id": "alw-d9714a0bc0e2e4d6",
+      "laneHint": "historical",
+      "title": "SRI at 80 Thu, Nov, 12, 6:00PM",
+      "url": "https://computerhistory.org/events/sri-at-80",
+      "sourceName": "Computer History Museum",
+      "evidenceTier": "primary-candidate",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T04:58:28Z",
+      "note": "Found on configured first-party/institutional source root; claim-level review required."
+    },
+    {
+      "id": "alw-7ae1428863dac1e7",
+      "laneHint": "historical",
+      "title": "LingEQ Study Finds: The Most Cognitively Dense Paper in 90 Years of AI History Was Not Written About AI - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNF9qYzhCRGVkZG5zUGFRNlM5VjhFRUVUZEplQ2NFNnljcEZuYklHdm9iVHBPXzMwSjJKWU5GZEhIcjBzOTBVM1ZYdEhpYVowbUxPTnNzZ2xzY1N4Uy00OUZNdzFRX0NEMjZ0aDNyOGN0dkRkSmRac2pFTDVJOGxqREVCMm5KZWF0UHpWM1FXRFJrdzBHakpRdVNWT1dsYnllWndFQzVMRGtwSHN4UTgxX3BYcjk2XzN3YnNRWE1ucU10WVIxc3haRkg1QnQ2VE8wYUhiQTBsM2ZDRTg5eVZ5alJMQV91eHJhVXp4X1dxYw?oc=5",
+      "sourceName": "AI history discovery",
+      "evidenceTier": "discovery-only",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-25T04:58:29Z",
+      "note": "Discovery lead only; locate and verify the underlying primary source before admission."
     }
   ]
 }

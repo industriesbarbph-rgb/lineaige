@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-24T21:31:50Z",
+  "updatedAt": "2026-09-25T04:58:32Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -24,9 +24,9 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-24T21:31:40Z",
+      "checkedAt": "2026-09-25T04:58:24Z",
       "status": 200,
-      "pageHash": "830f1deeee7c5a84363ce53210516ddaa567ae97b6809891ec6ae3cf28e777fe"
+      "pageHash": "2bb78e8b786852a36cbc1b11107f6735bc224ad33e272dabadd80ee1b446af8d"
     },
     "Google DeepMind": {
       "seen": [
@@ -64,9 +64,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-24T21:31:40Z",
+      "checkedAt": "2026-09-25T04:58:24Z",
       "status": 200,
-      "pageHash": "77d125c4942e302953f59b8fa6aaee51e41d533a4c9a8bcca19ee60499e941e5"
+      "pageHash": "8add566191dc646f8f73e73cfaacaf76d1d2a46ffad19e6abaa2f8233899370c"
     },
     "Google AI": {
       "seen": [
@@ -106,9 +106,9 @@
         "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-24T21:31:40Z",
+      "checkedAt": "2026-09-25T04:58:24Z",
       "status": 200,
-      "pageHash": "28c9f97bb8b6cd4ef5177982101b6aeb545d23e9eedcd86c11d13131eb6b084e"
+      "pageHash": "19e7f31de9fca0069b30c0fcebc8299760a328373dfb700c38c3e044731395c5"
     },
     "Meta AI": {
       "seen": [
@@ -139,17 +139,17 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-24T21:31:42Z",
+      "checkedAt": "2026-09-25T04:58:26Z",
       "status": 200,
-      "pageHash": "788b6692f1a031ca0255538d44602951eaf72ae45f3a5e112009abe53eea8c64"
+      "pageHash": "80244669e77c6d1ae07aa9503e342b758a4e76d3a82a7305a398df440d318c6b"
     },
     "Microsoft AI": {
       "seen": [
         "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd"
       ],
-      "checkedAt": "2026-09-24T21:31:42Z",
+      "checkedAt": "2026-09-25T04:58:26Z",
       "status": 200,
-      "pageHash": "3b3428e1f564cdadcf8b88794704c39f6e1dd89fbf101b9e535eb6e3444eab00"
+      "pageHash": "555361b520ada587357affdd9e5490d2d88f08476ec6a7f4bfdcdb78947d81dc"
     },
     "NVIDIA AI": {
       "seen": [
@@ -181,7 +181,7 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-24T21:31:42Z",
+      "checkedAt": "2026-09-25T04:58:26Z",
       "status": 200,
       "pageHash": "b2927d330b42fc2213a58d16ab97279432be595f3c63e2ac224d63c79220277d"
     },
@@ -226,7 +226,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-24T21:31:43Z",
+      "checkedAt": "2026-09-25T04:58:27Z",
       "status": 200,
       "pageHash": "f71a6222ce0e55044efa764cd312812f57df42068c2b36a46f0a4415d96a1efb"
     },
@@ -254,9 +254,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-24T21:31:45Z",
+      "checkedAt": "2026-09-25T04:58:27Z",
       "status": 200,
-      "pageHash": "2429aa52b76cbbb4748c29956ab036c7907193cee6672b6e36832bc97d632b1e"
+      "pageHash": "239fbfb729c1eb3fe6082447f0871c2db81b4fc061f9bfc10ef2a356d72d3f7b"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -279,6 +279,7 @@
         "https://computerhistory.org/events",
         "https://computerhistory.org/events/data-are-made-not-found",
         "https://computerhistory.org/events/in-conversation-with-boris-cherny-creator-of-claude-code",
+        "https://computerhistory.org/events/sri-at-80",
         "https://computerhistory.org/events/techfest-11",
         "https://computerhistory.org/exhibits",
         "https://computerhistory.org/exhibits/chatbots-decoded",
@@ -314,9 +315,9 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-24T21:31:46Z",
+      "checkedAt": "2026-09-25T04:58:28Z",
       "status": 200,
-      "pageHash": "d18d70dc354c6d436e8d99e15f2e1855f08355d010b9f9c9510e41c0aedf1f31"
+      "pageHash": "15c07d90a8205384dbe1ccf735f546e4036b0a40d51345057b43d1ad32e70133"
     }
   }
 }
