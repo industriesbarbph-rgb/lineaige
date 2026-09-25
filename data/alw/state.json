@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T17:12:12Z",
+  "updatedAt": "2026-09-25T21:35:42Z",
   "roots": {
     "OpenAI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -24,7 +24,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "checkedAt": "2026-09-25T17:11:59Z",
+      "checkedAt": "2026-09-25T21:35:32Z",
       "status": 200,
       "pageHash": "2bb78e8b786852a36cbc1b11107f6735bc224ad33e272dabadd80ee1b446af8d"
     },
@@ -64,9 +64,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "checkedAt": "2026-09-25T17:12:00Z",
+      "checkedAt": "2026-09-25T21:35:32Z",
       "status": 200,
-      "pageHash": "77d125c4942e302953f59b8fa6aaee51e41d533a4c9a8bcca19ee60499e941e5"
+      "pageHash": "8add566191dc646f8f73e73cfaacaf76d1d2a46ffad19e6abaa2f8233899370c"
     },
     "Google AI": {
       "seen": [
@@ -106,9 +106,9 @@
         "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "checkedAt": "2026-09-25T17:12:00Z",
+      "checkedAt": "2026-09-25T21:35:33Z",
       "status": 200,
-      "pageHash": "a35201a1fda7bbb760d0814eaf0a66f38e48ac4f02fbd545fc541d67cd203aee"
+      "pageHash": "675502a64137a15127e0b46e9259343905653e97eca205264416d11917b5deab"
     },
     "Meta AI": {
       "seen": [
@@ -139,15 +139,15 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "checkedAt": "2026-09-25T17:12:01Z",
+      "checkedAt": "2026-09-25T21:35:34Z",
       "status": 200,
-      "pageHash": "f15306f41013643844bf3263a2e4dd3ca4a35862bc4ba1e702b84c27766a3798"
+      "pageHash": "ee9cfe26151020ed7b70bf0c08a7a1711eec67e65530a1b58b6c71e688f4480c"
     },
     "Microsoft AI": {
       "seen": [
         "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd"
       ],
-      "checkedAt": "2026-09-25T17:12:02Z",
+      "checkedAt": "2026-09-25T21:35:35Z",
       "status": 200,
       "pageHash": "555361b520ada587357affdd9e5490d2d88f08476ec6a7f4bfdcdb78947d81dc"
     },
@@ -181,9 +181,9 @@
         "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
         "https://blogs.nvidia.com/blog/uk-llm-nemotron"
       ],
-      "checkedAt": "2026-09-25T17:12:02Z",
+      "checkedAt": "2026-09-25T21:35:35Z",
       "status": 200,
-      "pageHash": "b2927d330b42fc2213a58d16ab97279432be595f3c63e2ac224d63c79220277d"
+      "pageHash": "fab5a703a922fc78597129765026be57b45e7a9bcd9cba65c5230a1ec48fcf66"
     },
     "EuroHPC": {
       "seen": [
@@ -226,7 +226,7 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "checkedAt": "2026-09-25T17:12:03Z",
+      "checkedAt": "2026-09-25T21:35:35Z",
       "status": 200,
       "pageHash": "f71a6222ce0e55044efa764cd312812f57df42068c2b36a46f0a4415d96a1efb"
     },
@@ -254,9 +254,9 @@
         "https://digital-strategy.ec.europa.eu/en/shaping-europes-digital-future",
         "https://digital-strategy.ec.europa.eu/fr/policies/artificial-intelligence"
       ],
-      "checkedAt": "2026-09-25T17:12:04Z",
+      "checkedAt": "2026-09-25T21:35:36Z",
       "status": 200,
-      "pageHash": "8e705f6c93423e8731a8a23cfe96efb92968ae68331b33e182827c10c787490e"
+      "pageHash": "d031c8b2589c2eb104444a34e113c391a1c54e0996b1ac48a612cc6667037df9"
     },
     "Japan METI": {
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -315,7 +315,7 @@
         "https://computerhistory.org/ways-to-give",
         "https://www.computerhistory.org/collections/search"
       ],
-      "checkedAt": "2026-09-25T17:12:04Z",
+      "checkedAt": "2026-09-25T21:35:37Z",
       "status": 200,
       "pageHash": "15c07d90a8205384dbe1ccf735f546e4036b0a40d51345057b43d1ad32e70133"
     }
