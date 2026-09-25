@@ -1,0 +1,52 @@
+{
+  "id": "gemma-2-release-2024",
+  "recordType": "event",
+  "title": "Gemma 2 Release",
+  "displayDate": "27 June 2024",
+  "eventDate": "2024-06-27",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's official Gemma release log records June 27, 2024 as the initial release of Gemma 2 in 9B and 27B sizes. Google's Gemma 2 model card describes the family as open-weight, text-to-text, decoder-only language models.",
+  "significance": "A dated release milestone in Google's Gemma open-model family for the initial 9B and 27B Gemma 2 variants.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["Gemma 2"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google's official Gemma release log directly records June 27, 2024 as the initial Gemma 2 release in 9B and 27B sizes. Google's official Gemma 2 model card independently documents the 9B and 27B variants and describes Gemma 2 as an open-weight, text-to-text, decoder-only model family. This candidate does not infer development geography, ancestry, influence, causality, universal priority, or unsupported relationship edges.",
+    "lastVerified": "2026-09-25T09:04:00+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google",
+      "publishedDate": null,
+      "sourceType": "official-release-log",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "Gemma 2 model card",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_2",
+      "publisher": "Google",
+      "publishedDate": null,
+      "sourceType": "official-model-card",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google sources establish the release boundary and the initial 9B/27B Gemma 2 variants without requiring inferred chronology or relationships.",
+    "nextStep": "Review for chronology-safe canonical admission. Add relationships or geography only if separately evidenced; do not infer ancestry, influence, causality, or development location from model-family naming."
+  }
+}
