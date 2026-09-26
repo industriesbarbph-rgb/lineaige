@@ -1,0 +1,52 @@
+{
+  "id": "shieldgemma-initial-release-2024",
+  "recordType": "event",
+  "title": "ShieldGemma Initial Release",
+  "displayDate": "31 July 2024",
+  "eventDate": "2024-07-31",
+  "datePrecision": "day",
+  "temporalState": "recorded",
+  "status": "VERIFIED CANDIDATE",
+  "summary": "Google's official Gemma release ledger records July 31, 2024 as the initial release of ShieldGemma. Google's official ShieldGemma model card describes the initial family as safety content moderation models built on Gemma 2, available in 2B, 9B, and 27B parameter sizes.",
+  "significance": "A dated release milestone for Google's open-weight safety content moderation model family.",
+  "people": [],
+  "organizations": ["Google"],
+  "technologies": ["ShieldGemma"],
+  "verification": {
+    "state": "verified",
+    "factualClaim": true,
+    "confidence": "high",
+    "note": "Google AI for Developers' first-party Gemma release ledger explicitly records the initial ShieldGemma release on July 31, 2024. Google's official ShieldGemma model card independently establishes the model family as safety content moderation models built on Gemma 2 and lists 2B, 9B, and 27B sizes. No development geography, ancestry beyond the explicit 'built upon Gemma 2' statement, downstream influence, causality, universal priority, or unsupported relationship edge is inferred.",
+    "lastVerified": "2026-09-26T15:03:17+08:00"
+  },
+  "sources": [
+    {
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-release-ledger",
+      "sourceRole": "claim-evidence",
+      "primary": true,
+      "archivedUrl": null
+    },
+    {
+      "title": "ShieldGemma model card",
+      "url": "https://ai.google.dev/gemma/docs/shieldgemma/model_card",
+      "publisher": "Google AI for Developers",
+      "publishedDate": null,
+      "sourceType": "official-model-card",
+      "sourceRole": "corroboration",
+      "primary": true,
+      "archivedUrl": null
+    }
+  ],
+  "relationships": [],
+  "corrections": [],
+  "contributor": null,
+  "candidateMeta": {
+    "canonicalAdmission": "pending-canonical-admission",
+    "admissionReason": "Two first-party Google sources establish the exact initial release date and model-family scope without requiring inferred geography or causal relationships.",
+    "nextStep": "Review for chronology-safe canonical admission. Add a traversable relationship to Gemma 2 only if the canonical relationship vocabulary supports the explicit 'built on Gemma 2' statement without overstating ancestry or causality."
+  }
+}
