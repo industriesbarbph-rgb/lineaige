@@ -46,7 +46,7 @@
       "publisher": "Cohere Labs",
       "publishedDate": null,
       "sourceType": "official-research-program-page",
-      "sourceRole": "program-context-corroboration",
+      "sourceRole": "context",
       "primary": true,
       "archivedUrl": null
     }
