@@ -46,7 +46,7 @@
       "publisher": "Cohere For AI / Cohere",
       "publishedDate": "2024-05-22",
       "sourceType": "paper",
-      "sourceRole": "chronology-context",
+      "sourceRole": "context",
       "primary": true,
       "archivedUrl": null
     }
