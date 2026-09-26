@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastRun": "2026-09-26T04:52:52Z",
+  "lastRun": "2026-09-26T11:19:55Z",
   "sources": {
     "openai": {
       "seenUrls": [],
-      "lastChecked": "2026-09-26T04:52:45Z",
+      "lastChecked": "2026-09-26T11:19:37Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "anthropic": {
@@ -25,7 +25,7 @@
         "https://www.anthropic.com/supported-countries",
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
-      "lastChecked": "2026-09-26T04:52:46Z",
+      "lastChecked": "2026-09-26T11:19:37Z",
       "lastStatus": 200,
       "pageHash": "2bb78e8b786852a36cbc1b11107f6735bc224ad33e272dabadd80ee1b446af8d"
     },
@@ -65,9 +65,9 @@
         "https://deepmind.google/science/alphagenome",
         "https://deepmind.google/science/weathernext"
       ],
-      "lastChecked": "2026-09-26T04:52:46Z",
+      "lastChecked": "2026-09-26T11:19:38Z",
       "lastStatus": 200,
-      "pageHash": "8add566191dc646f8f73e73cfaacaf76d1d2a46ffad19e6abaa2f8233899370c"
+      "pageHash": "77d125c4942e302953f59b8fa6aaee51e41d533a4c9a8bcca19ee60499e941e5"
     },
     "google-ai": {
       "seenUrls": [
@@ -107,7 +107,7 @@
         "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "https://blog.google/innovation-and-ai/technology/safety-security"
       ],
-      "lastChecked": "2026-09-26T04:52:47Z",
+      "lastChecked": "2026-09-26T11:19:38Z",
       "lastStatus": 200,
       "pageHash": "25d4b6fc180d5d5b714a71bcf52b9b96a04334c30649b3bd9c1885a56f241351"
     },
@@ -139,9 +139,9 @@
         "https://ai.meta.com/resources",
         "https://ai.meta.com/results?content_types%5B0%5D=publication"
       ],
-      "lastChecked": "2026-09-26T04:52:48Z",
+      "lastChecked": "2026-09-26T11:19:39Z",
       "lastStatus": 200,
-      "pageHash": "97e09ce618ebf903f8380610522bb406252f0a0654a1b974361d2787313e92ad"
+      "pageHash": "23e1650886b6009cfb9f761be4db4a4be27793400191a296b9d88e7f669f4070"
     },
     "eurohpc": {
       "seenUrls": [
@@ -184,18 +184,18 @@
         "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
         "https://www.eurohpc-ju.europa.eu/supercomputers_en"
       ],
-      "lastChecked": "2026-09-26T04:52:50Z",
+      "lastChecked": "2026-09-26T11:19:40Z",
       "lastStatus": 200,
       "pageHash": "f71a6222ce0e55044efa764cd312812f57df42068c2b36a46f0a4415d96a1efb"
     },
     "meti": {
       "seenUrls": [],
-      "lastChecked": "2026-09-26T04:52:50Z",
+      "lastChecked": "2026-09-26T11:19:40Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     },
     "dict-ph": {
       "seenUrls": [],
-      "lastChecked": "2026-09-26T04:52:51Z",
+      "lastChecked": "2026-09-26T11:19:40Z",
       "lastError": "HTTPError: HTTP Error 403: Forbidden"
     }
   }
