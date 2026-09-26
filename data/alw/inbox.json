@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-26T11:26:00Z",
+  "updatedAt": "2026-09-26T16:19:45Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5862,6 +5862,30 @@
       "status": "unreviewed",
       "discoveredAt": "2026-09-26T11:26:00Z",
       "note": "Historical discovery lead for query: computer vision; verify original source before admission."
+    },
+    {
+      "laneHint": "historical",
+      "title": "LingEQ Study Finds: The Most Cognitively Dense Paper in 90 Years of AI History Was Not Written About AI - Morningstar",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSkVxN2JPM3Nzb3VWdWpBZzNDcUtRUVBlaktPZ21TOHh2OU9aUko4UHhCYWU3aGx6NGYwSXI4ckwydGJackxzRFdudDVuRTltRGdYRklWTEp0TFY1NkcxbHFjYXdxX2NrN2JBeTAxZ182R0ttVllkSjJIVFYtc1lKeFBfN3pVaDhDN2lKa2xEclVmRUJXaEpUcHFXOGhZS2JiOEdPdDctT1FzTHExT1VLTnZuRnp3Mk1DMHhUNXF2WVlGaDBNRHd1WVNwVHVoV3oySmRtM1BQaHJWaVVfS2JBWWd1UWx5cG1qVXp5T3J4STZteG9rcWc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-dd70440593283b02",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-26T16:19:45Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "Hearst Networks orders Particle6 AI history series - Televisual",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUEJyVkVsQXd1emxQODBwS0RDUFhJUzdXaUNhNHN1YWpKaGlXVnZVcWFpSGR3X2lXenY0UkVmUTRrR1U3MVBqWXNHSk1jQ3ZfVWpBaS1CUkstSVFSdnVvZS1nUmhJa0RPZVBkSWlTRG8yaDBtS0M2ZzhmMElOdlhJbHNvaHNSaEp5SGFv?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-df21eb736eed17a6",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-26T16:19:45Z"
     }
   ]
 }
