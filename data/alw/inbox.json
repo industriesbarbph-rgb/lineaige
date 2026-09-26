@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-25T21:35:42Z",
+  "updatedAt": "2026-09-26T04:52:52Z",
   "records": [
     {
       "id": "alw-cfba690417039783",
@@ -5783,6 +5783,30 @@
       "id": "alw-dcef6a3c51ad5a20",
       "status": "unreviewed",
       "discoveredAt": "2026-09-25T21:31:53Z"
+    },
+    {
+      "laneHint": "future",
+      "title": "Google plans Gemini 4 release before year-end - InfoWorld",
+      "sourceName": "AI future discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOajdKM1R1cks5b2lLRnNHc0FkUnM1bm9yNk5vTVMzZkdtLTVLQkhWYnVmZTdDVVB5RUFVZC1nLWZFOG8waHpzcjUtNGlPbHJIQ1RnWkhvdnUzemIzeXVPekFpV1A5c3ppNFdvSGNxTzg1ZXdxbVFNSHRyTjVJaUItX2dfTXpuNjRRTlBnN192ekNIR1U4LTZUXy1B?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-6c0022a637d8d3a3",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-26T04:52:51Z"
+    },
+    {
+      "laneHint": "historical",
+      "title": "The History & Anatomy of AI Models - CMSWire",
+      "sourceName": "AI history discovery feed",
+      "sourceClass": "discovery-feed",
+      "evidenceTier": "discovery-only",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNV2NOR1ROVWZHT1ZfWXRBRTM0STdFMVZYUlRabW54UjFBN1VIQmNLbWhmeHljU2dGcWNCR3k4NmJNTURLM1BJNEo3N2VRUW5LY3Vyekt1Q2xUVzR3WDhMLW83eDIzLWpPUFlBR1lHUjB4Tjh6RjRYeVpmWlZoTzk3STBWMFE0WVlNYUtfVmR1eXhKV3RISnc?oc=5",
+      "note": "Discovery lead only; locate primary evidence before admission.",
+      "id": "alw-b1db70097a642c30",
+      "status": "unreviewed",
+      "discoveredAt": "2026-09-26T04:52:52Z"
     }
   ]
 }
